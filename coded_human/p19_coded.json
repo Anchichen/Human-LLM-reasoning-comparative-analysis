@@ -1,0 +1,856 @@
+[
+    [ {"Title":"scene1"},
+        {  
+          "id": 1,  
+          "span": "Okay, so from what I can see, panel A has got a star, and I can see there's a couple of... cones which are upright, which are big and small. That's the red, the blue in a bigger cone, and then a smaller blue cone and a medium sized red cone.",  
+          "open_code": "processingLocal",  
+          "summary": "Describes features of starred panel A.",  
+          "lenses": {  
+            "processingStyle": "localScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 2,  
+          "span": "If we also look at panel F, there's a number of cones. Couple of them, which I see, are blue, are tilted, and there's a large cone, which is tilted and so is a smaller blue cone.",  
+          "open_code": "processingLocal",  
+          "summary": "Notes tilted blue cones in panel F.",  
+          "lenses": {  
+            "processingStyle": "localScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 3,  
+          "span": "Also, there's a panel E, which has again, a few tilted, big and small cones.",  
+          "open_code": "processingLocal",  
+          "summary": "Observes tilted cones in panel E.",  
+          "lenses": {  
+            "processingStyle": "localScan",  
+            "representationGrain": "gist"  
+          }
+        },  
+        {  
+          "id": 4,  
+          "span": "So it feels like maybe the cones need to be upright.",  
+          "open_code": "hypoGeneration",  
+          "summary": "Proposes upright-cone rule."  
+        },  
+        {  
+          "id": 5,  
+          "span": "I can also see in panel A, there's two reds, and in panel F, there's also two red cones, but they are tilted compared to panel A. And panel E only has one red cone which is tilted.",  
+          "open_code": "processingGlobal",  
+          "summary": "Compares red-cone counts across starred panels.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 6,  
+          "span": "So, I feel it might be a combination of there being too many cones in panel... in the other panels, where obviously there's a bit of a difference.",  
+          "open_code": "hypoGeneration",  
+          "summary": "Suggests total-cone-count rule."
+        },  
+        {  
+          "id": 7,  
+          "span": "So maybe they all need to be upright, instead of being tilted or vice versa.",  
+          "open_code": "hypoRevision",  
+          "summary": "Refines upright/tilted hypothesis."
+        },  
+        {  
+          "id": 8,  
+          "span": "But then also looking at the other panels...which are panel B, C, and D, they all have tilted and upright cone, but they all are in green or blue.",  
+          "open_code": "counterExampleSearch",  
+          "summary": "Notes non-starred panels lack red.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 9,  
+          "span": "So, possibly it might be that they all need to have red cones... which they currently don't have, whether they're a tilted red...or not being tilted.",  
+          "open_code": "hypoRevision",  
+          "summary": "Posits presence-of-red rule.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 10,  
+          "span": "But then again, panel A have them upright and panel E and F don't.",  
+          "open_code": "counterExampleSearch",  
+          "summary": "Finds tilt inconsistency among starred.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 11,  
+          "span": "So, it could be a color combination. If it's nothing to do with it being upright or tilted, it could be a color combination or there's more than... one amount of color, or there's more colors in others than there are in some.",  
+          "open_code": "hypoRevision",  
+          "summary": "Suggests color-mix quantity rule."
+        },  
+        {  
+          "id": 12,  
+          "span": "So, I feel that there's definitely something to do with the panel B, C, and D not having red cones.",  
+          "open_code": "decisionConfirm",  
+          "summary": "Highlights absence of red in non-starred."
+        },  
+        {  
+          "id": 13,  
+          "span": "Um, it doesn't really matter, I feel, whether they're big or small, tilted or upright.",  
+          "open_code": "ruleExclusion",  
+          "summary": "Downplays size/orientation relevance.",
+          "lenses":{
+            "processingStyle":"globalScan"
+          }
+        },  
+        {  
+          "id": 14,  
+          "span": "And also I feel it could be to do with color combination, as well. Maybe the sizing of the cones could also be a reason, within this.",  
+          "open_code": "hypoGeneration",  
+          "summary": "Adds size to color combo idea."
+        },  
+        {  
+          "id": 15,  
+          "span": "So in panel A and F I see this more cones...compared to panel E which has the yellow star.",  
+          "open_code": "processingGlobal",  
+          "summary": "Observes cone count differences among starred.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          }
+        },  
+        {  
+          "id": 16,  
+          "span": "So I feel that maybe there's two... Panel B, C, and D have less cones possibly. Or they just don't have red cones in them, big or small.",  
+          "open_code": "hypoGeneration",  
+          "summary": "Considers count vs red absence."
+        },  
+        {  
+          "id": 17,  
+          "span": "Yeah. So, I feel that that would be a reason to believe that... the color combination is definitely a factor, I feel.",  
+          "open_code": "decisionConfirm",  
+          "summary": "Affirms color combo importance." 
+        },  
+        {  
+          "id": 18,  
+          "span": "I feel like that's mainly what I can see the difference between panels A, E and F and D, B and C. That they don't have any red cones. So I feel like red is definitely a factor within this.",  
+          "open_code": "decisionConfirm",  
+          "summary": "Tentatively endorses red-presence rule.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          } 
+        },  
+        {  
+          "id": 19,  
+          "span": "So, um, in E and F, there are more smaller cones than there are in D and B.",  
+          "open_code": "processingGlobal",  
+          "summary": "Notes small-cone quantity differences.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          }
+        },  
+        {  
+          "id": 20,  
+          "span": "There are a few big ones and small ones in C compared to D and B.",  
+          "open_code": "processingGlobal",  
+          "summary": "Continues size comparison across panels.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          } 
+        },  
+        {  
+          "id": 21,  
+          "span": "But F has the most cones from the six panels that I can see.",  
+          "open_code": "processingGlobal",  
+          "summary": "Observes F having most cones.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          }
+        },  
+        {  
+          "id": 22,  
+          "span": "Um, so I do feel it could be to do with the color combinations as well as the size of the cones and possibly how many...cones there are within each panel.",  
+          "open_code": "hypoRevision",  
+          "summary": "Combines color, size, count factors."
+        },  
+        {  
+          "id": 23,  
+          "span": "Apart from that, the only other thing I can see is panel D has a smaller cone on top of a larger blue cone,",  
+          "open_code": "processingLocal",  
+          "summary": "Notices stacking in panel D.",  
+          "lenses": {  
+            "processingStyle": "localDetail",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 24,  
+          "span": "and maybe that shouldn't be there, or then panel B and C also need a cone. Or even possibly having a smaller green cone on top of the larger cone in panel C.",  
+          "open_code": "hypoGeneration",  
+          "summary": "Suggests stacking rule possibilities."
+        },  
+        {  
+          "id": 25,  
+          "span": "So definitely feeling more towards a number of things. Colors. I feel being tilted. Some having a cone on top of a cone and some not having many reds or not having reds at all.",  
+          "open_code": "reflectCertainty",  
+          "summary": "Expresses multiple uncertain factors."
+        },  
+        {  
+          "id": 26,  
+          "span": "Also, um...some of the... So, in B, C, and D, there's no red cones. So, I also do feel that maybe there needs to be upright cones in there of red.",  
+          "open_code": "hypoRevision",  
+          "summary": "Adds upright-red requirement.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 27,  
+          "span": "Um, possibly being upright the way they are in panel A. Or then– actually, in...E and F, they are tilted but in A it's upright.",  
+          "open_code": "counterExampleSearch",  
+          "summary": "Notes tilt exception undermining idea.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 28,  
+          "span": "So, I definitely feel that it does... I do feel it's definitely to do with color combination, not having any red cones, whether they're tilted or upright, big or small, in B, C and D.",  
+          "open_code": "decisionConfirm",  
+          "summary": "Confidently asserts red-presence rule."
+        },  
+        {  
+          "id": 29,  
+          "span": "I don't feel as much now looking more closely that it's to do with the amount of cones you have, but more of the color combination not being there...",  
+          "open_code": "ruleExclusion",  
+          "summary": "Rejects cone-count hypothesis.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "gist"  
+          }
+        },  
+        {  
+          "id": 30,  
+          "span": "because if you see an A, E and F, there's no... cones on top of a cone, whichever color. But obviously indeed there is a cone on top of this big blue cone, but they don't have it in the B and C, but they don't have it in A, E, and F either.",  
+          "open_code": "ruleExclusion",  
+          "summary": "Dismisses stacking as universal rule.",  
+          "lenses": {  
+            "processingStyle": "globalScan",  
+            "representationGrain": "verbatim"  
+          }
+        },  
+        {  
+          "id": 31,  
+          "span": "Um. I'm just going to have a look into that now a bit more closely, because I want to be clear on this, and hopefully, I am guessing right.",  
+          "open_code": "monitorLowLevel",  
+          "summary": "Intends closer re-inspection.",  
+          "lenses": {  
+            "processingStyle": "Ø",  
+            "perspectiveDepth": "0step",  
+            "representationGrain": "gist"  
+          },  
+          "check": "OK"  
+        },  
+        {  
+          "id": 32,  
+          "span": "Um, I'm just going to write down what I feel. [TYPING] So, number of cones tilted... some having more cones than others. Um... Color combination... not in all panels.",  
+          "open_code": "ruleArticulation",  
+          "summary": "Drafts tentative multi-factor rule."
+        }  
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. So, again we've got panel A, B and C.",
+          "open_code": "processingGlobal",
+          "summary": "Mentions panels under view.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "So, from what I can see in panel A there are three color combination, green, blue and red. The blue is tilted.",
+          "open_code": "processingLocal",
+          "summary": "Notes colors and tilt in A.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "When you look at B, they're all upright. So, I can see... they're all upright.",
+          "open_code": "processingLocal",
+          "summary": "Observes all cones upright in B.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "In E, I can see they're more tilted, but there is only two colors, in there, which are blue and green.",
+          "open_code": "processingLocal",
+          "summary": "Observes tilt and two colors in E.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Compared to A, B and E panels, um, C, D and F have a mixed combination of the colors. Some being larger cones, some being smaller cones, some being tilted, some being more upright.",
+          "open_code": "processingGlobal",
+          "summary": "Compares mixed features in C, D, F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "So, I feel again here... that...possibly...there may be…the cones need to be more upright than being tilted.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes upright requirement."
+        },
+        {
+          "id": 7,
+          "span": "Um, so they need to be upright, I feel, because of A, B and– but then again, E has three green cones which are upright, but the blues are tilted, so possibly maybe they need... the blues need to be tilted.",
+          "open_code": "counterExampleSearch",
+          "summary": "Refines rule: blues must tilt.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Um...tilted in D and C.",
+          "open_code": "processingLocal",
+          "summary": "Notes tilt present in D, C.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "[counting under breath] So they've all got the same amount of cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes equal cone counts.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Um, but the only difference is that the color combination in C, F, and D are different.",
+          "open_code": "processingGlobal",
+          "summary": "Notes differing color mixes C,F,D.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So possibly... two... A's got one.",
+          "open_code": "processingLocal",
+          "summary": "Muses on count difference.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 12,
+          "span": "(28.0) There's more...more larger cones in some of them than the other three.",
+          "open_code": "processingGlobal",
+          "summary": "Observes size disparity across panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "[TYPING] More tilted cones than others. Something about the color combination. More of the same colors in some compared to others. More bigger corns in some compared to others.",
+          "open_code": "ruleArticulation",
+          "summary": "Lists tentative multi-factor rule ideas."
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. So, we're looking again at A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies focus panels A,C,F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "They've got again a few tilted cones, mainly all the blue cones in panels A, C, and F are tilted, whether they're big or small.",
+          "open_code": "processingGlobal",
+          "summary": "Notes blue cones tilted across starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "They've also got green cones, but they do vary in size.",
+          "open_code": "processingGlobal",
+          "summary": "Observes varying green cone sizes.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "But in F, they've got a tilted green cone.",
+          "open_code": "processingLocal",
+          "summary": "Notes specific tilted green in F.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um, okay, and then C has got a cone on top of... a smaller green cone on top of a larger green cone.",
+          "open_code": "processingLocal",
+          "summary": "Observes green-on-green stacking in C.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "But then in D, B and E...they've got tilted cones in D, one tilted green cone and a smaller green cone.",
+          "open_code": "processingGlobal",
+          "summary": "Describes tilt details in non-starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "And E's got two... three green cones, but there's a green cone on top of the red cone.",
+          "open_code": "processingLocal",
+          "summary": "Notes stacking green on red in E.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Maybe there needs to be a green cone on– a large green cone on top of a small green cone, the way C is.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates green-stacking rule idea."
+        },
+        {
+          "id": 9,
+          "span": "Uh, possibly.",
+          "open_code": "decisionConfirm",
+          "summary": "tentively confirming stack hypothesis"
+        },
+        {
+          "id": 10,
+          "span": "Or then all the cones need to be tilted.",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests all-tilted rule alternative."
+        },
+        {
+          "id": 11,
+          "span": "Um, or that some need to be tilted and some need to be upright.",
+          "open_code": "hypoRevision",
+          "summary": "Proposes mixed tilt-upright rule."
+        },
+        {
+          "id": 12,
+          "span": "In D, it's quite different because they seem to be on top of each other, more closely together.",
+          "open_code": "processingLocal",
+          "summary": "Observes close stacking in D.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Or maybe there's...more... green.",
+          "open_code": "hypoAlternative",
+          "summary": "Speculates need for more green."
+        },
+        {
+          "id": 14,
+          "span": "There's one green in A.",
+          "open_code": "processingLocal",
+          "summary": "Counts single green in A.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Maybe there needs to be...maybe the green cone needs to be on top of a green cone in D, in B...",
+          "open_code": "hypoRevision",
+          "summary": "Revises stacking rule to other panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "Actually, I feel like maybe the green cone needs to be on top of the green cone in B, E and D panels.",
+          "open_code": "hypoRevision",
+          "summary": "Restates stacking rule for B,E,D."
+        },
+        {
+          "id": 17,
+          "span": "Um, possibly that could be a combination.",
+          "open_code": "decisionConfirm",
+          "summary": "Expresses uncertainty about combo rule."
+        },
+        {
+          "id": 18,
+          "span": "Color combination?",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests color-combo rule."
+        },
+        {
+          "id": 19,
+          "span": "Um, E has only got one blue which is tilted and the other two have got two blue cones.",
+          "open_code": "processingGlobal",
+          "summary": "Compares blue cone counts among panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "So, it also could be a... it also could be a color combination thing.",
+          "open_code": "decisionConfirm",
+          "summary": "Reiterates color combination hypothesis."
+        },
+        {
+          "id": 22,
+          "span": "[TYPING] Color... Something to do with color combinations. Green cones being... not on top of each other. Cones not being more tilted. More mix of larger cones in each panel.",
+          "open_code": "ruleArticulation",
+          "summary": "Drafts color-combo rule while typing."
+        }
+  
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. So again, we're looking at A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Sets focus on panels A,C,F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "They've got a mix of cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes mixed cone types overall.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "In A, C, and D– sorry, in A, C, and F, they have got tilted cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes tilted cones in starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Um, C and F have got... F's got two tilted cones which are smaller, and C's got larger cones.",
+          "open_code": "processingGlobal",
+          "summary": "Compares tilt size details C vs F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um, A's got two cones, one large, one small cone.",
+          "open_code": "processingLocal",
+          "summary": "Lists cone sizes in A.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "In B, there is one red cone but a green cone on top of another green cone.",
+          "open_code": "processingLocal",
+          "summary": "Notes stacking and red count in B.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "E's got one red and D's got two red cones, one small, one big.",
+          "open_code": "processingGlobal",
+          "summary": "States red cone counts in E and D.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Um. So possibly it could be that...there is a bit off color combination issue with B and E.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises color-combination problem."
+        },
+        {
+          "id": 9,
+          "span": "Um, maybe cones need to be more tilted in B, E and D because they're more upright.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests tilt requirement for non-starred.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Maybe... the smaller cones need to be on top of each other, like in C.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes stacking of small cones rule.",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Or then maybe... yeah. So it could be that D is more tilted.",
+          "open_code": "decisionConfirm",
+          "summary": "Considers D's tilt as differentiator.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 12,
+          "span": "But then it could be there's a cone on top of a cone, the way it's in C.",
+          "open_code": "hypoGeneration",
+          "summary": "Restates cone-on-cone possibility.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "It doesn't really matter. I feel whether it's two same color cones or two different color cones.",
+          "open_code": "hypoRevision",
+          "summary": "Dismisses color sameness relevance."
+        },
+        {
+          "id": 14,
+          "span": "Um, maybe there's not a balance between upright and tilted cones. Large and small cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests imbalance of orientations/sizes rule."
+        },
+        {
+          "id": 15,
+          "span": "[TYPING] Something to do with cones on top of cones. Color combinations. Cones being more balanced between all colors, big or small.",
+          "open_code": "ruleGuess",
+          "summary": "Types tentative multi-factor rule summary."
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. So again, we have um A, B and C.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies focus on panels A,B,C.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "There is a number of cones between the three. Compared to D, C, and F, I feel like.",
+          "open_code": "processingGlobal",
+          "summary": "Notes cone-count difference versus D,C,F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Some have more colors than others.",
+          "open_code": "processingGlobal",
+          "summary": "Observes color diversity uneven.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Especially, I feel like there's more larger cones in some than they are in others.",
+          "open_code": "processingGlobal",
+          "summary": "Notes size differences across panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um, there's not a balance of colors in them either.",
+          "open_code": "processingGlobal",
+          "summary": "Remarks color imbalance across panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Some have larger green cones, like in C, whether they're tilted or upright.",
+          "open_code": "processingLocal",
+          "summary": "Details large green cones in C.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "But then in D, they've got smaller green cones, but they're all tilted.",
+          "open_code": "processingLocal",
+          "summary": "Describes small tilted greens in D.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "B has… more red than green.",
+          "open_code": "processingLocal",
+          "summary": "Notes B color proportion red>green.",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "And obviously, some have more blues than greens and some have more reds than greens.",
+          "open_code": "processingGlobal",
+          "summary": "Summarises varying blue/red dominance.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Some have more cones than others.",
+          "open_code": "processingGlobal",
+          "summary": "Observes total cone count differences.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So...it could be that there needs to be a balance between the cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises need for cone balance."
+        },
+        {
+          "id": 12,
+          "span": "Also, how many are upright and how many are big or small.",
+          "open_code": "hypoGeneration",
+          "summary": "Adds orientation and size balance."
+        },
+        {
+          "id": 13,
+          "span": "Maybe...because B seems to be the actual panel that has the least amount of cones, I feel, and then I feel like D is the second one.",
+          "open_code": "processingGlobal",
+          "summary": "Counts cones in B (least) then D.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Um, so it could be that...definitely it isn't– It doesn't seem to be a balance between how many are upright and how many are tilted and the color combination.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects orientation/color balance idea."
+        },
+        {
+          "id": 15,
+          "span": "Um, and also which ones are big, there's more smaller in some panels than others.",
+          "open_code": "processingGlobal",
+          "summary": "Notes small-cone prevalence varies.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 16,
+          "span": "[TYPING] So something to do with color combination. More larger cones in some than the others. And more smaller cones in some than others. The amount of cones compared to some of the panels, more being tilted than others.",
+          "open_code": "ruleArticulation",
+          "summary": "Types tentative color-combo rule."
+        }
+    ]
+
+]   

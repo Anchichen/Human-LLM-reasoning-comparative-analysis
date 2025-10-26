@@ -1,0 +1,1155 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so let's take a look here.",
+          "open_code": "planningExplorative",
+          "summary": "Announces start of broad scan",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, alright, so the yellow stars are A, E, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,E,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Let's see, I am kind of noticing already that the ones that are not, uh, those ones that are not A, E, F, don't have red triangles in them.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: red triangles absent in non-starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So that seems like a pretty good guess right off the bat, but I guess let me keep on...I can keep on thinking about things here, though.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses tentative confidence; continues thinking",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So it kind of looks like... the ones that are... so A, E, and F also seem to not have the big blue cone... kind of in the middle. It's kind of off to, like, the sides. Like you can see it in A it's on the left, in E it's on the righ, and in F it's kind of on the side, but also sort of on the... you can see one on the right, right there.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests blue cone off-center in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So, uh, I guess it's also another possibility.",
+          "open_code": "monitorHighLevel",
+          "summary": "Acknowledges alternative hypothesis possibility",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um. Let's see. There's also, uh, looking at like, the green cones now.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts focus to green cones feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "There could be maybe more green cones in A, E, and F.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesizes more green cones in starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Although actually there are a lot in the other ones too, in B, C, and D.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes counter-evidence in non-starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um, so that's probably not it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-cone quantity hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um, although they seem to be more upside-down in... in B, C, and D, so maybe, um, the number of upside-down green cones could also be another possible one...another possible explanation.",
+          "open_code": "hypoAlternative",
+          "summary": "Offers alt: upside-down green cones count",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "[TYPING] Okay. So let me do the answer here.",
+          "open_code": "decisionConfirm",
+          "summary": "Announces move to answer entry",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So, I think it's most likely... I would say it's most likely if there are red cones.",
+          "open_code": "decisionConfirm",
+          "summary": "Selects red-cone rule as likeliest",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So, I guess I'm still supposed to talk at this point as well I wasn't sure.",
+          "open_code": "reflectTask",
+          "summary": "Comments on speaking requirement",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So let's see.",
+          "open_code": "planningExplorative",
+          "summary": "continues to explore for alt patterns",
+          "lenses": {
+            "planningLevel":"Level 1"
+          }
+        },
+        {
+          "id": 16,
+          "span": "So, whether or not...How about this the big blue cone is not in the center, and, um.",
+          "open_code": "hypoAlternative",
+          "summary": "Re-states blue-cone off-center hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "A fewer number of green cones.",
+          "open_code": "hypoAlternative",
+          "summary": "Adds fewer-green-cones hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Okay, I guess those are my three rules I can think of.",
+          "open_code": "monitorHighLevel",
+          "summary": "Summarises having three candidate rules",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so for this one the yellow stars are A, B, and E.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "And so...so I'm looking at the red cones immediately, and I see that A and B have {?}, but E doesn't.",
+          "open_code": "processingLocal",
+          "summary": "Observes red-cone disparity among starred",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So that can't be...what it is this time.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-cone hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So, let's look at the other colors then.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts focus to other colors",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Because there's green ones and blue ones and all of them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes all panels have green and blue",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So, I guess that also...it's not based on color then I don't think.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses color-presence rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um, so let's see maybe like number of cones.",
+          "open_code": "modifyPlan",
+          "summary": "Considers cone count feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "This one has five, this one has five and this one has one, two, three, four, five as well.",
+          "open_code": "processingLocal",
+          "summary": "Counts cones in starred panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "But the other ones like C, one, two, three, four, five. One, two, three, four, five in F um so they all have five.",
+          "open_code": "processingGlobal",
+          "summary": "Confirms non-starred also have five cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Okay. So, I guess I'm finding that out now.",
+          "open_code": "monitorLowLevel",
+          "summary": "Acknowledges finding about equal counts",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um let's see what else is there.",
+          "open_code": "planningExplorative",
+          "summary": "Seeks next possible feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "How about like the tilt...the tilt of the cones. Um.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts to investigating tilt",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Because this one has kind of just one that's tilted, A.",
+          "open_code": "processingLocal",
+          "summary": "Observes one tilted cone in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Panel A has one tilted. B has none and E has two.",
+          "open_code": "processingGlobal",
+          "summary": "Compares tilt counts across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So, I guess it's also not tilt.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilt hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Maybe it's...maybe it's like number of each color of cones because this one has– well I'm not sure if that's it either because A has two green.",
+          "open_code": "hypoAlternative",
+          "summary": "Proposes color-count rule with doubt",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "B has two green, E has three green.",
+          "open_code": "processingGlobal",
+          "summary": "Notes green counts in B and E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "And they also have different numbers of blues and different numbers of reds.",
+          "open_code": "processingGlobal",
+          "summary": "Observes varying blue/red counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So, I don't think that's it either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects color-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "Um, so this one's pretty tricky. I'm not really sure what it is off the top of my head.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits difficulty and uncertainty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "Maybe it’s the fact that more the cones are on the left side of the...the image here and not really on the right, because if you look at C, D and F, it looks like the balance inside them is kind of, like, more towards the right side of the little box here, or at least towards the center.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates rule about left-side bias",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "Like, C has more towards the right. F is in the center. And D is almost like, almost like either equal or a bit actually...maybe more towards the right actually.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks non-starred placement evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 23,
+          "span": "Um, whereas A, B and E are more like on the left.",
+          "open_code": "processingGlobal",
+          "summary": "Confirms starred panels left-heavy",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 24,
+          "span": "So, I think that's how it is.",
+          "open_code": "decisionConfirm",
+          "summary": "Declares left-bias rule works",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 25,
+          "span": "I think it's probably my guess here, and I can't really think of anything else.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms choice; no alternatives",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 26,
+          "span": "I'll just say it's just this one.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to single rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 27,
+          "span": "[TYPING] Um, so let's see the balance... of shapes inside each area is more on the left side, not the middle or right.",
+          "open_code": "ruleArticulation",
+          "summary": "States final left-side balance rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so with this one it's A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I guess there's five in each of... each of them.",
+          "open_code": "processingGlobal",
+          "summary": "Assumes five cones in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Although let me just... let me actually count here because this one has one, two, three, four, five, six. So, this actually has more than five. This one has five. And this one has I think also five.",
+          "open_code": "processingLocal",
+          "summary": "Counts cones in each starred panel",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "But since C has six, it's not the number of cones.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects cone-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "A has one green, C has three greens, F has one green.",
+          "open_code": "processingGlobal",
+          "summary": "Observes green counts across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "I'm trying to find something that's in common between, you know, the three starred ones.",
+          "open_code": "planningExplorative",
+          "summary": "States goal to find commonality",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Two reds in A, two reds in F, one red in C.",
+          "open_code": "processingGlobal",
+          "summary": "Notes red counts across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "I think in A, C, and F, I see two blue cones that are kind of on their sides, on the ground, because A has that, C has that, and F has that too.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates rule: two blue cones on side",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Whereas if I look at B, E, and D, I see one blue cone on the side in B, but one is standing up; one is on the side in E and that's it. There's no other blue cone. And then in D, one is tilted, the other standing up, and the tilted one's not on the ground completely either.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks non-starred for disconfirming blue cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "So that's kind of my best guess so far.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts blue-cone rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Other than that... let's see.",
+          "open_code": "planningExplorative",
+          "summary": "Keeps searching for other ideas",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Green is standing up in all, well, except F, so I don't think that's the rule.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-upright hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "And then the red ones, they're also kind of standing up in A, but not in C and not in F, so I don't think that's what it is either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-upright hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So yeah, I can't really think of anything else that they have in common that the other ones B and D don't have.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty finding other rules",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So, I think my guess is that there are two blue cones on their sides, on the floor.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: two sideways blue cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "That's really the only rule I can think of here.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to chosen rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. So, it's A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Names starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Let's see. So, number of cones I can already see that there's a lot of cones in the uh in the ones that are starred.",
+          "open_code": "processingGlobal",
+          "summary": "Notes many cones in starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "There are one, two, three, four, five, six, seven in A. One, two, three, four, five, six seven, in C. One, two, three, four, five, six, seven in F.",
+          "open_code": "processingLocal",
+          "summary": "Counts seven cones in each starred",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So, they all have seven.",
+          "open_code": "processingGlobal",
+          "summary": "Infers equal cone count across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So let me look at the other ones actually in B, E, and D because B has one, two, three, four, five... one, two, three, four, five, six in B. One, two, three, four, five in E. And one, two, three, four, five, six, seven in D.",
+          "open_code": "processingLocal",
+          "summary": "Counts cones in non-starred panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So that kind of throws that theory out the window there. So, it's not the number of cones.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects cone-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um let's see. How about in terms of like...number of colors.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts focus to color counts",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Because A has two reds, C has two reds and F has three reds.",
+          "open_code": "processingGlobal",
+          "summary": "Observes red counts in starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So that's not what it is either.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses red-count idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "There's three greens in A, two greens in C, so that already kind of throws out the window again.",
+          "open_code": "processingGlobal",
+          "summary": "Notes differing green counts; doubts rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I don't think it's a number– or actually. No, no, it's uh, there's a different amount in some of the other ones.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "And then blue is also. Yeah, different amount in C, three, compared to the other ones. So, it's not that either.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses blue-count idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um let's see then. What else could it be.",
+          "open_code": "planningExplorative",
+          "summary": "Searches for new feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Trying to think... it seems like... there is a... Two small ones here with... that are kind of stacked. Two small ones here that are stacked in C. I should say two small ones that are stacked in A, two small ones that are stacked in C, but two big ones that are stacked in F.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers stacked-pair cone pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So that's not what it is.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects stacked-size idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "There are...there is a big red one... big red cone and a big green cone. And then there are some in C as well. Big red one. Big green one and red. Um, and C also has that. And F also has that too.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: big red & green cones present",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "But I can also see that like D has that– Well D actually doesn't have that. I don't think B has that either. Or E.",
+          "open_code": "counterExampleSearch",
+          "summary": "Scans non-starred for big red/green cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "So I think that might be my guess here. That's all I can really think of.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to big red+green rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] So, there is a big red and green cone in them.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule explicitly",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "I don't think the other ones have that.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms absence in non-starred",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. So, with this one, A, B and E.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, there's a lot of cones here.",
+          "open_code": "processingGlobal",
+          "summary": "Notes many cones overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Let's see what do they have in common.",
+          "open_code": "planningExplorative",
+          "summary": "Seeks shared features among starred",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, it's weird because B actually has probably the fewest number of cones. But it's still part of the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Observes B has few cones yet starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So I feel like B is maybe the answer here.",
+          "open_code": "modifyPlan",
+          "summary": "Decides to focus analysis on B",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, whatever B has going on is also going on with the other ones that have more cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits shared property derived from B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "I see that there are a lot of them on the ground, like on their sides in B. In fact, the only one that's actually standing up is... this red cone over here.",
+          "open_code": "processingLocal",
+          "summary": "Observes sideways cones and single upright red in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh, so I'm kind of thinking that that might be it.",
+          "open_code": "reflectSelf",
+          "summary": "Reflects on his own thinking",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So, there's a medium... kind of like the medium red cone right there that's kind of standing up in B.",
+          "open_code": "processingLocal",
+          "summary": "Describes medium red upright cone in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "And I see... well, I sort of see that standing up in A, but it's stacked on another object, which I guess still means it's standing up, but I'm not really sure if that counts.",
+          "open_code": "processingGlobal",
+          "summary": "Notes similar feature in A; questions validity",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "E has one right here on the left, that’s standing up on its own.",
+          "open_code": "processingLocal",
+          "summary": "Observes upright red cone in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So that's...that kind of fits with that rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Sees rule supported in E",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "D doesn't have that.",
+          "open_code": "processingLocal",
+          "summary": "Notes absence in D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "F only has it on its side.",
+          "open_code": "processingLocal",
+          "summary": "Observes orientation in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "C...only has it on its side too.",
+          "open_code": "processingLocal",
+          "summary": "Notes similar absence in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "So, I guess that's something to consider.",
+          "open_code": "monitorHighLevel",
+          "summary": "Marks hypothesis as candidate",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "You know, it's... the medium red cone has to be facing upwards is, I guess, the rule.",
+          "open_code": "ruleArticulation",
+          "summary": "States upright medium red cone rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Not necessarily important if it's, like standing on its own or if it's, like, stacked.",
+          "open_code": "hypoRevision",
+          "summary": "Clarifies rule regardless of stacking",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So that's one thing that I'm thinking of here.",
+          "open_code": "monitorHighLevel",
+          "summary": "Reflects on current idea count",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "Other than that, I mean, that seems to be the main thing here.",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure of additional patterns",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "Let's see. Like number of, like colors? I'm not sure.",
+          "open_code": "planningExplorative",
+          "summary": "Considers exploring color counts",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "I guess each of the star ones have two green ones, and the other ones actually have more.",
+          "open_code": "hypoGeneration",
+          "summary": "Observes starred have exactly two greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 23,
+          "span": "So, I think that's also a potential rule here.",
+          "open_code": "monitorHighLevel",
+          "summary": "Proposes two-green-cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 24,
+          "span": "So, let me... that might be the actual rule. So let me say that one first actually.",
+          "open_code": "decisionConfirm",
+          "summary": "Chooses two-green rule as primary",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 25,
+          "span": "[TYPING] So, they all have two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "Writes rule: exactly two green cones",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 26,
+          "span": "And then for the next one, let me put, they all have a red medium cone facing upwards.",
+          "open_code": "ruleArticulation",
+          "summary": "Adds rule: medium red cone upright",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

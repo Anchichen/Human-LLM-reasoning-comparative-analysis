@@ -1,0 +1,680 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. So three of the puzzles have a yellow star.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which puzzles are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Okay, I'm going to start with the red cones.",
+          "open_code": "planningStrategic",
+          "summary": "Announces plan to focus on red cones",
+          "lenses": {
+            "planningLevel": "level 2"
+          }
+        },
+        {
+          "id": 3,
+          "span": "In A, there's two red cones. In E, one. In F, two.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Probably not that one.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses two-red-cones idea"
+        },
+        {
+          "id": 5,
+          "span": "Oh, actually it could be because B, C and D don't have a yellow star and they don't have any red cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates presence-of-red hypothesis using evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "That would make sense.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms new hypothesis makes sense"
+        },
+        {
+          "id": 7,
+          "span": "I'm trying to look for some kind of correlation of direction of the cones, but they're all quite random.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects orientation correlation",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "A, they're all upright pretty much apart from one.",
+          "open_code": "processingLocal",
+          "summary": "Describes cone directions in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "E, they're going in all varying directions.",
+          "open_code": "processingLocal",
+          "summary": "Describes cone directions in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "F, again varying directions.",
+          "open_code": "processingLocal",
+          "summary": "Describes cone directions in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 11,
+          "span": "I think the rule and... the rule that all the puzzles with the yellow stars follow is... if there's a red cone present.",
+          "open_code": "ruleArticulation",
+          "summary": "States red-cone rule"
+        },
+        {
+          "id": 12,
+          "span": "That seems to make sense because there's no other correlation in terms of direction or size of cones.",
+          "open_code": "monitorHighLevel",
+          "summary": "Justifies rule by lack of other patterns"
+        },
+        {
+          "id": 13,
+          "span": "So I think that's the rule. That you get a yellow star if there's a red cone present.",
+          "open_code": "decisionConfirm",
+          "summary": "Re-affirms chosen rule",
+          "lenses": {
+            "processingStyle": "Ø",
+            "perspectiveDepth": "0step",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Yeah. I think I'm quite confident with that rule Yeah. That's the only... Yeah, I'm pretty confident with that.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses confidence in rule"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so three puzzles have yellow stars and three do not.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which puzzles are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Puzzle A, has three colors of cone, green, purple [blue], and red. So does puzzle B.",
+          "open_code": "processingGlobal",
+          "summary": "Observes color variety in A and B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "But puzzle E, only has... green and purple [blue].",
+          "open_code": "processingLocal",
+          "summary": "Notes E lacks red color",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "So I don't think it's to do with color.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects color hypothesis"
+        },
+        {
+          "id": 5,
+          "span": "What about... hm, A, B and E all have the majority of their cones orienting upwards or pointing upwards.",
+          "open_code": "processingGlobal",
+          "summary": "Notes many upward cones in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "But then A and E have some that are pointing in other directions.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds orientation exceptions in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 7,
+          "span": "And I'm looking at the ones that don't follow the pattern.",
+          "open_code": "planningBasicComparison",
+          "summary": "States focus on non-star panels",
+          "lenses": {
+            "planningLevel": "level 2"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Hmm. Some of them, like puzzle C, also have the majority facing upwards.",
+          "open_code": "counterExampleSearch",
+          "summary": "Observes non-stars share upward orientation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "So, I don't think it's to do with orientation or color.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects orientation and color rules"
+        },
+        {
+          "id": 10,
+          "span": "Um, maybe number?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers number-of-cones rule"
+        },
+        {
+          "id": 11,
+          "span": "A has 1-2-3-4-5 cones. B, 1-2-3-4-5. E, 1-2-3-4-5.",
+          "open_code": "processingGlobal",
+          "summary": "Counts cones in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Okay, that could be the rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts number rule"
+        },
+        {
+          "id": 13,
+          "span": "But C, 1-2-3-4-5... F, [counting under breath]. D, 1-2-3-4...",
+          "open_code": "counterExampleSearch",
+          "summary": "Counts cones in non-star puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Okay. no.",
+          "open_code": "decisionReject",
+          "summary": "Rejects number hypothesis"
+        },
+        {
+          "id": 15,
+          "span": "Perhaps, it's that...",
+          "open_code": "processing",
+          "summary": "Begins considering new idea",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 16,
+          "span": "This is hard.",
+          "open_code": "reflectTask",
+          "summary": "Comments on task difficulty"
+        },
+        {
+          "id": 17,
+          "span": "Perhaps, it is... the pattern is...they are kind of... all... I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty about pattern"
+        },
+        {
+          "id": 18,
+          "span": "Um. I do not know.",
+          "open_code": "ruleImpasse",
+          "summary": "Admits being stuck"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. Two, no, three puzzles have a yellow star, A, C and F. And B, D and E do not follow the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred versus unstarred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "I'm going to start with color.",
+          "open_code": "planningStrategic",
+          "summary": "Declares plan to analyze colors",
+          "lenses": {
+            "planningLevel": "level 3",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "A has two red, two purple [blue], one green. C, two green, two purple [blue], one red. F, two red, two purple [blue], one green.",
+          "open_code": "processingGlobal",
+          "summary": "Lists color counts in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Does not seem to be a rule concerning color,",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses color as rule"
+        },
+        {
+          "id": 5,
+          "span": "but let me check B, D and E.",
+          "open_code": "counterExampleSearch",
+          "summary": "Plans to inspect non-starred puzzles",
+          "lenses": {
+            "planningLevel": "level 2"
+          }
+        },
+        {
+          "id": 6,
+          "span": "B, two green, two purple [blue], one red. E, two green, one purple [blue]...Hm... E three green, two red, one purple [blue]. D, two purple [blue], two green, one red.",
+          "open_code": "processingGlobal",
+          "summary": "Lists color counts in non-starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Okay. (4.0) Is it to do with orientation?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers orientation rule"
+        },
+        {
+          "id": 8,
+          "span": "Hmm. I don't know, because the ones with the yellow stars all have different orientations.",
+          "open_code": "decisionReject",
+          "summary": "Rejects orientation hypothesis",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Oh, this is hard.",
+          "open_code": "reflectTask",
+          "summary": "Comments on task difficulty"
+        },
+        {
+          "id": 10,
+          "span": "Perhaps... (6.0) Oh, actually. F could be a different variation of puzzle A. Looks like perhaps it could be the same cones, just in a different orientation.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises F is rotated version of A",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "But C does not follow that rule.",
+          "open_code": "decisionReject",
+          "summary": "Finds C contradicts rotation idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Um. It's to do with the number of green cones?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers green-cone count rule"
+        },
+        {
+          "id": 13,
+          "span": "I don't think.",
+          "open_code": "decisionReject",
+          "summary": "Rejects green-cone idea"
+        },
+        {
+          "id": 14,
+          "span": "Is it the number of red cones? The number of purple [blue] cones?",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes red or purple count rules"
+        },
+        {
+          "id": 15,
+          "span": "No. I don't know.",
+          "open_code": "ruleImpasse",
+          "summary": "Expresses uncertainty and rejection"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Um, three puzzles have a yellow star, A, C and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Okay. Orientation looks... you have those two puzzles, they look different.",
+          "open_code": "processingGlobal",
+          "summary": "Considers orientation possibility",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, maybe it's to do with just downward pointing cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits downward-cones rule"
+        },
+        {
+          "id": 4,
+          "span": "No, because E doesn't have a yellow star and has a downward pointing cone.",
+          "open_code": "decisionReject",
+          "summary": "Rejects downward-cones hypothesis",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "I was gonna say it's to do with having two purple [blue] cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests two-purple rule"
+        },
+        {
+          "id": 6,
+          "span": "But I don't think that's right because C has a yellow star and it has three purple [blue] cones.",
+          "open_code": "decisionReject",
+          "summary": "Dismisses two-purple idea using C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "How about green cones?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers green-cone count rule"
+        },
+        {
+          "id": 8,
+          "span": "A has three, C has two, F has two.",
+          "open_code": "processingGlobal",
+          "summary": "Counts greens in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "I think it's... to do with... all having two cones on top of each other, because A, C and F all have cones on top of each other. Two cones stacked on top of each other.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes stacked-cones rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Oh, no. But E doesn't have a yellow star, and it has... Okay, actually, E doesn't have a yellow star and it doesn't follow the rule. It has two cones stacked on top of each other, but they are the same color.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes E contradicts simple stack rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "F has two cones stacked on top each other, but they're a different color. So do C and so does A. So that sounds promising.",
+          "open_code": "hypoRevision",
+          "summary": "Refines rule to stacked different colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Oh, yeah actually that's definitely the rule because B has two cones stacked on top of each other. But they are the same color and B does not have a yellow star.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms refined rule using B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "So I'm quite confident.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses confidence in rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. Three cones [stars], again.",
+          "open_code": "processingGlobal",
+          "summary": "Notes three starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Quite a lot of cones in all of these puzzles.",
+          "open_code": "processingGlobal",
+          "summary": "Observes puzzles have many cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Okay. A has four red cones. B, three red. E, five red.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "A has two green. B, two green. E, two green.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green cones in starred puzzles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Yeah, that looks promising in terms of that could be the rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Tentatively favors two-green rule"
+        },
+        {
+          "id": 6,
+          "span": "Because the three puzzles that don't have a yellow star and don't follow the rule have– C has three green cones, D has four green cones, and F has five green cones.",
+          "open_code": "counterExampleSearch",
+          "summary": "Cites non-star evidence supporting rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So A, B and E follow the rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms starred panels fit rule"
+        },
+        {
+          "id": 8,
+          "span": "A has two green cones, B has two green cones, and E has two green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Reiterates two-green counts in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "So I'm pretty happy with...with that rule.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses satisfaction with rule"
+        },
+        {
+          "id": 10,
+          "span": "I might just count the other colors.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to examine other colors",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 11,
+          "span": "A has one, two, three purple [blue], B has one purple [blue], E has 1-2-3-4 purple [blue] cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts purple cones in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "So it's not..none of the other colors could be a rule.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects other-color hypotheses"
+        },
+        {
+          "id": 13,
+          "span": "I think it's to do with two green cones, because the puzzles that don't follow the rule. C, D and F, C .has three green cones. F has one, two, three, four, five green cones. D has one, two, three four green cones.",
+          "open_code": "decisionConfirm",
+          "summary": "Restates rule with full evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So I have a suspicion that that is the rule.",
+          "open_code": "ruleConfidence",
+          "summary": "Voices suspicion rule correct"
+        },
+        {
+          "id": 15,
+          "span": "In terms of orientation. They all seem quite different.",
+          "open_code": "processingGlobal",
+          "summary": "Observes orientations vary widely",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 16,
+          "span": "At the moment, at both, in the puzzles that follow the rule and the puzzles that don't follow the rule, I can't see an immediate correlation in terms of their orientation.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out orientation pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 17,
+          "span": "So I think, okay, I'm happy with this.",
+          "open_code": "reflectSelf",
+          "summary": "Confirms satisfaction with choice"
+        },
+        {
+          "id": 18,
+          "span": "[TYPING] The hidden rule...yellow star... two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "Formalises rule: two green cones"
+        },
+        {
+          "id": 19,
+          "span": "[THINKING] A...just double-checking, two green cones. B, two. E, two. Yeah",
+          "open_code": "ruleConfidence",
+          "summary": "Re-checks green counts in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "perspectiveDepth": "0step",
+            "representationGrain": "verbatim"
+          }
+        }
+      ]
+
+]   

@@ -1,0 +1,403 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "So, I can see that, um, for each, uh, puzzle. Um...The...Okay. (7.5) Okay...I can see that, uh. (9.0)",
+          "open_code": "planningUnorganised",
+          "summary": "Hesitates while beginning observation",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I can see the for each puzzle lighted up with yellow color, uh, there is at least a red. A red cone in each of the puzzle. Whether...whether they are lying flat or they are standing upright, there is at least a red.",
+          "open_code": "processingGlobal",
+          "summary": "All lit puzzles contain a red cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So. I think that's it for...",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty about conclusion",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So, uh, this, uh, puzzles are...puzzle A, puzzle E, and puzzle F, you can see that there's a...there's a red, um, cone.",
+          "open_code": "processingGlobal",
+          "summary": "Lists starred puzzles having red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "In puzzle F, one is lying flat while one is upside down.",
+          "open_code": "processingLocal",
+          "summary": "Describes red cone orientations in puzzle F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "In puzzle E, there is just one red cone lying flat.",
+          "open_code": "processingLocal",
+          "summary": "Notes single flat red cone in puzzle E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "While puzzle A has two cones, one is totally standing upright and the other is standing upright, but not totally upright.",
+          "open_code": "processingLocal",
+          "summary": "Describes two upright red cones in puzzle A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "As for the rest of the puzzles, one of them have red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes non-starred puzzles lack red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So that's the...that's the hiding one.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms identified hidden rule",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I think the hiding rule for this puzzle is that...for every lighted up puzzle with yellow color, there must be...there must be a red cone in each.",
+          "open_code": "ruleArticulation",
+          "summary": "States rule: lit panels require red cone",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "[TYPING] There must be red...a red cone...and thus puzzle A...F...and E...must have the red cone. Okay.",
+          "open_code": "ruleArticulation",
+          "summary": "Reiterates rule during typing submission",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "So, for this particular puzzle. (10.0)",
+          "open_code": "planningUnorganised",
+          "summary": "Begins orienting to new puzzle",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay, I notice that in this particular, uh, puzzles, I think the rule for every, uh, lighted up, uh...for every lighted up...puzzle with yellow color, there must be a green...a green cone standing perfectly upright.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: lit panels need upright green cone",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "I also noticed that all the green cones in these, uh, yellow star puzzles...these yellow star puzzles like puzzle A, puzzle E, and puzzle B.",
+          "open_code": "processingGlobal",
+          "summary": "Mentions starred panels A E B for evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I notice that the green ones, they're all standing perfectly upright.",
+          "open_code": "processingGlobal",
+          "summary": "States all green cones upright in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Yeah. They are all standing perfectly upright.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms observation about upright greens",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So that's what I noticed for this particular puzzle. (14.0)",
+          "open_code": "reflectSelf",
+          "summary": "Reflects on completed observation",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So, like label A, label B, and label E have a green cone standing upright.",
+          "open_code": "processingGlobal",
+          "summary": "Lists specific starred panels meeting rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "So, uh, for puzzle three. I'm going to put {?}.",
+          "open_code": "planningUnorganised",
+          "summary": "Starts orienting to puzzle three",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, I can see that, uh, I can see that in the label A, a red, a blue and a green cone.",
+          "open_code": "processingLocal",
+          "summary": "Observes colors in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "(4.5) So. Okay. (38.0) Okay.",
+          "open_code": "planningUnorganised",
+          "summary": "Filler pauses and hesitation",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I can see that, uh...I can see that, um...for every yellow label...like label A, label C, and label F...I can see that at least they all have a blue cone that is lying flat and facing the right hand.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: starred panels have flat right-facing blue cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "That is just one rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms first rule candidate",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "The second rule is that, uh... all these, uh, labels have a blue cone lying flat.",
+          "open_code": "hypoAlternative",
+          "summary": "States second rule about flat blue cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "They all have a blue cone lying flat.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms flat blue cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So that is the rule that I've seen in this puzzle.",
+          "open_code": "ruleArticulation",
+          "summary": "Articulates final rule conclusion",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "So in the first puzzle, I can see that all the...the lighted cones or lighted labels they all have um... (16.0)",
+          "open_code": "processingGlobal",
+          "summary": "Begins noting commonality among lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I see the light that you have for this one here and see how it fits.{?}",
+          "open_code": "reflectTask",
+          "summary": "Comments on star indicator and fit",
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So I think they all have something that is particular to them.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes existence of shared feature",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "This is standing. This is also standing. There is a blue cone standing for F. So, the green is standing for label for label A. But it's not standing for label C. It's not standing for label F.",
+          "open_code": "processingGlobal",
+          "summary": "Compares cone orientations across several labels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "(25.0) So is it...uh...F? (3.5)",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses confusion about rule",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "This one is quite difficult, to be honest. (4.0)",
+          "open_code": "reflectTask",
+          "summary": "Remarks on puzzle difficulty",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So I think they all have a...a green cone lying flat...they all have a green cone lying flat.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises rule: green cone lying flat",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, I think for this particular puzzle, the rule is that...all the labels like label D, E and B...they all have blue cones that at least standing. I repeat, they all have blue cones that are at least standing.",
+          "open_code": "hypoAlternative",
+          "summary": "Introduces alternative rule: standing blue cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "[TYPING] I think the rule for this puzzle...is that...is that all the blues...all the labels...all of the cones...at least...a blue cone...standing upright.",
+          "open_code": "ruleArticulation",
+          "summary": "Final rule: each label needs upright blue cone",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+      [{"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "So, I think what I'm seeing from this is that all the puzzles that are yellow starred or the yellow stars of labels, like label A and label B and E, they all have at least a red uh... they all have at least a red cone...lying flat, which is laying flat.",
+          "open_code": "processingGlobal",
+          "summary": "Notes starred panels share flat red cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "And in the entire puzzle, in general, I noticed that all of these puzzles, all of these labels, label A, label B, label C, label D, label E and F... they all have at least a red cone that is lying flat, either towards the right– facing towards the right, or facing towards the left.",
+          "open_code": "processingGlobal",
+          "summary": "Observes every panel contains flat red cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So I think there is a rule for this.",
+          "open_code": "monitorHighLevel",
+          "summary": "Remarks that pattern suggests rule",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So I think...the rule...of this puzzle is that...that there is... So I think the rule for this puzzle is that they all have a red cone...laying flat...",
+          "open_code": "ruleArticulation",
+          "summary": "States rule: each panel has flat red cone",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+
+]   

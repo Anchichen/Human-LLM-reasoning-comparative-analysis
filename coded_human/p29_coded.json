@@ -1,0 +1,806 @@
+[
+  [{"Title": "scene1"
+    },
+    {
+      "id": 1,
+      "span": "All right, so half of them [panels] are lighted up.",
+      "open_code": "processingGlobal",
+      "summary": "notes half panels lit",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Um, the hidden rule here...",
+      "open_code": "planningExplorative",
+      "summary": "mentions focusing on rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Half of them have red.",
+      "open_code": "processingGlobal",
+      "summary": "observes half with red",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "All of them have blue.",
+      "open_code": "processingGlobal",
+      "summary": "observes all have blue",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Um...So it could be half red. Half blue.",
+      "open_code": "hypoGeneration",
+      "summary": "proposes half red/blue rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Okay, so I think I figured it out.",
+      "open_code": "decisionConfirm",
+      "summary": "expresses solved confidence",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "It is...any of the patterns that have red are highlighted.",
+      "open_code": "ruleArticulation",
+      "summary": "states red implies highlight",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "If there's no red, then it is not highlighted.",
+      "open_code": "ruleArticulation",
+      "summary": "states absence red no highlight",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "A, E, F are highlighted with [a] red.",
+      "open_code": "monitorHighLevel",
+      "summary": "points examples confirming rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "B, C, D are not highlighted and with [no] red...",
+      "open_code": "monitorHighLevel",
+      "summary": "cites non-examples supporting rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Let's see.",
+      "open_code": "planningUnorganised",
+      "summary": "pauses to think next",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 0"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Now how I would write it is a different thing.",
+      "open_code": "reflectTask",
+      "summary": "notes difficulty articulating rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "See? The highlighted. Highlighted starts. All have red.",
+      "open_code": "ruleArticulation",
+      "summary": "reaffirms rule all highlighted have red",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "If not highlighted, then it's only blue.",
+      "open_code": "ruleArticulation",
+      "summary": "adds blue-only for non-highlighted",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Or then they could be other ones, but.",
+      "open_code": "reflectUncertainty",
+      "summary": "expresses lingering uncertainty",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene2"
+    },
+    {
+      "id": 1,
+      "span": "Okay. So... in this one...oh my gosh okay, a little tricky.",
+      "open_code": "reflectTask",
+      "summary": "comments puzzle is tricky",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "What do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "asks for shared feature",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "The three, A, B, E have highlighted stars.",
+      "open_code": "processingGlobal",
+      "summary": "notes which panels lit",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Um. And all those colors are multi.",
+      "open_code": "processingGlobal",
+      "summary": "observes lit panels multicolored",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "um highlighted have green.",
+      "open_code": "hypoGeneration",
+      "summary": "posits green presence rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Okay. I don't know if I have enough time.",
+      "open_code": "reflectTask",
+      "summary": "worries about time left",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Only one minute left.",
+      "open_code": "reflectTask",
+      "summary": "notes one minute remains",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "I don't know.",
+      "open_code": "reflectUncertainty",
+      "summary": "admits not knowing",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "What do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "repeats commonality query",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Two. Two. Two. Two. Three.",
+      "open_code": "representationVerbatim",
+      "summary": "counts aloud numbers",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Okay. One, two.",
+      "open_code": "representationVerbatim",
+      "summary": "continues counting items",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Okay. Everything about the same.",
+      "open_code": "monitorHighLevel",
+      "summary": "finds counts similar",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Okay, great. Back to green.",
+      "open_code": "modifyPlan",
+      "summary": "shifts focus to green color",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "That's not a number.",
+      "open_code": "ruleExclusion",
+      "summary": "rejects numeric rule idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Two. One.",
+      "open_code": "representationVerbatim",
+      "summary": "counts more items",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "I do not know, actually.",
+      "open_code": "reflectUncertainty",
+      "summary": "states uncertainty",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Um, there is no, um.",
+      "open_code": "reflectUncertainty",
+      "summary": "trails in uncertainty",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "Five. Eight. Six. Six. Five. Six.",
+      "open_code": "representationVerbatim",
+      "summary": "rapid numeric counts",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "One. Two. Three. Four. Five.",
+      "open_code": "representationVerbatim",
+      "summary": "counts to five",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "What do you do with that?",
+      "open_code": "reflectUncertainty",
+      "summary": "questions usefulness of counts",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "Um. I'm going to move on.",
+      "open_code": "modifyPlan",
+      "summary": "decides to abandon puzzle",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene3"
+    },
+    {
+      "id": 1,
+      "span": "So yellow. Again, checking the yellow stars.",
+      "open_code": "planningExplorative",
+      "summary": "plans to inspect yellow-star panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "I'm not seeing a pattern.",
+      "open_code": "reflectUncertainty",
+      "summary": "admits no pattern yet",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Okay, I think I see it actually.",
+      "open_code": "monitorHighLevel",
+      "summary": "signals sudden insight",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So, all of A, C and F have blue shapes that are all turned as if they're at an angle.",
+      "open_code": "processingGlobal",
+      "summary": "observes tilted blue shapes in lit panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So, I think that would be my guest here.",
+      "open_code": "ruleGuess",
+      "summary": "offers tentative tilted-blue rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "I think... I'll look and see if there's anything else.",
+      "open_code": "modifyPlan",
+      "summary": "decides to search for more evidence",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "I can't think of anything else.",
+      "open_code": "reflectUncertainty",
+      "summary": "states inability to find more",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "That's all I can think of for the time being.",
+      "open_code": "decisionConfirm",
+      "summary": "concludes with current guess",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Mm. Okay. I'm trying to see the pattern.",
+      "open_code": "planningExplorative",
+      "summary": "states effort to find pattern",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "I just don't know.",
+      "open_code": "reflectUncertainty",
+      "summary": "admits not knowing",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Let's look at red.",
+      "open_code": "modifyPlan",
+      "summary": "shifts focus to red shapes",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Red are all facing downwards.",
+      "open_code": "processingGlobal",
+      "summary": "observes red shapes downward",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Okay, let's try...",
+      "open_code": "modifyPlan",
+      "summary": "signals next pattern attempt",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Okay, no pattern with the blues.",
+      "open_code": "ruleExclusion",
+      "summary": "rules out blue pattern",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Let's try the green.",
+      "open_code": "modifyPlan",
+      "summary": "shifts focus to green shapes",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "No pattern of the green either.",
+      "open_code": "ruleExclusion",
+      "summary": "rules out green pattern",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Hm, let's try a pattern with the...one... highlighted.",
+      "open_code": "modifyPlan",
+      "summary": "plans to examine highlighted shapes",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "I don't see a pattern.",
+      "open_code": "reflectUncertainty",
+      "summary": "states no pattern seen",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Let me see.",
+      "open_code": "planningUnorganised",
+      "summary": "pauses to inspect further",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 0"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Oh, I think I see it.",
+      "open_code": "monitorHighLevel",
+      "summary": "signals potential insight",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Maybe.",
+      "open_code": "reflectUncertainty",
+      "summary": "expresses tentative confidence",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "There's two tiny {?}.",
+      "open_code": "processingLocal",
+      "summary": "notes two small elements",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "?? unclear"
+    },
+    {
+      "id": 15,
+      "span": "1, 2, 3, 4, 5, 6, 7. 1, 2, 3, 4, 5, 6, 7. 1, 2, 3, 4, 5, 6, 7.",
+      "open_code": "representationVerbatim",
+      "summary": "counts seven items thrice",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "Oh, I got it.",
+      "open_code": "decisionConfirm",
+      "summary": "confirms solution found",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Let me write it... {?}.",
+      "open_code": "submitAnswer",
+      "summary": "prepares to record answer",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene5"
+    },
+    {
+      "id": 1,
+      "span": "Let's think about it.",
+      "open_code": "planningUnorganised",
+      "summary": "announces beginning of thinking",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 0"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Oh my gosh, that looks complex.",
+      "open_code": "reflectTask",
+      "summary": "remarks puzzle complexity",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Let's count the shapes.",
+      "open_code": "modifyPlan",
+      "summary": "decides to count shapes",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "1, 2, 3, 4... four. red in A.",
+      "open_code": "representationVerbatim",
+      "summary": "counts four red in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "1, 2, 3...three red in B.",
+      "open_code": "representationVerbatim",
+      "summary": "counts three red in B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "1, 2, 3, 4, 5 red in E.",
+      "open_code": "representationVerbatim",
+      "summary": "counts five red in E",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "1, 2, 3, 4...1...",
+      "open_code": "representationVerbatim",
+      "summary": "continuing ambiguous count",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "?? unclear"
+    },
+    {
+      "id": 8,
+      "span": "So, one pattern is that the blue shapes are odd.",
+      "open_code": "hypoGeneration",
+      "summary": "proposes odd-count blue rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Or we can actually even say C, F, and D all have two blue.",
+      "open_code": "hypoAlternative",
+      "summary": "offers alternative two-blue rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Two green...",
+      "open_code": "representationVerbatim",
+      "summary": "notes count two green",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "There's only two green and A, B, and E.",
+      "open_code": "hypoAlternative",
+      "summary": "suggests rule two green in lit panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "(38.0) Let me think",
+      "open_code": "reflectSelf",
+      "summary": "pauses to think",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "(24.0) [TYPING] {?}...two green.",
+      "open_code": "ruleGuess",
+      "summary": "types tentative two-green rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ]
+]

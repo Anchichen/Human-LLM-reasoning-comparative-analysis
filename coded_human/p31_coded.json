@@ -1,0 +1,772 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "All right.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "Begins task verbally",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So...greens are standing up. It's lit. One green is standing up and they're lit.",
+          "open_code": "processingGlobal",
+          "summary": "Observes upright green triangles lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Then there is green standing up and not lit.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes counterexample to green-upright idea",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "There's a blue standing up...color on top of another, so it's not lit up.",
+          "open_code": "processingLocal",
+          "summary": "Observes blue upright stack not lit",
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "A's got green with blue on top of the other so it that can't be that...because B's got the same....",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-blue stack rule",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Green is standing upright.",
+          "open_code": "processingLocal",
+          "summary": "States green upright feature",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "B is standing up...but it's not covered...",
+          "open_code": "counterExampleSearch",
+          "summary": "Uses B as counterexample",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Hm...Oh. I have not got a clue.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits confusion about rule",
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "E...there's multiple... hang on many numbers are... so there is three in A.. four in B... is three....",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Ah. I think if there's just three green triangles",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises three-green rule",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "no 'cause there's three green triangles in that one.",
+          "open_code": "ruleExclusion",
+          "summary": "Immediately rejects three-green rule",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Uh, every color...but three green triangles...Yeah...",
+          "open_code": "reflectUncertainty",
+          "summary": "Wavers, still unsure",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "because yeah...there's probably not an answer to this and I could definitely answer just random.",
+          "open_code": "reflectSelf",
+          "summary": "Says might guess randomly",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "But...my most logical is that there's a...there's a color in every single one... and... green is standing upright.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: each color present, green upright",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "And at least...the only ones that are lit up is actually when there's a color in each thing... no matter what the shapes are...",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms color-presence rule works",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Basically, they must have a red... one red, blue and green to be...[mumbling].",
+          "open_code": "ruleArticulation",
+          "summary": "States rule needing all three colors",
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Yeah, as long as it's got a red one in A E and F...because B, C and D don't have red.",
+          "open_code": "decisionConfirm",
+          "summary": "Cites evidence supporting color rule",
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Yeah, it needs a red one..it needs all three colors.",
+          "open_code": "ruleArticulation",
+          "summary": "Final reiteration of three-color rule",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Right, here we go again.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "Re‐starts task",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, so A is lit, B is lit, and C is lit.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So it's nothing to do with all colors in this, however...",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects previous color rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So, A green up, blue up, red up.",
+          "open_code": "processingLocal",
+          "summary": "Describes A’s upright colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "B green, blue, red up.",
+          "open_code": "processingLocal",
+          "summary": "Describes B’s upright colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "E green up...",
+          "open_code": "processingLocal",
+          "summary": "Notes E’s green upright",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "oh my God, what have I... anyways so.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses mild frustration",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Oh my days.",
+          "open_code": "reflectSelf",
+          "summary": "Further exasperation",
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Uh...C we've got all three big upright.",
+          "open_code": "processingLocal",
+          "summary": "Observes C’s large upright colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Let's look at size...size...size.",
+          "open_code": "planningStrategic",
+          "summary": "Plans to examine size",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "Level 3"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "There's a little one standing up...",
+          "open_code": "processingLocal",
+          "summary": "Notes presence of small upright",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "But there's a little one standing up in F.",
+          "open_code": "ruleExclusion",
+          "summary": "Finds size not unique",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "One, two, three, four in A. One, two, three, four, five in B. One, two, three... in E. Four standing up in C.",
+          "open_code": "processingGlobal",
+          "summary": "Counts upright triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I cannot see a pattern in this one...",
+          "open_code": "reflectUncertainty",
+          "summary": "States inability to see pattern",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Uh... Let's see where they're positioned...",
+          "open_code": "planningStrategic",
+          "summary": "Plans to inspect positions",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "Level 3"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "greens on the left...No...in A.",
+          "open_code": "counterExampleSearch",
+          "summary": "Tests green-left idea, finds counter",
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Greens on the right. No. Because D's there...",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-right idea",
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Oh my gosh. I actually haven't got a clue on this one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits total confusion",
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "Let's just go with.",
+          "open_code": "reflectSelf",
+          "summary": "Signals giving up decision",
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "One, two, three small. One, two, three small.",
+          "open_code": "processingLocal",
+          "summary": "Counts small triangles",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "One of each size? One of each size...one of each size...",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises one-each-size rule",
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "no clue in this one...",
+          "open_code": "reflectUncertainty",
+          "summary": "Restates having no clue",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "The hidden rule in this one...so, A, C, and F are lit...",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels are lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So it's got nothing to do with 'em standing up.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects orientation‐upright rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Blue's facing on their sides... Blues facing on their sides...that's...yeah...",
+          "open_code": "processingLocal",
+          "summary": "Observes blues lying sideways",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So two blues facing on their sides in each of them. That's a possibility.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates two‐blue‐sideways hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Two reds...",
+          "open_code": "hypoAlternative",
+          "summary": "Considers alternate two‐reds idea",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Can't be two...",
+          "open_code": "ruleExclusion",
+          "summary": "Immediately rejects two‐reds idea",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "It has to do with amount of numbers... But there's two blues on each side.",
+          "open_code": "hypoRevision",
+          "summary": "Refines rule toward count of blues",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Let's have a look at the ones on....say...E, sorry...E has one on its side, blue, reds, one on top...",
+          "open_code": "processingLocal",
+          "summary": "Inspects panel E for counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "But that's got one on top...",
+          "open_code": "processingLocal",
+          "summary": "Notes additional non-matching feature",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "there's just...I'm going to go with A C and F...I think...have at least two on their sides.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to two-sideways rule",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Green on sides...",
+          "open_code": "processingLocal",
+          "summary": "Mentions greens sideways briefly",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "E has got two red standing up. A's got two reds standing up.",
+          "open_code": "processingLocal",
+          "summary": "Notes red upright counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Yeah, it's gotta be that, that's the only thing I can think of.",
+          "open_code": "decisionConfirm",
+          "summary": "States confidence in rule",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "The fact that the blues are on their sides.",
+          "open_code": "ruleArticulation",
+          "summary": "Articulates sideways-blue rule",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "C...two blue triangles on their side... they are both little...little, large... medium and large.",
+          "open_code": "processingLocal",
+          "summary": "Details blue sizes in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "There's literally no other possibility that I can visually see for this one.",
+          "open_code": "monitorHighLevel",
+          "summary": "Asserts exhaustive search done",
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Yeah, that's that's what I'm going for on that one.",
+          "open_code": "decisionConfirm",
+          "summary": "Final confirmation of choice",
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "[TYPING] Both, two blue triangles on their sides.",
+          "open_code": "ruleArticulation",
+          "summary": "Types final two-blues rule",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Alright.",
+          "open_code": "Orientation",
+          "summary": "Begins scene",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Two large standing up in A, so A, C, and F are lit...",
+          "open_code": "processingGlobal",
+          "summary": "Notes two large upright and lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Right. Two large standing up.",
+          "open_code": "decisionConfirm",
+          "summary": "confirmed observation"
+        },
+        {
+          "id": 4,
+          "span": "Uh...opposite color...Right, so A has got opposite colors on top of each other. C has got opposite colors on top of each other. F has got opposite colors on top of each other.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates opposite-color stack rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And none of the others have opposite colors – that one's... that one's got to be – perfect.",
+          "open_code": "decisionConfirm",
+          "summary": "Accepts opposite-color rule",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "See if there's any other options.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to search alternatives",
+          "lenses": {
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "It could be that there's two triangles on their sides on top of each other –",
+          "open_code": "hypoAlternative",
+          "summary": "Proposes side-stack rule",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "but no, that cancels out because of D.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects side-stack rule via D",
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "[mumbling] Uh..Two. Three... Four...",
+          "open_code": "processingLocal",
+          "summary": "Counts something uncertainly",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I mean, it could also be there's four triangles upright in all of them –",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests four-upright rule",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "But then that cancels out because of E and D...",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects four-upright rule via E,D",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Yeah. So it's that there's opposite color triangles on top of each other of the same size...Well, not even... just in general, there's opposite colors of triangles on top of each other...",
+          "open_code": "ruleArticulation",
+          "summary": "States refined opposite-color rule",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "In both A, C, and D, because otherwise there's nothing that works.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms rule coverage reasoning",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So yeah.. A, that on top of that...B that, on top of that...F that on top of that..",
+          "open_code": "processingLocal",
+          "summary": "Walks through panel examples",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Oh, but E's got two colors... but they're the same on top of that...",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes E near-miss supports rule",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Yeah, let's go with that one. Let's go with that one.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to chosen rule",
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "[TYPING] Opposite color triangles of the same size on top of each other.",
+          "open_code": "ruleArticulation",
+          "summary": "Types final opposite-color rule",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Alright, so let's try this again.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "Re‐starts problem",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Doesn't apply – So A, B, and E...uh...",
+          "open_code": "processingGlobal",
+          "summary": "Identifies lit panels A B E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "God, there's so much going on here.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses overwhelm",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "One, two, three, four, five, six, seven, eight, nine triangles. One, two, three, four, five, six. One, two, three, four, five, six, seven, eight, nine, ten, eleven triangles.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Okay. It's nothing to do with numbers.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects number rule",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Blues uptight. Blues upright blues. Blues not upright.",
+          "open_code": "processingGlobal",
+          "summary": "Notes mixed blue orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So, A and E blues are upright, but B's not.",
+          "open_code": "ruleExclusion",
+          "summary": "Orientation fails because of B",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh.. Reds on the left.",
+          "open_code": "processingGlobal",
+          "summary": "Observes reds positioned left",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Reds on the left. Reds on the left. So that's a possibility because reds are on the left in all of those, but not in any of the others.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates red-left rule idea",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "(10.0) What else could it be? Um. (12.5)",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure; seeks other patterns",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Oh, God. [mumbling] Triangles, standing up...",
+          "open_code": "reflectSelf",
+          "summary": "Frustrated mumbling",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "What's D got? None of – oh, no –because then D's... D's got a triangle... {?} – sorry, F has got a triangle before it. So therefore...",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks D/F for counterexamples",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So what we could say is the most left triangle standing up is red.",
+          "open_code": "hypoRevision",
+          "summary": "Refines rule to left upright red",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Well, you could argue that E is got that, it's in line with it.",
+          "open_code": "decisionConfirm",
+          "summary": "Finds E supports rule",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So therefore... Yeah. So this left triangle standing up is red... – C is on its side.",
+          "open_code": "ruleArticulation",
+          "summary": "States rule; notes C exception",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "[TYPING] Left triangle standing up is red.",
+          "open_code": "ruleArticulation",
+          "summary": "Types final red-left rule",
+          "check": "OK"
+        }
+      ]
+
+]   

@@ -1,0 +1,772 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "So, looking at this image, the first thing that I notice is that panel A has a yellow star, panel E has a yellow star, and panel F has a yellow star in it.",
+          "open_code": "processingGlobal",
+          "summary": "Notes yellow stars in A E F.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "And the next thing that I notice is that panel D has a white star in it, Panel B has a white star in it, and panel C has a white star in it.",
+          "open_code": "processingGlobal",
+          "summary": "Notes white stars in D B C.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Another thing that I notice is that all of these panels in this image contain green cones in them.",
+          "open_code": "processingGlobal",
+          "summary": "Observes every panel has green cones.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "And...I noticed that there's.. one green cone in panel D, and I noticed that there's... three green cones in panel E, two of which are outside of the blue triangle and one of which is inside the blue triangle in panel E. Um, I noticed that there's three green triangles in panel F. I noticed that there's three green triangles in panel C. I noticed that there's four green funnels in panel B. And in panel A I noticed that there's three funnels.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green cones in each panel.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And I'm referring to them as funnels, I sometimes call them triangles as well because I'm referring to the same thing, because to me they look like both triangles and funnels. So that's why I use that term interchangeably.",
+          "open_code": "reflectTask",
+          "summary": "Explains interchangeable terminology."
+        },
+        {
+          "id": 6,
+          "span": "And as far as the rule goes, I am not sure if it has to do with the triangles being inside of another blue triangle because I see that some of the green triangles are inside of the blue triangles.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits rule about triangles inside blue triangle.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "I do notice that there's some red triangles in some of these panels.",
+          "open_code": "processingGlobal",
+          "summary": "Observes presence of red triangles.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 8,
+          "span": "And I do notice that the yellow stars have red triangles in them for the panels that have red triangles in them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes yellow-star panels contain red triangles.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "So, my guess is that the panels which contain red funnels are the panels which have...are the reason why those panels have yellow stars is because they include red triangles in them.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates alternative rule about red funnels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "[TYPING] So I think that the hidden rule is any panel which has a red funnel in it will also have a yellow star in it because as I said, the panels with the red funnels in them all have yellow stars in it...and all of the panels, which don't have a yellow star in it,  don't have red funnels in them.",
+          "open_code": "decisionConfirm",
+          "summary": "States final rule linking red funnels to yellow star."
+        },
+        {
+          "id": 11,
+          "span": "So that would be my guess as to what I think the hidden rule is.",
+          "open_code": "ruleArticulation",
+          "summary": "Confirms chosen hidden rule."
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "So, the first thing that I notice here is that panels A, B, and E have yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies yellow-star panels A B E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "And the next thing that I notice is panels D, F and C have white stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes white-star panels D F C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And I do notice that there are different sized funnels in each of these panels. So, the sizes of the funnels vary.",
+          "open_code": "processingGlobal",
+          "summary": "Observes funnels vary in size",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Um, and I'm just trying to figure out here what exactly could be causing the yellow stars to be appearing in some of these panels in this image.",
+          "open_code": "monitorLowLevel",
+          "summary": "Expresses uncertainty about cause"
+        },
+        {
+          "id": 5,
+          "span": "So, I noticed that there are green triangles and in all of the panels which have yellow stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Observes green triangles in yellow-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "I noticed that there's also blue... at least one blue triangle in each of the panels that have a yellow star in it.",
+          "open_code": "processingGlobal",
+          "summary": "Notes blue triangle present with yellow star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 7,
+          "span": "And I also noticed that the funnels are facing in different directions in some of the panels, as well. So.",
+          "open_code": "processingGlobal",
+          "summary": "Mentions varied funnel orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 8,
+          "span": "I'm trying to figure out here what exactly would be causing the yellow stars to appear in some of these panels.",
+          "open_code": "monitorLowLevel",
+          "summary": "Still unsure about rule cause"
+        },
+        {
+          "id": 9,
+          "span": "So, counting the amount of funnels that are in panel B, there's five funnels in total.",
+          "open_code": "processingLocal",
+          "summary": "Counts five funnels in panel B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "And in panel D, which has a white star, there are five triangles, I believe...yeah, five funnels are in it.",
+          "open_code": "processingLocal",
+          "summary": "Counts five funnels in panel D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "And so I'm not sure if that would be related to it or not.",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure if counts matter"
+        },
+        {
+          "id": 12,
+          "span": "I notice that there are two colors...for each, there's at least two colors or two funnels in each of the panels that have the same color to them.",
+          "open_code": "processingGlobal",
+          "summary": "Observes repeated colors within panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "So, I'm not exactly sure...what the hidden rule would be here.",
+          "open_code": "reflectUncertainty",
+          "summary": "States not sure of rule yet"
+        },
+        {
+          "id": 14,
+          "span": "I still have to think about it because this one's kind of confusing to me in regards to figuring out what exactly is causing it to happen.",
+          "open_code": "reflectSelf",
+          "summary": "Comments on puzzle difficulty"
+        },
+        {
+          "id": 15,
+          "span": "So, I'm just going to have to think about it before I make my guess, because I still don't know yet.",
+          "open_code": "reflectSelf",
+          "summary": "Plans further thinking before guess"
+        },
+        {
+          "id": 16,
+          "span": "(7.5) I do notice that there's smaller funnels included in these images.",
+          "open_code": "processingGlobal",
+          "summary": "Notes presence of smaller funnels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 17,
+          "span": "(8.0) Okay, I'm gonna make my guess here, as soon as I figure out...what exactly I can infer from this image.",
+          "open_code": "reflectSelf",
+          "summary": "States plan to form guess soon"
+        },
+        {
+          "id": 18,
+          "span": "(20.0) So, I still am not sure what to guess here. I'm still thinking about this because I'm not sure what I could guess here, as of right now. I'm still trying to think about it.",
+          "open_code": "reflectUncertainty",
+          "summary": "Continues expressing uncertainty"
+        },
+        {
+          "id": 19,
+          "span": "(20.0) Okay, I'm gonna make the guess. Okay. [TYPING] ...Have a yellow star if a panel has... [THINKING] No, I still need to think about it. (8.0)",
+          "open_code": "monitorLowLevel",
+          "summary": "Starts then pauses tentative rule"
+        },
+        {
+          "id": 20,
+          "span": "Because I noticed that there's a blue small funnel and a green small funnel in panel E.",
+          "open_code": "processingLocal",
+          "summary": "Observes small blue and green in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "Green. Blue. Green. Blue. Green. Blue.",
+          "open_code": "processingGlobal",
+          "summary": "Mentally checks colors across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 22,
+          "span": "Okay, I think I figured it out. What I'm going to guess.",
+          "open_code": "monitorHighLevel",
+          "summary": "Claims to have figured rule"
+        },
+        {
+          "id": 23,
+          "span": "Panel will have a yellow star if a panel has at least one small green funnel and one small blue funnel in it.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule about small green & blue"
+        },
+        {
+          "id": 24,
+          "span": "One small green, one small blue. One small green. One small blue. One small blue. One small green.",
+          "open_code": "re-confirmObservations",
+          "summary": "Rapid check of rule across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 25,
+          "span": "Okay, that is going to be my guess for this hidden rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms chosen rule as final guess"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so, first thing I notice here is that panels D, B, and E all have white stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies white-star panels D B E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "And the next thing I noticed is that panels A, C, and F have yellow stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes yellow-star panels A C F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And the next thing that I notice here is that there's funnels in all of these panels which are– which vary in different sizes.",
+          "open_code": "processingGlobal",
+          "summary": "Observes funnel size variation overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "I noticed that there's blue funnels, red funnels, green funnels in this image.",
+          "open_code": "processingLocal",
+          "summary": "Notes presence of blue red green funnels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And I think... yeah, all of these panels have green, blue and red colored funnels in them, from what I can see here.",
+          "open_code": "processingGlobal",
+          "summary": "Confirms all panels contain three colours",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And I notice that the triangles are facing upwards. Some of them are in panel E.",
+          "open_code": "processingLocal",
+          "summary": "Observes upward-facing triangles orientation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 7,
+          "span": "And... I noticed that there's two blue funnels in panel A, two blue funnels in panel C, and two blue funnels in panel F, which are facing either in the right direction or the left direction.",
+          "open_code": "processingGlobal",
+          "summary": "Counts two side-facing blue funnels in A C F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "And I notice that the panels with a white star in them, such as panels D, E and B, they have... well, panel E has one blue funnel in it which is facing to the right. And then panel D has a blue funnel in it which is diagonal facing, one of them is facing diagonal. And then panel E has a blue funnel in it which is facing left.",
+          "open_code": "processingGlobal",
+          "summary": "Observes blue funnel counts/orientations in white-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "But I also notice that the panels with the yellow stars in them all have at least two small funnels in them that are either facing left or right.",
+          "open_code": "processingGlobal",
+          "summary": "Notes yellow-star panels share ≥2 side-facing funnels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So, I think...that's what I will base what the hidden rule one for this one is.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule based on that pattern"
+        },
+        {
+          "id": 11,
+          "span": "[TYPING] Not small, just two blue funnels any size.",
+          "open_code": "hypoRevision",
+          "summary": "Revises rule removing size condition"
+        },
+        {
+          "id": 12,
+          "span": "I think the hidden rule is that a panel will have a yellow star in it if there are at least two blue funnels in it, which are facing in either the left or right direction.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule about two side-facing blue funnels"
+        },
+        {
+          "id": 13,
+          "span": "Yeah.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms chosen rule"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "So, the first thing that I notice here is that panels B, D and E have...they have white stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies white-star panels B D E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "And the next thing I noticed is that panels A, C and F have yellow stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes yellow-star panels A C F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And another thing I'm noticing here is that...all of these panels have different colored funnels in them, being green, red and blue.",
+          "open_code": "processingGlobal",
+          "summary": "Observes all panels contain three colours",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "And I'm trying to spot what the differences are between the panels with the white stars and the panels with the yellow stars.",
+          "open_code": "planningBasicComparison",
+          "summary": "Plans to compare white- vs yellow-star panels",
+          "lenses": {
+            "planningLevel": "level 1"
+                    }
+        },
+        {
+          "id": 5,
+          "span": "Um, I do notice that... there are some funnels that are facing different directions than just facing straight upwards.",
+          "open_code": "processingGlobal",
+          "summary": "Notes varied funnel orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "So, I notice that there's two blue funnels, two red funnels in panel A, I noticed that there's two red funnels and three blue funnels in panel C. So two, two –or two, three, two would be red, blue green here, two reds, three blues, two greens. And then panel A has two blues, three greens, two reds. Panel D has three blues, two reds and two greens. Panel E has three blues, one red and one green. Panel B has two blues, three greens and one red. So, panel F has two blues, three reds and two greens.",
+          "open_code": "processingGlobal",
+          "summary": "Enumerates colour counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So I'm going to have to think about this one because I'm not sure as of yet when I'm going to guess the hidden rule is. I'm still unsure of what to guess here.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty; needs more thought"
+        },
+        {
+          "id": 8,
+          "span": "Um… Right, left...panel A there's a right facing funnel and a left facing funnel. Right facing funnel and left facing funnel on panel C.",
+          "open_code": "processingGlobal",
+          "summary": "Observes right+left funnels in A and C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim" 
+          }
+        },
+        {
+          "id": 9,
+          "span": "Oh, but there's a panel with the white star that has a right and left facing funnel, as well.",
+          "open_code": "ruleExclusion",
+          "summary": "Finds counterexample to orientation idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Um... so, there are two small funnels in A. two small funnels in C. And two small funnels in F.",
+          "open_code": "processingGlobal",
+          "summary": "Notes two small funnels in yellow-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So, I'm going to guess that... [TYPING] I think that the hidden rule is that a panel will have a yellow star in it if there are at least two of the smallest size funnels in it.",
+          "open_code": "ruleGuess",
+          "summary": "States rule: ≥2 smallest funnels → yellow star"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, so, the first thing that I notice here about this image is that there are funnels in it of various colors in each of these panels in this image, such as red funnels, blue funnels, and green funnels.",
+          "open_code": "processingGlobal",
+          "summary": "Notes coloured funnels across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "The next thing that I notice is that panels A, B and E have yellow stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies yellow-star panels A B E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And the next thing I notice is that panels D, C, and F have white stars in them.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies white-star panels D C F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "And I'm trying to think here exactly of what the rule could be...the hidden rule.",
+          "open_code": "monitorLowLevel",
+          "summary": "Uncertain about hidden rule"
+        },
+        {
+          "id": 5,
+          "span": "So, I notice that the funnels in... panel A... I noticed that there's four upwards facing funnels in that one.",
+          "open_code": "processingLocal",
+          "summary": "Counts four upward funnels in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And I notice in panel C there's two right facing funnels and two left facing funnels.",
+          "open_code": "processingLocal",
+          "summary": "Notes two left two right funnels in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Um, I notice, in panel D, there's a right facing– there's two right facing funnels. Actually, I think there's three, from what I can see. So, three right facing funnels and one left facing funnel.",
+          "open_code": "processingLocal",
+          "summary": "Corrects count for D; three right one left",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Let me think here.",
+          "open_code": "reflectSelf",
+          "summary": "Pauses to think"
+        },
+        {
+          "id": 9,
+          "span": "I notice in panel E there's one, two three, four, five small triangles. I notice in panel B that there's three red triangles. Three red funnels. Um... two...one right facing funnel in panel B. One red facing funnel in panel E. One red facing funnel in panel A.",
+          "open_code": "processingGlobal",
+          "summary": "Enumerates counts and orientations across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "I noticed that there's an upward green funnel in E. There's an upward red funnel in E. There's an upward red funnel in panel B. I noticed that there's a...downwards facing blue funnel in E.",
+          "open_code": "processingGlobal",
+          "summary": "Enumerates counts and orientations across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So, I'm going to have to think here.",
+          "open_code": "reflectUncertainty",
+          "summary": "Needs more thought about rule"
+        },
+        {
+          "id": 12,
+          "span": "Now, this one is tough because there's a lot going on here in each of these panels, so I have to think a little bit more here about what exactly I think it could be, because there's a lot of different facing funnels and of various sizes.",
+          "open_code": "monitorLowLevel",
+          "summary": "Remarks on   complexity"
+        },
+        {
+          "id": 13,
+          "span": "There's a lot more going on, in my opinion, in this image here, compared to the last ones. At least with the amount of different directions, it seems to me like there's just a lot more things going on in general. A lot like, uh, different aspects of this image.",
+          "open_code": "reflectTask",
+          "summary": "Remarks on puzzle complexity",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So, I'm trying to think. Right facing red...left facing red in panel B. Right facing green in panel B. Right facing blue in panel B. Small right facing blue.",
+          "open_code": "processingLocal",
+          "summary": "Lists orientations within panel B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Oh, I think I figured it out.",
+          "open_code": "monitorHighLevel",
+          "summary": "Believes pattern found"
+        },
+        {
+          "id": 16,
+          "span": "There's small right facing blue funnels in panels A, B and E.",
+          "open_code": "hypoGeneration",
+          "summary": "Observes small right-facing blue in A B E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "Oh, but there's also a small right facing blue funnel in panel D, as well, so I don't think it could be that.",
+          "open_code": "decisionReject",
+          "summary": "Finds counterexample; rejects idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 18,
+          "span": "Right-facing... (6.0) Upwards.... (8.0) Three red, two green, one blue in panel B.",
+          "open_code": "processingLocal",
+          "summary": "Notes colour counts in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "(57.0) So... this one's got me thinking really hard because I'm not exactly sure as to what the rule here would be as of right now, so I'm still thinking about it.",
+          "open_code": "monitorLowLevel",
+          "summary": "Admits still unsure of rule"
+        },
+        {
+          "id": 20,
+          "span": "(25.0) There's a...right-facing green funnel in A. There's a right-facing blue funnel in B.",
+          "open_code": "processingGlobal",
+          "summary": "Observes additional right-facing funnels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "(10.0) Uh, upwards... (10.0) Facing... (10.0) Two... Um...yeah. I'm not sure.",
+          "open_code": "reflectUncertainty",
+          "summary": "Mumbles; reiterates uncertainty"
+        },
+        {
+          "id": 22,
+          "span": "This one's a lot more difficult than I thought it would be.",
+          "open_code": "reflectTask",
+          "summary": "Comments on unexpected difficulty"
+        },
+        {
+          "id": 23,
+          "span": "There's three large funnels in panel C.",
+          "open_code": "processingLocal",
+          "summary": "Notes three large funnels in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 24,
+          "span": "At least three upwards, facing in panel E.",
+          "open_code": "processingLocal",
+          "summary": "Observes ≥3 upward funnels in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 25,
+          "span": "No, I don't think it could be that either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects current possibility"
+        },
+        {
+          "id": 26,
+          "span": "Two downward facing in E.",
+          "open_code": "processingLocal",
+          "summary": "Counts two downward funnels in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 27,
+          "span": "Two downward facing in B.",
+          "open_code": "processingLocal",
+          "summary": "Counts two downward funnels in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 28,
+          "span": "Yeah, that's what I'm gonna guess is that... [TYPING] I think the hidden rule is that there must be two downward facing funnels in a panel for a panel to contain a yellow star in it.",
+          "open_code": "ruleGuess",
+          "summary": "States final rule: ≥2 downward funnels"
+        }
+      ]
+
+]   

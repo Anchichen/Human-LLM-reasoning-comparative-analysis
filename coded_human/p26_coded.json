@@ -1,0 +1,1387 @@
+[
+  [{"Title": "scene1"
+    },
+    {
+      "id": 1,
+      "span": "Okay. Let's see the first one.",
+      "open_code": "planningExplorative",
+      "summary": "Begins examining puzzle.",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So we've got three lit up, panels A, E and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "All three of them have an upright blue cone.",
+      "open_code": "processingGlobal",
+      "summary": "Notes common upright blue cones.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "and each of those blue cones has a green cone, uh, underneath it. So the blue one is on top of the green, it seems.",
+      "open_code": "processingGlobal",
+      "summary": "Observes blue-over-green stacking.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So A, E and F, they all have blue on top of green, stacked.",
+      "open_code": "processingGlobal",
+      "summary": "Restates stacked feature.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "A and F are – don't fully cover the green, while E does.",
+      "open_code": "processingGlobal",
+      "summary": "Notes coverage difference among stars.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "I'm not sure if that matters.",
+      "open_code": "reflectUncertainty",
+      "summary": "Unsure significance of difference.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "Okay, but B also has blue on top of green",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds unlit panel matches feature.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "but then it has cones laying on their sides.",
+      "open_code": "processingLocal",
+      "summary": "Notes sideways cones in B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "C also has cones laying on their sides because A does not.",
+      "open_code": "processingGlobal",
+      "summary": "Compares sideways cones across C and A.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "It [A] has an upside down one, but not on its side.",
+      "open_code": "processingLocal",
+      "summary": "Observes upside-down cone in A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "D has one on its side...kind of.",
+      "open_code": "processingLocal",
+      "summary": "Notes D also has sideways cone.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "No, E and F...or E also has one on its side, so that might not be it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects sideways-cone hypothesis.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "Mm. (5.5) Oh, I see now, okay.",
+      "open_code": "reflectSelf",
+      "summary": "Expresses sudden insight.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "A, E, and F also have red cones or red triangles, and none of the unlit stars have any red.",
+      "open_code": "processingGlobal",
+      "summary": "Observes red cones only in starred panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So I would imagine that is probably the solution.",
+      "open_code": "hypoGeneration",
+      "summary": "Posits red-cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "And there's only three colors: green, blue and red.",
+      "open_code": "processingGlobal",
+      "summary": "Lists available colors.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "And that seems to be what sticks out the most, is the use of red triangles.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms red feature as key.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "If it has a red cone in it, then it is a lit up star.",
+      "open_code": "ruleArticulation",
+      "summary": "States red-cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene2"
+    },
+    {
+      "id": 1,
+      "span": "Okay. Let's see.",
+      "open_code": "planningExplorative",
+      "summary": "Begins examining puzzle.",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Panels. A, B and E are lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "E does not have red while the other two do.",
+      "open_code": "processingGlobal",
+      "summary": "Notes red present only in A,B.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Actually, E's the only one that doesn't have red, so that doesn't matter.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-presence rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Then let's see A has two green.",
+      "open_code": "processingLocal",
+      "summary": "Observes two greens in A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "B has two green.",
+      "open_code": "processingLocal",
+      "summary": "Notes two greens in B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Actually, I know E has three green.",
+      "open_code": "processingLocal",
+      "summary": "Counts three greens in E.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-count rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "It's not the number of blue because that's different as well for–between A and B....and...one red with two green, three",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses blue-count idea.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Let's see what's different about A, B and E.",
+      "open_code": "planningBasicComparison",
+      "summary": "Plans to compare stars.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "One, two, three, four, five...One, two, three, four, five...One, two, three, four, five.",
+      "open_code": "processingGlobal",
+      "summary": "Counts five triangles per panel.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "It's not the number of triangles because they all have five, looks like.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects triangle-count rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Goodness, this is a tough one.",
+      "open_code": "reflectTask",
+      "summary": "Remarks on difficulty.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "Hm green's on the outside perimeter.",
+      "open_code": "processingGlobal",
+      "summary": "Notices greens at perimeter.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "[sighs] No, that's not it either.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses perimeter idea.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "Hm. I thought that maybe if green was on the very outside of the panel, that means it's lit up, but that's not true.",
+      "open_code": "ruleExclusion",
+      "summary": "Explains rejected perimeter rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Okay, E has...E has two tilted blue triangles, and A also has one, but B doesn't have a tilted one at all.",
+      "open_code": "processingGlobal",
+      "summary": "Compares tilted blue triangles.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "Maybe it's the size?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers size-based rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "Oh, yeah, that's it.",
+      "open_code": "decisionConfirm",
+      "summary": "Expresses confidence in size rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Maybe it's the size of the green one and that it's standing upright.",
+      "open_code": "hypoGeneration",
+      "summary": "Details tentative size–upright rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "So it's if it's a bigger green one and a bigger green triangle and it's standing upright, then that allows it.",
+      "open_code": "ruleArticulation",
+      "summary": "States size-upright green rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene3"
+    },
+    {
+      "id": 1,
+      "span": "Panels A, C, and F are all lit up stars.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "One, two, three, four... and they all have...one, two...so everything has five triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Counts five triangles each.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Um, it seems like–nope. Panel C has two–three triangles, whereas the other ones have one, only.",
+      "open_code": "processingLocal",
+      "summary": "Notes mismatch in some count.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "And they all have some triangles that are tilted. All of them are tilted.",
+      "open_code": "processingGlobal",
+      "summary": "Observes presence of tilted triangles.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Panel A has two reds but Panel C only has one.",
+      "open_code": "processingLocal",
+      "summary": "Compares red counts A vs C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Panel A has two blues.",
+      "open_code": "processingLocal",
+      "summary": "Notes two blues in A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "So do C and F, but panels B and D also have two blues, so that can't be it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects blue-count hypothesis.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "A has one upright green. C has an upright green. F does not have an upright green. So that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses upright-green idea.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "How about tilted blues?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers tilted-blue rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "One, two tilted blues in A. Two tilted blues in C. Two tilted blues in F.",
+      "open_code": "processingGlobal",
+      "summary": "Counts tilted blues in stars.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "But let's see...there's only one tilted blue in B.",
+      "open_code": "processingLocal",
+      "summary": "Finds counterexample in B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "By tilted I mean laying on their side.",
+      "open_code": "otherEmergent_clarifyTerm",
+      "summary": "Clarifies meaning of tilted.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Yeah, I think that's it.",
+      "open_code": "decisionConfirm",
+      "summary": "Expresses confidence in rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "Having two blue triangles on their side. Rather than any other positioning.",
+      "open_code": "ruleArticulation",
+      "summary": "States two-sideways-blue rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Okay. So that seems okay.",
+      "open_code": "monitorHighLevel",
+      "summary": "Evaluates rule sufficiency.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "But let's see if there's anything else.",
+      "open_code": "planningExplorative",
+      "summary": "Continues searching for patterns.",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "It's not the number of green.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-count idea.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "It's not anything about stacking on top of each other.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects stacking hypothesis.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "Yeah, I think it is...two blues on their side.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates final sideways-blue rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Panel A, Panel C, and Panel F.",
+      "open_code": "processingGlobal",
+      "summary": "Lists starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Let us start with counting.",
+      "open_code": "planningStrategic",
+      "summary": "Proposes counting strategy",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "A has two blue.",
+      "open_code": "processingLocal",
+      "summary": "Observes two blues in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "C has three blues, so that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects blue-count idea",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "A has one, two, three green,",
+      "open_code": "processingLocal",
+      "summary": "Counts three greens in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "but there's only two green in C,",
+      "open_code": "processingLocal",
+      "summary": "Notes two greens in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "so that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-count idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "A has two red.",
+      "open_code": "processingLocal",
+      "summary": "Observes two reds in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "C has two red.",
+      "open_code": "processingLocal",
+      "summary": "Observes two reds in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "But F has three red.",
+      "open_code": "processingLocal",
+      "summary": "Notes three reds in F",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "All right, let's look at orientation.",
+      "open_code": "modifyPlan",
+      "summary": "Shifts focus to orientation",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "How many upright triangles are there?",
+      "open_code": "planningStrategic",
+      "summary": "Plans to count upright cones",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "One, two, three, four, five in A.",
+      "open_code": "processingLocal",
+      "summary": "Counts five upright in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "And one, two, three, four in C.",
+      "open_code": "processingLocal",
+      "summary": "Counts four upright in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects upright-count idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "It's two upright ones...two upright red ones in A.",
+      "open_code": "processingLocal",
+      "summary": "Notes two upright reds in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "That's not true for either of the other two [panels C and F].",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses upright-red idea",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "One upright blue one.",
+      "open_code": "processingLocal",
+      "summary": "Observes upright blue in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "Three upright for C.",
+      "open_code": "processingLocal",
+      "summary": "Notes three upright blues in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Nope.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects current idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "Two upright green ones.",
+      "open_code": "processingLocal",
+      "summary": "Observes two upright greens in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "Only one in C.",
+      "open_code": "processingLocal",
+      "summary": "Notes one upright green in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "So that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects upright-green idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 24,
+      "span": "Let's see.",
+      "open_code": "planningExplorative",
+      "summary": "Pauses to think further",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 25,
+      "span": "Different colors.",
+      "open_code": "modifyPlan",
+      "summary": "Shifts to color mix idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 26,
+      "span": "So I'm looking at if one is on its side on top of another one on its side.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes side-stacking rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 27,
+      "span": "So A has that.",
+      "open_code": "processingLocal",
+      "summary": "Confirms pattern in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 28,
+      "span": "C has that with two reds, {?} mostly.",
+      "open_code": "processingLocal",
+      "summary": "Notes pattern with reds in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 29,
+      "span": "F has that with two reds as well.",
+      "open_code": "processingLocal",
+      "summary": "Observes same pattern in F",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 30,
+      "span": "B b does not have that.",
+      "open_code": "counterExampleSearch",
+      "summary": "Notes absence in B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 31,
+      "span": "E does not have that.",
+      "open_code": "counterExampleSearch",
+      "summary": "Notes absence in E",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 32,
+      "span": "D does have that.",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds pattern in D (non-star)",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 33,
+      "span": "What makes it different?",
+      "open_code": "reflectUncertainty",
+      "summary": "Questions discrepancy",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 34,
+      "span": "Because it's...no...it's not because it's two of the same color.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects same-color variant",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 35,
+      "span": "So that's not it either.",
+      "open_code": "ruleExclusion",
+      "summary": "Confirms rule invalid",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 36,
+      "span": "Maybe it has to be...It can't just be two blues?",
+      "open_code": "hypoAlternative",
+      "summary": "Considers two-blue variant",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 37,
+      "span": "I feel like that's a pretty...pretty broad parameter but...",
+      "open_code": "monitorHighLevel",
+      "summary": "Evaluates breadth of idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 38,
+      "span": "it's two triangles laying on top of each other that are on their sides, but it can't be two blues.",
+      "open_code": "hypoRevision",
+      "summary": "Refines side-stack rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 39,
+      "span": "Hm.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses hesitation",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 40,
+      "span": "Or maybe...no...",
+      "open_code": "reflectUncertainty",
+      "summary": "Abandons thought mid-way",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 41,
+      "span": "Has one cone that's by itself? Maybe?",
+      "open_code": "hypoAlternative",
+      "summary": "Proposes lone-cone rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 42,
+      "span": "...No.",
+      "open_code": "decisionReject",
+      "summary": "Rejects lone-cone idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene5"
+    },
+    {
+      "id": 1,
+      "span": "Panel A, B, and E have lit up stars",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "–oh, there's a lot more triangles now.",
+      "open_code": "reflectTask",
+      "summary": "Notes increased complexity",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "One, two, three, four, five, six, seven, eight, nine.",
+      "open_code": "processingLocal",
+      "summary": "Counts total triangles",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Okay, so let's count with the number of reds, first.",
+      "open_code": "planningStrategic",
+      "summary": "Plans red-count test",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "One, two, three, four for A.",
+      "open_code": "processingLocal",
+      "summary": "Counts four reds in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Three for B,",
+      "open_code": "processingLocal",
+      "summary": "Counts three reds in B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "so that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-count idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "Uh, one, two, three blue...",
+      "open_code": "processingLocal",
+      "summary": "Counts blues (panel A)",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "One blue for panel B.",
+      "open_code": "processingLocal",
+      "summary": "Counts one blue in B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "That's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects blue-count idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Two greens for A, two greens for B. Two greens for E.",
+      "open_code": "processingGlobal",
+      "summary": "Observes two greens in stars",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "And that checks out all the lit up stars.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms green-count fits stars",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Panels A, B and E all have only two green ones.",
+      "open_code": "processingGlobal",
+      "summary": "Restates two-green observation",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "And all the other unlit panels have more than two.",
+      "open_code": "processingGlobal",
+      "summary": "Notes contrast in non-stars",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So that checks out.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms green-count rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "But as time is going on, let me try to find some other reasoning.",
+      "open_code": "monitorHighLevel",
+      "summary": "Seeks alternative rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Uh, Panel A has two red triangles on its side.",
+      "open_code": "processingLocal",
+      "summary": "Notes two side red in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "Panel B has two red triangles on the side.",
+      "open_code": "processingLocal",
+      "summary": "Notes two side red in B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "Panel E has two red triangles on its side, as well.",
+      "open_code": "processingLocal",
+      "summary": "Notes two side red in E",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Let's see...C also has two red triangles on its side,",
+      "open_code": "processingLocal",
+      "summary": "Finds same in C (non-star)",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "so that's not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects side-red idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "Panel A has one blue triangle standing upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright blue in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "Oh, wait, that doesn't... that doesn't apply, never mind.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses upright-blue idea",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 24,
+      "span": "Oh Goodness. I already kind of forgot.",
+      "open_code": "memoryLoss",
+      "summary": "Forgets earlier finding",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 25,
+      "span": "Oh, yeah. It's the green triangles.",
+      "open_code": "memoryRegain",
+      "summary": "Recalls green-count rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 26,
+      "span": "Yeah. Two green, two green and two green. All for Panels A, B and E.",
+      "open_code": "processingGlobal",
+      "summary": "Repeats two-green evidence",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 27,
+      "span": "So that's the only thing that's standing out to me.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms rule uniqueness",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 28,
+      "span": "Yeah. Two green.",
+      "open_code": "ruleArticulation",
+      "summary": "States final two-green rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ]
+]

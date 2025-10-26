@@ -1,0 +1,749 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so I see there are three panels that have yellow stars, A, E and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A they all have red, blue and green triangles.",
+          "open_code": "processingGlobal",
+          "summary": "Notes colors in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Some of them are standing upright. Um, some are upside down. Um, and there are some tilted.",
+          "open_code": "processingGlobal",
+          "summary": "Observes varied orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I think based on first impression, the rule could be that...um...there has to be a red triangle to be one of the panels of the yellow star,",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes red-triangle rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "because the other three panels, B, C, and D, none of them have red triangles, they only have blue and green. Um. They only have blue and green.",
+          "open_code": "processingGlobal",
+          "summary": "Cites absence of red as support",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, I'm thinking maybe there could be something to do with the number of triangles in each panel, but I'm not sure.",
+          "open_code": "hypoAlternative",
+          "summary": "Considers number-based rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Like A has one and then it has two stacked on top of each other...which...I mean, all the other panels have that actually.",
+          "open_code": "processingLocal",
+          "summary": "Describes stacking arrangement",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "But does that count as like two triangles or is one? I'm going to count it as like two.",
+          "open_code": "reflectUncertainty",
+          "summary": "Questions counting method",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "One, two, three, four…seven.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "So A has seven panels [cones] and B only has five.",
+          "open_code": "processingGlobal",
+          "summary": "Compares counts A vs B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "And if I look at E which also has a yellow star, like A, is one, two, three, four, five...six, if I'm counting the blue that's on top of the green.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Um, yeah. I'm still thinking it's the color.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms color hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so Panels A, B and E have the yellow star.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has two green triangles and two blue ones, and one red.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "B has two red, one green…wait, two red, two green, and one blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts and corrects B colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And then E has three green and two blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And so immediately I'm thinking maybe it has something to do with the number of panels [cones] because they all have five.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes number-of-cones rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But now I'm looking at C and I'm not sure if that's the case because C also has five.",
+          "open_code": "ruleExclusion",
+          "summary": "Finds C contradicts count rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um C has two red, one blue, two green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, it's the same as the previous– it's the same color combinations as the previous one.",
+          "open_code": "processingGlobal",
+          "summary": "Notes color combo similarity",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Then D has two red two green one blue and F has one green, two blue and two red.",
+          "open_code": "processingGlobal",
+          "summary": "Observes color counts in D and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um, maybe it's something to do with the way they're tilted, although none of them overlap really.",
+          "open_code": "hypoAlternative",
+          "summary": "Considers tilt/overlap rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "But they are in C and D, but that doesn't really work for F because they're not…like in D there's like a red triangle in a green one, and in C there's a red triangle in a green one, but in F that's not the case.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects overlap rule using F",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Um. Like there are some next to each other in A and E, but they're not, like, inside each other.",
+          "open_code": "processingGlobal",
+          "summary": "Notes adjacency vs inside",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, but I think that's my best guess because I'm not sure what else it would be.",
+          "open_code": "ruleGuess",
+          "summary": "Settles on tentative guess",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. A, C and F are highlighted in yellow,",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A has two blue, two red, one green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "C has…three green? I mean there's like one on top of another one. Two blue and one red.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in C with doubt",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And then F has two red, two blue, and one green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And they all have like triangles tilted to the side. And they have ones…Yeah, they all have ones tilted to the side.",
+          "open_code": "processingGlobal",
+          "summary": "Observes side-tilted triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, in both…no... In both directions? Yeah, in both directions.",
+          "open_code": "processingGlobal",
+          "summary": "Notes tilt in both directions",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Like in A, there's a green triangle facing the right. Like the point is going right and the blue and it has one going pointing left.",
+          "open_code": "processingLocal",
+          "summary": "Details A’s opposite tilts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And then in C there's like a blue one pointing left…or two blues pointing left and one pointing right.",
+          "open_code": "processingLocal",
+          "summary": "Details C’s opposite tilts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "And in F there's…oh wait no, maybe because…oh wait no there is! Like because there's red and blue pointing left…no, right, and then blue and green pointing the opposite direction.",
+          "open_code": "monitorLowLevel",
+          "summary": "Self-corrects while describing F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Whereas in the other…there's blue and green pointing left and red and blue pointing right…whereas in the other three triangles, although they're tilted on the side, they're all…like they are all pointing...like the top of the triangle is facing the same direction.",
+          "open_code": "processingGlobal",
+          "summary": "Compares starred vs others’ tilt",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "How many? One. Two. Three. Four. Five…",
+          "open_code": "processingLocal",
+          "summary": "Begins counting items",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. A, C and F are highlighted.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, A has two blue, three green and two red.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "C has two red, three blue, if I'm counting those that are stacked, and two green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And F has one green, three red (counting those that are stacked), two blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And immediately I'm kind of thinking that the rule must be that if there are triangles that are stacked, they need to be…like…I think the rule is having two triangle stacks that are of different colors,",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes different-color stacking rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "because in A there's a red stacked on top of a green, and in C there's a blue one and stacked on top of a green, and in F there's a red stacked on top of a blue.",
+          "open_code": "processingGlobal",
+          "summary": "Cites evidence from starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "But in other ones where they're stacked like an E, there's a blue stacked on top of a blue, but the blue isn't highlighted. Um, so it doesn't apply to the rule.",
+          "open_code": "counterExampleSearch",
+          "summary": "Uses non-star panel as counterexample",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, I'm immediately, immediately. That's my first thought in what the rule could be.",
+          "open_code": "reflectSelf",
+          "summary": "Remarks this is first idea",
+          "lenses": {
+          "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um, I'm looking at the colors of each, but there isn't really an even breakdown.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects even-color breakdown rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Or maybe it has to do with the number",
+          "open_code": "hypoAlternative",
+          "summary": "Considers number-based rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "One, two, three, four, five, six seven…so A has seven triangles.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "One, two, three, four, five, six, seven… C also has seven triangles.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "One, two, three, four, five, six seven triangles…F has seven triangles.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "But then D, which doesn't apply to the rule, also has seven triangles.",
+          "open_code": "ruleExclusion",
+          "summary": "Finds D contradicts number rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So that's making me think it's to do with the stacking.",
+          "open_code": "decisionConfirm",
+          "summary": "Returns to stacking hypothesis",
+          "lenses": {
+          "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Um…yeah, I think it's to do with the stacking.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms stacking rule again",
+          "lenses": {
+          "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, so A, B and E are highlighted,",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A has a red triangle and then a red on top of the blue, a green, red, blue, blue, red, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "And then B has three red, two green, and one blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And then E has two…three...five red, two green and four blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And in A it's four red, three green, two…no, three blue, two green.",
+          "open_code": "monitorLowLevel",
+          "summary": "Self-corrects A counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "And so, I think maybe the rule is that there is two green triangles.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two-green rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Because in the other panels, the ones that don't apply to the rule, they all have more than two green triangles.",
+          "open_code": "processingGlobal",
+          "summary": "Notes non-star excess greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Like C has three, D has four and F has like five.",
+          "open_code": "processingGlobal",
+          "summary": "Lists greens in non-stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um. I'm looking at the way that they're, like, tilted,",
+          "open_code": "hypoAlternative",
+          "summary": "Considers tilt feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "but they all kind of, even the ones that don't apply to the rule, have tilted triangles.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilt as rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um, or it could be the size? Like how many little triangles there are?",
+          "open_code": "hypoAlternative",
+          "summary": "Considers size/count rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Like…A and B both have two little triangles, but then E has four.",
+          "open_code": "processingGlobal",
+          "summary": "Observes small-triangle counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "And then F and D also have a little…like F has three. D has three.",
+          "open_code": "processingGlobal",
+          "summary": "Continues small-triangle counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So, I don't really think that one is the rule.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses size rule",
+          "lenses": {
+          "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "I think it's still my first guess that there's two green triangles.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms two-green rule",
+          "lenses": {
+          "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

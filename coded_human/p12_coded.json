@@ -1,0 +1,634 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. Um… Panel A has, um, there are quite a number of cones.",
+          "open_code": "processingLocal",
+          "summary": "Notes many cones in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "On the top-right corner, it has a yellow star.",
+          "open_code": "processingLocal",
+          "summary": "Points out star on panel A",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 3,
+          "span": "So those E and F and two…",
+          "open_code": "processingGlobal",
+          "summary": "Begins listing other starred panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 4,
+          "span": "Um, uh, panel E has, like, one, two, three, four, five, six, seven — seven cones on the bottom.",
+          "open_code": "processingLocal",
+          "summary": "Counts seven cones in panel E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "B has one, two, three, four, five — five cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts five cones in panel B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "C has one, two, three, four, five, six — six cones, okay.",
+          "open_code": "processingLocal",
+          "summary": "Counts six cones in panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "D has five cones.",
+          "open_code": "processingLocal",
+          "summary": "States panel D has five cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Panel E has six cones and um...",
+          "open_code": "processingLocal",
+          "summary": "Updates count for panel E to six",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "panel F, um, has one, one, two, three, four, five, six, seven, eight cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts eight cones in panel F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "But, um...right off the bat, I can see that, um, E and F, like panel E, panel F, they have, um, red cones in them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes red cones present in E and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Red and, well, not simply red cones. Panel A has two red cones. Panel E has one red cone. Panel F has two... two red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Um, but they… Oh, yeah. I think B— panel B, C, D don’t have red cones in them.",
+          "open_code": "processingGlobal",
+          "summary": "Observes non-star panels lack red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "I don’t know if the {?} really matters, but, um, the color of cones… I’m guessing that should be the hidden rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesizes rule: presence of red cones"
+        },
+        {
+          "id": 14,
+          "span": "Okay. So I’m just going to write that down now.",
+          "open_code": "decisionConfirm",
+          "summary": "Decides to record rule guess"
+        },
+        {
+          "id": 15,
+          "span": "Um…[TYPING] Panel A, E, F have red cones in them...at least one red cone...at least one red cone.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: panels need red cone"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. So, for this next one, um, panel A, panel B, and panel E have the stars.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Um… in Panel… in this one… Um, more of them have red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes many red cones present",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "The other colors available are blue and green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Lists other available colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Um. All of them are mixed with, um, these color of cones, so it’s probably not colored cones.",
+          "open_code": "ruleExclusion",
+          "summary": "Excludes color as rule factor",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um… Mm. Okay. Maybe it has to do with the number of cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes number-of-cones rule"
+        },
+        {
+          "id": 6,
+          "span": "So we have five cones in panel A, five cones in panel B, and five… five cones in panel E, okay.",
+          "open_code": "processingGlobal",
+          "summary": "Counts five cones in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "But at the same time, C– panel C, panel F, and panel D also have five cones.",
+          "open_code": "decisionReject",
+          "summary": "Finds non-star panels also have five",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Um, maybe something about position.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests positional rule instead"
+        },
+        {
+          "id": 9,
+          "span": "Um… All green cones are erect in panel A, panel B and panel E, but in C there’s one erect; in F there’s one erect; and in D it’s also erect.",
+          "open_code": "processingGlobal",
+          "summary": "Compares green cone orientation across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Okay. Could it be the spacing...or the distance between each cones?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers spacing as possible rule"
+        },
+        {
+          "id": 11,
+          "span": "No, they’re… they’re practically all different.",
+          "open_code": "decisionReject",
+          "summary": "Rejects spacing hypothesis"
+        },
+        {
+          "id": 12,
+          "span": "This one is a bit more puzzling. Um, I can’t really put my finger on it.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses confusion and difficulty"
+        },
+        {
+          "id": 13,
+          "span": "Mm. Um… I’ll say… I’ll say…[TYPING] Um… Um… I’m not sure. I’m not sure, so I’m not just going to write something for the sake of writing.",
+          "open_code": "ruleGuess",
+          "summary": "Declares inability to state rule"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so the ones with the golden stars are panel A, panel C and panel F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Um… Okay. Panel A... seems to have... — all of them seem to be in sync with their colors: they’re red across all the panels from A to F; likewise blue cones and, um, green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes color sets same across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Right. Uh… What I am noticing right now is that there are two blue cones which, um, lay opposite, like are fallen cones, and, um, in C, there are also two blue fallen cones, and in F there are also two blue fallen cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Observes two fallen blue cones in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Um. Then there are three standing cones in A. Two...okay...three standing cones in C, one cone is actually on top of another, and there is no standing cone in F, whatsoever.",
+          "open_code": "processingGlobal",
+          "summary": "Compares standing cone counts across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "But coming back to my fallen-cones theory: in B, there is one blue and one red fallen cone; in E, there is only one blue fallen cone; and in D... there are three slanted cones and one falling cone, sorry, two slanted cones and one green falling cone.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks non-star panels for fallen blue cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "So if I am to go by my hypothesis, it would probably be the fact that blue cones are totally fallen on A, C and F.",
+          "open_code": "decisionConfirm",
+          "summary": "Proposes rule: blue cones fallen"
+        },
+        {
+          "id": 7,
+          "span": "[TYPING] So that’s what I’ll say: on panels A, C and F, blue cones are falling downwards.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule about fallen blue cones"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay, for the next one, panel A, C and F again are– all contain the golden star.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies panels A,C,F starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Okay. There are quite some… more number of cones just by looking at all the panels, but, um, I’ll take the counts first.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to count cones",
+          "lenses": {
+            "planningLevel": "level 3"
+          }
+        },
+        {
+          "id": 3,
+          "span": "On panel A there are 1-2-3-4-5-6-7, seven cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts seven cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "C, there are 1-2-3-4-5-6-7, seven cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts seven cones in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "F, there are 1-2-3-4-5-6-7, seven cones, okay.",
+          "open_code": "processingLocal",
+          "summary": "Counts seven cones in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "On B, there are 1-2-3-4-5-6, six cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts six cones in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Panel D, there are 1-2-3-4-5-6-7, seven cones; and panel E, there are 1-2-3-4-5, five cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts seven in D, five in E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Um… Panel D seems to have equal number of cones [equal to the starred panels].",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes D shares cone count with stars",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "And, um, it can be number of standing cones because… mm-mm. Okay. I can’t be too sure.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers upright cones rule, uncertain"
+        },
+        {
+          "id": 10,
+          "span": "Panel A has five upright cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts five upright in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Panel C has five upright cones, okay.",
+          "open_code": "processingLocal",
+          "summary": "Counts five upright in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "And panel F has… 1-2-3-4, four upright cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts four upright in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Yikes. Um, hm.",
+          "open_code": "decisionReject",
+          "summary": "realises F invalidates hypothesis"
+        },
+        {
+          "id": 14,
+          "span": "Okay, panel A has two reds, two blues and three greens.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Panel C: two greens, three blues, two reds.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "F: three reds, two blues and two greens.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "Okay, that could be some kind of alternating pattern in the color.",
+          "open_code": "ruleInference",
+          "summary": "Suggests alternating color pattern"
+        },
+        {
+          "id": 18,
+          "span": "Um, I think I’ll go with that.",
+          "open_code": "decisionConfirm",
+          "summary": "Chooses color pattern hypothesis"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] Alternating color in the panels. That is, A has one more green cone. Panel C has one more blue than green and red. Panel F has one more red than blues and greens.",
+          "open_code": "ruleArticulation",
+          "summary": "States final alternating-color rule"
+        },
+        {
+          "id": 20,
+          "span": "Okay. That seems most logical.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms rule as logical",
+          "lenses": {
+            "processingStyle": "Ø",
+            "perspectiveDepth": "0step",
+            "representationGrain": "gist"
+          }
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Um, okay. This particular one… Um, hm. Panel A, panel B and panel E have the star— the yellow star at the top corner.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "There are quite a lot of… quite a number of cones in each of them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes many cones overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel A has 3-4-5-6-7-8, eight cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts eight cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel B: 1-2-3-4-5-6, six cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts six cones in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel E has 1-2-3-4-5-6-7-8-9...wait what...1-2-3-4-5-6-7-8-9-10-11… 11 cones. Wow.",
+          "open_code": "processingLocal",
+          "summary": "Counts eleven cones in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Okay. Maybe it’s something with the colors.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers color-based rule"
+        },
+        {
+          "id": 7,
+          "span": "Panel A has three blue cones; panel B has one; E has four.",
+          "open_code": "processingGlobal",
+          "summary": "Observes blue cone counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "For the green, panel A has two, panel B has two, and panel E has two.",
+          "open_code": "processingGlobal",
+          "summary": "Observes green cone counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Okay. Okay. So despite the difference in the number of cones that A, B and E have, they have the same number of green cones.",
+          "open_code": "hypoRevision",
+          "summary": "Proposes rule: identical green count"
+        },
+        {
+          "id": 10,
+          "span": "Well, how about red? A has four red cones. B has three red cones and E has five red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes red cone counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Okay. So it’s kind of progressive: E having 5, A having 4, and B having 3.",
+          "open_code": "processingGlobal",
+          "summary": "Notes progressive red counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 12,
+          "span": "But C has 2, F has 4 and D has 2, okay.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks red counts in non-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "A has four… So I’m guessing that doesn’t check out.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-count hypothesis",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Um, most logically, I’ll say it’s the green cones, because they each have two green cones.",
+          "open_code": "decisionConfirm",
+          "summary": "Chooses green-count rule"
+        },
+        {
+          "id": 15,
+          "span": "[TYPING] Panels A, B and E each has two green cones. That’s the most logical.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: two green cones"
+        }
+      ]
+
+]

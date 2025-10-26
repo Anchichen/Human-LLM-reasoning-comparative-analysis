@@ -1,0 +1,621 @@
+[
+[ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "So right now what I notice is there is a blue over a green triangle through all the images that have the star lit up. So that's... as well as, each of them.",
+      "open_code": "processingGlobal",
+      "summary": "Notes blue-over-green pattern in lit panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Actually, no, they don't have two… because the B, C and D don't have any red triangles. So that's a possibility too. Like A, E and F have red triangles.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests red-triangle presence may explain stars",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 3,
+      "span": "Um, one, two, three...one, two... I’m counting the amount that is sideways for the triangles through the ones that are lighting up.",
+      "open_code": "processingGlobal",
+      "summary": "Counts sideways triangles across panels",
+      "lenses": {
+        "processingStyle": "globalDetail",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "So one rule might be, um, if it is no red triangles, then the star won't light up.",
+      "open_code": "decisionConfirm",
+      "summary": "Proposes rule: no red means no star",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Um, another thing could be... right here. Let me see, one, two. I'm looking at the differences in if a red one is next to a green one, if that impacts it at all. Or what kind of order they're in as well.",
+      "open_code": "planningStrategic",
+      "summary": "Plans to examine color adjacency patterns",
+      "lenses": {
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Okay. So this one has a lot of blue ones next to each other with C. As well as... okay so... but Panel B, A… Panel B and A and E and F all have a blue on top of a green one, so that's not something that's important.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses blue-on-green as irrelevant",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "The only thing I really notice is the red ones are in A, E, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Observes red triangles only in starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Um, let's see through here. They have a blue one, red one, green one next to each other for A and E.",
+      "open_code": "processingGlobal",
+      "summary": "Notes BRG sequence in A and E",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Um, upside down. They have one upside down one. While... So it seems to me like A, E and F also have triangles that are upside down while every one in B, C, and D do not. Okay.",
+      "open_code": "hypoGeneration",
+      "summary": "Hypothesises rule: presence of upside-down triangle",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "[READING] What do you think the hidden rule is? [TYPING] Uh, it can have a red triangle. It can have… It has to have a triangle that is upside down. It has to have a red triangle.",
+      "open_code": "ruleArticulation",
+      "summary": "States final rule: needs red and upside-down triangle",
+      "lenses": {
+        "processingStyle": "Ø",
+        "representationGrain": "verbatim"
+      }
+    }
+  ],
+
+[ {"Title":"scene2"},
+{
+    "id": 1,
+    "span": "Okay, so this one… Panel A, B, and E. So there’s two red triangles with this one. Panel D has two red triangles. F has two red triangles.",
+    "open_code": "processingGlobal",
+    "summary": "Notes stars across panels",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "gist"
+    }
+},
+{
+    "id": 2,
+    "span": "So there’s two red triangles with this one. Panel D has two red triangles. F has two red triangles.",
+    "open_code": "processingLocal",
+    "summary": "Notes red-triangle in each panel",
+    "lenses": {
+    "processingStyle": "LocalScan",
+    "representationGrain": "verbatim"
+    }
+},
+{
+    "id": 3,
+    "span": "So that’s not really an important thing that’s happening.",
+    "open_code": "ruleExclusion",
+    "summary": "Dismisses red-count as irrelevant rule",
+    "lenses": {
+    "representationGrain": "gist"
+    }
+},
+{
+    "id": 4,
+    "span": "Um, B, E and C have… and D have large triangles, so that’s not a thing as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Rejects large-triangle idea",
+    "lenses": {
+    "processingStyle": "globalScan"
+    }
+},
+{
+    "id": 5,
+    "span": "Um… one, two, three, four, five… one, two, three, four, five… one, two, three, four, five. So they all have five triangles, so that’s not something as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Counts five triangles; rules count out",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "verbatim"
+    }
+},
+{
+    "id": 6,
+    "span": "Um… they all have big triangles. Let’s see.",
+    "open_code": "processingGlobal",
+    "summary": "Observes all panels have big triangles",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "gist"
+    }
+},
+{
+    "id": 7,
+    "span": "Okay, so I was trying to see if, like, the size of the triangle matters — no. A, B, and E do not have, like, larger triangles or anything, so that’s not a thing as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Concludes triangle size not ruling factor",
+    "lenses": {
+    "processingStyle": "globalScan"
+    }
+},
+{
+    "id": 8,
+    "span": "Um… it’s not relation to, like— they have separated, um, like— they have two stacks because Panel A, B, C, D, and E have, like, two separate arrays of, like, areas. So that’s not a thing as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Rejects idea about two stacked arrays",
+    "lenses": {
+    "processingStyle": "globalScan"
+    }
+},
+{
+    "id": 9,
+    "span": "Let’s see. Um… one red, two red, zero red, not a thing as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Again dismisses red-count differences",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "verbatim"
+    }
+},
+{
+    "id": 10,
+    "span": "What is the rule that can be had here? Let me see… no… okay.",
+    "open_code": "reflectUncertainty",
+    "summary": "Expresses confusion about rule"
+},
+{
+    "id": 11,
+    "span": "Um… well. One red, two green, two green, three green. Okay, that doesn’t…",
+    "open_code": "ruleExclusion",
+    "summary": "Rejects green-count idea",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "verbatim"
+    }
+},
+{
+    "id": 12,
+    "span": "um… two blue, one blue, two blue for A, B, and E, so that’s not a thing as well.",
+    "open_code": "ruleExclusion",
+    "summary": "Dismisses blue-count hypothesis",
+    "lenses": {
+    "processingStyle": "globalScan",
+    "representationGrain": "verbatim"
+    }
+},
+{
+    "id": 13,
+    "span": "I don’t know what the rule this would be.",
+    "open_code": "reflectUncertainty",
+    "summary": "Admits not knowing rule"
+},
+{
+    "id": 14,
+    "span": "They all have one, no, small triangle? Because F has one as well, so that’s not a rule.",
+    "open_code": "ruleExclusion",
+    "summary": "Rules out small-triangle presence",
+    "lenses": {
+    "processingStyle": "LocalScan"
+    }
+},
+{
+    "id": 15,
+    "span": "One small triangle and a medium-sized triangle, so that could be a rule.",
+    "open_code": "hypoGeneration",
+    "summary": "Proposes small+medium triangle rule"
+},
+{
+    "id": 16,
+    "span": "All of them have that—with the one small—actually, no, B has a large triangle, so that’s not a rule, either.",
+    "open_code": "decisionReject",
+    "summary": "Immediately rejects small+medium idea",
+    "lenses": {
+    "processingStyle": "LocalScan"
+   }
+},
+{
+    "id": 17,
+    "span": "Um, what could be had here…? I… I have no idea. I have no rules that can be had.",
+    "open_code": "reflectUncertainty",
+    "summary": "States inability to find rule"
+},
+{
+    "id": 18,
+    "span": "Have more… have… have upright triangles? No.",
+    "open_code": "ruleExclusion",
+    "summary": "Considers upright-triangle rule then rejects"
+},
+{
+    "id": 19,
+    "span": "Have… uh…I have no idea what the rule would be.",
+    "open_code": "reflectUncertainty",
+    "summary": "Again expresses rule confusion"
+},
+{
+    "id": 20,
+    "span": "I guess… [TYPING] I’ll have a small and medium-sized triangle… green, green triangle.",
+    "open_code": "ruleGuess",
+    "summary": "Submits tentative small+medium green rule"
+}
+],
+
+[{"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Okay. So three here... A, C, and D....A, C, and D...they both have… so everyone has five. Yeah.",
+      "open_code": "processingGlobal",
+      "summary": "Notes all panels contain five triangles",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain":"verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Everyone always has five triangles, so that's not a thing.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects triangle-count as rule"
+    },
+    {
+      "id": 3,
+      "span": "Um, they all have a lot of sideways triangles, so they're all pointing to the ground.",
+      "open_code": "hypoGeneration",
+      "summary": "Counts sideways-oriented triangles across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "F has a lot, one, two, three, four, five. One, two, three. One, two. One, two, three. One, two...",
+      "open_code": "processingGlobal",
+      "summary": "Counts sideways-oriented triangles across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Okay, so not sideways, because D has a lot of sideways triangles already.",
+      "open_code": "decisionReject",
+      "summary": "Dismisses sideways-orientation rule",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Um, what would be said… Two red, two red, one red — okay, so that’s not a thing as well. Equal amount of red triangles through here.",
+      "open_code": "processingGlobal",
+      "summary": "Observes and counts red triangles",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "It's not a thing either. Let’s see…",
+      "open_code": "ruleExclusion",
+      "summary": "Rules out red-count hypothesis",
+      "lenses": {
+        "processingStyle": "Ø",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Um, Panel F… F has two red, two blue, one green. Two blue, two…",
+      "open_code": "processingLocal",
+      "summary": "Details color counts in Panel F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Okay. That could be a possible thing, where it has to be two… two…",
+      "open_code": "hypoGeneration",
+      "summary": "Considers pairs-of-twos color rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "no, because the other ones have two of that as well. I was going to say pairs of twos, like you have to have at least two of the other color at the same time, so that’s not a thing.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects pairs-of-twos idea",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Um, another one could be — I was about to say stacking,",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes then doubts stacking rule"
+    },
+    {
+      "id": 12,
+      "span": "well C does have a stacking triangle, so that can’t work.",
+      "open_code": "decisionReject",
+      "summary": "Rejects stacking hypothesis",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 13,
+      "span": "Another thing could be you have to have a red between two blue triangles? They all have that. So that’s a possibility that can be had, where you have to have a red between two blue triangles.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates red-between-blues sandwich rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "That’s the only one I can think of right now.",
+      "open_code": "reflectSelf",
+      "summary": "reflects on their thinking, metacogn"
+    },
+    {
+      "id": 15,
+      "span": "Um, the green has to be the farthest to the right, that could be one.",
+      "open_code": "hypoAlternative",
+      "summary": "Suggests green far-right position rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 16,
+      "span": "So I guess I’ll put: [TYPING] it has to have a blue-red–blue sandwich of triangles, red triangle between two blue triangles. It has to have a green triangle to the farthest right.",
+      "open_code": "ruleArticulation",
+      "summary": "States final rule with two conditions"
+    }
+  ],
+
+[ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, so this one. There is… one stacked.",
+      "open_code": "processingLocal",
+      "summary": "Notes one stacked triangle",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Okay, so they all have one stacked triangle, so, at least one stacked triangle.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes rule: at least one stack",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "At least two red triangles, um, that’s a possible rule.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests need for two red triangles",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "At least two green triangles in each.",
+      "open_code": "processingGlobal",
+      "summary": "Adds idea: two green triangles",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "So, a stack of two, at least two red triangles.",
+      "open_code": "hypoRevision",
+      "summary": "Combines stack with two red rule"
+    },
+    {
+      "id": 6,
+      "span": "Another possibility could be… um… no, nothing in relation to stacks, because they’re not stacked like sideways.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects sideways-stack criterion"
+    },
+    {
+      "id": 7,
+      "span": "Oh, two triangles that are on top of each other, sideways. A, C… F has that, as well as E, but that’s fine.",
+      "open_code": "processingGlobal",
+      "summary": "Observes sideways stacks across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Another possibility could be… I guess it is the biggest one, in terms of having at least two red triangles, having triangle stacks, and then a triangle to the farthest to the right is another rule that could be said. So that’s probably what it is for this one.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms combined multi-condition rule"
+    },
+    {
+      "id": 9,
+      "span": "I think I’m getting better identifying it, some rules, ‘cause there might be multiple rules, that’s fine.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects on improving rule-finding skill"
+    },
+    {
+      "id": 10,
+      "span": "Another one could be… no, I’m trying to think of a different color. Two green...at least two green.",
+      "open_code": "hypoAlternative",
+      "summary": "Considers alternative two-green rule"
+    },
+    {
+      "id": 11,
+      "span": "At least… okay, not sideways.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects sideways aspect again"
+    },
+    {
+      "id": 12,
+      "span": "[TYPING] It has to have a triangle on top of another triangle. It has to have at least two red triangles. It has to have two triangles that are stacked sideways, on top of each other.",
+      "open_code": "ruleArticulation",
+      "summary": "Types final multi-condition rule"
+    }
+  ],
+  
+[ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": "Okay, this one.",
+      "open_code": "briefOrientation",
+      "summary": "Begins considering current puzzle",
+      "lenses": {
+        "processingStyle": "Ø",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "A, B, and E have a lot of sideways triangles, so that’s a possible rule.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes sideways-triangle presence rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um, nothing is related to stacked triangles since B doesn’t have any.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects stacked-triangle idea",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Uh, they have to have— never mind, I was gonna say touching the sides, since B doesn’t have that as well.",
+      "open_code": "ruleExclusion",
+      "summary": "Abandons touching-sides hypothesis",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Two green? You have to have exactly two green triangles? So that’s a possible rule, two green triangles at most.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates exactly-two-greens rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Um, another one could be, uh… one sideways pointing-to-the-right triangle, so— there’s a triangle pointing to the right.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests right-pointing triangle rule"
+    },
+    {
+      "id": 7,
+      "span": "But C and D have a lot of that, so…",
+      "open_code": "decisionReject",
+      "summary": "Dismisses right-pointing idea"
+    },
+    {
+      "id": 8,
+      "span": "I think two triangles that are green, is the best one that I have so far.",
+      "open_code": "decisionConfirm",
+      "summary": "Selects two-greens as leading rule"
+    },
+    {
+      "id": 9,
+      "span": "We have to have… triangle that is green. Here’s one.",
+      "open_code": "processingLocal",
+      "summary": "Locates example green triangle",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Um, upside down? No, cause A doesn’t have an upside-down one, as well as B doesn’t either, so that doesn’t matter.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects upside-down triangle idea",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Two… no, there was two red triangles pointing up. That doesn’t matter either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rules out two-red-upright hypothesis"
+    },
+    {
+      "id": 12,
+      "span": "I would say another one could be… that's probably it...the hidden rule is you have to have exactly two green triangles.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms exactly-two-greens rule"
+    },
+    {
+      "id": 13,
+      "span": "That’s probably the biggest one.(4.0) So yeah, that’s the only one I could see: two green triangles.",
+      "open_code": "decisionConfirm",
+      "summary": "Expresses confidence only two-greens fits"
+    },
+    {
+      "id": 14,
+      "span": "[TYPING] It has to have two green triangles only.",
+      "open_code": "ruleArticulation",
+      "summary": "Types final two-green-only rule"
+    }
+  ]
+]

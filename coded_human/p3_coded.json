@@ -1,0 +1,418 @@
+[
+  [ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Let’s see. (5.0)",
+      "open_code": "planningExplorative",
+      "summary": "Initiates visual scan",
+      "lenses":{
+        "planningLevel":"level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panel A has different color triangles.",
+      "open_code": "processingLocal",
+      "summary": "Notes varied colors in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "B has some… some falling down.",
+      "open_code": "processingLocal",
+      "summary": "Observes fallen triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "C has two purple ones.",
+      "open_code": "processingLocal",
+      "summary": "Counts purple triangles in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "A follows a special rule. B does not. C there’s no special rule. D has no special rule. E and F follow special rules.",
+      "open_code": "processingGlobal",
+      "summary": "Groups panels by star status",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Um…. D has a little purple [blue] one on top of a yellow one— the purple one.",
+      "open_code": "processingLocal",
+      "summary": "Notes stacked purple on yellow in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "[SIGHS] What?",
+      "open_code": "reflectUncertainty",
+      "summary": "Verbalizes confusion"
+    },
+    {
+      "id": 8,
+      "span": "In panel A, all the triangles are pointing up or down.",
+      "open_code": "processingLocal",
+      "summary": "Observes orientation uniformity in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 9,
+      "span": "So A, E, and F follow a certain rule. B, C, and D do not follow the rule.",
+      "open_code": "Orientation",
+      "summary": "Restates rule-following sets",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 10,
+      "span": "There are red, green, and purple [blue] triangles in each.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests three-color presence rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    }
+  ],
+
+  [ {"Title":"scene2"},
+    {
+      "id": 1,
+      "span": "In this one, panels A, B, and E have special rules. C, D, and F do not.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies star vs non-star sets",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Let’s see… (5.0)",
+      "open_code": "planningExplorative",
+      "summary": "Pauses and prepares to inspect",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panels A, B, and E, all the green triangles are pointing up.",
+      "open_code": "processingGlobal",
+      "summary": "Observes upright green triangles in starred",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 4,
+      "span": "And panel… (10.0) Oh boy.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses hesitation/confusion"
+    },
+    {
+      "id": 5,
+      "span": "There are little green triangles in A, B, and E, and there are also little green triangles in all of them…um, no.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects small-green idea",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "There's one little purple [blue] triangle in the rule, when the rule was applied….",
+      "open_code": "hypoGeneration",
+      "summary": "Considers unique little purple triangle"
+    },
+    {
+      "id": 7,
+      "span": "Oh no, that’s in D too.",
+      "open_code": "decisionReject",
+      "summary": "Dismisses purple-triangle uniqueness",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "There’s one, two, three little triangles in the rule box.",
+      "open_code": "processingLocal",
+      "summary": "Counts three little triangles",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Maybe that’s the rule, three little triangles, I guess.",
+      "open_code": "ruleArticulation",
+      "summary": "Tentatively states three-little-triangle rule"
+    }
+  ],
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Let’s see.",
+      "open_code": "planningExplorative",
+      "summary": "Initiates examination",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panels A, C, and F follow the rule; B, D, and E do not.",
+      "open_code": "processingGlobal",
+      "summary": "Sets star versus non-star groups",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "A, C, and F have red triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Notes shared red triangles",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Okay... (10.0)",
+      "open_code": "reflectUncertainty",
+      "summary": "Pauses, uncertain"
+    },
+    {
+      "id": 5,
+      "span": "There are... two purple [blue] triangles on their sides in all the boxes… where the rule is applied...",
+      "open_code": "hypoGeneration",
+      "summary": "Hypothesises two sideways purple rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Yeah, all the purple [blue] triangles are on their sides when the rule is applied…",
+      "open_code": "decisionConfirm",
+      "summary": "Momentarily endorses purple-side rule"
+    },
+    {
+      "id": 7,
+      "span": "well, no, E has that too.",
+      "open_code": "decisionReject",
+      "summary": "Finds counterexample in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Two purple [blue] triangles on their side when the rule was applied.",
+      "open_code": "hypoRevision",
+      "summary": "Restates sideways-purple rule"
+    },
+    {
+      "id": 9,
+      "span": "Two purple [blue] triangles and one green triangle?",
+      "open_code": "hypoRevision",
+      "summary": "Tests combo purple-green rule"
+    },
+    {
+      "id": 10,
+      "span": "No… yeah…",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses doubt again"
+    },
+    {
+      "id": 11,
+      "span": "and two purple triangles on their side.",
+      "open_code": "ruleArticulation",
+      "summary": "Reiterates sideways purple idea"
+    }
+  ],
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Panels A, C, and F have rules. B, D, and E do not have rules.",
+      "open_code": "processingGlobal",
+      "summary": "Groups panels by star status",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Let’s see… there are one, two, one, two, three, one, two purple triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Counts purple triangles across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "There is one triangle of equal size… on top of another triangle of equal size when the rule is applied.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates equal-size stacking hypothesis"
+    },
+    {
+      "id": 4,
+      "span": "Yeah.",
+      "open_code": "decisionConfirm",
+      "summary": "Brief confirms idea"
+    },
+    {
+      "id": 5,
+      "span": "They all have seven triangles in them when the rule is applied.",
+      "open_code": "hypoAlternative",
+      "summary": "Considers seven-triangle count rule"
+    },
+    {
+      "id": 6,
+      "span": "But… there is one triangle of equal size on top of another — that seems to be the pattern when the rule is applied.",
+      "open_code": "ruleArticulation",
+      "summary": "States equal-size stacking rule"
+    },
+    {
+      "id": 7,
+      "span": "That’s all I can think of.",
+      "open_code": "reflectSelf",
+      "summary": "No further ideas available"
+    }
+  ],
+
+  [ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": "Panels A, B, and E… have the rule. Panels C, D, and F do not.",
+      "open_code": "processingGlobal",
+      "summary": "Defines rule vs non-rule sets",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "One, two, three, four, five, six, seven, eight, nine — no, it’s not the number of triangles.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects triangle-count hypothesis",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Is it the number of colors? It’s not the number of colors.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses color-count idea"
+    },
+    {
+      "id": 4,
+      "span": "Let’s see... are the triangles pointing the same way? Hmm…",
+      "open_code": "hypoGeneration",
+      "summary": "Considers common orientation rule"
+    },
+    {
+      "id": 5,
+      "span": "All the medium triangles are… pointed up? Yeah.",
+      "open_code": "hypoRevision",
+      "summary": "Observes medium triangles oriented up"
+    },
+    {
+      "id": 6,
+      "span": "All the mediums... –no, that’s not right.",
+      "open_code": "decisionReject",
+      "summary": "Immediately rejects medium-up idea"
+    },
+    {
+      "id": 7,
+      "span": "The big ones are pointing in different directions.",
+      "open_code": "processingGlobal",
+      "summary": "Notes varied big-triangle orientations",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "The small ones? None of the small ones are pointed up.",
+      "open_code": "processingGlobal",
+      "summary": "Observes small triangles not up",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Yeah they are in E.(6.0)",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds counterexample in E",
+      "lenses": {
+        "processingStyle": "LocalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "All the green ones are pointing up or to the right.",
+      "open_code": "processingGlobal",
+      "summary": "Notes green orientation tendency",
+      "lenses": {
+        "processingStyle": "globalScan"
+                  }
+    },
+    {
+      "id": 11,
+      "span": "Purple [blue] ones… all the small, no, all the small red ones are pointing to the right?",
+      "open_code": "hypoGeneration",
+      "summary": "Rejects small-red orientation idea",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "No…",
+      "open_code": "decisionReject",
+      "summary": "Rejects small-red orientation idea"
+    },
+    {
+      "id": 13,
+      "span": "Um… (6.0) I have no idea.",
+      "open_code": "ruleImpasse",
+      "summary": "Admits inability to find rule"
+    }
+  ]
+
+]

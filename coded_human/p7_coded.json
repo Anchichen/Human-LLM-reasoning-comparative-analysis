@@ -1,0 +1,525 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "[READING] Think aloud as you try to infer the hidden rule, you will be able to write your guess once the timer finishes.",
+          "open_code": "orientation",
+          "summary": "reads task directions to orient themselves"
+        },
+        {
+          "id": 2,
+          "span": "[THINKING] Okay, so I'm looking at the yellow star images first to see what the pattern is. Um let's see… Let's see.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to inspect starred panels",
+          "lenses": {
+            "planningLevel":"level 2"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, so I'm looking at image A or panel A, I'm sorry. And it looks like there is an upright green cone by itself.",
+          "open_code": "processingLocal",
+          "summary": "observes upright green cone in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Um, but then I'm looking at the other panels, panel B, C and D, which don't have the yellow star, and they also have upright green cones, so I don't think that's the pattern.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out green-cone idea",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 5,
+          "span": "Let me keep looking.",
+          "open_code": "adherePlan",
+          "summary": "continues current search"
+        },
+        {
+          "id": 6,
+          "span": "Oh okay I think I see it already.",
+          "open_code": "reflectSelf",
+          "summary": "expresses sudden insight"
+        },
+        {
+          "id": 7,
+          "span": "So I'm looking at, uh, panels A, E and F, which these three panels have the yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "notes starred panels A,E,F",
+          "lenses": {
+            "processingStyle": "globalScan"       
+          }
+        },
+        {
+          "id": 8,
+          "span": "And I think the only difference, or the only thing that stands out, is that A, E and F have the red cones in them.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes red-cone rule"
+        },
+        {
+          "id": 9,
+          "span": "It doesn't matter what position they're in, only that the panels contain the red cones.",
+          "open_code": "hypoRevision",
+          "summary": "refines rule; position irrelevant"
+        },
+        {
+          "id": 10,
+          "span": "And, um, I think that's the pattern, but I'll keep on talking because I'm supposed to, um…",
+          "open_code": "decisionConfirm",
+          "summary": "asserts rule works"
+        },
+        {
+          "id": 11,
+          "span": "Let's see. I mean, I see that I'm looking at, like, F, you know, and, um, panel F and even though there are two red cones, it doesn't really— like, that pattern doesn't really matter. And I'm looking at A; it also has two red cones— that doesn't matter. E only has one red cone, and the star is still yellow [lit up].",
+          "open_code": "processingLocal",
+          "summary": "observes specific features in specific panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "So, um, I don't think the amount of red cones matters.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out quantity condition"
+        },
+        {
+          "id": 13,
+          "span": "Um, yeah, I think that's kind of it. Pretty simple.",
+          "open_code": "reflectTask",
+          "summary": "expresses ease with rule"
+        },
+        {
+          "id": 14,
+          "span": "[TYPING] The panels with the red cones have yellow stars. That's it.",
+          "open_code": "ruleArticulation",
+          "summary": "states final red-cone rule"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so this is the next one.",
+          "open_code": "orientation",
+          "summary": "transitions to new puzzle"
+        },
+        {
+          "id": 2,
+          "span": "So I’m looking at panels A, B and E, first, to see what the pattern is.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to inspect starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "planningLevel":"level 2"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, A, B and E are the panels with yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Okay, so A has five cones, B has five cones, and E has five cones, so… okay, that could be it.",
+          "open_code": "hypoGeneration",
+          "summary": "suggests five-cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "But I’m looking at panels C, D and F, and they also have five cones, so the amount of cones doesn’t really matter.",
+          "open_code": "decisionReject",
+          "summary": "rejects five-cone idea",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Um, I don’t think the colors of the cones matter that much either, because A and B have three colors and E has only two colors, yet they have the stars present.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out color count rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Let’s see… I’m looking at the size of the cones now to see if it matters— um the quantity of each size per panel— for A, B and E,",
+          "open_code": "modifyPlan",
+          "summary": "shifts focus to cone size",
+          "lenses": {
+            "planningLevel":"level 3"
+                      }
+        },
+        {
+          "id": 8,
+          "span": "but I don’t think that really matters either, because the sizes of the cones for A, B and E don’t match each other.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses size pattern",
+          "lenses":{
+            "processingStyle":"globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "I’m not really sure.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses uncertainty"
+        },
+        {
+          "id": 10,
+          "span": "I’m looking at the positioning of the cones for A, B and E and I’m not really seeing the pattern.",
+          "open_code": "ruleExclusion",
+          "summary": "positioning seems irrelevant",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Let’s see… I’m going to look at panels C, D and F to see why they’re not lighting up.",
+          "open_code": "modifyPlan",
+          "summary": "switches to examine non-starred",
+          "lenses": {
+            "planningLevel": "level 2"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Okay, so… (5.0) maybe the pattern is that the largest cone can’t be tilted over,",
+          "open_code": "hypoGeneration",
+          "summary": "proposes largest-cone-upright rule",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "although I’m not quite sure, because C… no, I don’t know, because C doesn’t have a large cone that’s tilted over either.",
+          "open_code": "decisionReject",
+          "summary": "finds counterexample to rule",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 14,
+          "span": "I’m not really sure what the rule is.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits not knowing rule"
+        },
+        {
+          "id": 15,
+          "span": "Let’s see… The rule is… [TYPING] there needs to be adequate space between the largest cone and the smallest cone.",
+          "open_code": "ruleGuess",
+          "summary": "tentatively states spacing rule"
+        },
+        {
+          "id": 16,
+          "span": "I’m not very confident about this.",
+          "open_code": "reflectUncertainty",
+          "summary": "low confidence in guess"
+        }
+      ],
+    
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so I’m looking at panels A, C and F, these are the panels that have the stars.",
+          "open_code": "processingGlobal",
+          "summary": "focus on starred panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Let’s see… it looks like panel A has all three colors, C has all three colors — I’m talking about the green, the blue and the red — and F also has all three colors,",
+          "open_code": "processingGlobal",
+          "summary": "observes color presence across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "so that probably… is not the rule, because the other panels, B, E and D, also have three colors.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects color-count rule"
+        },
+        {
+          "id": 4,
+          "span": "I’m going to look at the positioning of the cones to see if that matters, whether they’re upright or tilted over.",
+          "open_code": "modifyPlan",
+          "summary": "shifts focus to orientation",
+          "lenses": {
+            "planningLevel":"level 3"
+          }
+        },
+        {
+          "id": 5,
+          "span": "I’m looking at A, C and F, and I don’t think it matters if they’re upright or tilted over, because in panel F all of the cones are tilted over and yet it still has a star.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses orientation relevance"
+        },
+        {
+          "id": 6,
+          "span": "Let’s see… I’m going to look at the other panels now, B, E and D, to see if I can figure it out.",
+          "open_code": "modifyPlan",
+          "summary": "switches to inspect non-starred",
+          "lenses": {
+            "planningLevel":"level 2"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Uh… Panel B, E and D also have three colors, so that’s not the pattern, and they also have a combination of cones that are upright and tilted over, so I don’t think that’s it either.",
+          "open_code": "ruleExclusion",
+          "summary": "confirms non-starred disprove ideas",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Maybe it’s the size of the cones, I don’t know, um...",
+          "open_code": "hypoGeneration",
+          "summary": "suggests cone-size rule option"
+        },
+        {
+          "id": 9,
+          "span": "Oh, okay! I think I’ve got it.",
+          "open_code": "reflectSelf",
+          "summary": "expresses sudden insight"
+        },
+        {
+          "id": 10,
+          "span": "So, I think for A, C and F, the reason why they have the stars is because two of their blue cones are tilted over, but it doesn’t matter what positions they’re in.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes two-tilted-blue rule"
+        },
+        {
+          "id": 11,
+          "span": "And the panels that don’t have the lit stars, B, E and D, don’t have two tilted blue cones.",
+          "open_code": "decisionConfirm",
+          "summary": "asserts rule fits non-starred"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay, so I’m going to start again by looking at panels A, C and F, and then I’ll go ahead and look at panels B, E and D.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans compare starred vs others",
+          "lenses": {
+            "planningLevel":"level 2"
+          }
+        },
+        {
+          "id": 2,
+          "span": "So, just looking at A, C and F, it looks like all three of them have all three colors present, just like panels B, E and D",
+          "open_code": "processingGlobal",
+          "summary": "observes all panels have three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "so the colors themselves don’t really matter. Whether the color is present or not doesn’t really matter.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out color presence rule"
+        },
+        {
+          "id": 4,
+          "span": "So I’ll look at the positioning of the cones for Panels A, C and F and compare that to B, E and D.",
+          "open_code": "modifyPlan",
+          "summary": "switches focus to cone positions",
+          "lenses": {
+            "planningLevel":"level 3"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um… at a quick glance, it looks like panels B, E and D, the ones that don’t have the yellow stars, they have a lot more upright cones.",
+          "open_code": "processingGlobal",
+          "summary": "notes non-starred have many upright cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And then I’m going back to A, C and F to compare the positions of the cones… Let’s see. So I’m looking at Panel A right now and... I'm trying to compare it with panel C to see what they have in common.",
+          "open_code": "adherePlan",
+          "summary": "continues positional comparison",
+          "lenses": {
+            "planningLevel":"level 3"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Let’s see… um I honestly can’t tell what they have in common or not.",
+          "open_code": "reflectUncertainty",
+          "summary": "cannot find commonality"
+        },
+        {
+          "id": 8,
+          "span": "So I’m checking the blue cones, there’s no pattern between two of them.",
+          "open_code": "ruleExclusion",
+          "summary": "blue cones show no pattern",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Looking at the green cones, and I don’t really see a pattern either.",
+          "open_code": "ruleExclusion",
+          "summary": "green cones show no pattern",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 10,
+          "span": "And I’m looking at the red cones now, and there doesn’t seem to be a pattern either.",
+          "open_code": "ruleExclusion",
+          "summary": "red cones show no pattern",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So I don’t know what’s going on.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits confusion"
+        },
+        {
+          "id": 12,
+          "span": "I’m going to compare A with F now, just to see if I can find a pattern.",
+          "open_code": "modifyPlan",
+          "summary": "decides to compare A and F",
+          "lenses": {
+            "planningLevel":"level 2"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Um and I don’t really see a pattern either.",
+          "open_code": "reflectUncertainty",
+          "summary": "still no pattern found"
+        },
+        {
+          "id": 14,
+          "span": "(5.0) I must be stupid. Oh gosh... [SIGHS]",
+          "open_code": "reflectSelf",
+          "summary": "self-critical remark"
+        },
+        {
+          "id": 15,
+          "span": "[TYPING] The pattern… My guess...the panel needs at least... to have two cones tilted and pointing upward.",
+          "open_code": "ruleGuess",
+          "summary": "guesses two tilted-upward cones rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, so I’m going to look at panels A, B and E and see if I can find a pattern, and then I’ll look at C, D and F to check whether my prediction is correct. Oh, sorry, I mean to try to find a commonality between A, B and E.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans starred-vs-others comparison",
+          "lenses": {
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Um… I’m looking at the red cones first, and it looks like… there are… what they have in common is that there are at least two red cones that are tilted. Um maybe that’s it.",
+          "open_code": "hypoGeneration",
+          "summary": "posits two-tilted-red rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 3,
+          "span": "I’m looking now at the green cones, and this most likely is it: there are two green cones in A, B and E, and I think that’s the common factor,",
+          "open_code": "hypoGeneration",
+          "summary": "switches to two-green rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 4,
+          "span": "because panel C, panel F and panel D, which are the panels that do not have the yellow stars. And panel C has three green cones, panel F has five green cones, and panel D has four green cones.",
+          "open_code": "counterExampleSearch",
+          "summary": "compares non-starred green counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "So I think, yeah, I’m pretty sure panels A, B and E have the yellow stars because they have two green cones each. I think I’ve figured it out, but I’ll keep going because I’m supposed to.",
+          "open_code": "decisionConfirm",
+          "summary": "confident rule works, continues"
+        },
+        {
+          "id": 6,
+          "span": "The other way I was planning on looking at these panels is to count the total number of cones per panel to see if that mattered,",
+          "open_code": "planningExplorative",
+          "summary": "mentions alternative count strategy",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 7,
+          "span": "but that obviously doesn’t, because panel B is lit up with a yellow star even though it only has six cones. So that doesn’t really matter.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out total-cone count",
+          "lenses":{
+            "processingStyle":"localScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "The angles of the cones don’t matter either, because every panel has cones pointing in all different directions.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses orientation relevance",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "[TYPING] So the rule is that the panels with yellow stars must contain exactly two green cones—no more, and no less.",
+          "open_code": "ruleArticulation",
+          "summary": "states final two-green rule"
+        }
+      ]
+
+]

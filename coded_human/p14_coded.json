@@ -1,0 +1,668 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Yellow star. No star. No star. No. Star. E light. F light.",
+          "open_code": "processingGlobal",
+          "summary": "Lists star status across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "I'm trying to think of a pattern here, but I can't see one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Can't find pattern yet"
+        },
+        {
+          "id": 3,
+          "span": "Um. Uh. This is actually harder than I thought it would be.",
+          "open_code": "reflectTask",
+          "summary": "Task feels hard"
+        },
+        {
+          "id": 4,
+          "span": "Um, A, we've got the blue on top of the green triangle, and then in E, we've got blue on top of green triangle, and then we have it again in F, a blue triangle on top of a green.",
+          "open_code": "processingGlobal",
+          "summary": "Notes blue-over-green in A,E,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "So but then also in B we've got blue on top of green but no lit up star.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds counterexample in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Maybe it's something to do with the yellow... well, this is more cones let's call them cones rather than triangles.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers yellow-related rule"
+        },
+        {
+          "id": 7,
+          "span": "I can't see anything here. I really can't.",
+          "open_code": "reflectUncertainty",
+          "summary": "Still cannot see pattern"
+        },
+        {
+          "id": 8,
+          "span": "Maybe... (4.0) I don't know, um. Maybe.",
+          "open_code": "reflectUncertainty",
+          "summary": "Uncertain muttering"
+        },
+        {
+          "id": 9,
+          "span": "No, I can't see anything here. I must be missing something.",
+          "open_code": "monitorLowLevel",
+          "summary": "Believes missing something"
+        },
+        {
+          "id": 10,
+          "span": "Hmm. (10.0) Okay. Anyway.",
+          "open_code": "ruleImpasse",
+          "summary": "at an impasse"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "A hidden rule. Okay, um, let's do this again, shall we? Okay.",
+          "open_code": "orientation",
+          "summary": "Restarts to seek rule anew"
+        },
+        {
+          "id": 2,
+          "span": "A, a lit star, cones: green, blue, red, blue, green.",
+          "open_code": "processingLocal",
+          "summary": "Describes panel A features",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "B, star lit up, red cone, little red cone, little green, little blue, big green.",
+          "open_code": "processingLocal",
+          "summary": "Describes panel B features",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "C, little red, little blue, and then we've got two cones, but one's at an angle, and there's a little red one in the big green one. But the star is not lit.",
+          "open_code": "processingLocal",
+          "summary": "Details panel C; notes no star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And then D, blue cone up, red on up, red on the down, green on the top, no lit up star.",
+          "open_code": "processingLocal",
+          "summary": "Describes panel D attributes",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And then we've got E, which is...",
+          "open_code":"monitorLowLevel",
+          "summary": "cuts off thoughts when realising process is not helping"
+        },
+        {
+          "id": 7,
+          "span": "Hm. (7.0) I'm struggling, I can't see...I can't see any rule here.",
+          "open_code": "reflectUncertainty",
+          "summary": "States struggle to find rule"
+        },
+        {
+          "id": 8,
+          "span": "Maybe... Maybe it's the colours on the floor there?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers floor colours rule"
+        },
+        {
+          "id": 9,
+          "span": "I don't know. I can't see anything.",
+          "open_code": "reflectUncertainty",
+          "summary": "Still sees no pattern"
+        },
+        {
+          "id": 10,
+          "span": "No, I can't see anything here. I must be seeing it wrong. I got– I have something wrong here.",
+          "open_code": "reflectSelf",
+          "summary": "Blames self for missing rule"
+        },
+        {
+          "id": 11,
+          "span": "Shame you can't have a look at the instructions again.",
+          "open_code": "reflectTask",
+          "summary": "Wishes to reread instructions"
+        },
+        {
+          "id": 12,
+          "span": "Maybe it's something to do with the blue cone.?",
+          "open_code": "hypoGeneration",
+          "summary": "Considers blue-cone rule"
+        },
+        {
+          "id": 13,
+          "span": "No, no, no.",
+          "open_code": "processingGlobal",
+          "summary": "Rejects blue-cone hypothesis",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Maybe? But then... No, I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "Reverts to uncertainty again"
+        },
+        {
+          "id": 15,
+          "span": "This is not very fun.",
+          "open_code": "reflectTask",
+          "summary": "Complains about task enjoyment"
+        },
+        {
+          "id": 16,
+          "span": "Okay. Um, D...I don't know. I can't find the hidden rule.",
+          "open_code": "ruleImpasse",
+          "summary": "Admits inability to find rule"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "A, red cone up, two blue cones down, red up. green cone up in A, star is lit.",
+          "open_code": "processingLocal",
+          "summary": "Details features of panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 2,
+          "span": "B, cone down to the left, cone red to the left, green and blue cone on top, then big green again, not lit up.",
+          "open_code": "processingLocal",
+          "summary": "Describes panel B and star off",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "C, big cone, little cone and green to the left.",
+          "open_code": "processingLocal",
+          "summary": "Begins describing panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Is it something to do...",
+          "open_code": "reflectUncertainty",
+          "summary": "Starts pondering possible rule"
+        },
+        {
+          "id": 5,
+          "span": "blue cone to the left, red to the right, in C, blue down, green up again. And the big ole star is lit up.",
+          "open_code": "processingLocal",
+          "summary": "Continues describing panel C with star on",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Um, D, green up, green to the side, red cone to the right, blue cone up slightly.",
+          "open_code": "processingLocal",
+          "summary": "Lists orientations in panel D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "E, little cone green, big cone green up, blue cone facing down, red cone facing up, green going up and red going up and not lit.",
+          "open_code": "processingLocal",
+          "summary": "Describes panel E with star off",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Um, but what is the common rule here?",
+          "open_code": "reflectUncertainty",
+          "summary": "Asks about common rule"
+        },
+        {
+          "id": 9,
+          "span": "In A, we have two blue and two red and one green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colours in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Okay, maybe that's... in A and F they have the same amount and they also have the... same colors: two red, two blue, one green.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits rule of identical colour counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "But then C has three green and two blue and one red.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes C contradicts colour rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Maybe that's it. Two blue and one red? Maybe that's it.",
+          "open_code": "hypoRevision",
+          "summary": "Suggests new rule variant"
+        },
+        {
+          "id": 13,
+          "span": "Maybe...no, it's not.",
+          "open_code": "decisionReject",
+          "summary": "Rejects latest hypothesis"
+        },
+        {
+          "id": 14,
+          "span": "Just doing my head in actually.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses mental fatigue"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Ah, okay, do it again.",
+          "open_code": "orientation",
+          "summary": "Restarts analysis"
+        },
+        {
+          "id": 2,
+          "span": "A, cone right...again, let's jump... A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "[panel A] Two blue, one green or three green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colours in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "And then C we've got... well...technically two... two red, two green.",
+          "open_code": "processingLocal",
+          "summary": "Counts colours in panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And then we've got three green in A, so it doesn't... doesn't correspond with each other.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes colour counts mismatch",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And then F, we've got two green and three red, two blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colours in panel F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So maybe it's not color, then.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects color-based rule"
+        },
+        {
+          "id": 8,
+          "span": "So what is it? I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty"
+        },
+        {
+          "id": 9,
+          "span": "Maybe there is no rule here. Maybe it's just nonsense.",
+          "open_code": "reflectTask",
+          "summary": "Questions existence of rule"
+        },
+        {
+          "id": 10,
+          "span": "All right, well.",
+          "open_code":"orientation",
+          "summary":"reorients to solving task"
+        },
+        {
+          "id": 11,
+          "span": "One, two... maybe it's the amount of cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers quantity rule"
+        },
+        {
+          "id": 12,
+          "span": "1-2-3-4-5-6-7. 1-2-3-4-5-6-7. 1-2-3-4-5-6-7.",
+          "open_code": "processingGlobal",
+          "summary": "Counts seven cones in A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Maybe that's it. Maybe it's the amount.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts quantity rule"
+        },
+        {
+          "id": 14,
+          "span": "So A, C and F all have seven cones, A, 1-2-3-4-5-6-7. C, 1-2-3-4-5-6-7. F, 1-2-3-4-5-6-7.",
+          "open_code": "processingGlobal",
+          "summary": "Reiterates evidence for seven cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "And then B, D and E we've got 1-2-3-4-5-6 [in B], and D, we've got 1-2-3-4-5-6-7.",
+          "open_code": "processingGlobal",
+          "summary": "Counts cones in B and D",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "[sighs] Okay, it's not that is it.",
+          "open_code": "decisionReject",
+          "summary": "Rejects quantity rule"
+        },
+        {
+          "id": 17,
+          "span": "And then E, 1-2-3-4-5.",
+          "open_code": "processingLocal",
+          "summary": "Counts cones in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 18,
+          "span": "Mm. (3.5) Maybe that's the hidden rule, but then it's not is it. Because D's got seven as well.",
+          "open_code": "decisionReject",
+          "summary": "Recognises counterexample in D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "Is it because D doesn't have any cones overlapping each other?",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests overlap absence rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 20,
+          "span": "Whereas, A, C and F do have cones overlapping.",
+          "open_code": "processingGlobal",
+          "summary": "Notes overlap presence in starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "Yeah, maybe that's it.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively confirms overlap rule"
+        },
+        {
+          "id": 22,
+          "span": "But then B has cones overlapping.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds overlap in non-star B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, let's try again.",
+          "open_code": "orientation",
+          "summary": "Restarts search process"
+        },
+        {
+          "id": 2,
+          "span": "All right, square A, 1-2-3-4-5-6-7-8-9.",
+          "open_code": "processingLocal",
+          "summary": "Counts nine cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "1-2-3-4-5-6 [in B].",
+          "open_code": "processingLocal",
+          "summary": "Counts six cones in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Well, A and B and E have a lit up star.",
+          "open_code": "processingGlobal",
+          "summary": "Notes starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "But B has a drastically smaller volume of cones.",
+          "open_code": "processingLocal",
+          "summary": "Observes B has fewer cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Okay, well A has... A has... oh, okay.",
+          "open_code": "monitorLowLevel",
+          "summary": "realises a possible a rule while scanning and cuts himself off to focus"
+        },
+        {
+          "id": 7,
+          "span": "Well square A has one, two green cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts two green cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "B has one, two green cones and E has one, two green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts two greens in B and E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Whereas square C, F and D have more than... two green cones.",
+          "open_code": "counterExampleSearch",
+          "summary": "Non-star panels exceed two greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So maybe that's it. Maybe that's the rule. It's the amount of colored cones in each box.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises two-green rule"
+        },
+        {
+          "id": 11,
+          "span": "But I don't know. I don't... I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses doubt about rule"
+        },
+        {
+          "id": 12,
+          "span": "So, I mean, is there any correspondent or rule by the squares C, D and F?",
+          "open_code": "planningExplorative",
+          "summary": "Looks for rule in non-star set",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 13,
+          "span": "C has two blue cones.",
+          "open_code": "processingLocal",
+          "summary": "Observes two blue in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "D has two blue cones, and F has two blue cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes two blues in D and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "So maybe that's the rule.",
+          "open_code": "hypoRevision",
+          "summary": "Suggests two-blue rule"
+        },
+        {
+          "id": 16,
+          "span": "Two green cones lit up star. Two blue cones and you get no lit star.",
+          "open_code": "ruleArticulation",
+          "summary": "Specifies green-two causes star, Adds blue-two means no star"
+        },
+        {
+          "id": 17,
+          "span": "Maybe that's it.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts rule"
+        },
+        {
+          "id": 18,
+          "span": "Maybe I'm onto something.",
+          "open_code": "reflectSelf",
+          "summary": "Feels progress achieved"
+        },
+        {
+          "id": 19,
+          "span": "Yeah, I think that's it.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to rule idea"
+        },
+        {
+          "id": 20,
+          "span": "I can't think. Yeah, I can't see anything else.",
+          "open_code": "reflectTask",
+          "summary": "Reports no further ideas"
+        }
+      ]
+
+]   

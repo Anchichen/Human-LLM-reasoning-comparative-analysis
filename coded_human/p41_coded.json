@@ -1,0 +1,599 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. So this...um...Panel A has...a red cone.",
+          "open_code": "processingLocal",
+          "summary": "Notes red cone in Panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "But, panel B, does not have a red cone, it's not lit up. But panel A is lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Compares red presence and star status A vs B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "It looks like the ones that are lit up have red cones in them. I can immediately notice that.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes lit panels contain red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um...I'm not sure if position matters.",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure about positional relevance",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "(9.5) Panel A, panel B, panel C...and panel E have a green and purple [blue] cone that's upright.",
+          "open_code": "processingGlobal",
+          "summary": "Observes green and blue upright cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "(3.0) {?}...if there's any relation.",
+          "open_code": "reflectUncertainty",
+          "summary": "Questions relation of observed feature",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Mm...panel B and panel C, panel F, and panel E...have triangles that are laying down.",
+          "open_code": "processingGlobal",
+          "summary": "Notes several panels have horizontal triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "(3.0) Maybe...I think the hidden rule is the ones with...probably the red cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Tentatively states rule: presence of red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. So A is lit up. B is lit up. And panel E is lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A and panel B both have red cones, but panel E does not.",
+          "open_code": "processingGlobal",
+          "summary": "Notes red cones present in A and B only",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel A has a purple [blue] cone laying on its side, panel E does, but B doesn't.",
+          "open_code": "processingGlobal",
+          "summary": "Compares purple side-cones across A, B, E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So what is the difference?",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses doubt about distinguishing feature",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "(5.0) The purple [blue] cone...purple [blue]...cone.",
+          "open_code": "reflectSelf",
+          "summary": "Focuses attention on purple cone verbally",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Okay, so they both have two purple [blue] cones, but B doesn't have two purple [blue] cones, so that can't be associated.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects two-purple-cones rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Okay, A has two green. Panel B has two green, panel E has three. So, it can't be because of the green cone.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses green-cone count rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Okay, so I think I'm noticing that it has something to do with the little purple [blue] cone because C,  D and F don't have little purple [blue] cones.",
+          "open_code": "hypoGeneration",
+          "summary": "New hypothesis: presence of small purple cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "They all have...oh, wait...okay. So, most of them have little green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes small green cones commonality",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "All three of the lit up panels have green cones but so does F and C– no just F.",
+          "open_code": "ruleExclusion",
+          "summary": "Finds green-cone rule invalidated by F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "things. So, I think it has to do with the little purple [blue] cone.",
+          "open_code": "hypoGeneration",
+          "summary": "Returns to little purple cone hypothesis",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so for this one, panel A, panel C and panel F are lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A, C, F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, in panel A, we have two little purple [blue] cones laying on their sides.",
+          "open_code": "processingLocal",
+          "summary": "Notes two purple side-cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Let's see what other purple [blue] ones are lying on their sides. C is. F is. Those are all lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Finds C and F also have purple side-cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "But E also does and that's not lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Observes E has feature but no star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "But it doesn't have two. It only has one.",
+          "open_code": "processingLocal",
+          "summary": "Notes E has only one purple side-cone",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So, I think it's possible that it has to do with having more than one purple [blue] cone lying on its side.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises rule: two purple cones sideways",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Mm...they all have all three colors.",
+          "open_code": "processingGlobal",
+          "summary": "Notes all starred have three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And...C– panel C and panel F have the purple [blue] and the red connected together but A doesn't, so it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects purple-red connection rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "We also see...the stacked cones, but um, panel A does not have stacked cones and panel F doesn't really have stacked cones. But panel C does.",
+          "open_code": "processingGlobal",
+          "summary": "Observes stacked cones inconsistent across starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I don't think it has to do with that.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses stacked-cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Also. B and E have stacked cones, and they're not lit up.",
+          "open_code": "counterExampleSearch",
+          "summary": "Cites B, E as counterexamples to stack rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I'm pretty sure they have to have two purple [blue] cones that are lying on their side.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms two purple side-cones rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "All right. Panel A, panel C, panel F are lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Uh... it looks like all of them have all three colors.",
+          "open_code": "processingGlobal",
+          "summary": "Notes lit panels share three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel A has purple [blue] and green together. Panel C has a purple [blue] and green together. Panel F does not.",
+          "open_code": "processingGlobal",
+          "summary": "Compares purple-green pairing across lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Panel A has two red cones, and C has two red cones. Panel F has two red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes two red cones in A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "But so does panel D and it's not lit up. So, it can't be the red cone.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-cone rule via D counterexample",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Okay. This is stacked. This is stacked, but this one doesn't have a stacked one.",
+          "open_code": "processingGlobal",
+          "summary": "Notes stacked cones presence/absence",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses stacked-cone rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Oh, wait you can't see what I was doing.",
+          "open_code": "reflectSelf",
+          "summary": "Meta comment about visibility",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Okay, this one has two purple [blue]. This one has three purple [blue]. This one has one…two purples [blues]. This one has three green. This one has two. This one has two. So, that's two red. That's two red… This one has three red.",
+          "open_code": "processingGlobal",
+          "summary": "Lists color counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "So it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects color-count rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Two of those...struggling with this one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses struggle and uncertainty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "These are standing up. All of these are standing up...",
+          "open_code": "processingGlobal",
+          "summary": "Observes upright orientation across items",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, A, B, and E are...lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Notes starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um there's {?} in A and E has a red and purple [blue] on top of each other. B also does. But so does C. So does D.",
+          "open_code": "processingGlobal",
+          "summary": "Observes red-purple stacks across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Uh...A has one, two, three, four reds. B only has three.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones in A vs B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So, it can't be a red triangle.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-count rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "A has two green. B has two green. C has– or E has two green. C has three. D has four and F has five.",
+          "open_code": "processingGlobal",
+          "summary": "Lists green counts every panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So, I think that might be a rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests green-count rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "And then I also see... (8.5) a single red cone pointing up in all…wait...I don't know if this is connected, but I see...I'm not seeing a single red cone but a red cone pointing up, in all A, B, and C which have the lit up stars and not the other ones.",
+          "open_code": "hypoAlternative",
+          "summary": "Considers red cone pointing up rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Like C doesn't have it. D doesn't have it. And F doesn't have it. They have a red pointing up in F, but it's covered by the green and I won't count that... This one also has it, but it’s a red on top so I'm not counting that.",
+          "open_code": "counterExampleSearch",
+          "summary": "Searches for disconfirming examples to rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "No, I'm lying, erase that...erase that.",
+          "open_code": "monitorLowLevel",
+          "summary": "Self-correction of prior claim",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I'm counting this as...the side by side...one where the red cone points up for A...and B and E.",
+          "open_code": "hypoRevision",
+          "summary": "Revises red-up rule to side-by-side",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "C does not have a red cone pointing up. D does not have a red cone pointing up. And F does have a red cone pointing up so that actually can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects revised red-up hypothesis",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

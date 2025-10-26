@@ -1,0 +1,657 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "begins session",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "The first one, A, has blue triangle, green triangle.",
+          "open_code": "processingLocal",
+          "summary": "notes colours in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Oh, they all kind of look different.",
+          "open_code": "processingGlobal",
+          "summary": "observes panels all differ",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Oh, my...um. B and E kind of look similar? Kind of flip...they look flipped.",
+          "open_code": "processingGlobal",
+          "summary": "compares B and E similarity",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um. Oh my gosh. There's a lot of green and blue triangles.",
+          "open_code": "processingGlobal",
+          "summary": "notes many green/blue triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, there's not that much red.",
+          "open_code": "processingGlobal",
+          "summary": "observes little red present",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um, three of the stars in the top right are yellow.",
+          "open_code": "processingGlobal",
+          "summary": "counts three yellow stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Then three are not filled in.",
+          "open_code": "processingGlobal",
+          "summary": "notes three unfilled stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um. Hm. There's...some of them on their side, and then some of them are upside down. And then some of them are facing upright.",
+          "open_code": "processingGlobal",
+          "summary": "observes varied triangle orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um, I'm trying to figure out a change. because it seems like they changed a lot.",
+          "open_code": "modifyPlan",
+          "summary": "expresses uncertainty about changes",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um...Hm. I think the ones that are filled in with yellow or different, they, like, out of rule, maybe.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes yellow-filled panels off rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Um. Oh, the ones with yellow have the red triangles?",
+          "open_code": "hypoRevision",
+          "summary": "links yellow star panels to red triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So I think if the yellow star is not filled in, then..there's... Maybe? I don't know. If the yellow starts not filled in then, there's a red triangle. That's why I think, maybe.",
+          "open_code": "ruleGuess",
+          "summary": "tentatively states star–red triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "begins scene",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So again, three yellow triangles– or three yellow stars and then three blank.",
+          "open_code": "processingGlobal",
+          "summary": "notes three stars filled",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Oh wow. This one was way different.",
+          "open_code": "processingGlobal",
+          "summary": "remarks scene differs overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Uh... it seems like there's five in a lot of them. Five triangles. Yeah, I think there's five triangles in every single one.",
+          "open_code": "processingGlobal",
+          "summary": "observes five triangles per panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "There’s two blue, one red, two green to red, two green, one blue, two green, two red, one blue, two green, two red, one blue, two green, three green, two blue... two blue, two red, one green.",
+          "open_code": "processingGlobal",
+          "summary": "enumerates colour counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So it seems like a lot of them have two green?",
+          "open_code": "hypoGeneration",
+          "summary": "suggests possible two-green pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Hm. I do not know.",
+          "open_code": "reflectUncertainty",
+          "summary": "states uncertainty",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "They all seem like so different shapes too–or sizes. All triangles.",
+          "open_code": "processingGlobal",
+          "summary": "notes varying shapes/sizes",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um. I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits not knowing",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um... maybe it has something to do with how they are placed with, too, like, on the side.",
+          "open_code": "hypoAlternative",
+          "summary": "posits orientation placement rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "repeats uncertainty",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Some of them are on their side.",
+          "open_code": "processingGlobal",
+          "summary": "observes some triangles sideways",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, let me check with the yellow star one.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to inspect starred panel",
+          "lenses": {
+            "processingStyle": "mixed",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I don't see any similarities.",
+          "open_code": "ruleExclusion",
+          "summary": "finds no common traits",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Um. What is there? I have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses confusion",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Um... (12.0) I don't even know what it would be. I have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "still clueless after pause",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Um, so there's three yellow stars again. And three blank.",
+          "open_code": "processingGlobal",
+          "summary": "notes three filled and three blank stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "This one has a lot of them in different directions.",
+          "open_code": "processingGlobal",
+          "summary": "observes many triangles with varied directions",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Wow. This...is difficult.",
+          "open_code": "reflectTask",
+          "summary": "comments on puzzle difficulty",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Some of them on their side.",
+          "open_code": "processingGlobal",
+          "summary": "notes some triangles sideways",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "One, two...one two on their side. One on their side. There's four on their side.",
+          "open_code": "processingGlobal",
+          "summary": "counts number of sideways triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Uh, maybe it's to rotate them.",
+          "open_code": "hypoGeneration",
+          "summary": "suggests rotation might be rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Uh, seems like there's five again on all of them. One, two, three, four, five...yeah.",
+          "open_code": "processingGlobal",
+          "summary": "observes five triangles per panel with count",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Maybe, to rotate them.",
+          "open_code": "hypoRevision",
+          "summary": "reasserts rotation hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Oh, one of them has six, I think. Yeah, one of the, has six.",
+          "open_code": "processingGlobal",
+          "summary": "notes exception with six triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I have no idea. I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses uncertainty again",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Panel A...well, panel A, panel C, panel F all have the yellow star.",
+          "open_code": "processingGlobal",
+          "summary": "identifies which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "And then...panel F has all of them rotated. Panel C has some of them rotated. Panel B has two rotated.",
+          "open_code": "processingGlobal",
+          "summary": "compares rotation counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. Let's see.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "begins viewing scene",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A, panel C panel F all have yellow stars. And then panel D, panel E, panel B have blank stars.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel E has one rotated up. Panel F has three rotated up.",
+          "open_code": "processingGlobal",
+          "summary": "compares rotated counts in E and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Oh, I have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses uncertainty",
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Uh, panel D has like three rotated. Panel A has one. Panel B has one. Panel C has three.",
+          "open_code": "processingGlobal",
+          "summary": "lists rotation counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Maybe with the yellow stars, three of them are rotated? Or two of them…are rotated? Or two of them are faced sideways...if this star's yellow.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rotation-based rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "I don't. This is difficult.",
+          "open_code": "reflectTask",
+          "summary": "comments on task difficulty",
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Wow. All the panels seem to have, like, similar colors, though.",
+          "open_code": "processingGlobal",
+          "summary": "observes color similarity overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Panel F has two blue, three red, two green. Panel E has three blue, one red, one green. Panel D has two red, three blue, two green. Panel C has two red, three blue, two green. Uh panel B has two.",
+          "open_code": "processingGlobal",
+          "summary": "enumerates colour counts per panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um, I don't know...",
+          "open_code": "reflectUncertainty",
+          "summary": "still uncertain",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "scene begins",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A, panel B, panel E all have the yellow stars in the top right.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "C...panel C, panel D, panel F have blank stars in the top right.",
+          "open_code": "processingGlobal",
+          "summary": "identifies non-starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, it seems like there's a lot more triangles.",
+          "open_code": "processingGlobal",
+          "summary": "notes many triangles overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um, One, two, three, four, five, six... panel A has nine, panel B has...six and C has...seven.",
+          "open_code": "processingGlobal",
+          "summary": "counts triangles in A, B, C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Panel D has...eight.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Panel E has...eleven.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Panel F has...one, two, three, four...eleven...I think. One, two, three, four, five, six, seven, eight, nine, ten, eleven.  One, two, three, four, five, six, seven...eleven.",
+          "open_code": "processingLocal",
+          "summary": "verifies count of F = 11",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Maybe it has something to do with the number triangles?",
+          "open_code": "hypoGeneration",
+          "summary": "suggests count-based rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I think the number the triangles has to do with the pattern.",
+          "open_code": "ruleGuess",
+          "summary": "states number rule guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "And that's my best guess.",
+          "open_code": "decisionConfirm",
+          "summary": "commits to guess",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I don't know.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses doubt",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "[counting under breath] [sighs]",
+          "open_code": "reflectUncertainty",
+          "summary": "non-verbal frustration",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um, I'm gonna say...has something to do with the number of triangles?",
+          "open_code": "ruleGuess",
+          "summary": "final rule about triangle count",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

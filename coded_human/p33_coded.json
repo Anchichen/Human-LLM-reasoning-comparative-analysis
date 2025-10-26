@@ -1,0 +1,797 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "[READING] Think aloud as you try to infer the hidden rule.",
+          "open_code": "readingInstructions",
+          "summary": "reads task instructions",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "[THINKING] Okay, it's lit up in panel A, E, and F, okay.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "And panel A, blue cone is up, but it's also up in B.",
+          "open_code": "processingGlobal",
+          "summary": "compares blue cone orientation A vs B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Then...oh those are two different sizes though.",
+          "open_code": "processingLocal",
+          "summary": "observes size difference of cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Okay. It's up in E...And it's up in D okay.",
+          "open_code": "processingGlobal",
+          "summary": "notes blue cone up in E and D",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "In panel...A...E...and F, there is at least one cone that is upside down.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes upside-down cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "And there's no other cones that are upside down and the ones that aren't there [aren't starred].",
+          "open_code": "counterExampleSearch",
+          "summary": "claims non-star panels lack upside-down cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So that might be it.",
+          "open_code": "decisionConfirm",
+          "summary": "tentatively accepts upside-down rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "And then let's see...there's...three green in panel A and there's two green...no, there's three green there. [counting under breath]",
+          "open_code": "processingLocal",
+          "summary": "counts green cones across panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "That's not it because the other ones..oh, wait...no...because that one...panel C also has three green. So that's not it.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects green-count hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I think it's the: at least they have one cone that's upside down. And then... (8.0) yeah I think that's it.",
+          "open_code": "decisionConfirm",
+          "summary": "re-affirms upside-down rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I would say there's one blue triangle or cone that's on top of a green because they all have that in common...Or panel A, E and F have that in common...",
+          "open_code": "hypoAlternative",
+          "summary": "suggests blue-on-green stack rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "but panel B also has that in common.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes panel B contradicts new rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "but it [B] doesn't have the upside down cone. So it doesn't qualify I believe.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses stack rule; supports upside-down rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "And then... [counting under breath] ...I don't think it depends on the number of things there are.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out number-based rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "[TYPING] One cone upside down. I think that's it.",
+          "open_code": "ruleArticulation",
+          "summary": "states final upside-down rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. This one has panel A, B and E...lit up.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Let's see.",
+          "open_code": "planningUnorganised",
+          "summary": "prepares to inspect panels",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So panel A has two green cones, two blue cones and one pink [red] cone.",
+          "open_code": "processingLocal",
+          "summary": "counts colours in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Panel B has two green, one blue, and two pink [red].",
+          "open_code": "processingLocal",
+          "summary": "counts colours in panel B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And...Panel E has three green...and two blue.",
+          "open_code": "processingLocal",
+          "summary": "counts colours in panel E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "What I think this one is, is that there is... at least one blue cone inside the two green triangles, because that's what all three of those have in common.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes blue-between-greens rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "All the other panels don't have....a blue cone in between two of the green.",
+          "open_code": "counterExampleSearch",
+          "summary": "claims other panels lack pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "They all...okay, so I think that's definitely it.",
+          "open_code": "decisionConfirm",
+          "summary": "accepts hypothesis as correct",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "And then let's see... Panel B doesn't have any going sideways.",
+          "open_code": "processingLocal",
+          "summary": "notes no sideways cones in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "And then...And there's always a small cone by itself.",
+          "open_code": "hypoAlternative",
+          "summary": "suggests small-alone cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "No not technically....not technically.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects small-cone idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Um... I just think it's there's a blue cone in between two green cone.",
+          "open_code": "decisionConfirm",
+          "summary": "re-affirms main hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "[TYPING] At least one blue cone between two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "states final rule formally",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so this one's panels A, C, and F are lit up.",
+          "open_code": "processingGlobal",
+          "summary": "notes starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has two blue cones tilted with the pointy side out.",
+          "open_code": "processingLocal",
+          "summary": "observes tilted blue cones in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Ooh, I think that's it.",
+          "open_code": "decisionConfirm",
+          "summary": "expresses immediate hypothesis confidence",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "They have two blue cones that are tilted out.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes tilted blue cones rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And... (10.0) I was gonna say they each kind of have two of the same cones going in each direction, but...that's not it.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects direction-symmetry idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "One, two, three, four, five. One, two, three, four, five. One, two, three four...",
+          "open_code": "processingLocal",
+          "summary": "counts cones in panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "It's not based on the number of cones that they have in each triangle or each panel.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out number-based rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Two blue and two pink [red] and a green in panel A.",
+          "open_code": "processingLocal",
+          "summary": "counts colours in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Two blue, two green, one pink [red] in panel C, it doesn't work for panel F, though, because it has two pink [red] and two blue and one green.",
+          "open_code": "counterExampleSearch",
+          "summary": "compares colour counts; finds mismatch",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "(8.5) That was close though.",
+          "open_code": "reflectSelf",
+          "summary": "comments on near-miss idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Okay...Okay, [TYPING] I think it's two blue cones laying...Two tilted blue cones in each panel.",
+          "open_code": "ruleArticulation",
+          "summary": "states final tilted blue rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. Panel A, panel C, and panel F all follow the same code.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay... Right off the bat they have...two that are tilted on its side, but one is upside down in panel F, so that doesn't work.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects two-tilted-cones idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "They have... three green in panel A but you only have two in panel C and F,",
+          "open_code": "processingLocal",
+          "summary": "observes green counts across panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "so that's not right.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses green-count pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Hm... I can't tell what they all have in common.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses difficulty finding rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "It's not that they have at least one blue cone going upright because almost everyone has that.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out upright-blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Everyone has at least one green cone going up.",
+          "open_code": "processingGlobal",
+          "summary": "observes universal green-upright",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And C doesn't have any purple – or pink [red] going up, Hm...",
+          "open_code": "processingLocal",
+          "summary": "notes lack of red upright in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "I would say it's two of the same sized cones tilted on its side,",
+          "open_code": "hypoGeneration",
+          "summary": "proposes same-size tilted pair rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "but panel C doesn't have two of the same size cones tilted on their side.",
+          "open_code": "counterExampleSearch",
+          "summary": "identifies counterexample to tilted pair",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um. (9.0) Okay, there's two touching and then one, and then a space, and then two, and then two big ones...",
+          "open_code": "processingLocal",
+          "summary": "describes positional grouping pattern",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I don't think that's it.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects grouping pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, okay. One, two, three, four, five, six...One, two, three, four, five...",
+          "open_code": "processingLocal",
+          "summary": "counts cones in selected panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "No... One, two, three, four, five, six...One, two, three, four, five, six, seven in panel A. One, two, three, four, five, six, seven... seven in panel C. One, two, three, four, five, six, seven in panel F.",
+          "open_code": "processingLocal",
+          "summary": "counts cones star panels have seven",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Okay, so they all have seven so far.",
+          "open_code": "decisionConfirm",
+          "summary": "accepts seven-cone observation",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "And then there's one, two, three, four, five, six in panel B. One, two, three, four, five, six...",
+          "open_code": "processingLocal",
+          "summary": "counts six cones in non-star B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "[counting under breath]..uh...it looks like they all have seven, I think.",
+          "open_code": "decisionConfirm",
+          "summary": "reinforces seven-cone hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "And...it's not the same number of each cones because they don't have that..or same color – number –equal color.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out equal-color-count rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING]. All..same number of cones...in active panels.",
+          "open_code": "ruleArticulation",
+          "summary": "states final seven-cone rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. Panels A, B, and E are activated.",
+          "open_code": "processingGlobal",
+          "summary": "notes starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay, right off the bat, the panel's A, B and F – A, B, and E all have a pink [red] cone first.",
+          "open_code": "processingGlobal",
+          "summary": "observes first cone red pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "That could be a role because none of the other ones have one.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes first-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And then...One, two, three, four, five, six, seven, eight, nine. One, two, three, four, five, six, seven, eight, nine, ten, eleven. One, two, three, four, five, six, seven, eight, nine, ten, eleven.",
+          "open_code": "processingLocal",
+          "summary": "counts cones across panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Yeah, it has nothing to do with the number count.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects number-count rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, what else?.",
+          "open_code": "planningExplorative",
+          "summary": "searches for new pattern",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "It's gonna say they all have at least one blue that's tilted...",
+          "open_code": "hypoAlternative",
+          "summary": "suggests tilted-blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "but so do your panel D, C, and F, so that has nothing to do with blue being tilted.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects tilted-blue rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "They also have at least...one, two... it has nothing to do with the pink [red] panels being tilted on its side.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out red-tilted rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Because panels D, C, and F all have tilted pink [red] panels and they all have tilted green cones.",
+          "open_code": "counterExampleSearch",
+          "summary": "lists counterexamples for tilt ideas",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So I think that the first cone being pink [red]...is the key.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms first-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "They don't have the same matching last cone either.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects last-cone match rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Pink [red]...two...no because panel A has pink [red] and then it goes into a double. That one has pink [red] and then it's single. That one's initially pink [red] and a double.",
+          "open_code": "ruleExclusion",
+          "summary": "further rejects complex sequence patterns",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "[TYPING] I think its first cone is pink [red].",
+          "open_code": "ruleArticulation",
+          "summary": "states final first-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

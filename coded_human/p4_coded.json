@@ -1,0 +1,1044 @@
+[
+  [ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "[READING] Okay, think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes.",
+      "open_code": "orientation",
+      "summary": "Reads task instructions"
+    },
+    {
+      "id": 2,
+      "span": "[THINKING] Okay, so A, E, and F follow a set rule; B, C, and D don't.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies star vs non-star sets",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel A has… one, two, three, four, five, six, seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in panel A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Panel E has [counting] six triangles, I think.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in panel E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel F has [counting] eight triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in panel F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "So that they're different in number.",
+      "open_code": "Inference",
+      "summary": "Notes numbers differ across starred"
+
+    },
+    {
+      "id": 7,
+      "span": "Panel A has red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Lists colors in panel A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Panels E and F also have red, blue, and green, so that’s consistent.",
+      "open_code": "processingGlobal",
+      "summary": "Notes same three colors in E & F",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 9,
+      "span": "Panels B, C, and D have blue and green, but they don’t have red.",
+      "open_code": "processingGlobal",
+      "summary": "Observes red absent in non-starred",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So a potential rule could be the presence colors, the presence of all three colors.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates three-color presence rule"
+    },
+    {
+      "id": 11,
+      "span": "Um what else could there be?",
+      "open_code": "planningExplorative",
+      "summary": "Questions sufficiency of idea",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 12,
+      "span": "It's not the number of triangles.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses count-based rule"
+    },
+    {
+      "id": 13,
+      "span": "It could be the number of upright triangles, that's an alternative.",
+      "open_code": "hypoAlternative",
+      "summary": "Suggests upright-count rule"
+    },
+    {
+      "id": 14,
+      "span": "Panel A has [counting] six upright triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts upright triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel E only has two.",
+      "open_code": "processingLocal",
+      "summary": "Counts upright triangles in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 16,
+      "span": "Panel F only has four, so that's inconsistent.",
+      "open_code": "decisionReject",
+      "summary": "Rejects upright-count rule",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 17,
+      "span": "All of the panels have triangles along the ground, so that doesn't seem to be the case.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates ground-triangle idea",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 18,
+      "span": "I think the best guess I have at the moment seems to be that panels A, E, and F contain red, blue, and green, and that seems to be the consistent thing. I think I’ll have to go with that.",
+      "open_code": "decisionConfirm",
+      "summary": "Selects three-color rule as best"
+    },
+    {
+      "id": 19,
+      "span": "I can’t see anything else, unless I start getting into sizes or area.",
+      "open_code": "monitorHighLevel",
+      "summary": "Assesses remaining search space"
+    },
+    {
+      "id": 20,
+      "span": "So my number one and only guess is that [TYPING] All of these panels: A, E, and F, contain red, blue, and green triangles.",
+      "open_code": "ruleArticulation",
+      "summary": "Formally states three-color rule"
+    }
+  ],
+
+  [ {"Title":"scene2"},
+    {
+      "id": 1,
+      "span": "Okay, we have another one.",
+      "open_code": "Orientation"
+    },
+    {
+      "id": 2,
+      "span": "A, B, and E are the ones with commonalities [they follow the rule]. Panels C, D, and F don’t.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies star vs non-star sets",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "So let’s start with panel A.",
+      "open_code": "planningBasicComparison",
+      "summary": "Announces focus on panel A first",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 4,
+      "span": "What do we have? One, two, three, four, five triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel B, [counting] we have five triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Panel E, we have [counting] five triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "So that’s a commonality.",
+      "open_code": "Inference",
+      "summary": "Notes same count across starred"
+    },
+    {
+      "id": 8,
+      "span": "Panel C also has five triangles. Panel D also has five triangles. And panel F has five triangles as well,",
+      "open_code": "processing",
+      "summary": "Observes non-starred also have five",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 9,
+      "span": "so the number of triangles is not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects triangle-count hypothesis"
+    },
+    {
+      "id": 10,
+      "span": "The color rule doesn’t apply here either, because panel A has red, blue, and green, but some of the ones that don’t fit the rule, like panel C, have red, blue, and green as well. So that doesn’t seem to be that either.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates three-color presence rule",
+      "lenses": {
+        "processingStyle": "mixed"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Let’s look at upright triangles, that was something we considered last time.",
+      "open_code": "planningStrategic",
+      "summary": "Proposes upright-count idea",
+      "lenses":{
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 12,
+      "span": "Panel A has [counting] four upright triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts upright triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 13,
+      "span": "Panel B has five upright triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts upright triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "So it’s not that either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects upright-triangle rule"
+    },
+    {
+      "id": 15,
+      "span": "Uh… this one’s more difficult.",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits increased difficulty"
+    },
+    {
+      "id": 16,
+      "span": "Let’s look at the pattern.",
+      "open_code": "modifyPlan",
+      "summary": "Shifts focus to color pattern",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 17,
+      "span": "Pattern of panel A is arranged green, blue, red, blue, green, so they are… none of the same colors repeated.",
+      "open_code": "processingLocal",
+      "summary": "Describes sequential colors in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Um and it mirrors: as in green, blue, red, blue, green. So that’s something we can look for.",
+      "open_code": "monitorHighLevel",
+      "summary": "Flags mirroring as possible rule",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "But panel B doesn’t mirror in that way, red, red, green, blue, green.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses mirror-pattern idea",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 20,
+      "span": "Um… Let’s look at ones outside the rule, panel C, panel D, panel E, I’m not sure.",
+      "open_code": "modifyPlan",
+      "summary": "Plans to inspect non-starred panels",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 21,
+      "span": "I can’t find any commonalities here. I’m struggling with this.",
+      "open_code": "monitorLowLevel",
+      "summary": "States struggle finding pattern"
+    },
+    {
+      "id": 22,
+      "span": "In terms of locations, they’re scattered. It’s not like the matching ones are only on the left. That doesn’t seem to apply either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects position-based rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 23,
+      "span": "Um I don’t have much confidence here in any of them.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses low confidence"
+    },
+    {
+      "id": 24,
+      "span": "I think the most likely explanation is something that I did not have time to consider, which is that…um, maybe they have the… the same number of…",
+      "open_code": "monitorLowLevel",
+      "summary": "Tentatively posits undisclosed count rule"
+    },
+    {
+      "id": 25,
+      "span": "Oh wait, just a quick check of the number of… No, it’s not that.",
+      "open_code": "ruleExclusion",
+      "summary": "Immediately rejects new count idea"
+    },
+    {
+      "id": 26,
+      "span": "I think it might have something to do with the area of the triangles? That’s a wild guess, and I’m sure it won’t be that.",
+      "open_code": "hypoGeneration",
+      "summary": "Guesses area-based rule with doubt"
+    },
+    {
+      "id": 27,
+      "span": "[TYPING] Other things I could maybe consider is maybe the number of large triangles. And that would be based on height…",
+      "open_code": "hypoGeneration",
+      "summary": "Considers large-triangle count rule"
+    },
+    {
+      "id": 28,
+      "span": "I don’t have an answer for this one, I’m afraid.",
+      "open_code": "ruleImpasse",
+      "summary": "Admits inability to solve rule"
+    }
+  ],
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Okay, so A, C, and F follow the rule.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panel A has two blue triangles, two red triangles, and one green triangle.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel C has three green triangles, two blue triangles, and one red triangle, so– in fact, three green triangles in panel C.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "So that's not a match.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color-count rule"
+    },
+    {
+      "id": 5,
+      "span": "Panel F has two red, two blue, and one green.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Panel F does match panel A in terms of color breakdown, but panel C doesn’t match. It has to be… Yeah panel C doesn’t match.",
+      "open_code": "ruleExclusion",
+      "summary": "Concludes color breakdown not rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "(3.0) If we look at height, panel A has one triangle that’s obviously taller than others.",
+      "open_code": "processingLocal",
+      "summary": "Notes tallest triangle in A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So that doesn’t work.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses height idea"
+    },
+    {
+      "id": 9,
+      "span": "Well panel A has one obviously taller than the other. Panel C has two which are obviously taller than others.",
+      "open_code": "processing",
+      "summary": "Compares tall triangles across A and C",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Panel F has… not that I suppose, um maybe one that’s taller than others.",
+      "open_code": "processingLocal",
+      "summary": "Observes possible tall in F",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "How many cones are touching the ground? That’s something I can check.",
+      "open_code": "hypoGeneration",
+      "summary": "Shifts to ground-touch check"
+    },
+    {
+      "id": 12,
+      "span": "Panel A has… If I let it be sides that can be touching the ground, that would really clean up.",
+      "open_code": "hypoRevision",
+      "summary": "Clarifies counting criterion for A"
+    },
+    {
+      "id": 13,
+      "span": "Panel A has one, two, three, four, five sides touching the ground.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Panel C has one, two, three, four sides touching the ground, so it’s not a match.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel F has one, two, three, four sides touching the ground.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 16,
+      "span": "What about the number of triangle corners touching the ground?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers corner-touching rule"
+    },
+    {
+      "id": 17,
+      "span": "Panel A has one, two, three, four, five, six, seven, eight, nine, ten.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel C has nine.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "That’s not a match.",
+      "open_code": "decisionReject",
+      "summary": "Rejects corner-count rule"
+    },
+    {
+      "id": 20,
+      "span": "Panel F [counting] also has nine.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 21,
+      "span": "Maybe just check panel A again. Panel A has [counting] ten.",
+      "open_code": "Cross-Check",
+      "summary": "Recounts corners in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 22,
+      "span": "Still don’t match either.",
+      "open_code": "ruleExclusion",
+      "summary": "Confirms mismatch remains"
+    },
+    {
+      "id": 23,
+      "span": "I don’t think I’m good at this game.",
+      "open_code": "reflectSelf",
+      "summary": "Negative self-assessment"
+    },
+    {
+      "id": 24,
+      "span": "Um so far, I’ve checked colors, I’ve checked sizes, I’ve checked corners.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reviews completed checks"
+    },
+    {
+      "id": 25,
+      "span": "Um one thing I haven’t really checked is orientation, so that might be something I’m missing.",
+      "open_code": "hypoGeneration",
+      "summary": "Identifies new feature to analyze"
+    },
+    {
+      "id": 26,
+      "span": "So that’s say [TYPING] the orientation of triangles.",
+      "open_code": "ruleGuess",
+      "summary": "Types note about orientation"
+    },
+    {
+      "id": 27,
+      "span": "For example, the number of triangles pointing… left, that’s may be one factor.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests left-pointing count rule"
+    },
+    {
+      "id": 28,
+      "span": "And perhaps I made an error counting the number of sides touching the ground.",
+      "open_code": "monitorLowLevel",
+      "summary": "Questions own counting accuracy"
+    },
+    {
+      "id": 29,
+      "span": "Something like that. (4.0) Yeah… difficult.",
+      "open_code": "ruleGuess",
+      "summary": "Remarks difficulty of task"
+    }
+  ],
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, let’s try a different approach this time because what I’ve been doing hasn’t served me well in the last one.",
+      "open_code": "modifyPlan",
+      "summary": "Announces change of strategy"
+    },
+    {
+      "id": 2,
+      "span": "So let’s look at the ones that aren’t matches, B, D, and F.",
+      "open_code": "planningBasicComparison",
+      "summary": "Plans to inspect non-starred panels",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel B predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Describes features of panel B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Panel D predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright mix in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel E...predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Observes upright mix in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That hasn’t helped. That hasn’t helped.",
+      "open_code": "monitorLowLevel",
+      "summary": "Notes current tactic unhelpful"
+    },
+    {
+      "id": 7,
+      "span": "So, within panel A, there is one triangle that has red on top of a green.",
+      "open_code": "processingLocal",
+      "summary": "Spots red-over-green stack in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That’s something new. I don’t think I’ve seen that before.",
+      "open_code": "monitorHighLevel",
+      "summary": "Flags novelty of observation"
+    },
+    {
+      "id": 9,
+      "span": "Panel , we have a blue on top of green and Panel F we have a red on top of a blue.",
+      "open_code": "processingGlobal",
+      "summary": "Notes other stacked color pairs",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So, there’s some sort of mixing happening there, so that’s a potential...of commonalities they have, different colors stacked let’s say.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-colors hypothesis"
+    },
+    {
+      "id": 11,
+      "span": "So that’s one option.",
+      "open_code": "decisionConfirm",
+      "summary": "Marks hypothesis as candidate"
+    },
+    {
+      "id": 12,
+      "span": "Let’s do our usual check for number of triangles.",
+      "open_code": "modifyPlan",
+      "summary": "Switches to counting strategy",
+      "lenses": {
+        "planningLevel": "level 1"
+            }
+    },
+    {
+      "id": 13,
+      "span": "Panel A has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Panel C has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel F has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in F",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "perspectiveDepth": "0step",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So they do all match.",
+      "open_code": "Inference",
+      "summary": "Summarises equal counts in A,C,F"
+    },
+    {
+      "id": 17,
+      "span": "Panel B has [counting] six.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel D has [counting] seven, so that disrupts the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects number-seven rule",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "So, we’ve ruled out colors, we’ve ruled out the number.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reviews eliminated hypotheses"
+    },
+    {
+      "id": 20,
+      "span": "Orientation is difficult to kind of um, to do in this amount of time I have, but I could look at the clockwise versus anti-clockwise. I’ll put that on my list.",
+      "open_code": "planningStrategic",
+      "summary": "Plans future orientation check",
+      "lenses": {
+        "planningLevel": "level 3"
+            }
+    },
+    {
+      "id": 21,
+      "span": "I’m thinking the most likely rule is: different colored triangles stacked on top of each other. So the most confident one would be [TYPING] different colored triangles stacked on top of each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-color rule verbally"
+    },
+    {
+      "id": 22,
+      "span": "And then number two might be, again be related to orientation of triangles, for example, the number of clockwise vs. anti-clockwise triangles.",
+      "open_code": "hypoAlternative",
+      "summary": "Mentions secondary orientation hypothesis"
+    }
+  ],
+
+  [ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": " Okay, so the last one I used more of a haphazard approach, and that seemed to get me an answer.",
+      "open_code": "monitorHighLevel",
+      "summary": "Recalls prior haphazard success"
+    },
+    {
+      "id": 2,
+      "span": "The methodical approach seems to take too long given the time constraints, so let's try to go for some, um, magic bullet attempts, that might be the better way.",
+      "open_code": "modifyPlan",
+      "summary": "Declares switch to quick guesses",
+      "lenses": {
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 3,
+      "span": "So Panel A again has different colors stacked, red stacked on top of blue,",
+      "open_code": "processingLocal",
+      "summary": "Observes red-on-blue stack in A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "but panel B doesn't have that kind of stacking, so that's not the case this time.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses stacking-color rule",
+      "lenses": {
+        "processingStyle": "LocalScan"
+            }
+    },
+    {
+      "id": 5,
+      "span": "What panel A does have… is… um two triangles that are laying horizontally on one another.",
+      "open_code": "processingLocal",
+      "summary": "Notes horizontal pair in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Panel B, however… Panel B does have one of those, actually. In fact, panel B has two of those.",
+      "open_code": "processingLocal",
+      "summary": "Observes similar horizontals in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Panel E has one of those…only.",
+      "open_code": "processingLocal",
+      "summary": "Notes single horizontal pair in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So they all have at least one, which makes it an option, but panel C however also has one of those, so that disrupts the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects horizontal-pair rule via C",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 9,
+      "span": "That’s have a look at um… I feel like there will be something within the linking, the way the triangles are laid on top of each other. Unless this is all just random and a way to see how people will approach methodical tasks anyway.",
+      "open_code": "monitorLowLevel",
+      "summary": "Speculates about task design randomness",
+      "lenses":{
+        "planningLevel":"level 3"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Um… Let’s see. So red laid on top of blue, and blue laid on top of red.",
+      "open_code": "processingLocal",
+      "summary": "Notes possible reciprocal stacks",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Panel A has a red laid on top of blue, and a blue laid on top of red. Panel B has a blue laid on top of red. Panel E has a red laid on top of blue.",
+      "open_code": "processingGlobal",
+      "summary": "Enumerates stack types in A,B,E",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "So I was hoping they might all have blue on top of red, but that's not the case.",
+      "open_code": "ruleExclusion",
+      "summary": "Blue-on-red rule disproved"
+    },
+    {
+      "id": 13,
+      "span": "In fact panel C has a blue laid on top of red too, so that's not the case.",
+      "open_code": "ruleExclusion",
+      "summary": "Adds C as further disconfirmation",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "I'm just going to count the number of sides that are touching the ground.",
+      "open_code": "modifyPlan",
+      "summary": "Switches to side-count strategy",
+      "lenses": {
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel A has one, two, three, four, five, six.",
+      "open_code": "processingLocal",
+      "summary": "Counts sides touching ground in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 16,
+      "span": "Panel B has [counting] four, so that's not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Side-count rule rejected via B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 17,
+      "span": "So I’m going to check the number of corners that are touching the ground.",
+      "open_code": "modifyPlan",
+      "summary": "Plans corner-count strategy",
+      "lenses": {
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel A has two, four, six, eight, nine, eleven, thirteen.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "Panel B has two, four, six, seven, eight, ten.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 20,
+      "span": "So that's not a rule either.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses corner-count hypothesis"
+    },
+    {
+      "id": 21,
+      "span": "I'm struggling with this one.",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits struggle"
+    },
+    {
+      "id": 22,
+      "span": "Let's say… um [TYPING] number of sides overlaid on each other, or triangles laid side to side. That's an option.",
+      "open_code": "ruleGuess",
+      "summary": "Suggests overlay/side-by-side rule"
+    },
+    {
+      "id": 23,
+      "span": "I think we kind of ruled it out, but potentially there's something in there.",
+      "open_code": "monitorLowLevel",
+      "summary": "Questions ruled-out overlay idea"
+    },
+    {
+      "id": 24,
+      "span": "Another guess would be something I haven't been able to consider.",
+      "open_code": "monitorLowLevel",
+      "summary": "Acknowledges unseen possibilities"
+    },
+    {
+      "id": 25,
+      "span": "[THINKING] So um… maybe the… I didn't get a chance to rule out the… breakdown of colors, but just looking at it quickly, panel B doesn't have many colors, so it's not going to be that.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color-breakdown rule",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 26,
+      "span": "I would suggest… um… I don't think I have a second guess on this one.",
+      "open_code": "reflectUncertainty",
+      "summary": "States lack of second guess"
+    },
+    {
+      "id": 27,
+      "span": "I'm completely at a loss. I'm just hoping there isn't a rule, because if there is, I'm totally not seeing it.",
+      "open_code": "ruleImpasse",
+      "summary": "Declares total impasse"
+    }
+  ]
+
+    ]

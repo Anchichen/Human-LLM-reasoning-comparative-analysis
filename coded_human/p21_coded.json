@@ -1,0 +1,848 @@
+[
+  [
+    {
+      "Title": "scene1"
+    },
+    {
+      "id": 1,
+      "span": "Okay, so think out loud as you infer the– [THINKING] Okay, so, uh, just looking at the... quick look of the puzzles here.",
+      "open_code": "readingInstructions",
+      "summary": "Acknowledges instruction and begins initial glance.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So, we've got three indicated in yellow... and the yellow... marked ones indicate there's multiple... uh, colors associated in those panels.",
+      "open_code": "processingGlobal",
+      "summary": "Notes three yellow-highlighted panels suggest multiple colors.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "So that's panel A, panel E, and panel F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies the highlighted panels by label.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So you can see they contain multiple colors such as red, blue and green.",
+      "open_code": "processingGlobal",
+      "summary": "Observes multiple colors in highlighted panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "And...in comparison to panels B, C and D, they only contain the colors at blue and green.",
+      "open_code": "processingGlobal",
+      "summary": "Contrasts non-highlighted panels having only blue and green.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "So, that's why I think red, in A, E and F, stand out.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates hypothesis: red differentiates highlighted panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "So we have the three colors associated in their patterns or labels in comparison to B, C, and D.",
+      "open_code": "processingGlobal",
+      "summary": "Restates three-color presence vs two colors.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So that's why I think...that's for...kind of like... similarities in regards to A, E, and F, the ones highlighted in yellow, that we have multiple color schemes, associated with them.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reflects on similarity rationale across highlighted panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So, yeah, they include red in A, E, and F and B, C, and D, contain only blue and green.",
+      "open_code": "processingGlobal",
+      "summary": "Summarises color inclusion evidence again.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "So, um, yeah, I think that's pretty much everything in regards to the hidden rule in this instance.",
+      "open_code": "decisionConfirm",
+      "summary": "Believes rule explanation complete.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So, just to clarify, A, E, and F, the ones highlighted in yellow, contain three color schemes in the triangles or the pyramids or cones, whereas B, C, and D only contain two color schemes in the cones.",
+      "open_code": "ruleArticulation",
+      "summary": "Explicitly states three-color vs two-color rule.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "It doesn't matter whether it’s upright or not.",
+      "open_code": "ruleExclusion",
+      "summary": "Excludes orientation as relevant factor.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "I think the main rule, uh, associated in this one is that A, E, and D– or I mean A, E, and F, contain three color schemes.",
+      "open_code": "ruleArticulation",
+      "summary": "Reiterates three-color rule correcting slip.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So, yeah, that's, I believe, the rule associated with this particular panel.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms belief in identified rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Um, I don't think there's anything else I need to clarify in regards to, the rule.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reflects no further clarifications needed.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "[READING] So you can add two more than one rule.",
+      "open_code": "readingInstructions",
+      "summary": "Reads additional instruction aloud.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "[TYPING] So, uh, the hidden rule is...that there is three color schemes associated in each.",
+      "open_code": "ruleArticulation",
+      "summary": "Types formal statement of three-color rule.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "So, yeah, the hidden rule is that there has to be three color schemes associated.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates final rule verbally again.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "So that's why... –A, E, and F and the other one’s kind of gave me that clue.",
+      "open_code": "monitorHighLevel",
+      "summary": "Explains panels that revealed clue.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [
+    {
+      "Title": "scene2"
+    },
+    {
+      "id": 1,
+      "span": "Okay, so, A, B, and E.",
+      "open_code": "processingGlobal",
+      "summary": "Notes starred panels A B E.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "I'm just trying to see the similarities in each one of these.",
+      "open_code": "planningExplorative",
+      "summary": "Plans to look for similarities.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "So, I'm just trying– uh... it's kind of, like, hard to really differentiate what the difference is and why this might have a hidden rule.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses difficulty finding rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So, A, B and E, I'm just trying to associate them.",
+      "open_code": "adherePlan",
+      "summary": "Continues associating starred panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Um, it's got nothing to do with color schemes this time as they all contain all the colors.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color scheme relevance.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "And A and B in particular have more colors in comparison to E.",
+      "open_code": "processingGlobal",
+      "summary": "Observes A and B show more colors than E.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "I'm trying to think if it's something to do with the green cones in A, B and E, as they are all stood... upright.",
+      "open_code": "hypoGeneration",
+      "summary": "Considers upright green cones as rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "They're not slanted in any way or... yeah, they're kind of positioned and aligned straight.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright alignment detail.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So, in comparison to labels C, D, and F, you can see the green cone is slanted a little bit to the right on C. On D, it's a little bit... kind of like, right, a little bit, not as much as C, but it's still slanted.",
+      "open_code": "counterExampleSearch",
+      "summary": "Compares non-star panels showing slanted greens.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "And, I think, F, there's not, there's got to be... there's only one color scheme, or one green cone available.",
+      "open_code": "processingLocal",
+      "summary": "Observes F has only one green cone.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So they might have have to be a rule where... Or the hidden rule is there has to be... the cones have to be upright and there has to be more than two [greens] associated in the label.",
+      "open_code": "hypoRevision",
+      "summary": "Refines rule to upright plus ≥2 greens.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "So that's my guess or interpretation of what the hidden rule could be.",
+      "open_code": "ruleGuess",
+      "summary": "States tentative rule guess.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Um, so, yeah, once again, there has to be two or more green cones present and they have to be upright.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates rule of ≥2 upright greens.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So, no misalignment in any of the shapes or the cones in this instance.",
+      "open_code": "hypoRevision",
+      "summary": "Adds no misalignment clarification.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Okay. So, yeah, uh, I believe the hidden rule associated with the task is there has to be there has to contain two or more green cones, and they have to be upright, so not misaligned in any way.",
+      "open_code": "ruleArticulation",
+      "summary": "Final articulation of upright ≥2 greens rule.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    }
+  ],
+  [
+    {
+      "Title": "scene3"
+    },
+    {
+      "id": 1,
+      "span": "Okay. So, let's see.",
+      "open_code": "planningExplorative",
+      "summary": "Begins exploratory reasoning.",
+      "lenses": {
+        "representationGrain": "gist",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So, A, C, and F. (4.5)",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels A C F.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "So, the similar similarities I could see in between A, C, and F, F in particular, is that there is...that there's two blue cones in each one of these labels, A, C and F, and they are slanted.",
+      "open_code": "processingGlobal",
+      "summary": "Notes two slanted blue cones in each starred panel.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So, obviously they're misaligned, and they're both kind of...they're all misaligned in this instance.",
+      "open_code": "processingLocal",
+      "summary": "Elaborates on misalignment detail.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Whereas you've got, in B, D and E, you've got either blue cones in this instance that are upright or there's only one contained.",
+      "open_code": "counterExampleSearch",
+      "summary": "Compares non-starred panels: upright or single blue.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "So, I think that is the hidden rule in this scenario, that A, C and F all contain blue cones.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes blue-cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "There's two each... in each of the labels.",
+      "open_code": "hypoRevision",
+      "summary": "Adds requirement of two blue cones.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "And they are slanted, so they're misaligned and none of them are straight in this instance or upright.",
+      "open_code": "hypoRevision",
+      "summary": "Adds misaligned orientation condition.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So, I think that is the hidden rule in regards to this scenario.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms current rule idea.",
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "I can't actually see anything else that may indicate that another rule might be present in this instance.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses inability to find other rules.",
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "There's no kind of similarities in regards to the labels A, C, and F, with the exception of the blue cones that, uh, are misaligned in this instance.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reflects uniqueness of blue-cone feature.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "And there has to be two or more present in each label, whereas label E, for example, only has one blue cone misaligned.",
+      "open_code": "counterExampleSearch",
+      "summary": "Uses label E as disconfirming evidence.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "So, yeah, that's why that one isn't similar to A, C, and F.",
+      "open_code": "monitorHighLevel",
+      "summary": "Explains why E fails the rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So once again, I think, in A, C, and F, the hidden rule in this agenda is there has to be two or more blue cones present, and they have to be misaligned and slanted.",
+      "open_code": "ruleArticulation",
+      "summary": "Final statement of ≥2 misaligned blue cones rule.",
+      "lenses": {
+        "representationGrain": "verbatim",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    }
+  ],
+  [
+    {
+      "Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Okay. So, just trying to see the similarities out of A, C, and F here.",
+      "open_code": "planningExplorative",
+      "summary": "Plans to examine similarities among starred panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So I think, obviously from what I've inspected here, A, C, and F contain a triangle on top of one another.",
+      "open_code": "processingGlobal",
+      "summary": "Observes stacked triangles in each starred panel.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "So, for example, you can see on label A, there's a small red triangle on top of a green triangle, kind of like in the center of that panel.",
+      "open_code": "processingLocal",
+      "summary": "Describes specific stacked colours in panel A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Uh, label C indicates a blue triangle on top of a green triangle, just near to the middle right of the actual panel.",
+      "open_code": "processingLocal",
+      "summary": "Describes stacked colours in panel C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "And label F contains a red triangle on top of a blue cone.",
+      "open_code": "processingLocal",
+      "summary": "Describes stacked colours in panel F.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "So that is the similarities I can see within this task.",
+      "open_code": "monitorHighLevel",
+      "summary": "Summarises identified common feature.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Again, on version B, for example, there's not really a different color...or different cone color coordination on top of one another.",
+      "open_code": "counterExampleSearch",
+      "summary": "Notes panel B lacks different-colour stacking.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "There's two green cones on top of each other there, so that doesn't count.",
+      "open_code": "ruleExclusion",
+      "summary": "Excludes B because stacked cones share colour.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Label D doesn't have any cones on top of each other at all, so that one has been singled out as well.",
+      "open_code": "counterExampleSearch",
+      "summary": "Observes D lacks any stacking altogether.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "And version E does have, once again, two blue cones on top of each other, but they're the same color.",
+      "open_code": "counterExampleSearch",
+      "summary": "Notes E has same-colour stacking, disqualifying it.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So, I think the hidden rule in this agenda is... that label A, C, and F contain... is that you have to have one cone on top of each other, and it has to be a different color.",
+      "open_code": "ruleArticulation",
+      "summary": "States rule: stacked cones of different colours.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "So, yeah, once again, one cone has to be on top of another and it has to be a different color scheme.",
+      "open_code": "ruleArticulation",
+      "summary": "Reiterates stacked differing-colour cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "So, I think that is the hidden rule in this, uh, scenario.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms confidence in proposed rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [
+    {
+      "Title": "scene5"
+    },
+    {
+      "id": 1,
+      "span": "Okay. So, version A, version B and version E, this time.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies highlighted panels A B E.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "I'm just trying to see what is the same.",
+      "open_code": "planningExplorative",
+      "summary": "Plans to search for shared features.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "So, I think the similarity I can see in regards to the labels A, B and E is that there's a blue and red cone that are misaligned together or connected together in this instance.",
+      "open_code": "processingGlobal",
+      "summary": "Observes misaligned red–blue cone pairing in starred panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So, you can see on version A, there is a red and blue cone kind of misaligned or slanted, but they're connected together.",
+      "open_code": "processingLocal",
+      "summary": "Details red–blue misalignment in panel A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Version B has the same on the right-hand side of the actual panel itself, with the little small blue cone and red cone connected together, but they're slanted.",
+      "open_code": "processingLocal",
+      "summary": "Describes same feature in panel B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "And version E contains that as well, with the bigger cones highlighted in the middle of the panel there.",
+      "open_code": "processingLocal",
+      "summary": "Notes equivalent feature in panel E.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "So that is the similarity I can see.",
+      "open_code": "monitorHighLevel",
+      "summary": "Summarises identified similarity.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "I can't verify anything else.",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits uncertainty about other patterns.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So version C does contain that scenario, as well.",
+      "open_code": "counterExampleSearch",
+      "summary": "Notes panel C also fits earlier pattern.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "There is a blue cone, kind of like, on top of a red cone.",
+      "open_code": "processingLocal",
+      "summary": "Details red–blue stack in panel C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "But I'm just trying to indicate any other, um...",
+      "open_code": "planningExplorative",
+      "summary": "Seeks alternative distinguishing features.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "Level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "And there's also, from what I can see, version A, version B, and version E only have two green cones. So, only have two green cones present.",
+      "open_code": "processingGlobal",
+      "summary": "Observes starred panels contain exactly two greens.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "So, that actually might be a hidden rule in this instance.",
+      "open_code": "monitorHighLevel",
+      "summary": "Considers two-green rule possibility.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So, yeah, there could be two rules, but I can't see that, considering the first rule that I indicated is inaccurate because version C kind of contains a blue cone misaligned with a red cone that are connected together.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects initial red–blue rule due to C exception.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So, what I can think the hidden rule in this instance is there has to be no more than two green cones present, in each label.",
+      "open_code": "ruleArticulation",
+      "summary": "States rule: max two green cones per panel.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So that's what A, B and E contain.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms evidence for two-green rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ]
+]

@@ -1,0 +1,654 @@
+[
+  [{"Title": "scene1"
+    },
+    {
+      "id": 1,
+      "span": "Okay.",
+      "open_code": "otherEmergent_taskStart",
+      "summary": "brief acknowledgement",
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Number A...A bunch of triangles. A bunch of different colors with a lit up star. So that means that is the rule.",
+      "open_code": "processingLocal",
+      "summary": "describes panel A and notes star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "All right, next one, B, a couple triangles, two colors, no lit-up star.",
+      "open_code": "processingLocal",
+      "summary": "observes features of panel B",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Third, all triangles, some pointed up, some sideways.",
+      "open_code": "processingLocal",
+      "summary": "describes orientation in panel C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "D, some sideways, most up and down.",
+      "open_code": "processingLocal",
+      "summary": "notes triangle orientations in D",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "E...E is lit up with cones, all different directions, and the star is lit up.",
+      "open_code": "processingLocal",
+      "summary": "describes panel E with star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "And F, is a bunch of different...with... also star lit up.",
+      "open_code": "processingLocal",
+      "summary": "observes panel F and star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So, let's see, A, E, and F are all following what rule?",
+      "open_code": "planningBasicComparison",
+      "summary": "focuses on star panels comparison",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "I would say... I think that they all have the three colored triangles.",
+      "open_code": "hypoGeneration",
+      "summary": "proposes multi-color rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "I think that is it because B, C, and D only have blue and green.",
+      "open_code": "monitorHighLevel",
+      "summary": "justifies hypothesis via contrast",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "A, E, and F have red, green and blue.",
+      "open_code": "processingGlobal",
+      "summary": "summarises color presence in stars",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "So, I think that is going to be...",
+      "open_code": "decisionConfirm",
+      "summary": "commits to color rule",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene2"
+    },
+    {
+      "id": 1,
+      "span": "All right.",
+      "open_code": "otherEmergent_taskStart",
+      "summary": "brief acknowledgement",
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Next up, A is lit up. It is...all colors of triangles, all mostly pointed up.",
+      "open_code": "processingLocal",
+      "summary": "describes color & orientation in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "B...(7.0) is also lit up. C is not lit up.",
+      "open_code": "processingGlobal",
+      "summary": "notes star status of B and C",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Hm...they all have three colors.",
+      "open_code": "processingGlobal",
+      "summary": "observes three‐color presence",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "D has all but is not lit up.",
+      "open_code": "counterExampleSearch",
+      "summary": "finds D contradicts color rule",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "E is lit up but only has two colors, green and blue.",
+      "open_code": "counterExampleSearch",
+      "summary": "notes E contradicts color rule",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "F has all colors, but it is not lit up.",
+      "open_code": "counterExampleSearch",
+      "summary": "observes F also contradicts rule",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So, let's see what is the rule for A, B and E?",
+      "open_code": "planningBasicComparison",
+      "summary": "focus shifts to starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Green up.",
+      "open_code": "hypoGeneration",
+      "summary": "proposes greens upright rule",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Blue tipped...blue on its side...",
+      "open_code": "hypoAlternative",
+      "summary": "tests blue orientation rule",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "nope.",
+      "open_code": "ruleExclusion",
+      "summary": "rejects blue orientation idea",
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Okay, so there's a big and a small green in each of those.",
+      "open_code": "hypoGeneration",
+      "summary": "suggests size pattern in greens",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "No red...",
+      "open_code": "hypoAlternative",
+      "summary": "considers absence-red rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "[mumbling] All small...small blue triangles...",
+      "open_code": "hypoAlternative",
+      "summary": "mulls small blue triangles idea",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene3"
+    },
+    {
+      "id": 1,
+      "span": "Okay,",
+      "open_code": "otherEmergent_taskStart",
+      "summary": "simple acknowledgement",
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "A, C, and F are all lit up stars.",
+      "open_code": "processingGlobal",
+      "summary": "notes which panels have stars",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "A has one, two, three pointed up.",
+      "open_code": "processingLocal",
+      "summary": "counts upright triangles in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "B has one, two, three pointed up but is not selected.",
+      "open_code": "processingLocal",
+      "summary": "notes B same feature but no star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "C has one, two, three pointed up but is lit up.",
+      "open_code": "processingLocal",
+      "summary": "observes C upright and starred",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "D has...three pointed up– two pointed up, not lit up star.",
+      "open_code": "processingLocal",
+      "summary": "describes D upright count no star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "E has five pointed up and F has them all lying down or pointed down.",
+      "open_code": "processingLocal",
+      "summary": "notes orientations in E and F",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So, blue on its side, blue on its side.",
+      "open_code": "hypoGeneration",
+      "summary": "suggests blue sideways rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "(16.0) Oh, this one's tricky.",
+      "open_code": "reflectTask",
+      "summary": "expresses task difficulty",
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "(7.5) Green pointed up?",
+      "open_code": "hypoGeneration",
+      "summary": "proposes green upright rule",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Nope that ain't it.",
+      "open_code": "ruleExclusion",
+      "summary": "rejects green upright idea",
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "A has red up. Red, sideways. Red, sideways. Red, down.",
+      "open_code": "processingGlobal",
+      "summary": "scans red orientations across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "alright, A is...",
+      "open_code": "processingLocal",
+      "summary": "incomplete thought about A",
+      "lenses": {
+        "processingStyle": "localScan"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Okay, let's try to find...",
+      "open_code": "planningExplorative",
+      "summary": "initiates open search for rule",
+      "lenses": {
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "A is lit up, you have all the colors, some sideways, some stacked, some pointed up.",
+      "open_code": "processingLocal",
+      "summary": "describes colors and orientations in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "C, we have all colors lit up.",
+      "open_code": "processingLocal",
+      "summary": "notes C starred and all colors",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "And F is also lit up and...has all colors.",
+      "open_code": "processingLocal",
+      "summary": "observes F starred with all colors",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So what do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "sets goal to compare starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Red, up up.",
+      "open_code": "hypoGeneration",
+      "summary": "proposes red upright idea",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Green lying on its side for C.",
+      "open_code": "processingLocal",
+      "summary": "observes green orientation in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "And F...",
+      "open_code": "processingLocal",
+      "summary": "incomplete thought about F",
+      "lenses": {
+        "processingStyle": "localScan"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "(25.5) I don't see...",
+      "open_code": "reflectUncertainty",
+      "summary": "expresses difficulty seeing pattern",
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "(73.0) I do not know.",
+      "open_code": "reflectUncertainty",
+      "summary": "states not knowing rule",
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "A...two blue. C, three blue. F two blue.",
+      "open_code": "processingGlobal",
+      "summary": "counts blue triangles across starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "A, three green. C, two green. F, two green.",
+      "open_code": "processingGlobal",
+      "summary": "counts green triangles across starred",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "A, two red. C, two red. F, three red.",
+      "open_code": "processingGlobal",
+      "summary": "counts red triangles across starred",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "(14.0) One, two, three, four, five, six, seven. One, two, three, four, five, six, seven. One, two, three, four, five, six, seven...",
+      "open_code": "processingGlobal",
+      "summary": "counts total triangles in each starred panel",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene5"
+    },
+    {
+      "id": 1,
+      "span": "Okay, this one is a lot. Holy moly.",
+      "open_code": "reflectTask",
+      "summary": "reacts to puzzle complexity",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "A, we've got all sorts of triangles, every direction and lit up.",
+      "open_code": "processingLocal",
+      "summary": "describes colors, directions in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "B, we have all color triangles and lit up.",
+      "open_code": "processingLocal",
+      "summary": "notes B all colors and star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "And E we have all triangles, all colors, is lit up.",
+      "open_code": "processingLocal",
+      "summary": "observes E all colors and star",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So, what two...?",
+      "open_code": "planningBasicComparison",
+      "summary": "begins comparing starred panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Okay, A is lit up. B is lit up. And E...",
+      "open_code": "processingGlobal",
+      "summary": "reiterates which panels starred",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "What do we have...Red, blue...",
+      "open_code": "hypoGeneration",
+      "summary": "starts color‐based hypothesis",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "(14.0) A, B, and E... [sighs]",
+      "open_code": "reflectUncertainty",
+      "summary": "displays uncertainty with sigh",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ]
+]

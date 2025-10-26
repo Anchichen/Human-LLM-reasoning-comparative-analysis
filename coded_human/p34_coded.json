@@ -1,0 +1,805 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Well, in panel A, there is a star on the top right. It's lit.",
+          "open_code": "processingLocal",
+          "summary": "Notes lit star position in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, there are three lit.",
+          "open_code": "processingGlobal",
+          "summary": "Counts three lit panels overall",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Um, and they are all on the right side. All...oh, okay, all the stars are on the right.",
+          "open_code": "processingGlobal",
+          "summary": "Observes stars all positioned right",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, each panel has at least one green.",
+          "open_code": "processingGlobal",
+          "summary": "Notes every panel contains green",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Panel A, E and F have at least a red...red cone. While, B, C, D do not have a red cone.",
+          "open_code": "processingGlobal",
+          "summary": "Compares red presence star vs non-star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um...I'm trying to think what might be the other hidden trick.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty about rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Each panel has a green...green cone.",
+          "open_code": "processingGlobal",
+          "summary": "Restates universal green presence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So that may not be the answer.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green as rule factor",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um, whenever there's a red panel, there's a star – the star is lit.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes red presence causes star",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "There is a blue in each, so that excludes it. Green in each.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out blue and green factors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Red is the exception.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms red uniqueness supports rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So... Red might just be the... wait a second... unless I'm missing something...",
+          "open_code": "reflectUncertainty",
+          "summary": "Pauses, questions completeness",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "B, C, D are not lit.",
+          "open_code": "processingGlobal",
+          "summary": "Notes non-star panels unlit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So what am I missing?",
+          "open_code": "reflectSelf",
+          "summary": "Asks self about missing info",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "I don't think I'm missing anything, so I will...I will go with each panel A, E, and F has a red. Um, that is what makes the star light up.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: red lights star",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Hm…What am I missing? Am I missing something or anything?",
+          "open_code": "reflectUncertainty",
+          "summary": "Reiterates lingering doubt",
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "No. That could...that is it.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms rule sufficiency",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Well, for this one I'm looking at panel A, B, C, D, E and F, and this has a light in...",
+          "open_code": "planningExplorative",
+          "summary": "Begins broad scan of all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Mhm. Well there is...there is...oh, there is blue in every...every panel.",
+          "open_code": "processingGlobal",
+          "summary": "Observes blue present in all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "There is green in every panel.",
+          "open_code": "processingGlobal",
+          "summary": "Notes universal green presence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "There's red in all panels except in E.",
+          "open_code": "processingGlobal",
+          "summary": "Observes red absent only in panel E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So, in E that can't really be...that can't be the reason, where there is no red. So that that is not the reason.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red presence as causal rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So...what we have is more than two...two greens.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits rule: panels have >2 greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "And they are all lying on the flat platform and they are facing up.",
+          "open_code": "hypoRevision",
+          "summary": "Adds orientation and position to rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "That is a lead cause.",
+          "open_code": "decisionConfirm",
+          "summary": "Declares current hypothesis main cause",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "In A, they are on the flat platform, and they are lying directly on the platform.",
+          "open_code": "processingLocal",
+          "summary": "Checks panel A against hypothesis",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "On B as well or E, and there are...there are two in A, um, two in B and three in E.",
+          "open_code": "processingLocal",
+          "summary": "Counts greens in A, B, E for support",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "In F, it's lying on the on the surface, but it's not facing up.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes F violates facing-up condition",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "For the... for C and D I will eliminate them because the...the green ones are lying on another cone.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out C,D due to greens on cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Hence, that would be my reasoning for this specific....",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms reasoning just given",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "– Could there be any other guesses?",
+          "open_code": "planningExplorative",
+          "summary": "Considers possibility of other rules",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Uh, let me count. One, two, three, four five. One, two, three, four, five.",
+          "open_code": "processingGlobal",
+          "summary": "Counts cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "No, it can't be where there are five cones, because in each panel there is five cones, so that is not the reason.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects count-of-five as rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "So, the reason is... the one that I've stated.",
+          "open_code": "ruleArticulation",
+          "summary": "Restates chosen rule as final",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "So for this one... I'm looking at panel A, B, C, D, E and F.",
+          "open_code": "planningExplorative",
+          "summary": "Begins broad inspection of all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panels A, C and F are lit.",
+          "open_code": "planningBasicComparison",
+          "summary": "Notes which panels have lit stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel":"level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Each of the panels have... let me count the cones... One, two, three, four, five. One, two, three, four, five... One, two, three, four, five, six... (4.0) One, two, three, four, five, six.",
+          "open_code": "processingGlobal",
+          "summary": "Counts cone numbers across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So.. it can't be the number of cones...",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects cone-count as ruling factor",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um. All the cones are facing up.",
+          "open_code": "processingGlobal",
+          "summary": "Observes universal upward orientation",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So where? What cones are facing where... (4.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses confusion about orientation patterns",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "In the panels that are lit, there is more than...there are two blue cones, and one...one is facing up, like at an angle... What? There are two facing at an angle. Two at an angle.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates idea: two angled blue cones in lit panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Hm...One green here, one green here and three here.",
+          "open_code": "processingGlobal",
+          "summary": "Mentions varying green counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Oh, wow. This one is a bit tricky for me but let me...let me...let me just define what my rule could be.",
+          "open_code": "reflectUncertainty",
+          "summary": "Notes difficulty and intent to state rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "There is one... – but D has two and B has two.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds D and B contradict emerging rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "It has to be where there are two blue cones, and they are lying...they are facing up at an angle.",
+          "open_code": "ruleArticulation",
+          "summary": "Articulates rule: two angled blue cones present",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "That is what I can infer from this... (3.0) That is exactly what I can infer from this.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms final inference as answer",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "So for this one it's lit in A, C and F and the commonalities in that is...Hm...",
+          "open_code": "processingGlobal",
+          "summary": "Notes lit panels; seeks commonality",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "What is the exception here? I'm trying to find that...",
+          "open_code": "reflectSelf",
+          "summary": "Questions missing exception",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "three red, three red...Mm...three green...three in B and it's not lit, so it can be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Counts colors; rules out color count",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, blues...where are blues facing in that? (5.5)",
+          "open_code": "planningExplorative",
+          "summary": "Shifts attention to blue orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "The blues are facing down in B, at an angle. Down at an angle in A. Down in F.",
+          "open_code": "processingGlobal",
+          "summary": "Observes blue cones facing down",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But that can't be because in C and B all the blues are looking down.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects blue orientation as rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So... I'm trying to see what the rule is.",
+          "open_code": "reflectSelf",
+          "summary": "States ongoing search for rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So the star is lit where there are... four facing down...Yeah...there are four facing down.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: four cones facing down",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "One, two, three, four, five facing down. One, two, three, four, five facing down. And six where they...",
+          "open_code": "processingGlobal",
+          "summary": "Counts downward-facing cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "I'll just have to go with where there are more than five... where there are five cones facing down.",
+          "open_code": "ruleArticulation",
+          "summary": "States tentative rule: ≥5 cones down",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "What...what am I missing in this? I'm trying to see what I'm missing in this puzzle. I'm definitely missing something. I just can't...find out what it is.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses definite uncertainty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So, I'll just go off on a whim and say...where the cones are facing down.",
+          "open_code": "ruleArticulation",
+          "summary": "Re-states rule: cones facing down",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "But there's still time for me to correct that.",
+          "open_code": "reflectTask",
+          "summary": "Mentions possibility to revise answer",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I...just have to go with that... Hm.",
+          "open_code": "decisionConfirm",
+          "summary": "Accepts rule despite doubt",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "So, for this one... there is A, B, and E, where the star is lit.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies lit panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "What are the commonalities in that?",
+          "open_code": "planningBasicComparison",
+          "summary": "Seeks shared features among lit",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "There's so many. This one has so many. (3.5) So many cones that it's actually confusing.",
+          "open_code": "reflectTask",
+          "summary": "Comments on scene complexity",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I'm trying to find the number.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to examine cone counts",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So. It's lit where...the cones are lit...no, cones are lit everywhere, so that can't be the reason it's lit.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects cone-light attribute as rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "There is four red cones, three red cones and five red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "That doesn't...doesn't really help my situation.",
+          "open_code": "moniterLowLevel",
+          "summary": "Expresses that count unhelpful",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Okay, in each, there's two green cones, and in the rest there is more than two green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes two greens only in lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So the star is lit where there is two green cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: exactly two greens",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "That has to be...that has to be it.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms hypothesis sufficiency",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "What am I missing?",
+          "open_code": "reflectSelf",
+          "summary": "Questions if detail overlooked",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Yeah, that is the commonality.",
+          "open_code": "moniterHighLevel",
+          "summary": "Reconfirms commonality found",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Two green cones here in E. Two green cones in B. Two green cones in A.",
+          "open_code": "processingLocal",
+          "summary": "Lists evidence of two greens",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "It doesn't matter the direction they are facing.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out orientation relevance",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So, in the panel with... any panel with two green cones has the star lit. The star is lit where there are two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: exactly two greens",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

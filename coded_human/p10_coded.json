@@ -1,0 +1,844 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, right. [READING] We’re inferring a hidden rule.[THINKING] Okay— it’s the lit-up star again.",
+          "open_code": "taskOrientation",
+          "summary": "Acknowledges task instructions."
+        },
+        {
+          "id": 2,
+          "span": "Okay, so first, in panel A it lights up.",
+          "open_code": "processingLocal",
+          "summary": "Observes star lit in panel A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "We’ve got some reds, some greens, some blues.",
+          "open_code": "processingLocal",
+          "summary": "Notes colors present in panel A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "We’ve got a blue on top of a green.",
+          "open_code": "processingLocal",
+          "summary": "Observes blue stacked on green in A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "In panel B, we’ve got blue on top of green, but it’s not lit.",
+          "open_code": "processingLocal",
+          "summary": "Describes B’s stack and star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "In panel C we’ve got green on top of blue, some more greens, some more blues… but there’s no red.",
+          "open_code": "processingLocal",
+          "summary": "Lists C features, notes no red.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "In panel D we’ve got blue, green, blue, blue, blue, no light.",
+          "open_code": "processingLocal",
+          "summary": "Observes D colors and star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Panel E, we got green, red, blue, green, green, blue and it is lit up.",
+          "open_code": "processingLocal",
+          "summary": "Notes E colors and star on.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "And in panel F we have green, blue, blue, red, green, red, green, blue, and it’s lit up.",
+          "open_code": "processingLocal",
+          "summary": "Describes F colors; star lit.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So, um, the only… uh… the initial common denominator I can identify between these is that a red triangle makes the star light.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes red presence causes star."
+        },
+        {
+          "id": 11,
+          "span": "I was initially thinking that a green standing up leads to it, but while that is true for Panels E, F and A, in C, B and D a green is standing up and it’s not lit.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-upright hypothesis.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 12,
+          "span": "In B, it’s got a blue on top of a green, so maybe that could be stopping it.",
+          "open_code": "processingLocal",
+          "summary": "Suggests blue-over-green blocks star.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "But in C and D it’s got a green standing on its own and it’s still not lit.",
+          "open_code": "processingLocal",
+          "summary": "Counters previous idea with evidence.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So that makes it fairly clear to me that the only real common denominator is the red.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms red-presence rule."
+        },
+        {
+          "id": 15,
+          "span": "It’s not a green upside-down because while there’s a green upside down in A and E, there isn’t one in F.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out green-inverted rule.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "What about a blue standing up? Oh that could be a blue standing up, as well.",
+          "open_code": "hypoAlternative",
+          "summary": "Considers blue-upright possibility."
+        },
+        {
+          "id": 17,
+          "span": "Uh A and F have a… no, it’s just red.",
+          "open_code": "decisionReject",
+          "summary": "Quickly dismisses blue idea.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 18,
+          "span": "It has to be red.",
+          "open_code": "decisionConfirm",
+          "summary": "Re-asserts red rule certainty.",
+          "lenses": {
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] The hidden rule is if a panel contains a red triangle, its star lights up.",
+          "open_code": "ruleArticulation",
+          "summary": "States final red-presence rule."
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so we’ve got… In panel A we’ve got green, blue, red, blue, green, and we got the star.",
+          "open_code": "processingLocal",
+          "summary": "Observes colors and star in A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "In panel B we’ve got red, red, green, blue, green, and the star.",
+          "open_code": "processingLocal",
+          "summary": "Lists B colors; star lit.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel C, red, blue, green, green, red, no star lit up.",
+          "open_code": "processingLocal",
+          "summary": "Describes C colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel D, blue, red, red, green, green, no star.",
+          "open_code": "processingLocal",
+          "summary": "Notes D colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel E, green, blue, blue, green, green, star.",
+          "open_code": "processingLocal",
+          "summary": "Observes E colors; star lit.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And in panel F, we have green, blue, red, blue, green and no star.",
+          "open_code": "processingLocal",
+          "summary": "Details F colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So it’s not the red this time, because there are reds in every panel but E, and there are three of the stars in the other panels.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-presence rule.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Hmm… [YAWNS] There are two greens in A and B, but three in E… And there’s also two green in D and C that has no star.",
+          "open_code": "processingGlobal",
+          "summary": "Counts greens across panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "What about a blue lying on its side? No… um… (8.0)",
+          "open_code": "hypoGeneration",
+          "summary": "Considers blue-side hypothesis."
+        },
+        {
+          "id": 10,
+          "span": "No… um… (8.0)",
+          "open_code": "decisionReject",
+          "summary": "Considers blue-side hypothesis."
+        },
+        {
+          "id": 11,
+          "span": "There's green to the furthest right in A, B and E.",
+          "open_code": "processingGlobal",
+          "summary": "Notes rightmost green pattern.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "But that’s also the case in D, and possibly in C…",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses rightmost green idea.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Ugh, um… (8.0) Oh, I don’t know…  (6.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses confusion, doubt."
+        },
+        {
+          "id": 14,
+          "span": "Oh! It could be two greens lying flat on the floor because that’s true in Panels A, B and E, and it’s not true in any of the others.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two flat greens rule.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "I’m going with that, because I can’t see any other common denominator in between them.",
+          "open_code": "decisionConfirm",
+          "summary": "Selects proposed rule."
+        },
+        {
+          "id": 16,
+          "span": "Yeah. [TYPING] The star lights up when a panel contains two green cones flush to the ground.",
+          "open_code": "ruleArticulation",
+          "summary": "States final two-greens rule."
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Alright, we’ve got blue, red, blue, red, green in A, and we've got a star.",
+          "open_code": "processingLocal",
+          "summary": "Lists colors and star in A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 2,
+          "span": "In B we have… blue, red, blue, green, green, no star.",
+          "open_code": "processingLocal",
+          "summary": "Describes B colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "In panel C it’s green, green, blue, red, blue, green, and a star.",
+          "open_code": "processingLocal",
+          "summary": "Notes C colors; star on.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "In Panel D, we have green, green, red, blue, blue, no star.",
+          "open_code": "processingLocal",
+          "summary": "Observes D colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And in Panel E, it’s green, green, blue, red, red, green, no star lit up.",
+          "open_code": "processingLocal",
+          "summary": "Details E colors; star off.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "And panel F is red, blue, red, blue, green, and a star.",
+          "open_code": "processingLocal",
+          "summary": "Lists F colors; star on.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "My initial thought is that it’s two blue cones specifically on their sides cause there are two blue cones on their sides in Panels A, C, and F.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two sideways blues rule.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "B only has one on its side; Panel D only has one on its side; and Panel E only has one on its side.",
+          "open_code": "processingGlobal",
+          "summary": "Counts side blues in non-star panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "And every panel which has two blues on their sides has... the star lit up.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms hypothesis matches stars.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "It’s not the number of greens because that’s inconsistent.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects greens-count rule."
+        },
+        {
+          "id": 11,
+          "span": "It’s not the number of reds because that’s inconsistent.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects reds-count rule."
+        },
+        {
+          "id": 12,
+          "span": "They all have at least one red so I can’t see that being a factor.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses single red factor.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Not reds on their sides because the reds in A are standing up.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out red-side hypothesis.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Not two reds cause there’s only one red in C, but there are two in A and F.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects two-reds rule.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "I think it has to be the two blue cones on their sides makes iy light up.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms sideways blues rule."
+        },
+        {
+          "id": 16,
+          "span": "I can’t see any other consistent theme between them.",
+          "open_code": "monitorHighLevel",
+          "summary": "States no other patterns seen."
+        },
+        {
+          "id": 17,
+          "span": "Thinking… Yeah no that has to be...the two sideways blues.",
+          "open_code": "decisionConfirm",
+          "summary": "Re-asserts chosen rule."
+        },
+        {
+          "id": 18,
+          "span": "[TYPING] Two blue cones on their sideways make the star light up.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule explicitly."
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay, so it’s A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "One second… just thinking.",
+          "open_code": "Processing",
+          "summary": "Pauses to think."
+        },
+        {
+          "id": 3,
+          "span": "A is blue, green, blue, green, red, red, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "B is red, green, green, blue, blue, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel B.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel C is red, red, blue, blue, green, blue, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel C.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "D is blue, red, red, blue, blue, green, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel D.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "E is blue, green, blue, blue, red.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel E.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "And F is green, red, red, blue, blue, red, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel F.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Um, okay— there are two reds in A and C, but three in F.",
+          "open_code": "processingGlobal",
+          "summary": "Compares red counts across starred.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "It’s not the reds standing up, that’s jumbled.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out reds-upright rule."
+        },
+        {
+          "id": 11,
+          "span": "It’s not a green at the bottom of a pile.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-bottom idea."
+        },
+        {
+          "id": 12,
+          "span": "It’s not a blue at the bottom either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects blue-bottom idea."
+        },
+        {
+          "id": 13,
+          "span": "It’s not the sideways greens because that differs between each.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects sideways-green rule.",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 14,
+          "span": "Uh… okay… I think sideways green is currently my best guess,",
+          "open_code": "hypoGeneration",
+          "summary": "Tentatively proposes sideways-green rule."
+        },
+        {
+          "id": 15,
+          "span": "but it doesn’t hold true.",
+          "open_code": "decisionReject",
+          "summary": "Immediately disconfirms guess."
+        },
+        {
+          "id": 16,
+          "span": "Not two reds… uh… oh… (5.0).",
+          "open_code": "ruleExclusion",
+          "summary": "rejects two-reds rule."
+        },
+        {
+          "id": 17,
+          "span": "Oh this is difficult. This is difficult.",
+          "open_code": "reflectTask",
+          "summary": "Expresses difficulty."
+        },
+        {
+          "id": 18,
+          "span": "It’s not two greens standing up, either... huh.",
+          "open_code": "ruleExclusion"
+        },
+        {
+          "id": 19,
+          "span": "[SIGHS] (8.0) Sorry, I've gone quiet. I really can’t work this out.",
+          "open_code": "reflectSelf",
+          "summary": "Apologises, admits struggle."
+        },
+        {
+          "id": 20,
+          "span": "It’s not green on its side.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-side rule."
+        },
+        {
+          "id": 21,
+          "span": "It’s not blue on its side.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects blue-side rule."
+        },
+        {
+          "id": 22,
+          "span": "Uh… There are [counting] seven in A, six in B, seven in C, seven in D, six in E, seven in F…",
+          "open_code": "processingGlobal",
+          "summary": "Counts total cones per panel.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 23,
+          "span": "[TYPING] Maybe two standing-up blues? Standing up red?",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests upright colour rules."
+        },
+        {
+          "id": 24,
+          "span": "[THINKING] That’s not true.",
+          "open_code": "decisionReject",
+          "summary": "Dismisses latest ideas."
+        },
+        {
+          "id": 25,
+          "span": "[TYPING] At least two blues? Two reds? Or… the total count— seven versus six shapes?",
+          "open_code": "hypoGeneration",
+          "summary": "Floats multiple new hypotheses."
+        },
+        {
+          "id": 26,
+          "span": "[THINKING] I’m not convinced by any of these, but those are the best connections I can make.",
+          "open_code": "ruleGuess",
+          "summary": "Expresses low confidence in hypotheses."
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Right, okay, this one looks difficult.",
+          "open_code": "reflectTask",
+          "summary": "Remarks on puzzle difficulty."
+        },
+        {
+          "id": 2,
+          "span": "Right, A, we have red, blue, red, green, red, blue, blue, red, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel A.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "B, we have red, green, red, green, blue, red.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel B.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel C, we have green, blue, red, green, red, blue, green.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel C.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel D, we have green, blue, green, green, red, green, blue, red.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel D.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Panel E, we have green, red, blue, red, red, blue, blue, red, green, red, blue.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel E.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "And lastly Panel F, we have green, red, red, blue, green, green, red, green, red, green, blue.",
+          "open_code": "processingLocal",
+          "summary": "Lists colours in panel F.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "The first connection I’m immediately making is that, the panels with star lit up has a red cone standing up.",
+          "open_code": "hypoGeneration",
+          "summary": "Initial hypothesis: upright red causes star.",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "But that’s not true because F has a standing up red... in fact it has a cone...oh no, it has two standing up reds.",
+          "open_code": "decisionReject",
+          "summary": "Rejects upright-red rule using F.",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "could be that’s one red standing up on its own.",
+          "open_code": "hypoRevision",
+          "summary": "Tweaks idea: lone upright red."
+        },
+        {
+          "id": 11,
+          "span": "There’s a blue sitting on top of a red in Panel A and B...Oh! and there is in E as well.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers blue-on-red pattern.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Oh, but there is one in D too.",
+          "open_code": "decisionReject",
+          "summary": "Blue-on-red found in non-star; reject.",
+          "lenses": {
+            "processingStyle": "LocalScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "So a green on its side...",
+          "open_code": "hypoGeneration",
+          "summary": "Posits sideways green rule."
+        },
+        {
+          "id": 14,
+          "span": "But there is green on its side in a lot of them.",
+          "open_code": "decisionReject",
+          "summary": "Dismisses sideways-green rule.",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 15,
+          "span": "Red on top of blue? No.",
+          "open_code": "ruleExclusion",
+          "summary": "Quickly rejects red-on-blue idea."
+        },
+        {
+          "id": 16,
+          "span": "It’s not the number of reds.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out red count hypothesis."
+        },
+        {
+          "id": 17,
+          "span": "It’s the number of greens!",
+          "open_code": "hypoGeneration",
+          "summary": "New idea: green count governs star."
+        },
+        {
+          "id": 18,
+          "span": "Tere are two greens in A, two greens in B, two greens in E.",
+          "open_code": "processingGlobal",
+          "summary": "Finds two greens in starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "And C has three, D has four, F has five.",
+          "open_code": "processingGlobal",
+          "summary": "Counts greens in non-starred panels.",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 20,
+          "span": "Yeah— having exactly two green cones, I think. I’m gonna guess that.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms two-greens rule."
+        },
+        {
+          "id": 21,
+          "span": "[TYPING] That seems to be the rule: the star lights up only when a panel contains exactly two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "States final exact-two-greens rule."
+        }
+      ]
+]

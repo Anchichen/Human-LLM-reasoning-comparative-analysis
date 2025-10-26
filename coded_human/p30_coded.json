@@ -1,0 +1,870 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so let's see...the panel A has a lit up star. panel.  B does not. C does not. D does not. E and F do.",
+          "open_code": "processingGlobal",
+          "summary": "Lists which panels have lit stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay. So panel A has red triangles and it's lit up. B does not. C does not. D does not. E has a red triangle. And F has a red triangle.",
+          "open_code": "processingGlobal",
+          "summary": "Notes red triangle presence across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So I'm going to make the assumption that red is the main...uh...key to lighting up the stars.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates red-triangle rule hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, but let's see if there's anything else.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to search for further patterns",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "The angle that the triangle is that doesn't seem to have any correlation.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects orientation as relevant factor",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um... it [red] is pointed up in panel A, and it's on its side in E and F.",
+          "open_code": "processingGlobal",
+          "summary": "Observes differing red triangle orientations",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So my assumption is that it's to do with red triangles...as panel B, C, and D do not have red triangles and the star is not lit up.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms red-triangle hypothesis with evidence",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh, is there anything else I can see? Um. (5.0)",
+          "open_code": "planningExplorative",
+          "summary": "Pauses and plans further search",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "The blue triangle? No, that's there...that's there.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses blue triangle as rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Okay. Overlapping? Is that – Nope. It doesn't have any correlation...because E has a lit up [star], blue over green, but so does B, so that can't be the key.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects overlap of triangles hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So my assumption is that it's to do with a red triangle.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms red triangle rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "[TYPING] If the panel includes the red triangle the star will light up.",
+          "open_code": "ruleArticulation",
+          "summary": "States final red-triangle rule",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. Let's see. Green. Blue. Red.",
+          "open_code": "processingGlobal",
+          "summary": "Initial scan noting colours present",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay, so red is not the key for this one as there are red in all of them.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-presence as rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Uh, let's see the ones that are lit up.",
+          "open_code": "planningBasicComparison",
+          "summary": "Plans to compare starred panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Not much of a correlation. (4.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Finds no clear pattern yet",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Is it to do with overlapping?",
+          "open_code": "hypoGeneration",
+          "summary": "Posits overlapping as possible rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Hm...No...hm...this is a tricky one.",
+          "open_code": "ruleExclusion",
+          "summary": "Tentatively rejects overlapping idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So it has. Green. Blue. Red... Green. Blue. Red...Green. Red. Blue...",
+          "open_code": "processingGlobal",
+          "summary": "Lists colour sequences across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Hm...this is a tricky one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty again",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um, so this panel E has a triangle pointing left. B has pointing up all of them.",
+          "open_code": "processingGlobal",
+          "summary": "Notes orientation differences between panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Is it the number? Two green. Two blue. One red...",
+          "open_code": "hypoGeneration",
+          "summary": "Considers colour counts hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Two green. One blue. Two red...Three green. Two blue...",
+          "open_code": "processingGlobal",
+          "summary": "Continues counting colours across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Hmm...this is a tricky one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Again states difficulty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "I wonder if it's maybe according to size?",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests size-based rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um...Panel F has two of the same size. Three the same size, maybe.",
+          "open_code": "processingLocal",
+          "summary": "Observes equal-sized triangles in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Hm…this is a very tricky one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses stronger difficulty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "C has a small triangle, so it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects size hypothesis using panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Um....Hmm....Let's see...um...",
+          "open_code": "planningExplorative",
+          "summary": "Pause and indicates continued searching",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Three green. Two green. Two green.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "(4.0) That has two at an angle... Two at an angle.",
+          "open_code": "processingLocal",
+          "summary": "Notes angled triangles count",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "I don't think overlapping is the issue...",
+          "open_code": "ruleExclusion",
+          "summary": "Again dismisses overlapping hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "But I can't see anything else.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits inability to find rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "So I'm gonna assume overlapping is the issue.",
+          "open_code": "ruleGuess",
+          "summary": "Tentatively adopts overlapping rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. Let's see...what is lit up?",
+          "open_code": "planningBasicComparison",
+          "summary": "Plans to inspect starred panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So panel A has two blue pointing towards the red., so that could be something.",
+          "open_code": "processingLocal",
+          "summary": "Observes two blue facing red in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel C has an overlapping green...",
+          "open_code": "processingLocal",
+          "summary": "Notes overlapping green in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um....It can't be red at an angle.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red angled orientation rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "It can't be blue at an angle.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects blue angled orientation rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Let's see...Um...Green is not the key.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out green as deciding factor",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Blue, red. blue in panel A. Red, green. Blue, red, blue. Green, blue, red, blue, green.",
+          "open_code": "processingGlobal",
+          "summary": "Lists colour sequences across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "I think it might be that panel A starts with blue, then goes to red, then blue, then red, then green. And C goes green, blue, red, blue, green.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes colour order pattern hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So maybe it's that you can't have two of the same color next to each other...",
+          "open_code": "hypoRevision",
+          "summary": "Refines to no adjacent duplicate colours",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "and because B has green on top of blue and it's next to the end...",
+          "open_code": "processingLocal",
+          "summary": "Notes B violates adjacency assumption",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "then I'm going to assume that that is the key for this one.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to adjacency-rule hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "That there has to be a gap between the colors. Or there can't be any duplicate colors next to each other.",
+          "open_code": "ruleArticulation",
+          "summary": "States rule: no duplicate adjacent colours",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So yeah, that's going to be my main guess for this puzzle.",
+          "open_code": "ruleGuess",
+          "summary": "Labels it as main guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. So let's see.",
+          "open_code": "planningExplorative",
+          "summary": "Begins by inspecting lit panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A is lit up. panel C and panel F...hm...okay.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies which panels are lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So panel A has two on its side. Panel C has two on its side. Panel F has two on its side.",
+          "open_code": "processingGlobal",
+          "summary": "Notes two horizontal triangles across lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So maybe it's if they're horizontal, on top of each other.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates horizontal-pair rule hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Does this fit anywhere else? No. It only fits in the ones that are lit up.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks other panels; finds none fit",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So my main assumption for initial looking at is that if two triangles are laying on top of each other horizontally, then that is the key that lights up the stars.",
+          "open_code": "ruleArticulation",
+          "summary": "States horizontal overlap rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um, let's see if there's anything else we can find.",
+          "open_code": "planningExplorative",
+          "summary": "Plans further pattern search",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "There's also triangles that stand on top of each other.",
+          "open_code": "processingGlobal",
+          "summary": "Observes vertical stacked triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "But B also has that, so it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects vertical-stack rule due to B",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "C has it with different colors and so does F.",
+          "open_code": "processingGlobal",
+          "summary": "Notes colored stacks in C and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So that could be another guess that differing colors can sit on top of each other and that will light up the star.",
+          "open_code": "hypoAlternative",
+          "summary": "Generates different-color stack hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So that would be my second guess.",
+          "open_code": "ruleGuess",
+          "summary": "Marks colored-stack as second guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Let's see if we can find anything else.",
+          "open_code": "planningExplorative",
+          "summary": "Continues searching for more patterns",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um... Panel E has triangles pointing down, but that is not lit up. Panel F is triangles pointing down, so it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects downward-orientation rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Anything else that sticks out? Hm...nothing I can see.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits no further ideas found",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "So those are my two main guesses that horizontal laying on top of each other and triangles of different colors standing on top of each other.",
+          "open_code": "ruleGuess",
+          "summary": "Summarises two hypotheses as final guesses",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. So let's see.",
+          "open_code": "planningExplorative",
+          "summary": "Begins examining panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Hm...Panel  A is lit up, panel B is lit up and panel E is lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels are lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Let's have a look to see what could be the key.",
+          "open_code": "planningExplorative",
+          "summary": "Plans search for key pattern",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "Level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Well it can't be overlapping triangles because panel B doesn't have that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects overlap hypothesis via B",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Let's see if it's the colors...",
+          "open_code": "hypoGeneration",
+          "summary": "Posits colour-based rule idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "red, red, blue...green, red, blue.",
+          "open_code": "processingGlobal",
+          "summary": "Lists colours in lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "No, nothing that sticks out though.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses colour hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Let's see if it's the amount of triangles...",
+          "open_code": "hypoGeneration",
+          "summary": "Considers triangle count rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "one, two, three, four, five, six, seven, eight, nine in panel A. one, two, three, four, five six in panel B. One, two, three, four, five, six, seven, eight, nine, ten, eleven in Panel E.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles in each lit panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Hmm. Let's think, um...",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty thinking",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Is it laying horizontal on top of each other?",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests horizontal-stack rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "A has red on top of blue and blue on top of red, and B has blue on top of red.",
+          "open_code": "processingGlobal",
+          "summary": "Observes stacked colours in A,B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "But C also has blue on top of red. So it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects horizontal stack rule via C",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "E has red on top of blue.",
+          "open_code": "processingLocal",
+          "summary": "Notes stack in E panel",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Um. Are any of them... –No, none of them are upside down in the other – in panel A or B.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out upside-down orientation",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Um, there are two green in panel A, two green in panel B, two green in panel E, and the rest have three...five...three.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "So my main guess is that two green triangles light up the star.",
+          "open_code": "ruleArticulation",
+          "summary": "States two-green rule guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

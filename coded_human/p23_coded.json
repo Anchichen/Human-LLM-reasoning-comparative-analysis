@@ -1,0 +1,1753 @@
+[
+  [{"Title": "scene1"
+    },
+    {
+      "id": 1,
+      "span": "[READING] Think out loud as you try to infer the hidden rule, you will be able to write your guess once the timer finishes. Remember to refer to each panel by its label A or F as you work through.",
+      "open_code": "readingInstructions",
+      "summary": "Reads task instructions aloud.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "[THINKING] Oh, my. Uh. This is going to be confusing for me because I have no idea.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses confusion and lack of idea.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Um. So my… My guess. Okay, I need to. My brain's not functioning, I apologize.",
+      "open_code": "reflectSelf",
+      "summary": "Apologises for mental difficulty.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "I need to figure this out, so I need to... A, B, C, D, E and F. Okay.",
+      "open_code": "planningExplorative",
+      "summary": "States intent to inspect all panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "I'm looking at puzzle 1 now, trying to figure out the hidden rule that makes the star disappear.",
+      "open_code": "planningStrategic",
+      "summary": "Sets goal: discover star-triggering rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "First, I'm checking which panels have a star in which they are panels A, B and C and F have a star. Panels B and E do not have a star.",
+      "open_code": "processingGlobal",
+      "summary": "Lists star presence across panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Let's start by looking at the number of cones in each panel.",
+      "open_code": "planningStrategic",
+      "summary": "Plans to compare cone counts.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So, panel A has two cones, has a star, panel B has two cones and has a star. Panel C has two cones, has a star. Panel D has three cones, no star. Panel E has three cones, no star. Panel F has two cones and has a star.",
+      "open_code": "processingGlobal",
+      "summary": "Counts cones and notes star status.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "All the panels with a star have exactly two cones, and all the panels without a star have exactly three cones.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes two-cone rule from counts.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "[mumbling] Okay, so my current one holds.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms current rule still plausible.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Okay, so B red and red, same colors. C, blue and blue, same colors. F, red and blue, different colors. D is green, blue, red, all different colors. E is red, green, blue, so they're all different colors,",
+      "open_code": "processingGlobal",
+      "summary": "Observes color combinations across panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "which means there's no clear pattern here. Both have the same and different colors appear in starred panels, and different colors appear in non-starred panels. So, color is probably not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color as governing rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Size. Let's do the size. All cones and all panels seem to be the same size, so this is not a rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates size as possible rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "A has one upright, one tilted. B is both tilted. C is both upright. F is both upright, and D is all three upright. E is all three tilted.",
+      "open_code": "processingGlobal",
+      "summary": "Checks orientation patterns across panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So, there's no consistent pattern here that separates the starred from the non-starred panels.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects orientation as determinant.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So, my best guess at this point is the rule is based on the number of cones. My best guess for the hidden rule is the panel must contain exactly two cones.",
+      "open_code": "ruleArticulation",
+      "summary": "States final two-cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Now, I can't be 100% on that, but that is my guess.",
+      "open_code": "reflectUncertainty",
+      "summary": "Concedes limited confidence.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "[READING] Oh. What do you think the hidden rule is? Remember to refer all...",
+      "open_code": "readingInstructions",
+      "summary": "Reads on-screen prompt.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "[TYPING] Okay, so my best guess is for the hidden rule is… The hidden rule is the panel contain exactly two cones",
+      "open_code": "ruleArticulation",
+      "summary": "Types out two-cone rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Oh, no! Whoops. And the rule. No. Why does it keep spelling out all the rule is based? On the number of cones. No number. Stupid thing. I apparently can't spell to the number of cones. Cones. There we go.",
+      "open_code": "monitorLowLevel",
+      "summary": "Complains about typing errors.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "[READING] You can enter more than one rule. Rank them from the most confident to the least confident.",
+      "open_code": "readingInstructions",
+      "summary": "Reads ranking instructions.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "[THINKING] Okay, so my most confident is the hidden rule is the panel most exactly must exactly contain two cones, and the rule is based on the number of cones.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms two-cone rule as top choice.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "Ooh, a little bit confusing, but I got it.",
+      "open_code": "reflectSelf",
+      "summary": "Expresses mild pride despite confusion.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene2"
+    },
+    {
+      "id": 1,
+      "span": "[READING] Think out loud. As you try to infer the rule, you will be able to write your guess once the timer finishes. Remember to refer to each panel by its",
+      "open_code": "readingInstructions",
+      "summary": "Reads on-screen instructions.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "[THINKING] Okay, so I already know that.",
+      "open_code": "reflectTask",
+      "summary": "Acknowledges instructions already known.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Alright. I'm going to start by doing exactly the same as the last one.",
+      "open_code": "adherePlan",
+      "summary": "Plans to reuse previous strategy.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "So, thinking out loud. Mm.",
+      "open_code": "reflectTask",
+      "summary": "Notes thinking-aloud process.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Okay so I'm starting puzzle two now, and I need to figure out this new rule.",
+      "open_code": "orientation",
+      "summary": "Begins new puzzle; states goal.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Okay. So first let's identify the star, no-star panels.",
+      "open_code": "planningStrategic",
+      "summary": "Plans to classify star status first.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Panels with a star are A, B, C, and E. Panels without a star are D and F okay.",
+      "open_code": "processingGlobal",
+      "summary": "Lists which panels have stars.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "Every single panel A through F has exactly two cones.",
+      "open_code": "processingGlobal",
+      "summary": "Observes all panels have two cones.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So, the number of cones is definitely not part of the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rules out cone count as factor.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "All the cones in all of the panels appear to be upright.",
+      "open_code": "processingGlobal",
+      "summary": "Notes all cones oriented upright.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So, orientation isn't the rule either. Right? Yeah. Okay.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects orientation as rule basis.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Color. This seems like a feature, because if you look closely at the colors within each pair of cones, for example, panel A is blue, blue, same color, has the star. Panel B is green and green, same color, has a star. Panel C is red and red, same color, has a star. Panel D is blue and red, different, no star. Panel E is red and red, same color, has a star. And then also panel F is green and red, different colors, no star.",
+      "open_code": "processingGlobal",
+      "summary": "Compares cone colors across panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "So, in my opinion, every panel that has a star has two cones of the exact same color.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes same-color cones rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So, every panel that does not have a star has two cones of different colors.",
+      "open_code": "hypoGeneration",
+      "summary": "Adds complementary non-star condition.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Okay. So, in my opinion, this rule seems to be for all six panels. It's simple and explains it.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms rule covers all panels.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So, in my opinion, my best guess for the hidden rule is both codes in the panel must be the same color.",
+      "open_code": "ruleArticulation",
+      "summary": "States same-color rule clearly.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "Yeah. That's right.",
+      "open_code": "decisionConfirm",
+      "summary": "Confidently confirms rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "So, my best guess for the hidden rule is both cones and the panel.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates rule (trails off).",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "[READING] Start with your most likely... wait…type your rule guess or guesses here. Start with your most likely. Include others if you are unsure.",
+      "open_code": "readingInstructions",
+      "summary": "Reads typing prompt instructions.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "[TYPING] I think the hidden rule is…what did I say the hidden rule was, oh my gosh?",
+      "open_code": "memoryLoss",
+      "summary": "Momentarily forgets stated rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "Both cones. In the panel…oh my. I'm having so many brain farts today…in the panel, must be the same color, in my opinion, honestly.",
+      "open_code": "ruleArticulation",
+      "summary": "Types rule: cones same color.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "Because that's exactly what it's showing.",
+      "open_code": "decisionConfirm",
+      "summary": "States evidence supports rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "I feel like this is correct because obviously it is correct, in my opinion.",
+      "open_code": "reflectSelf",
+      "summary": "Expresses confidence in own answer.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene3"
+    },
+    {
+      "id": 1,
+      "span": "So next I'm going to observe all of these real quick before I start talking.",
+      "open_code": "planningExplorative",
+      "summary": "Plans a quick overall scan.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "So, I'm just looking over A, B, C, D and E and F and trying to understand that currently…",
+      "open_code": "processingGlobal",
+      "summary": "Globally scans all panels silently.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Wait a minute. Why does A have...",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses sudden confusion about panel A.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "Okay. I'm going to list the panels with a star and without again.",
+      "open_code": "planningStrategic",
+      "summary": "Plans star/non-star listing.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So, the panels with stars are B, C and E and no stars are A, D and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies star status for all panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Panel A has no stars but has two cones—green and red—which are different colors. They're both small and both tilted.",
+      "open_code": "processingLocal",
+      "summary": "Describes panel A features in detail.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "Panel B has a star, two cones—red and green—which are different colors, both large and both tilted.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "Panel C has two cones—blue and green—which are different colors, both small and both upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Panel D has no stars, two cones—blue and blue—same colors.",
+      "open_code": "processingLocal",
+      "summary": "Initial description of panel D.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Wait. Panel D has got me confused.",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits confusion about panel D.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Okay, so Panel D two cones—blue and blue—same colors, one small and one large.",
+      "open_code": "processingLocal",
+      "summary": "Adds size detail for panel D.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "So that would be. How would I word that? Mixed sizes, both tilted?",
+      "open_code": "reflectUncertainty",
+      "summary": "Struggles to phrase observation.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Uh, Panel E has a star, two cones—red and blue—which are different colors, both large, both upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel E.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "Panel F, no star, two cones—blue and red—different colors, one small and one large. So mixed sizes, both upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel F.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "Now I'm going to look for patterns.",
+      "open_code": "planningStrategic",
+      "summary": "Announces shift to pattern search.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So, all panels have two cones.",
+      "open_code": "processingGlobal",
+      "summary": "Observes uniform cone count.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "So that's obviously not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates cone count as rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "Colors are the same and different. So starred panels have different colors, so B, C and E. Non-starred panels have the same or different colors, A and F.",
+      "open_code": "processingGlobal",
+      "summary": "Compares color patterns across panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "So, in my opinion there's no clear rule here. None at all.",
+      "open_code": "reflectUncertainty",
+      "summary": "States lack of clear rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Uh, this is confusing me. I need one second.",
+      "open_code": "reflectUncertainty",
+      "summary": "Requests moment due to confusion.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "So, the orientation, I guess, is how you would word that…they're both tilted for A, no star. B star, D, no star, which is inconsistent in my opinion. And then both upright for C, star; E, star; F, no star, which is inconsistent.",
+      "open_code": "ruleExclusion",
+      "summary": "Evaluates and rejects orientation rule.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "So that alone isn't the rule. Right? Yeah.",
+      "open_code": "decisionReject",
+      "summary": "Formally rejects orientation hypothesis.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "Now we're going to go to size.",
+      "open_code": "planningStrategic",
+      "summary": "Shifts focus to size analysis.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 24,
+      "span": "Panel D and F have mixed sizes, one small and one large. And neither one of them has a star.",
+      "open_code": "processingGlobal",
+      "summary": "Observes mixed sizes correspond to no star.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 25,
+      "span": "That's a strong candidate for the part of the rule, if that makes sense.",
+      "open_code": "hypoGeneration",
+      "summary": "Posits mixed-size absence rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 26,
+      "span": "So, if the cones are of mixed sizes, there's no star.",
+      "open_code": "hypoRevision",
+      "summary": "States negative form of size rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 27,
+      "span": "This means for a panel to have a star, the cones must be the same size. Either both small or large. Right?",
+      "open_code": "hypoRevision",
+      "summary": "Derives positive size requirement.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 28,
+      "span": "Now let's look at the panels that have the same size.",
+      "open_code": "planningStrategic",
+      "summary": "Plans to test size hypothesis.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 29,
+      "span": "So that would be panel A, B, C and... E, right? Yeah.",
+      "open_code": "processingGlobal",
+      "summary": "Lists same-size panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 30,
+      "span": "Okay. So A is both small and both tilted. So, with that together that means that there is no star.",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds counterexample to size-only rule.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 31,
+      "span": "And for panel B is both large and both tilted, that would be a star.",
+      "open_code": "counterExampleSearch",
+      "summary": "Checks panel B against hypothesis.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 32,
+      "span": "C is both small and both upright, so that would be a star.",
+      "open_code": "counterExampleSearch",
+      "summary": "Checks panel C; supports rule.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 33,
+      "span": "E is both large and both upright, so that would be a star.",
+      "open_code": "counterExampleSearch",
+      "summary": "Checks panel E; supports rule.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 34,
+      "span": "Okay. So, in my opinion there is like a couple different factors here.",
+      "open_code": "reflectTask",
+      "summary": "Remarks multiple factors may matter.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 35,
+      "span": "Now I just got to figure out how to word them. How would I word that.",
+      "open_code": "reflectUncertainty",
+      "summary": "Struggles to phrase combined rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 36,
+      "span": "Um. So, in my opinion. Hm. So for the I'm going to give a couple of the factors that I think [are the rule].",
+      "open_code": "planningStrategic",
+      "summary": "Plans to list candidate factors.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 37,
+      "span": "The cones must not be of mixed sizes.",
+      "open_code": "hypoGeneration",
+      "summary": "States first factor: no mixed sizes.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 38,
+      "span": "Okay. So this would explain D and F not having stars and then the panels with same size cones.",
+      "open_code": "decisionConfirm",
+      "summary": "Explains evidence supporting factor.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 39,
+      "span": "The cones must not be both small and both tilted.",
+      "open_code": "hypoGeneration",
+      "summary": "Introduces second factor about size+tilt.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 40,
+      "span": "And this would explain A not having a star. All while B, C, and E do have stars.",
+      "open_code": "decisionConfirm",
+      "summary": "Links factor to observed stars.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 41,
+      "span": "So, if we put this together as a rule, it would be: a star appears if the cones are the same size and they are not both small and both tilted. So, I guess in simple terms, the star does not appear if the cones are mixed sizes. The star also does not appear if the cones are both small and both tilted. Also, the panel does not have cones of mixed sizes, and the cones are not both small and both tilted. So that explains all the panels.",
+      "open_code": "ruleArticulation",
+      "summary": "Articulates composite size-tilt rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 42,
+      "span": "But how would I word that?",
+      "open_code": "reflectUncertainty",
+      "summary": "Unsure about phrasing rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 43,
+      "span": "...Uh, my best guess for the hidden role is, um. How would I word that?",
+      "open_code": "reflectUncertainty",
+      "summary": "Continues struggling to phrase rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 44,
+      "span": "The panel does not have cones of mixed sizes, and the cones are not both small and tilted? Or would it be big and tilted? What did I mix up here?",
+      "open_code": "hypoRevision",
+      "summary": "Attempts to refine rule conditions.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 45,
+      "span": "[TYPING] Okay, the panel does not have cones of mixed sizes. And the cones are not both the same…or no, that wouldn't be right. And the cones are not both small and tilted.",
+      "open_code": "ruleArticulation",
+      "summary": "Types refined composite rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 46,
+      "span": "[THINKING] That's right. Now, looking at that, that makes sense. Right?",
+      "open_code": "decisionConfirm",
+      "summary": "Expresses confidence in typed rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 47,
+      "span": "Oh, my goodness. Mom brain.",
+      "open_code": "reflectSelf",
+      "summary": "Self-deprecating remark about cognition.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 48,
+      "span": "Okay, so I'm just gonna real quick go over this again because I feel like my answer might be wrong and I'm not 100% sure.",
+      "open_code": "reflectUncertainty",
+      "summary": "Reconsiders confidence in answer.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 49,
+      "span": "Okay. Looking at it, I feel like that is right. The panel does not have cones of mixed sizes, and the cones are both small and tilted.",
+      "open_code": "memoryFalseRegain",
+      "summary": "Restates but alters rule inaccurately.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 50,
+      "span": "Oh, I missed the letter in my explanation. I accidentally spelled the word end wrong.",
+      "open_code": "monitorLowLevel",
+      "summary": "Notices minor typing error.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 51,
+      "span": "Okay. Next.",
+      "open_code": "submitAnswer",
+      "summary": "Indicates moving to next puzzle.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 52,
+      "span": "I won't lie that this is hard on my brain right now, although I'm good at things like this, I am a mom and I'm a little bit confused at this point, but I think I got it.",
+      "open_code": "reflectSelf",
+      "summary": "Comments on difficulty and confidence.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene4"
+    },
+    {
+      "id": 1,
+      "span": "Then my next one I'm going to look over…yes.",
+      "open_code": "planningExplorative",
+      "summary": "Signals start of new scan.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Let's look over A, B…ooh okay. A, C and F…",
+      "open_code": "processingGlobal",
+      "summary": "Begins scanning specific panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "…and I also see that B has no...wait. So A… yes. A, star. C, star. F, star. Right? No, wait. Yes.",
+      "open_code": "planningExplorative",
+      "summary": "Confused about star presence list.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "First we're going to do what I normally do: we're going to identify which panels have a star and which don't.",
+      "open_code": "planningStrategic",
+      "summary": "States standard star-listing plan.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "So after going through the panels, panels with a star are B, D, and F and panels without a star are A, C and E.",
+      "open_code": "processingGlobal",
+      "summary": "Lists star vs non-star panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "So all panels have three cones.",
+      "open_code": "processingGlobal",
+      "summary": "Notes uniform cone count.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "So obviously the number of cones is not a rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects cone count as rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "And also all the panels have two cones of one color and one color of another color.",
+      "open_code": "processingGlobal",
+      "summary": "Observes 2-1 color distribution.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "Um, I really don't know how to word that though.",
+      "open_code": "reflectUncertainty",
+      "summary": "Unsure how to phrase observation.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Panel A has no star, but they're all small, all upright, and the colors are two green, one red.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel A.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Panel B has a star, all small, all upright colors two blue, one green.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "Panel C has no stars, they're all large, they're all upright, and their colors are two green, one red.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Panel D is definitely a star and they're all large, all upright, two green, one red.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel D.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "Panel E, no stars, all small, all tilted, colors: two green, one blue.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel E.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "And then panel F has a star and they're all large, all tilted, and they have colors: two blue and one green.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel F.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "Panels A, B, C, and D are all upright.",
+      "open_code": "processingGlobal",
+      "summary": "Notes upright orientation group.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "There is no clear pattern.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses orientation as rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "E and F are both tilted, but there is still no clear pattern.",
+      "open_code": "ruleExclusion",
+      "summary": "Further rejects orientation rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "For the size, panels A, B, and E are all small, so no clear pattern based on the size alone.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects small-size pattern.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "Panels C, D and F—they're all large. Obviously, there's no clear pattern there.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects large-size pattern.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "Panel B has two blue one green, star. They're all small. They're all upright.",
+      "open_code": "processingLocal",
+      "summary": "Re-describes panel B for color.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "Panel F has two blue, one green, and a star. And they're all large tilted.",
+      "open_code": "processingLocal",
+      "summary": "Re-describes panel F for color.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "So if the color is blue, it gets a star, in my opinion. Right? So, if the cones are blue, it gets a star.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates blue-cone rule idea.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 24,
+      "span": "So, panel B, panel F, which in my opinion that looks pretty consistent.",
+      "open_code": "decisionConfirm",
+      "summary": "Initial confirmation for blue rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 25,
+      "span": "And then you also got the cones that are red. So, panel C... does not get a star and the color is red.",
+      "open_code": "processingLocal",
+      "summary": "Notes red cones lack star.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 26,
+      "span": "Then you move on to the cones that are green which is panel A, panel D and panel E and... they're green but it only gets a star if all the cones are large. So, panel D is large and has a star, but A and E are small and do not have stars. Hm.",
+      "open_code": "hypoRevision",
+      "summary": "Refines rule: green needs largeness.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 27,
+      "span": "So, in my opinion, A star appears if the cones are blue or if the cones are green and all cones are large.",
+      "open_code": "ruleArticulation",
+      "summary": "States composite color-size rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 28,
+      "span": "So that's what I think it is.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms confidence in rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 29,
+      "span": "And if I go back and I look through the rest of the panels, it clearly matches that.",
+      "open_code": "decisionConfirm",
+      "summary": "Claims rule matches all panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 30,
+      "span": "So, I feel like it's pretty consistent with that. So, I feel like the rule explains all six panels in my opinion.",
+      "open_code": "decisionConfirm",
+      "summary": "Reiterates consistency of rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 31,
+      "span": "So, my best guess for the hidden rule is the star appears if the color of the cones are blue, or if the color of the cones are green and all the cones are large.",
+      "open_code": "ruleArticulation",
+      "summary": "Gives final rule statement.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 32,
+      "span": "Hopefully that makes sense to you because it does to me.",
+      "open_code": "reflectSelf",
+      "summary": "Expresses personal clarity.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 33,
+      "span": "[TYPING] So a star appears...if the cones are...if the cones are blue... Okay, so a star appears if the color of the star appears if the color of the cone are blue. Or if the color of the cones are green and all cones are large.",
+      "open_code": "ruleArticulation",
+      "summary": "Types rule into interface.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 34,
+      "span": "[THINKING] Right? That makes sense to me.",
+      "open_code": "decisionConfirm",
+      "summary": "Mentally confirms typed rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 35,
+      "span": "Okay, so then we move on to our next one.",
+      "open_code": "submitAnswer",
+      "summary": "Indicates moving to next puzzle.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 36,
+      "span": "But before I do that, I'd like to just go over this real quick and make sure that I am correct.",
+      "open_code": "planningStrategic",
+      "summary": "Plans quick review before move.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 37,
+      "span": "Definitely the orientation is irrelevant in my opinion.",
+      "open_code": "ruleExclusion",
+      "summary": "Re-asserts orientation irrelevant.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 38,
+      "span": "So, after combining and observing and ruling out, then yeah, honestly, that's my best guess.",
+      "open_code": "decisionConfirm",
+      "summary": "Final affirmation of rule choice.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    }
+  ],
+  [{"Title": "scene5"
+    },
+    {
+      "id": 1,
+      "span": "Okay. I'm just going to quickly go over this in my head for a second before I start talking.",
+      "open_code": "planningExplorative",
+      "summary": "Mentally previews before speaking.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 2,
+      "span": "Mhm. Oh, my. Okay. Uh. A, B, C, D, E, F. And then we got A, B, E. (4.5)",
+      "open_code": "processingGlobal",
+      "summary": "Initial silent scan and labeling.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 3,
+      "span": "Okay. I'm going to do what I've been doing throughout the whole entire study, which is I'm going to look at which panels have stars and which don't first.",
+      "open_code": "adherePlan",
+      "summary": "States intent to reuse star-listing strategy.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 4,
+      "span": "And the panels with stars are A, D and E and the panels without are B, C, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Lists star vs non-star panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 5,
+      "span": "Okay. So, Panel A has a star, and it has three cones which are blue, green and red. So they're all different colors. They're all large sizes and they're all upright.",
+      "open_code": "processingLocal",
+      "summary": "Describes panel A features in detail.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "And then we got panel B, no star, which has three cones, colors: green, green, and blue—which are two same, one different. And then we got the sizes which are all large. And then they're also all upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel B.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 7,
+      "span": "So, panel C, no star, has three cones, colors blue, red, and red. So, two of the same but one different. And their sizes are all small and they're all upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel C.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 8,
+      "span": "So, panel D has…Wait didn't I just do that one. Oh, brain fart…",
+      "open_code": "reflectUncertainty",
+      "summary": "Momentary confusion about panel D.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "So panel D has three cones colors green, red, and blue—all different. They're all small sizes and they're all upright.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel D.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 10,
+      "span": "Panel E has a star, and it has three cones, colors: blue, green, and red, which are all different. Their sizes are all large and they're all tilted.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel E.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "Panel F has no star, three cones of the colors green, green, and red. So, two of the same colors and one different. And their sizes are all small and they're all tilted.",
+      "open_code": "processingLocal",
+      "summary": "Details for panel F.",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 12,
+      "span": "So, the number of cones…all panels have three cones. In my opinion, so that's definitely not a rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates cone count as rule.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 13,
+      "span": "Okay. The size, um, starred…A, E are large, and D is small, so that would be…not right.",
+      "open_code": "ruleExclusion",
+      "summary": "Notes size inconsistency in starred panels.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 14,
+      "span": "So, B is large, there's no star. C and F are small. So, size alone is not…no, size alone is not the rule here.",
+      "open_code": "ruleExclusion",
+      "summary": "Confirms size not determinant.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So. A, D are upright, and E is tilted, and they are starred. And then the no starred, which are B and C, they are upright, and F is tilted. So, I feel like that that's not a rule now.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects orientation as rule.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So, let's focus on the color because I feel like that's what it is, and it looks good to me.",
+      "open_code": "planningStrategic",
+      "summary": "Decides to examine color feature.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 3"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 17,
+      "span": "So. Let's look at the starred panels. A, D and E. So, panel A, blue, green, red. All different colors. Panel D green, red, blue. All different colors. Panel E blue, green red. All different colors. So, it seems like all three cones being different colors is what's needed for the star. So, like it's a requirement?",
+      "open_code": "hypoGeneration",
+      "summary": "Generates different-color requirement hypothesis.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 18,
+      "span": "Okay, so now let's check out the non-starred panels which would be B, C, and F. So, panel B, green, green, and blue. So not all different colors—two greens and no star. Panel C is blue, red, red—so again not all different colors—two reds, no star. Panel F, green, green, red. So not all different colors—two greens and no stars.",
+      "open_code": "counterExampleSearch",
+      "summary": "Tests hypothesis against non-star panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 19,
+      "span": "So, in my opinion it's about the color. A star appears if all three cones in the panel are of different colors.",
+      "open_code": "ruleArticulation",
+      "summary": "Articulates different-color rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 20,
+      "span": "So, panel A, all different colors. Panel B, not all different colors. Panel C, not all different colors. Panel D is all different colors. Panel E is all different colors, and Panel F is not all different colors.",
+      "open_code": "decisionConfirm",
+      "summary": "Re-checks each panel supports rule.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 21,
+      "span": "So which one of these has a star? So, A has a star, B no star, C no star, Panel D has a star, Panel E has a star, and Panel F has no star.",
+      "open_code": "decisionConfirm",
+      "summary": "Matches star status to rule again.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 22,
+      "span": "So. My best guess for the hidden rule is all three cones in the panel must be different colors, and that seems pretty accurate looking at all this information together.",
+      "open_code": "ruleArticulation",
+      "summary": "States final different-color rule.",
+      "lenses": {
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 23,
+      "span": "[TYPING] So I think the hidden rule. Whoops. The hidden rule is the panel must…Is the panel must be different colors. Okay so that's right.",
+      "open_code": "ruleArticulation",
+      "summary": "Types rule into interface.",
+      "lenses": {
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 24,
+      "span": "Okay. I'm just going to quickly go over this in my head for a second before I start talking. Mhm. Oh, my. Okay. Uh. A, B, C, D, E, F. And then we got A, B, E. (4.5)",
+      "open_code": "planningExplorative",
+      "summary": "Silent mental preview and rapid label scan.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist",
+        "planningLevel": "level 1"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 25,
+      "span": "Okay. I'm going to do what I've been doing throughout the whole entire study, which is I'm going to look at which panels have stars and which don't first.",
+      "open_code": "adherePlan",
+      "summary": "States intent to reuse star-first strategy.",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 26,
+      "span": "And the panels with stars are A, D and E and the panels without are B, C, and F.",
+      "open_code": "planningBasicComparison",
+      "summary": "Lists star vs. non-star panels.",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim",
+        "planningLevel": "level 2"
+      },
+      "check": "OK"
+    }
+  ]
+]

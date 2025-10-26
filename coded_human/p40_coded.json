@@ -1,0 +1,702 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. Mhm. Okay.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "initial filler utterances",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "The hidden rule...I'm not really sure right now. Wait let me, let me think.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits uncertainty, pauses to think",
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So. Maybe…in all of them when they're lighting up. Look, there has to be a red triangle so that they can light up.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes red triangle needed",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Because in A, E, and F there is a red triangle. There's actually two. There's one big red triangle, and there's one small one in each of them.",
+          "open_code": "processingGlobal",
+          "summary": "notes red triangles in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So maybe that's the reason.",
+          "open_code": "decisionConfirm",
+          "summary": "tentatively affirms hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But if you look in B, C, and D there's no red triangle.",
+          "open_code": "processingGlobal",
+          "summary": "observes absence in non-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So I think...A, E, and F...they each have red triangles.",
+          "open_code": "decisionConfirm",
+          "summary": "reasserts supporting evidence",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "No...Yeah, yeah.",
+          "open_code": "planningUnorganised",
+          "summary": "verbal filler agreement",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So I think the rule is that for the star to light up, it must have a red triangle.",
+          "open_code": "ruleArticulation",
+          "summary": "states final rule clearly",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Thank you. And I'm done. So I'm just gonna wait for the time to run out.",
+          "open_code": "reflectTask",
+          "summary": "announces completion, waiting time",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "And, yeah, that's basically it.",
+          "open_code": "monitorHighLevel",
+          "summary": "wrap-up filler statement",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Don't worry, guys, I'm not saying anything.",
+          "open_code": "reflectSelf",
+          "summary": "assures silence to audience",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Just whistling over here because I'm a bit bored and I have 30s left until I can move on to the next task.",
+          "open_code": "reflectTask",
+          "summary": "comments on waiting boredom",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Okay.",
+          "open_code": "planningUnorganised",
+          "summary": "single okay filler",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "And yeah, as I said, I think the rule is they have to have a red triangle in the thing to light up.",
+          "open_code": "ruleArticulation",
+          "summary": "repeats final rule claim",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "So yeah, that's basically it.",
+          "open_code": "monitorHighLevel",
+          "summary": "final filler close",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Next one. Okay.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "moves to new puzzle",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A, B and E are lit up.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Now, what makes A, B and E different from the rest of them?",
+          "open_code": "planningBasicComparison",
+          "summary": "sets compare stars vs others plan",
+          "lenses": {
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Well, we'll see now.",
+          "open_code": "planningExplorative",
+          "summary": "filler awaiting insight",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Okay...They each have a green triangle.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes green triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "They each have all the triangles.",
+          "open_code": "hypoRevision",
+          "summary": "revises to all triangles rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So I'm not too sure right now. Um, I'm a bit stumped. Yeah, I have no clue.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses uncertainty and confusion"
+        },
+        {
+          "id": 8,
+          "span": "No, it can't be that can't be.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects current hypothesis"
+        },
+        {
+          "id": 9,
+          "span": "I was thinking maybe because they all have a big... they have a green triangle that's...but it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "elaborates rejection of green rule",
+          "lenses": {
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "C, E didn't even have a red triangle.",
+          "open_code": "counterExampleSearch",
+          "summary": "cites counter-evidence about red triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So I have no clue.",
+          "open_code": "reflectUncertainty",
+          "summary": "re-asserts not knowing"
+        },
+        {
+          "id": 12,
+          "span": "Maybe it could be that they have two of...",
+          "open_code": "hypoGeneration",
+          "summary": "starts two-of feature hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "oh, okay, okay…No, that can't work.",
+          "open_code": "decisionReject",
+          "summary": "immediately dismisses two-of idea",
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I also thought maybe it could be because they have two...two...like, for instance, two reds and two greens.",
+          "open_code": "hypoAlternative",
+          "summary": "suggests two reds two greens rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "But that couldn't work either.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects two-colour count rule",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "I have no clue, honestly. Um. No clue whatsoever. I have no idea. Right now, looking at them, they...like nothing stands out. They are just all different. I don't know. Absolutely no clue. Nope. I've got nothing. Um.",
+          "open_code": "reflectUncertainty",
+          "summary": "extended expression of being stuck",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Maybe they have to have one green triangle...one big green triangle with both...sides on the floor.",
+          "open_code": "hypoGeneration",
+          "summary": "new rule about big green triangle orientation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "So here we have E, C and F all lit up.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "As you can see, they each have two blue triangles, two red triangles, and C has three green triangles. And F has one...green triangle.",
+          "open_code": "processingGlobal",
+          "summary": "lists colour counts in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Okay.",
+          "open_code": "planningUnorganised",
+          "summary": "single filler word",
+          "lenses": {
+            "planningLevel": "level 0"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So. Right now looking at all of them my initial thoughts were maybe they each have to have two blue triangles laying on the floor and then two other red triangles and one green triangle.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes 2 blue 2 red 1 green rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "I think that maybe it.",
+          "open_code": "decisionConfirm",
+          "summary": "tentatively accepts hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "They have to have two red, two blue and one or more green, because if you look at the other ones, B only has two blue, doesn't have two red.",
+          "open_code": "hypoRevision",
+          "summary": "refines rule, begins evidence",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "E only has two red, doesn't have two blue and D doesn't have two red.",
+          "open_code": "monitorHighLevel",
+          "summary": "cites non-star counter evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, I think that's the theory.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms chosen rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um they each have to have this...so they have to have two red, two blue and one or more green triangles for the star to be lighting up.",
+          "open_code": "ruleArticulation",
+          "summary": "states rule clearly",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "That's what I think, right now because that's the only conclusion I could come to, really, because anything else...I mean, couldn't really think of it.",
+          "open_code": "reflectSelf",
+          "summary": "comments on reasoning limitation",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So, I think, yeah, you have to have two blue, two red and one or more greens.",
+          "open_code": "ruleArticulation",
+          "summary": "repeats final rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "They...each have to have two... two red...Not green...",
+          "open_code": "monitorLowLevel",
+          "summary": "self-correcting articulation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So they each have to have two red, two blue and one or more green triangles for the star to be lit up.",
+          "open_code": "ruleArticulation",
+          "summary": "final rule reiteration",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Yes. Okay, on to the next.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "moves to new puzzle",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, AC and F are all lit up.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Um, right now I don't see any clear signs. I don't see any clear signs. Of course.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses lack of insight",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I was thinking maybe they had to have two stacked on top of each other.",
+          "open_code": "hypoGeneration",
+          "summary": "hypothesises two stacked triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "But B and E also have that, and the light isn't up.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects stacked rule using evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But B and E's ones are two of the same color.",
+          "open_code": "processingLocal",
+          "summary": "observes same-color stacking",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So, I think...right now I'm thinking maybe that they have to have two different colored triangles stacked up on each other for the star to be lit.",
+          "open_code": "hypoRevision",
+          "summary": "modifies rule to different-color stack",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Yeah.",
+          "open_code":"decisionConfirm",
+          "summary":"confirms chosen rule"
+        },
+        {
+          "id": 9,
+          "span": "So yeah, of course...my theory is that they have to have two different colored...",
+          "open_code": "ruleArticulation",
+          "summary": "begins stating rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "My theory right now is that they have to have two different colored triangles stacked, one on top of the other for the light to be on.",
+          "open_code": "ruleArticulation",
+          "summary": "states full rule clearly",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Because if you see A, A has red on top of green two different. C, C has green on top of blue, as well as blue on top of blue but that doesn't really matter. We are just looking at the two opposite ones, which is green on top of blue. F has blue on top of...oh sorry, red on top of blue.",
+          "open_code": "monitorHighLevel",
+          "summary": "cites supporting examples in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "But if you see B has green on green and E has blue on blue, they are two of the same colors.",
+          "open_code": "monitorHighLevel",
+          "summary": "notes counterexamples in non-stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So, I think that maybe the theory is that they have to have two opposite colored or two differently colored, uh, triangles on top of the other for the star to be lit.",
+          "open_code": "ruleArticulation",
+          "summary": "reasserts differing-color stack rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "And yeah, that's my conclusion.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms conclusion reached",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Now, I'm gonna write that down in the box and move on to the next thing.",
+          "open_code": "reflectTask",
+          "summary": "states intention to submit and proceed",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+      {
+        "id": 1,
+        "span": "Next one we see that A, B, and E are lit, and C, D and F are not.",
+        "open_code": "processingGlobal",
+        "summary": "identifies starred vs non-starred",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        }
+      },
+      {
+        "id": 2,
+        "span": "Right now, looking at them...looking at them, nothing really stands out.",
+        "open_code": "reflectUncertainty",
+        "summary": "notes lack of obvious pattern",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        }
+      },
+      {
+        "id": 3,
+        "span": "Most of the triangles here, um, in comparison to the other ones, most of them now are on their side.",
+        "open_code": "processingGlobal",
+        "summary": "observes many triangles sideways",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        }
+      },
+      {
+        "id": 4,
+        "span": "So. Yeah.",
+        "open_code": "reflectCertainty",
+        "summary": "minor filler pause"
+      },
+      {
+        "id": 5,
+        "span": "Mm...can't be that....cannot be that.",
+        "open_code": "ruleExclusion",
+        "summary": "rejects implicit idea"
+      },
+      {
+        "id": 6,
+        "span": "Initially...Mm, no, that couldn't work. I was may be thinking that they had to have one red triangle stood up normally without anything on top of it, but I saw that F has one, so it cannot be that.",
+        "open_code": "ruleExclusion",
+        "summary": "states and dismisses red-triangle hypothesis",
+        "lenses": {
+          "processingStyle": "mixed",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "Um. I have no clue, to be honest. Um.",
+        "open_code": "reflectUncertainty",
+        "summary": "admits cluelessness"
+      },
+      {
+        "id": 8,
+        "span": "Oh wait...upside down one?",
+        "open_code": "hypoGeneration",
+        "summary": "considers upside-down idea"
+      },
+      {
+        "id": 9,
+        "span": "I have no clue. Honestly.",
+        "open_code": "reflectUncertainty",
+        "summary": "repeats uncertainty"
+      },
+      {
+        "id": 10,
+        "span": "I have no clue.",
+        "open_code": "reflectUncertainty",
+        "summary": "again states no idea"
+      },
+      {
+        "id": 11,
+        "span": "What...the hell?",
+        "open_code": "reflectUncertainty",
+        "summary": "surprise expletive"
+      },
+      {
+        "id": 12,
+        "span": "Ah! Bingo! They have to have two green triangles. Only two green triangles.",
+        "open_code": "hypoGeneration",
+        "summary": "formulates two-green rule"
+      },
+      {
+        "id": 13,
+        "span": "If there's any more or less, then, uh, I think. Yeah.",
+        "open_code": "decisionConfirm",
+        "summary": "specifies exact two requirement"
+      },
+      {
+        "id": 14,
+        "span": "So I think my theory is that they [TYPING] There has to be...there has to be only two. ",
+        "open_code": "ruleArticulation",
+        "summary": "reaffirms only two condition"
+      },
+      {
+        "id": 15,
+        "span": "So only two green triangles in the box for the star to be lit. So only two green triangles in the box for the star to be lit.",
+        "open_code": "ruleArticulation",
+        "summary": "final clear statement of rule"
+      }
+    
+    ]
+]

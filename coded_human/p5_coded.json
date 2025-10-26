@@ -1,0 +1,477 @@
+[
+  [ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Okay, so A, E and F are highlighted.",
+      "open_code": "processingGlobal",
+      "summary": "Notes starred panels A,E,F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "And what do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um… they all have a red cone involved.",
+      "open_code": "hypoGeneration",
+      "summary": "Infers red-cone commonality rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "And B, C, D do not, which is why they're not, um, lit up.",
+      "open_code": "decisionConfirm",
+      "summary": "Confirms rule with counterexamples",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "[READING] Okay, think aloud as you try to infer the hidden rule. You will be able to write your guess once the timer finishes. Oh. [READING] Remember to refer to each panel by its labels as you're reading through the task.",
+      "open_code": "Orientation",
+      "summary": "Reads task prompt aloud"
+    },
+    {
+      "id": 6,
+      "span": "[THINKING] Well, I’ve done that.",
+      "open_code": "monitorHighLevel",
+      "summary": "Checks compliance with instructions"
+    },
+    {
+      "id": 7,
+      "span": "I guess I’ll just wait.",
+      "open_code": "reflectSelf",
+      "summary": "Decides to wait now"
+    },
+    {
+      "id": 8,
+      "span": "I don’t think there’s any other rule to it other than... A, E, and F have red cones, hence why it’s lit up.",
+      "open_code": "ruleArticulation",
+      "summary": "States final red-cone rule verbally"
+    }
+  ],
+
+  [ {"Title":"scene2"},
+    {
+      "id": 1,
+      "span": "So A, B, and E… A, B, and E...",
+      "open_code": "processingGlobal",
+      "summary": "Mentions starred panels A,B,E",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "So it's not a red cone, it's not a large green cone or a large blue cone.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates several color-size rules"
+    },
+    {
+      "id": 3,
+      "span": "But it could be a small green cone and a small blue cone...because C, D, and F do not have one small green and one small blue.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes small green & blue cone rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "So that is my answer. And I'm locking it in. (9.0)",
+      "open_code": "decisionConfirm",
+      "summary": "Selects hypothesis as answer"
+    },
+    {
+      "id": 5,
+      "span": "Yeah, I can't see any other reason, because C...C doesn't have a red...oh, sorry, doesn't have a blue or green small cone.",
+      "open_code": "processingGlobal",
+      "summary": "Explains evidence using panel C",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 6,
+      "span": "D also does not have a blue or green small cone.",
+      "open_code": "processingLocal",
+      "summary": "Adds panel D evidence",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "And F only has a green small cone, so it needs a blue small cone before the light will be lit.",
+      "open_code": "processingLocal",
+      "summary": "Infers why F lacks star",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "[TYPING] You need at least one small blue cone and one small green cone.",
+      "open_code": "ruleArticulation",
+      "summary": "Types final rule statement"
+    }
+  ],
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Okay, we have Panel A, C, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "It's nothing to do with a small green cone or a large green cone.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses green-cone hypotheses"
+    },
+    {
+      "id": 3,
+      "span": "They all have two blue cones on their side, but Panel B, E, and D do not.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes two-blue-side rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Yeah, that is the rule. You need two blue cones on their side.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms hypothesis works"
+    },
+    {
+      "id": 5,
+      "span": "Because E has one blue cone on its side and so does B, but it needs two of them, just like A, C, and F.",
+      "open_code": "ruleJustification",
+      "summary": "Cites evidence supporting rule",
+      "lenses": {
+        "processingStyle": "mixed"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That is my answer. And I’m locking it in.",
+      "open_code": "decisionConfirm",
+      "summary": "Reasserts chosen answer"
+    },
+    {
+      "id": 7,
+      "span": "[TYPING] You need two blue cones on their side.",
+      "open_code": "ruleArticulation",
+      "summary": "Types final rule statement"
+    }
+  ],
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, so panel A, C, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels A,C,F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "What do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um, A has two red cones.",
+      "open_code": "processingLocal",
+      "summary": "Notes two red cones in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "C has two red cones.",
+      "open_code": "processingLocal",
+      "summary": "Observes two red cones in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "F has three red cones.",
+      "open_code": "processingLocal",
+      "summary": "Counts three red cones in F",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "They all have one medium-sized red cone...",
+      "open_code": "processingGlobal",
+      "summary": "Finds common medium red cone",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "and it's stacked on top of another.",
+      "open_code": "processingGlobal",
+      "summary": "Notes stacking of medium red cones",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Oh, but A has a… okay, yeah.",
+      "open_code": "reflectUncertainty",
+      "summary": "Signals emerging doubt"
+    },
+    {
+      "id": 9,
+      "span": "This time the rule is: you need a same-size cone stacked on top of each other.",
+      "open_code": "hypoGeneration",
+      "summary": "States same-size stacking rule"
+    },
+    {
+      "id": 10,
+      "span": "Because even though B has a green on green that's stacked on top of each other, they're not the same size — clearly the one on top is larger.",
+      "open_code": "ruleJustification",
+      "summary": "Explains why B fails rule",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Same with E.",
+      "open_code": "processingLocal",
+      "summary": "Adds E as confirming example",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "You have two cones stacked on top of each other— oh wait, oh no, that's wrong, because surely B would be flashing as well.",
+      "open_code": "reflectUncertainty",
+      "summary": "Reconsiders, notes counter-example"
+    },
+    {
+      "id": 13,
+      "span": "I can't tell if it's the same— no, it's not the same size.",
+      "open_code": "monitorLowLevel",
+      "summary": "Admits size ambiguity then rejects"
+    },
+    {
+      "id": 14,
+      "span": "Yeah, it's definitely not the same size, because if it was the same size, the bottom of both cones would not be touching the ground.",
+      "open_code": "monitorHighLevel",
+      "summary": "Justifies size difference observation"
+    },
+    {
+      "id": 15,
+      "span": "The rule is: you need two cones of the same size, of equal size, to be on top of each other for the light to go on.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates refined same-size rule"
+    },
+    {
+      "id": 16,
+      "span": "Because even though B and E have cones stacked on top of each other, they are not the same size.",
+      "open_code": "ruleJustification",
+      "summary": "Provides supporting counterexamples"
+    },
+    {
+      "id": 17,
+      "span": "I thought panel B had the same size, the two green ones, but it's not.",
+      "open_code": "monitorHighLevel",
+      "summary": "Self-corrects earlier assumption"
+    }
+  ],
+
+  [ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": "Panel A, B and E.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies lit panels A,B,E",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Ah! This is a lot of cones. Crap. [SIGHS]",
+      "open_code": "reflectTask",
+      "summary": "Expresses overwhelm by complexity"
+    },
+    {
+      "id": 3,
+      "span": "Okay, they have two greens, that’s one thing that I can see.",
+      "open_code": "processingGlobal",
+      "summary": "Notices starred panels share two greens",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 4,
+      "span": "Panel A, B and E have two greens. C has three, F has five, wow, and D has four.",
+      "open_code": "processing",
+      "summary": "Compares green-cone counts across all panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "So one thing is: two green cones.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes two-green-cone rule"
+    },
+    {
+      "id": 6,
+      "span": "Okay. A has two red cones on its side, so does B, so does C, so does D and so does F.",
+      "open_code": "processingGlobal",
+      "summary": "Notes two red sidelong cones many panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "I don’t know if that makes a difference. Mm…",
+      "open_code": "reflectUncertainty",
+      "summary": "Doubts relevance of red observation"
+    },
+    {
+      "id": 8,
+      "span": "So D has two on its side, so does A, so does B... Oh, E only has one red one on its side. So that is not it.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-on-side hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Oh I hate this timer because I had my answer and I’ve forgotten my answer now. But I said it first. Crap.",
+      "open_code": "memoryLoss",
+      "summary": "Complains about forgetting earlier idea"
+        },
+    {
+      "id": 10,
+      "span": "Was it the amount of green cones? A has two, B has two, E has two.",
+      "open_code": "memoryRegain",
+      "summary": "Recalls two-green hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Okay, so you need two green cones.",
+      "open_code": "ruleArticulation",
+      "summary": "States two-green rule"
+    },
+    {
+      "id": 12,
+      "span": "And the only thing I haven’t looked at are the blue cones.",
+      "open_code": "modifyPlan",
+      "summary": "Decides to inspect blue cones next",
+      "lenses":{
+        "planningLevel":"level 3"
+      }
+    },
+    {
+      "id": 13,
+      "span": "So A has one on its side, B has one on its side, E has one on its side.",
+      "open_code": "processingGlobal",
+      "summary": "Observes one sidelong blue in starred",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 14,
+      "span": "Cool. I will add that to the mix as well.",
+      "open_code": "hypoAlternative",
+      "summary": "Adds blue-side feature to rule"
+    },
+    {
+      "id": 15,
+      "span": "You need to have two green cones and one blue cone on its side.",
+      "open_code": "ruleArticulation",
+      "summary": "States combined green+blue rule"
+    },
+    {
+      "id": 16,
+      "span": "Because they didn’t say anything about it being just one rule, you just said the hidden rule, but it could be something, something, and something.",
+      "open_code": "reflectTask",
+      "summary": "Comments on possibility of multi-feature rule"
+    },
+    {
+      "id": 17,
+      "span": "[TYPING] So you need two green cones and one… what was it? Was it a blue cone on its side? A, B and E.",
+      "open_code": "memoryLoss",
+      "summary": "Momentarily forgets blue detail while typing"
+    },
+    {
+      "id": 18,
+      "span": "Um… (6.0) [THINKING] because… even with B, it’s not really on its side? (7.0)",
+      "open_code": "reflectUncertainty",
+      "summary": "Questions accuracy of blue-side observation",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 19,
+      "span": "So I might just say… one red cone on its side.",
+      "open_code": "hypoRevision",
+      "summary": "Considers alternate red-side rule"
+    },
+    {
+      "id": 20,
+      "span": "Yeah.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms new choice briefly"
+    },
+    {
+      "id": 21,
+      "span": "[TYPING] Cone on its side.",
+      "open_code": "ruleArticulation",
+      "summary": "Types simplified cone-side rule"
+    }
+  ]
+
+]

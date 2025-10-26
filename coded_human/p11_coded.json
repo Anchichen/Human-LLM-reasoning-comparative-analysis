@@ -1,0 +1,560 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so panels A, E and F follow the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "I see that they all have a purple [blue] triangle covering the green.",
+          "open_code": "hypoAlternative",
+          "summary": "Notes shared purple-over-green feature",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um… B has that as well but it’s not following the rule,",
+          "open_code": "decisionReject",
+          "summary": "Finds counterexample in B",
+          "lenses": {
+            "processingStyle": "localScan"
+                    }
+        },
+        {
+          "id": 4,
+          "span": "so maybe the purple [blue] triangle covering over the green has to be on either the left or the right side; it can’t be in the middle.",
+          "open_code": "hypoRevision",
+          "summary": "Generates position-based rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 5,
+          "span": "Um, what else?",
+          "open_code": "planningExplorative",
+          "summary": "Searches for new clues",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Two-three-four-five… two-three-four-five… two-three-four-five-six-seven.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles aloud",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So you don’t have to have the same amount.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects equal-number rule"
+        },
+        {
+          "id": 8,
+          "span": "Um… So A has three green triangles; E has three green triangles, F has three green triangles.",
+          "open_code": "processingGlobal",
+          "summary": "Observes three greens in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "So you need three greens.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes need for three greens"
+        },
+        {
+          "id": 10,
+          "span": "Uh… two blue, two blue, three blue…",
+          "open_code": "processingGlobal",
+          "summary": "Counts blue triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "So, far we need three green triangles and we need a purple [blue] triangle covering a green one on either the left or the right side, and… (5.0) that’s all I’ve got.",
+          "open_code": "ruleArticulation"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so panels A, B and E are completing the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Let me count them.",
+          "open_code": "planningExplorative",
+          "summary": "Plans to count triangles",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 3,
+          "span": "There’s five, there’s five… three...",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles aloud",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "so, they all have five triangles, it would appear. They all have five triangles.",
+          "open_code": "Inference",
+          "summary": "Suggests rule: five triangles"
+        },
+        {
+          "id": 5,
+          "span": "Um… (7.0) Two of them have triangles on their side but not B, so you don’t need that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects sideways-triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Four small [in Panel A]…; three small [in Panel B]…; two small [in Panel E].",
+          "open_code": "processingGlobal",
+          "summary": "Counts small triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So, that doesn’t have to match.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses small-count rule"
+        },
+        {
+          "id": 8,
+          "span": "Um… They aren’t matching in many ways.",
+          "open_code": "reflectUncertainty",
+          "summary": "Notes lack of matches"
+        },
+        {
+          "id": 9,
+          "span": "Um… (8.0) This is difficult.",
+          "open_code": "reflectTask",
+          "summary": "Comments on difficulty"
+        },
+        {
+          "id": 10,
+          "span": "They all have five triangles, that’s all I’ve got so far.",
+          "open_code": "ruleGuess",
+          "summary": "Tentatively prefers five-triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "I was just wondering if they all used all the colors,",
+          "open_code": "hypoGeneration",
+          "summary": "Considers all-colors rule"
+        },
+        {
+          "id": 12,
+          "span": "but only two of them use all the colors.",
+          "open_code": "decisionReject",
+          "summary": "Rejects all-colors idea",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 13,
+          "span": "And two of them [Panel B and E] have a big green triangle, one of them [Panel A] doesn’t.",
+          "open_code": "processingGlobal",
+          "summary": "Observes big-green mismatch",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "And blue triangles don’t have to be on their side, as shown in panel B.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses blue-side rule",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so A, C and F follow the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Only A has a big red triangle.",
+          "open_code": "processingLocal",
+          "summary": "Notes unique big red triangle",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, let’s see...",
+          "open_code": "planningExplorative",
+          "summary": "Prepares to seek more clues",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 4,
+          "span": "three-four-five, one-two-three-four-five—",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles aloud",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "so they all have five triangles, unless you are counting the small one on top of C.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests five-triangle rule with caveat"
+        },
+        {
+          "id": 6,
+          "span": "So five triangles again.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms five-triangle idea"
+        },
+        {
+          "id": 7,
+          "span": "Must have triangles on their side...blue— two blue triangles on their side.",
+          "open_code": "hypoAlternative",
+          "summary": "Proposes two side-blue triangles rule"
+        },
+        {
+          "id": 8,
+          "span": "So it must be five triangles, and it must be two blue triangles on their side.",
+          "open_code": "decisionConfirm",
+          "summary": "Combines conditions into tentative rule"
+        },
+        {
+          "id": 9,
+          "span": "and it must have all the colors, red, blue, and green.",
+          "open_code": "hypoAlternative",
+          "summary": "Adds all-colors requirement"
+        },
+        {
+          "id": 10,
+          "span": "I’m really not sure what else.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty"
+        },
+        {
+          "id": 11,
+          "span": "So, five triangles present, two blue triangles on their side, and all three colors present. That’s what I’ve got.",
+          "open_code": "ruleArticulation",
+          "summary": "States composite rule"
+        },
+        {
+          "id": 12,
+          "span": "Looking for anything else…",
+          "open_code": "planningExplorative",
+          "summary": "Keeps searching for more clues",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Yeah, that’s all I’ve got.",
+          "open_code": "decisionConfirm",
+          "summary": "Decides to stop searching"
+        },
+        {
+          "id": 14,
+          "span": "I hope that’s it.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses hope/confidence"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Alright, so we’ve got A, C and F that follow the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Um, all of them have a green triangle standing upright.",
+          "open_code": "processingGlobal",
+          "summary": "Proposes upright green feature rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "All of them have triangles on their sides.",
+          "open_code": "processingGlobal",
+          "summary": "Adds sideways-triangle candidate rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Uh, what else?",
+          "open_code": "planningExplorative",
+          "summary": "Searches for more clues",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 5,
+          "span": "All of them have a triangle on top of another triangle… at least one.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests stacked-triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "They all have at least two green triangles standing upright.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two upright greens rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "No, C just has one.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notices error in count",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "They all have at least two green triangles, in general.",
+          "open_code": "hypoRevision",
+          "summary": "Revises green-count rule (any orientation)",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 9,
+          "span": "They all have triangles at an angle.",
+          "open_code": "hypoGeneration",
+          "summary": "Adds angled-triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Um… I’m not sure what else— this is harder than I thought it would be.",
+          "open_code": "reflectTask",
+          "summary": "Comments on difficulty"
+        },
+        {
+          "id": 11,
+          "span": "Um… so we got all the panels have a triangle on top of another triangle.",
+          "open_code": "decisionConfirm",
+          "summary": "Restates stacked-triangle rule"
+        },
+        {
+          "id": 12,
+          "span": "They all have at least two green triangles standing upright. Oh, just in general, not necessarily standing upright.",
+          "open_code": "decisionConfirm",
+          "summary": "Clarifies green-triangle rule orientation"
+        },
+        {
+          "id": 13,
+          "span": "And they all use all three colors.",
+          "open_code": "decisionConfirm",
+          "summary": "Adds all-colors rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Alright, so A, B and E follow the rule.",
+          "open_code": "processingGlobal",
+          "summary": "Marks the starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "They all have a red triangle standing upright.",
+          "open_code": "processingGlobal",
+          "summary": "Suggests upright red rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "They all have a blue triangle at an angle.",
+          "open_code": "processingLocal",
+          "summary": "Adds angled blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "They all have a red triangle at an angle.",
+          "open_code": "processingGlobal",
+          "summary": "Adds angled red rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "They all use all three colors.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes all-colors requirement",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Two of them [Panel A and E] have a triangle on top of another triangle, one of them [Panel B] doesn’t.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses stacked-triangle rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Two, three, four, five small triangles in one [Panel A]; two small triangles in another [Panel B]—",
+          "open_code": "processingGlobal",
+          "summary": "Counts small triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "so that doesn’t match.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects small-count rule"
+        },
+        {
+          "id": 9,
+          "span": "In all of them, there’s a blue and a red triangle at an angle pointing against each other, I think that’s the rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Tentatively sets opposing red-blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Um… this is not easy…",
+          "open_code": "reflectTask",
+          "summary": "Comments on difficulty"
+        },
+        {
+          "id": 11,
+          "span": "what else, what else?",
+          "open_code": "planningExplorative",
+          "summary": "Looks for more features",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Yeah, only two of them [Panel A and E] have a triangle stacked on top of another triangle, not the third one [Panel B].",
+          "open_code": "ruleExclusion",
+          "summary": "Again rejects stacked rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "So we got what? It must have a red and a blue triangle set at an angle pushing against each other, and something else.",
+          "open_code": "ruleArticulation",
+          "summary": "Restates incomplete rule"
+        }
+      ]
+
+]

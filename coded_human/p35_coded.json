@@ -1,0 +1,1029 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Uh, in the first panel there is a star lit. In the E panel, there is also a star lit. And the F panel is the star which is bright.",
+          "open_code": "processingGlobal",
+          "summary": "Lists panels with lit stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I think the hidden rule could be maybe, uh...this has three. This has...the first one has three cones; the A panel has three cones. The letter E panel has three cones also and the F one has three cones, also.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: starred panels each have three cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "The first one has two cones, the E one has one cone, and the F one has two cones. So that can be it.",
+          "open_code": "hypoRevision",
+          "summary": "Shifts to 2-1-2 cone pattern idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "The first one has three cones. The A one has three cones. The E one has three cones, and the F one has three cones. So that could be something similar.",
+          "open_code": "processingGlobal",
+          "summary": "Re-counts three cones across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "It could be at least the red cones and...the red cones and...two...three cones...three green cones. Probably that...three green cones and three...and three...",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests rule involving red and three green cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "No, that's probably it. The rest of have...but also, C has three cones. So that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects rule since C fits too",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "I'm thinking...this one has...at least one cone on top of each other...",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes stacked-cone rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "No, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Immediately dismisses stacked idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "The E has at least two cones on top of each other, and the F one has to cones on top of each other.",
+          "open_code": "processingGlobal",
+          "summary": "Observes stacking in E and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "So I'm thinking maybe the rule might be...maybe three cones...three green cones, and probably... This one has two...This one has three cones. What could it be?",
+          "open_code": "hypoAlternative",
+          "summary": "Explores three-green-cones alternative",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "This one has two lying cones. One and two. A has zero lying cones.",
+          "open_code": "processingLocal",
+          "summary": "Notes counts of lying cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "so that can't be it Hmm.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses lying-cones hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "I'm thinking maybe the one that is closest to the star, probably…that would be...",
+          "open_code": "hypoAlternative",
+          "summary": "Considers proximity-to-star rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Oh, I think I see the pattern.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses sudden insight",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "No, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects just-insight idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Oh, okay... That could be the pattern.",
+          "open_code": "reflectSelf",
+          "summary": "Reopens possibility of pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Uh... I thought the pattern would be green with the blue one on top.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes green base with blue on top",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "But seeing that C has...No, C doesn't have it.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks C for disconfirming case",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So that would actually be the hidden rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Affirms green-blue stack rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "So, the hidden rule is green, and there is at least... at least one cone with...with blue over overlapping...the green cone. I think that's it.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: blue over green cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "[THINKING] The overlap in the green cone. But we also have it and also as a red. And there's also a red. I think that's...that's right.",
+          "open_code": "hypoRevision",
+          "summary": "Adds note about possible red overlap",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "The first one...the first panel has a star. The B panel has a star, and the E panel has a star.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A, B, E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, this one has two green ones. B has two green ones here. E has three green ones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green cones across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um...this one has two green. This one has one. This one has two. E has none, so it can't be the red cones.",
+          "open_code": "processingGlobal",
+          "summary": "Surveys red cone counts; rules out red",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "The first A panel has two blue cones. Or it has one, two, three, four–four upright cones.",
+          "open_code": "processingLocal",
+          "summary": "Observes blue and upright counts in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "This panel has one, two, four, five – five red cones. The E one has three cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts red cones in other panels",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "No, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-count idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "The rule might be...maybe... can it be the red ones.",
+          "open_code": "hypoGeneration",
+          "summary": "Re-proposes red-based rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "No, we ruled out the red one.",
+          "open_code": "ruleExclusion",
+          "summary": "Immediately dismisses red rule again",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "It can be at least one tilted.",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests rule about tilted cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "But E has, E has, two tilted and B has none tilted.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks tilted counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So, you could choose either...uh...the pattern in B. B has all of them standing, but these two are touching each other.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers touching-cones pattern",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "No, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects touching-pattern idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "What could be the...What could be the pattern? The hidden rule?",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty about rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Two green on the ground. Maybe...maybe that's it.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two greens on ground rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Yeah. At least...at least two green on the ground.",
+          "open_code": "hypoRevision",
+          "summary": "Clarifies at least two greens rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "And that's appropriate 'cause A has two greens on the ground, B has two greens on the ground and E has three greens to the ground.",
+          "open_code": "processingGlobal",
+          "summary": "Lists confirming evidence for greens rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "So all the greens are actually touching the ground.",
+          "open_code": "decisionConfirm",
+          "summary": "Summarises confirmation of rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "And there is a F has one touching the ground, but it's only one...so it could be at least two touching the ground. And that would be a good guess.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes F as near miss; still fits rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "[TYPING] Okay then the panels...the panels have at least three greens...at least two...two greens touching the ground.",
+          "open_code": "ruleArticulation",
+          "summary": "Formally states two-greens-ground rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "And that would be my best guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Declares rule as final guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "I think I'm pretty confident in that I don't see any other hidden rule that might be there, so that might suffice it.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses confidence and closure",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. Next one.",
+          "open_code": "otherEmergent_transition",
+          "summary": "Moves to next puzzle",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has a star. C has a star. and F has a star.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "The pattern might be...maybe this one...",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses tentative pattern search",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Panel A has only one...one green and C has four,",
+          "open_code": "processingGlobal",
+          "summary": "Compares green counts in A and C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "so that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-count hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "It has at least three cones touching the ground.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes ≥3 cones on ground rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "C has two cones touching the ground. F has four touching the ground, lying down. The A one has two cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts ground-touching cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "But so does E and E doesn't have a star. So that can't be it...And C has only one. So, that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses ground-cone rule with counterexamples",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um, what do these patterns contain?",
+          "open_code": "planningExplorative",
+          "summary": "Queries what common features exist",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Maybe...uh, two…two blue cones touching the ground...tilted.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests two tilted blue cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "A has tilted. C as tilted blue cones. F has tilted blue cones. Two of them.",
+          "open_code": "processingGlobal",
+          "summary": "Observes tilted blues in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "E has them, but only one.",
+          "open_code": "processingLocal",
+          "summary": "Notes E has only one tilted blue",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So, I'm thinking that this would be...at least... at least two cones...two blue cones. Two blue cones touching the ground. They are tilted. At least two cones tilted to the ground.",
+          "open_code": "hypoRevision",
+          "summary": "Clarifies ≥2 tilted blue cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Because has two tilted ones. B doesn't, but C has. And A and C have the star. F has to blues cones touching the ground.",
+          "open_code": "processingGlobal",
+          "summary": "Cites confirming and disconfirming panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "And I think that's my best guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Declares rule as best guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Hm...I don't think there is any other case.",
+          "open_code": "reflectSelf",
+          "summary": "Says no other cases noticed",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "I think that will suffice it.",
+          "open_code": "decisionConfirm",
+          "summary": "States rule suffices",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "That's the only pattern I can see here.",
+          "open_code": "reflectSelf",
+          "summary": "Only pattern perceived",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So, you can write it down as soon as the time is up. It's about seven seconds.",
+          "open_code": "reflectTask",
+          "summary": "Comments on timing and writing answer",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "[TYPING] Thinking the hidden rule is at least...at least two cones...two blue cones touching the ground...tilted [...].",
+          "open_code": "ruleArticulation",
+          "summary": "Formally states two tilted blue cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "And that's my best guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms final guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "I don't think I have any other guess.",
+          "open_code": "reflectSelf",
+          "summary": "States no additional guesses",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Um, A–panel A has a star. C has a star, and F has a star.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels A, C, F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has two…No, that wouldn't work because there's three green cones, but so does B. That can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-cone count idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "And it has –panel A has at least one...at least one cone overlapping each other and two tilted against each other. C has one...two of them tilted back and also two overlapping each other. Two pairs. And F has two tilted against each other and one overlapping pair.",
+          "open_code": "processingGlobal",
+          "summary": "Observes overlapping and tilted pairs in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And C... – D doesn't have it. E doesn't have it. And B doesn't have two pairs tilting against each other.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes non-starred panels lack feature",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So, I think that would be my best guess...that would be... yeah.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts overlapping/tilted rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "What else is there?",
+          "open_code": "planningExplorative",
+          "summary": "Questions if other patterns exist",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "There's two in the panel of the same color, overlapping each other of the same color {?}. Yeah. The other one they are. They are the only ones which are overlapping each other.",
+          "open_code": "hypoRevision",
+          "summary": "Refines rule to same-color overlapping pair",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Okay. Let's see. Any other guess? No, I don't think so.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits no further guesses",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "There is no to satisfy those conditions. D doesn't, E doesn't B doesn't. Only C and F which also have the star to satisfy the conditions.",
+          "open_code": "processingGlobal",
+          "summary": "Lists evidence non-starred fail rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "And that would be the hidden rule. So.",
+          "open_code": "decisionConfirm",
+          "summary": "States rule is final",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Let me...let me look at them again to make sure that's the best guess I can come up with.",
+          "open_code": "monitorHighLevel",
+          "summary": "Plans final re-check of panels",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I think those panels have their arrangements and that's the most confident answer I have.",
+          "open_code": "reflectSelf",
+          "summary": "Expresses confidence in answer",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "[TYPING] So I think that the panel's the hidden rule is there....So, the stars have this hidden rule at least the cones it has at least one...yes, at least one overlapping. Yes, one...one pair of overlapping cones Yes. One pair of overlapping. Cause at least at least one. Yes. At least one pair of overlapping coins. And also, two tilted by the side...two cones tilted by the sides against each other. By the side. Against each other. Yeah. Any color. And also....",
+          "open_code": "ruleArticulation",
+          "summary": "Types final rule: ≥1 overlap plus 2 tilted cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Try to think.",
+          "open_code": "reflectSelf",
+          "summary": "Talks to self to think",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay. A has a star. B has a star. E has a star.",
+          "open_code": "processingGlobal",
+          "summary": "Lists panels with stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel B...B has at least three...at least three...one green, two...wait...one green, two...one green, two red cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts greens and reds in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "But that's just...that wouldn't be...",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses current count idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "I'm thinking... there's no overlapping cones, so that can't be it.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects overlapping-cones hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "It could be a green one. Oh, but green ones {?}.",
+          "open_code": "hypoGeneration",
+          "summary": "Considers green-based rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Blue... B has one blue one. Also, A has three blue ones. F has one, two, three, four, five blue ones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts blue cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, I'm thinking green, maybe.",
+          "open_code": "hypoRevision",
+          "summary": "Returns focus to green rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "There is two greens in A, two greens in B and two greens in E.",
+          "open_code": "processingGlobal",
+          "summary": "Observes exactly two greens in starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "The rest have more than two. Like C has one, two, three green cones. There's one, two, three, four– four green cones. And F has one, two, three, four, five– five green cones.",
+          "open_code": "processingGlobal",
+          "summary": "Counts greens in non-starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Anyone with the least amount of cones has the stars. A has two. B has two and E has two. It's the same amount of cones.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms two-green rule works",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So, I think that that would be my best guess, if I had to choose.",
+          "open_code": "decisionConfirm",
+          "summary": "States preference for rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Uh, because they have the stars...the rest do not have...",
+          "open_code": "processingGlobal",
+          "summary": "Cites evidence supporting rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Uh... one, two, three...this panel has five... Uh, can't be that...this one has three.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects total-cone count rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "The red cones are so random, so it can't be that one.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out red-cone pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "I think I'm sticking to that one.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to two-greens rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "It has two green cones, because the rest do not have at these two. They have more than more than two.",
+          "open_code": "processingGlobal",
+          "summary": "Restates evidence for rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "So, I think that's my best guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms best guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] Okay, then the hidden rule might be then at most...the green cones...at most five– not five– at most two in each panel.",
+          "open_code": "ruleArticulation",
+          "summary": "Types final rule: ≤2 green cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

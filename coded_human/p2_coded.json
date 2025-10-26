@@ -1,0 +1,928 @@
+[
+  [ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "Alright. Uh, let’s see, let’s see.",
+      "open_code": "Orientation",
+      "summary": "orients themselves to the task"
+    },
+    {
+      "id": 2,
+      "span": "Panel A follows the rule so far.",
+      "open_code": "processingLocal",
+      "summary": "Notes star on panel A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Uh… let’s see, taking a look at each different thing…",
+      "open_code": "planningExplorative",
+      "summary": "Signals further scanning",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Let’s see, panels B, C, and D don’t follow the rule.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies non-starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "What are they missing?",
+      "open_code": "planningBasicComparison",
+      "summary": "Sets star vs non-star comparison",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Okay, so panels B, C, and D do not have a red cone in them.",
+      "open_code": "processingGlobal",
+      "summary": "Observes absence of red cones",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Panels A, E, and F do, ergo, the star is lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Links red presence to lit star",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That is my initial guess on what the secret rule is.",
+      "open_code": "hypoGeneration",
+      "summary": "States initial red-cone rule"
+    },
+    {
+      "id": 9,
+      "span": "Um… Taking a look at other factors:",
+      "open_code": "modifyPlan",
+      "summary": "Announces shift to new checks",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Uh Panel A has… most cones are upright, except for the green one.",
+      "open_code": "processingLocal",
+      "summary": "Describes cone orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Panel E uh has a mixture of cones, some upright and some not.",
+      "open_code": "processingLocal",
+      "summary": "Observes mixed orientations in E",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "The red cone doesn’t have to be upright for the rule to be active.",
+      "open_code": "hypoRevision",
+      "summary": "Refines rule: orientation irrelevant"
+    },
+    {
+      "id": 13,
+      "span": "Same principle for F, the red cone is also not inside… oh sorry — in panel F, the red cone is inside something, but that does not invalidate it.",
+      "open_code": "processingLocal",
+      "summary": "Cites F as confirming evidence",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Um… Okay, let’s see, what else is there?",
+      "open_code": "modifyPlan",
+      "summary": "Prepares to search new feature",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Maybe something to do with the number of cones?",
+      "open_code": "hypoAlternative",
+      "summary": "Considers number-based rule"
+    },
+    {
+      "id": 16,
+      "span": "Panel A has [counting] seven.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 17,
+      "span": "Panel E has [counting] six.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel F has [counting] eight.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "Uh.. let’s see, Panels B, C, and D: [counting] B has five… [counting] C has five…. [counting] D has six….",
+      "open_code": "processing",
+      "summary": "Counts cones in non-starred panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 20,
+      "span": "Okay, so it’s not a number rule, because panel C has six cones and panel E also has six cones, so disregarding that entirely.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects number-of-cones hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 21,
+      "span": "Okay so literally the only thing I’m seeing that would govern this hidden rule would be: Does the panel have red cones or not?",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms red-presence rule stands"
+    },
+    {
+      "id": 22,
+      "span": "If it has red cones, the star lights up.",
+      "open_code": "ruleArticulation",
+      "summary": "States final red-cone rule"
+
+    },
+    {
+      "id": 23,
+      "span": "That is literally the only consistent logic I can think of here.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects on reasoning sufficiency"
+    }
+  ],
+
+  [ {"Title":"scene2"},
+    {
+      "id": 1,
+      "span": "Okay, okay. Let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins open exploration"
+    },
+    {
+      "id": 2,
+      "span": "Panels A, B, and E are lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "What do they have in similarity? What do they have in disparity?",
+      "open_code": "planningBasicComparison",
+      "summary": "Plans star vs non-star comparison",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Okay, count the number of cones first.",
+      "open_code": "planningStrategic",
+      "summary": "Chooses counting strategy",
+      "lenses": {
+        "planningLevel": "level 3"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel A has one, two, three, four, five.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Panel B has one, two, three, four, five.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Panel E has—wait, is that separate cone? No— one, two, three, four, five.",
+      "open_code": "processingLocal",
+      "summary": "Counts cones in E with check",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So they all have five cones each.",
+      "open_code": "hypoGeneration",
+      "summary": "Summarises equal counts",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Panel C also has [counting] five.",
+      "open_code": "counterExampleSearch",
+      "summary": "Counts cones in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Okay, so it’s not the number rule for that.",
+      "open_code": "decisionReject",
+      "summary": "Rejects number-of-cones hypothesis"
+    },
+    {
+      "id": 11,
+      "span": "It’s not a case of whether all the cones are upright or not, because panels A and E have cones that are sideways.",
+      "open_code": "ruleExclusion",
+      "summary": "Rules out all-upright hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "Does it have something to do with the color of the cones?",
+      "open_code": "hypoGeneration",
+      "summary": "Posits color-based rule"
+    },
+    {
+      "id": 13,
+      "span": "Uh No… every panel has an assortment of each color, except for E, which is missing red, but that is irrelevant to the rule.",
+      "open_code": "decisionReject",
+      "summary": "Dismisses color-presence rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 14,
+      "span": "It’s not about all cones being up or down either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects universal orientation rule"
+    },
+    {
+      "id": 15,
+      "span": "[MUMBLING] Number of cones — no, they’re all five. Yes, they’re all five.",
+      "open_code": "ruleRevisit",
+      "summary": "Revisits old rule smd reaffirms counting rule invalid"
+    },
+    {
+      "id": 16,
+      "span": "What is the hidden rule here?",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses confusion"
+    },
+    {
+      "id": 17,
+      "span": "Wait… is it that…okay, no it is not the number of green cones either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-count hypothesis"
+    },
+    {
+      "id": 18,
+      "span": "Two… two… one… two… two… one… three… two… no.",
+      "open_code": "processingGlobal",
+      "summary": "Counts green cones across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "Okay, so it’s not about the number of colors either.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color-ratio hypothesis"
+    },
+    {
+      "id": 20,
+      "span": "What is the rule here?",
+      "open_code": "reflectUncertainty",
+      "summary": "Iteratively rejects orientation ideas"
+    },
+    {
+      "id": 21,
+      "span": "That they’re all standing up? No. That they’re all sideways? No. That some of them… no.",
+      "open_code": "ruleExclusion",
+      "summary": "Iteratively rejects orientation ideas"
+    },
+    {
+      "id": 22,
+      "span": "[SIGHS] I cannot figure out the rule here.",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits inability to find rule"
+    },
+    {
+      "id": 23,
+      "span": "Is it the ratio of colors? (6.0)",
+      "open_code": "hypoGeneration",
+      "summary": "Considers color ratio rule"
+    },
+    {
+      "id": 24,
+      "span": "Two to one… two to one… three to two… three to zero…",
+      "open_code": "processingGlobal",
+      "summary": "Enumerates color ratios",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 25,
+      "span": "no, that’s not it either.",
+      "open_code": "decisionReject",
+      "summary": "Rejects color ratio rule"
+    },
+    {
+      "id": 26,
+      "span": "I cannot figure it out.",
+      "open_code": "reflectUncertainty",
+      "summary": "Restates inability to solve"
+    }
+  ],
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Alright, let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins open exploration"
+    },
+    {
+      "id": 2,
+      "span": "Panels A, C, and F are lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "They have cones that are knocked over.",
+      "open_code": "processingGlobal",
+      "summary": "Proposes slanted-cone similarity",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Actually, every panel has a cone that’s knocked over, so that’s not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects slanted-cone rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 5,
+      "span": "Every panel has a multitude of colors, that’s not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects multi-color rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "The panels that are lit up all have a cone that’s stacked...",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests stacked-cone rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 7,
+      "span": "wait, no — they don’t even all have cones that are standing.",
+      "open_code": "decisionReject",
+      "summary": "Rejects stacked/standing idea"
+    },
+    {
+      "id": 8,
+      "span": "What is the rule?",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses confusion"
+    },
+    {
+      "id": 9,
+      "span": "Color, maybe? [SIGHS]",
+      "open_code": "hypoGeneration",
+      "summary": "Considers color-based rule"
+    },
+    {
+      "id": 10,
+      "span": "RGB? Two-one-two, one-two-two... wait, no, one-three-two actually... Two-two-one…",
+      "open_code": "processing",
+      "summary": "Enumerates color ratios",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 11,
+      "span": "okay, no — that’s not the rule.",
+      "open_code": "decisionReject",
+      "summary": "Rejects color-ratio rule"
+    },
+    {
+      "id": 12,
+      "span": "Is it red? No — they all have red. They all have green. They all have blue.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects single-color presence rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 13,
+      "span": "Is it that there is a cone in the center that’s red? No.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects center-red hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "Cone… cone that, no, it’s not the cone at the edge that’s green either.",
+      "open_code": "ruleExclusion"
+    },
+    {
+      "id": 15,
+      "span": "Cone at the edge that’s blue. No.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects edge-blue idea"
+    },
+    {
+      "id": 16,
+      "span": "Three-two-one… it’s not that green is the most, that does not work for this rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-majority rule"
+    },
+    {
+      "id": 17,
+      "span": "Green is the least? Also doesn’t work.",
+      "open_code": "ruleExclusion"
+    },
+    {
+      "id": 18,
+      "span": "Has at least two blue? No, that’s not the rule. Panels B and D invalidate that.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects ≥2 blue rule using counterexamples"
+    },
+    {
+      "id": 19,
+      "span": "Is it perhaps... no, not one of each color.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects one-each-color rule"
+    },
+    {
+      "id": 20,
+      "span": "Is there something...? It’s not that one of the cones is holding a hat… [SIGHS].",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects hat-holding cone idea"
+    },
+    {
+      "id": 21,
+      "span": "Two large, two large, two large…? [SIGHS]",
+      "open_code": "processingGlobal",
+      "summary": "Considers cone size counts",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 22,
+      "span": "(5.0) I cannot [TYPING] I cannot figure out the hidden rule for this set of panels.",
+      "open_code": "ruleImpasse",
+      "summary": "Admits being unable to solve"
+    }
+  ],
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Alright, let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins exploring puzzle"
+    },
+    {
+      "id": 2,
+      "span": "Panels A and C... uh, let’s look at each one.",
+      "open_code": "planningBasicComparison",
+      "summary": "Sets intent to inspect panels",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "What do they have in similarity?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Every panel here has all the colors.",
+      "open_code": "processingGlobal",
+      "summary": "Observes all panels contain all colors",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "They’re not all standing upright, so standing upright has nothing to do with it.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates all-upright hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 6,
+      "span": "Is it the ratio of colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers color-ratio rule"
+    },
+    {
+      "id": 7,
+      "span": "Three-two-two..., two-three-two..., two-three-two, two-three-one... three-one-one?",
+      "open_code": "processing",
+      "summary": "Enumerates color ratios",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Might be the, having a three-to-one pattern. Uh… quite possibly that.",
+      "open_code": "hypoRevision",
+      "summary": "Tentatively proposes 3-to-1 pattern rule"
+    },
+    {
+      "id": 9,
+      "span": "Let’s see... do the others? No, B invalidates that theory.",
+      "open_code": "decisionReject",
+      "summary": "Rejects 3-to-1 rule using panel B"
+    },
+    {
+      "id": 10,
+      "span": "Is it that they have hats?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers hat-presence rule"
+    },
+    {
+      "id": 11,
+      "span": "No, that gets invalidated as well.",
+      "open_code": "decisionReject",
+      "summary": "Rejects hat rule"
+    },
+    {
+      "id": 12,
+      "span": "Then, is each color... red is not touching?",
+      "open_code": "hypoGeneration",
+      "summary": "Tests red-not-touching hypothesis"
+    },
+    {
+      "id": 13,
+      "span": "No, red is touching something else. Blue is touching something else. Green is touching something else. Those rules are invalidated.",
+      "open_code": "decisionReject",
+      "summary": "Dismisses non-touching color rules"
+    },
+    {
+      "id": 14,
+      "span": "Is it the rule that most of them are standing upright?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers majority-upright rule"
+    },
+    {
+      "id": 15,
+      "span": "No, that’s invalidated too.",
+      "open_code": "decisionReject",
+      "summary": "Rejects majority-upright rule"
+    },
+    {
+      "id": 16,
+      "span": "Invalidated and invalidated. [SIGHS] What is the pattern here I’m looking for?",
+      "open_code": "reflectUncertainty",
+      "summary": "Frustration over repeated rejections"
+    },
+    {
+      "id": 17,
+      "span": "Red is the one that has a hat...?",
+      "open_code": "hypoGeneration",
+      "summary": "Tests red-with-hat idea"
+    },
+    {
+      "id": 18,
+      "span": "No.",
+      "open_code": "decisionReject",
+      "summary": "Rejects red-hat rule"
+    },
+    {
+      "id": 19,
+      "span": "Wearing, alternating hat colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers alternating-hat-color rule"
+    },
+    {
+      "id": 20,
+      "span": "Possibly...yeah, that would check out.",
+      "open_code": "decisionConfirm",
+      "summary": "Tentatively endorses hat-color idea"
+    },
+    {
+      "id": 21,
+      "span": "There’s at least one cone wearing a different color cone.",
+      "open_code": "ruleArticulation",
+      "summary": "States different-color-hat rule"
+    },
+    {
+      "id": 22,
+      "span": "That’s the only thing I’m finding unique so far among the triggered and non-triggered ones.",
+      "open_code": "monitorHighLevel",
+      "summary": "Evaluates uniqueness of rule"
+    },
+    {
+      "id": 23,
+      "span": "[SIGHS] I can’t think of any other rule. Dang it, is there something else I’m missing here?",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits ongoing doubt"
+    }
+  ],
+
+  [ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": "Alright, let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins exploration"
+    },
+    {
+      "id": 2,
+      "span": "Panels A, B, and E are marked.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 3,
+      "span": "Uh every panel has an assortment of colors, so there’s no unique color rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color-uniqueness rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Um they’re all a mixture of cones standing up and knocked down.",
+      "open_code": "processingGlobal",
+      "summary": "Observes mixed orientations overall",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 5,
+      "span": "[SIGHS] Let’s see, is there a rule like at least a set amount of cones touching the ground or standing up?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers minimum-upright rule"
+    },
+    {
+      "id": 6,
+      "span": "Three… three… uh, one, two, three, four...",
+      "open_code": "processing",
+      "summary": "Counts upright cones across panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "no, that’s not the rule.",
+      "open_code": "decisionReject",
+      "summary": "Rejects upright-count rule"
+    },
+    {
+      "id": 8,
+      "span": "Unless it’s a minimum requirement…",
+      "open_code": "hypoRevision",
+      "summary": "Posits minimum upright idea",
+      "lenses": {
+        "processingStyle": "Ø",
+        "perspectiveDepth": "0step",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 9,
+      "span": "one, two, three — no, F invalidates the minimum rule.",
+      "open_code": "decisionReject",
+      "summary": "Panel F disproves minimum rule",
+      "lenses": {
+        "processingStyle": "LocalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "[SIGHS] Let’s see, let’s see.",
+      "open_code": "planningExplorative",
+      "summary": "Expresses continuing doubt",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 11,
+      "span": "A has those standing up.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright cones in A",
+      "lenses": {
+        "processingStyle": "localDetail"
+            }
+    },
+    {
+      "id": 12,
+      "span": "Is it alternating colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers alternating-color rule"
+    },
+    {
+      "id": 13,
+      "span": "No.",
+      "open_code": "decisionReject",
+      "summary": "Rejects alternating-color idea"
+    },
+    {
+      "id": 14,
+      "span": "Uh… [YAWNS] Come on, pattern recognition…",
+      "open_code": "reflectSelf",
+      "summary": "Encourages own reasoning"
+    },
+    {
+      "id": 15,
+      "span": "B only has one standing up...",
+      "open_code": "processingLocal",
+      "summary": "Observes single upright in B",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 16,
+      "span": "that has nothing to do with it.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses relevance of observation"
+    },
+    {
+      "id": 17,
+      "span": "C has... –wait, maybe it’s one of each color?",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes one-each-color upright rule"
+    },
+    {
+      "id": 18,
+      "span": "No, not one of each color is standing up.",
+      "open_code": "decisionReject",
+      "summary": "Rejects one-each-color idea"
+    },
+    {
+      "id": 19,
+      "span": "Does it have something to do with one large cone in each one?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers large-cone rule"
+    },
+    {
+      "id": 20,
+      "span": "One big… one big… one big green, blue, green — technically two big —",
+      "open_code": "processing",
+      "summary": "Counts big cones across panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 21,
+      "span": "no, that doesn’t work either for the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects large-cone hypothesis"
+          },
+    {
+      "id": 22,
+      "span": "Um… What other rule is there here? What is the logic?",
+      "open_code": "reflectUncertainty",
+      "summary": "Questions own reasoning"
+    },
+    {
+      "id": 23,
+      "span": "It’s not green.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses green-specific rule"
+    },
+    {
+      "id": 24,
+      "span": "Is it all one color?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers all-one-color upright rule"
+    },
+    {
+      "id": 25,
+      "span": "No, not all one color standing up.",
+      "open_code": "decisionReject",
+      "summary": "Rejects all-one-color idea"
+    },
+    {
+      "id": 26,
+      "span": "[SIGHS] Wait, number of triangles?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers triangle count rule"
+    },
+    {
+      "id": 27,
+      "span": "Three… six… 1, 2, 3, 4, 5, 6, 7, 8, 9… 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11… 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11…",
+      "open_code": "processingl",
+      "summary": "Counts triangles across panels",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 28,
+      "span": "[TYPING] I cannot identify the rule at all.",
+      "open_code": "ruleImpasse",
+      "summary": "Admits total impasse"
+    }
+  ]
+
+]

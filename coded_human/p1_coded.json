@@ -1,0 +1,682 @@
+[
+  [ {"Title":"scene1"},
+    {
+      "id": 1,
+      "span": "[READING] Alright, think aloud as you try to infer the hidden rule. You'll be able to write your guess once the timer finishes.",
+      "open_code": "readingInstructions",
+      "summary": "Reads experiment instructions aloud"
+    },
+    {
+      "id": 2,
+      "span": "[THINKING] So, okay, let's take a look.",
+      "open_code": "planningExplorative",
+      "summary": "Announces start of open exploration",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "So I see option A has most triangles upright; there's one green one that's down-right. And the sun [star] is lit up.",
+      "open_code": "processingLocal",
+      "summary": "Describes orientation and star in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "In options B and C, it's not lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Notes star absent in B and C",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 5,
+      "span": "And some of the triangles are sideways, one is upright.",
+      "open_code": "processingLocal",
+      "summary": "Observes mixed orientations (likely B,C)",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+        },
+    {
+      "id": 6,
+      "span": "In option C, all of them are upright except two blue ones that are horizontal, and this one's not lit up.",
+      "open_code": "processingLocal",
+      "summary": "Details upright vs horizontal in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Option D looks like all of them are upright except this little blue one.",
+      "open_code": "processingLocal",
+      "summary": "Notes single tilted blue in D",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Option E is also lit up.",
+      "open_code": "processingLocal",
+      "summary": "Observes star presence in E",
+      "lenses": {
+        "processingStyle": "localDetail"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Um so I see two triangles upright, and then a bunch on their side and facing down.",
+      "open_code": "processingLocal",
+      "summary": "Describes upright and sideways in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "And then Option F as well, has a bunch of them facing sideways and down.",
+      "open_code": "processingLocal",
+      "summary": "Notes many sideways/down triangles in F",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 11,
+      "span": "So nothing really sticks out to me too much based on what I just, what I just saw.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses lack of clear pattern"
+        },
+    {
+      "id": 12,
+      "span": "I think maybe there are more unstable triangles in the options with the sun [star lit up].",
+      "open_code": "hypoGeneration",
+      "summary": "Generates unstable-triangle hypothesis"
+    },
+    {
+      "id": 13,
+      "span": "But option F has a bunch on its side, while option A has none, so I don't think there's a correlation there.",
+      "open_code": "decisionReject",
+      "summary": "Rejects unstable-triangle hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "I think one of the rules maybe is, there's always a blue triangle over a green triangle, which seems to occur in option A, option E, and option F.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes blue-over-green rule"
+    },
+    {
+      "id": 15,
+      "span": "So that's the one thing that sticks out to me as um what the hidden rule might be.",
+      "open_code": "decisionConfirm",
+      "summary": "Indicates rule seems plausible"
+        },
+    {
+      "id": 16,
+      "span": "[TYPING] So, the hidden rule, I think, is there's always a blue triangle located at the top of the green.",
+      "open_code": "ruleArticulation",
+      "summary": "Formally states blue-over-green rule"
+    },
+    {
+      "id": 17,
+      "span": "So that’s what, that's what I noticed the most.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects on main observation"
+    }
+  ],
+
+  [ {"Title":"scene2"},
+    {
+      "id": 1,
+      "span": "Alright, let's take a look at the next one.",
+      "open_code": "planningExplorative",
+      "summary": "Begins exploring new puzzle",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option A, it has four triangles upright, one tilted.",
+      "open_code": "processingLocal",
+      "summary": "Describes panel A orientations",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option B, all of them are upright, and the sun [star] is lit up.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright triangles and star in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option C, the sun is down [the star is not lit up], and there's one big triangle that's slightly…slanted.",
+      "open_code": "processingLocal",
+      "summary": "Observes star absence and slanted big triangle in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option D has no sun [star not lit up], and there's one triangle that's to its side.",
+      "open_code": "processingLocal",
+      "summary": "Notes star absence and sideways triangle in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Option E has a couple to their side.",
+      "open_code": "processingLocal",
+      "summary": "Mentions sideways triangles in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "And Option F, there's no sun [star], and there's a couple to the side.",
+      "open_code": "processingLocal",
+      "summary": "Observes F lacks star and has sideways triangles",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So, if I had to infer something, the one similarity that sticks out is in the ones where the sun [star] is lit up, the green triangles all seem to be upright.",
+      "open_code": "Inference",
+      "summary": "Hypothesises upright green triangle rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 9,
+      "span": "The blue ones are slanted in E and A, but not B, so there's nothing there and they share no similarities in terms of the red triangles, since option E doesn't even have any.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects blue and red similarity possibilities",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So, I guess one of the rules would be it has to include a green triangle.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes presence-of-green rule"
+    },
+    {
+      "id": 11,
+      "span": "Um… seems to be different sizes, so option E has three, other option A and B have two.",
+      "open_code": "processingGlobal",
+      "summary": "Counts size categories across starred panels"
+    },
+    {
+      "id": 12,
+      "span": "So, I think maybe a rule is it has to have a mini triangle and a bigger triangle… in them, if I had to guess.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests mixed-size triangle rule"
+    },
+    {
+      "id": 13,
+      "span": "I don't see any other rule besides that, since they don't share a similarity in red and blue.",
+      "open_code": "decisionConfirm",
+      "summary": "Commits to size rule over color rules"
+    },
+    {
+      "id": 14,
+      "span": "Also, there's no real similarities, I think.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses persisting doubt",
+      "check": "OK"
+    },
+    {
+      "id": 15,
+      "span": "So, that would be my guess: that there has to be a small and a bigger triangle upright.",
+      "open_code": "ruleArticulation",
+      "summary": "States small-and-big upright rule"
+    }
+  ],
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Alright. Uh so, option A has the sun [yellow star lit up], and the two blue triangles are slanted on their side, it has a couple red ones.",
+      "open_code": "processingLocal",
+      "summary": "Describes features of panel A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option B has some slanted ones and some upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes mixed orientations in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option C, that also has two blue ones and a red slanted one.",
+      "open_code": "processingLocal",
+      "summary": "Observes blue and red in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option D has no sun [no star lit up] and seems to be very random compared to the others.",
+      "open_code": "processingLocal",
+      "summary": "Reports star absence and randomness in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option E is very different as well.",
+      "open_code": "processingGlobal",
+      "summary": "Notes E differs from others",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "And Option F also has two slanted blue ones.",
+      "open_code": "processingLocal",
+      "summary": "Observes two slanted blues in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "So, I think that's a possible correlation already.",
+      "open_code": "Inference",
+      "summary": "Remarks on emerging correlation"
+    },
+    {
+      "id": 8,
+      "span": "Options A, option C, and option F all have blue triangles that are slanted on their sides, so I think that's a difference between them.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes blue-slanted similarity rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Um… they do all feature green ones, but the shapes are different.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses green-shape similarity",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "And they do all feature red ones, but the positioning is different.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses red-position similarity",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "perspectiveDepth": "0step",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So, I think the only similarity would be that they all have blue triangles that are slanted on the side.",
+      "open_code": "decisionConfirm",
+      "summary": "Commits to blue-slanted rule"
+    },
+    {
+      "id": 12,
+      "span": "And I think that's pretty much the only thing that really jumps out to me.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects limited findings"
+    },
+    {
+      "id": 13,
+      "span": "There's no similarity in the red, there's no similarity in the green.",
+      "open_code": "ruleExclusion",
+      "summary": "Reiterates lack of red/green rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 14,
+      "span": "It just has to be the blue color and how it's slanted on the side, so that would be my guess, I think. I would say the blue color [triangles] are um slanted on their side in A, C, and F",
+      "open_code": "ruleArticulation",
+      "summary": "States final blue-slanted rule"
+    }
+  ],
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Alight, so option A, the sun is up [the star is lit up], and has some upright triangles, and then the blue and green ones are slanted.",
+      "open_code": "processingLocal",
+      "summary": "Describes star and orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option B has a slanted triangle and everything else is upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes mixed orientation in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option C has slanted red triangles and a slanted green triangle, and the others are upright.",
+      "open_code": "processingLocal",
+      "summary": "Observes slanted red and green in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option D has a bunch of triangles that are slanted and some that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Reports mixed orientations in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option E has an upside-down one and then three triangles that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes upside-down plus upright in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "And then option F has a lot of different types of triangles in different positions.",
+      "open_code": "processingLocal",
+      "summary": "Describes varied orientations in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "The colors are pretty different, seems like… um… (3.0).",
+      "open_code": "processingGlobal",
+      "summary": "Remarks on color differences overall",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So I guess… (4.0) yeah, I don’t really see any clear similarities at first glance.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses no clear pattern yet"
+    },
+    {
+      "id": 9,
+      "span": "I was looking at the red triangles and how they were slanted — like in C and F — but in A they’re upright.",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds red-slant idea contradicted by A",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "In option F the triangle is upright, and in option A as well, but in option C it’s slanted.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-orientation rule using evidence",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Option F has an upside-down one, but the other ones don’t.",
+      "open_code": "processingGlobal",
+      "summary": "Notes unique upside-down triangle in F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "And then Option A, option C, and option F have triangles that are stacked on each other, but they’re different colors.",
+      "open_code": "processingGlobal",
+      "summary": "Observes stacking across A, C, F",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 13,
+      "span": "So I guess that could potentially be the hidden rule — is that there have to be triangles that stacked on top of each other in all of them because nothing else really sticks out too much besides that.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-triangle rule hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "So that would be my guess: that options A, option C, and option F have triangles that are stacked on each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-triangle rule verbally"
+    },
+    {
+      "id": 15,
+      "span": "Yeah, I don’t see any other similarities besides that.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms no other viable rule"
+    }
+  ],
+
+  [ {"Title":"scene5"},
+    {
+      "id": 1,
+      "span": "Alright. Let's check out option A.",
+      "open_code": "planningExplorative",
+      "summary": "Begins exploring panels",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "So it has a lot of triangles that are slanted and a few that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Describes orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain":"gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option B also has a lot of slanted triangles and one that's upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes slanted and one upright in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option C has a bunch of slanted triangles and a few that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Describes slanted vs upright in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option D, they're all slanted except one.",
+      "open_code": "processingLocal",
+      "summary": "Observes almost all slanted in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 6,
+      "span": "Option E has a lot going on, and there are some triangles stacked on each other and many that are slanted, some upside down ones.",
+      "open_code": "processingLocal",
+      "summary": "Describes varied features in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "Option F as well has a lot going on, with lot of slanted triangles, and upside down, and so on.",
+      "open_code": "processingLocal",
+      "summary": "Reports many slanted, upside-down in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So yeah, I guess one of the similarities that maybe sticks out is that they all have slanted triangles in each image, I think.",
+      "open_code": "hypoGeneration",
+      "summary": "Hypothesises universal slanted-triangle rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 9,
+      "span": "Um… (5.0) but… it still seems pretty random though, slightly difficult.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses difficulty, randomness"
+    },
+    {
+      "id": 10,
+      "span": "They do all have upright red triangles, but in option E there's one stacked on a green one.",
+      "open_code": "processing",
+      "summary": "Observes upright red triangles with exception",
+      "lenses": {
+        "processingStyle": "mixed"
+            }
+    },
+    {
+      "id": 11,
+      "span": "And… they also all have blue triangles that are slanted, I noticed.",
+      "open_code": "processingGlobal",
+      "summary": "Notes all panels have slanted blue triangles",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "Uh not green though, green in option E is upright.",
+      "open_code": "processingLocal",
+      "summary": "Mentions green upright exception",
+      "lenses": {
+        "processingStyle": "LocalScan"
+            }
+    },
+    {
+      "id": 13,
+      "span": "So in, so they do have triangle that's upright as well. So I think that’s a similarity.",
+      "open_code": "hypoGeneration",
+      "summary": "Considers upright-triangle similarity rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 14,
+      "span": "They don’t all have an upside-down one, and the green triangles are not slanted in all of them as well.",
+      "open_code": "ruleExclusion",
+      "summary": "Rules out upside-down and green-slanted rules",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 15,
+      "span": "So I guess that would be my guess: they all have a red triangle that has to be slanted, and one red triangle that’s upright, I would say.",
+      "open_code": "ruleArticulation",
+      "summary": "States rule: red slanted & red upright required"
+    },
+    {
+      "id": 16,
+      "span": "They do also have a blue triangle slanted to the right.",
+      "open_code": "hypoRevision",
+      "summary": "Adds blue-slanted feature to rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 17,
+      "span": "That would be the second most confident guess I think.",
+      "open_code": "ruleArticulation",
+      "summary": "Ranks confidence in alternative guess"
+    }
+  ]
+
+]

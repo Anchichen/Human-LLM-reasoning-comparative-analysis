@@ -1,0 +1,841 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "[READING]Think aloud. As you try to infer the hidden rule, you will be able to write your guess. Once the timer finishes.",
+          "open_code": "orientation",
+          "summary": "reads task instructions aloud"
+        },
+        {
+          "id": 2,
+          "span": "[THINKING]Okay, so the light is on, in the star, in A, E and F.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels are lit",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, all of those do have a red cone, and none of the other ones, B, C and D, have a red cone.",
+          "open_code": "processingGlobal",
+          "summary": "observes red cones only in lit panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "So maybe it is the red cone.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes red-cone rule"
+        },
+        {
+          "id": 5,
+          "span": "Um, every single panel has a blue cone standing upright,",
+          "open_code": "processingGlobal",
+          "summary": "notes universal blue upright cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "so it can’t be anything to do with that.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out blue-cone hypothesis"
+        },
+        {
+          "id": 7,
+          "span": "Several have green cones standing upright, and they’re only knocked down in B and E, I think and the light is on in E.",
+          "open_code": "processingGlobal",
+          "summary": "compares green cones orientation vs lighting",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "[distracted by the midway think-aloud reminder]. Um… anyway, I’ve lost what I was saying.",
+          "open_code": "memoryLoss",
+          "summary": "notes losing train of thought"
+
+        },
+        {
+          "id": 9,
+          "span": "They’re knocked down...",
+          "open_code": "memoryRegain",
+          "summary": "regains memory"
+        },
+        {
+          "id": 10,
+          "span": "The light is on in E but not in B, so it can’t be anything to do with the green ones knocked down.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects green-knocked hypothesis",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "I’m not sure what else.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses uncertainty"
+        },
+        {
+          "id": 12,
+          "span": "I think it’s definitely something to do with the red ones, because if you look at what A, E and F have in common, they all have a red cone — at least one red cone — and B, C and D do not.",
+          "open_code": "decisionConfirm",
+          "summary": "confidently reaffirms red-cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "They also do have a blue cone on top of a green cone,",
+          "open_code": "processingGlobal",
+          "summary": "observes blue-on-green stacks",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "but B and C also have that, so I don’t think that’s the winning combination, because A, E, F, B and C all have the green cone with the blue cone on top.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects blue-on-green rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "So I’m going to guess my one rule––because I actually haven’t come up with any other potential rules––is:[TYPING] they all A, E and, F have at least one red cone.",
+          "open_code": "ruleArticulation",
+          "summary": "states final red-cone rule"
+        },
+        {
+          "id": 16,
+          "span": "[THINKING] I haven’t come up with any other possibilities or similarities, so I’m going to stick with that as the only similarity I’ve observed.",
+          "open_code": "monitorHighLevel",
+          "summary": "commits to red-cone rule"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, next one. A, B and E.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "It can’t be anything to do with the red cones, because C, F and D also have red cones, so that’s ruled out.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out red-cone rule"
+        },
+        {
+          "id": 3,
+          "span": "They all seem to have both green and blue, so it can’t be to do with the colour.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out colour presence rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "The green cones in A are standing upright, standing upright in B.",
+          "open_code": "processingGlobal",
+          "summary": "observes upright green cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "But they’re also standing upright in C, so it can’t be that.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects upright-green rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Just trying to think...",
+          "open_code": "reflectUncertainty",
+          "summary": "pauses to think"
+        },
+        {
+          "id": 7,
+          "span": "uh, on E, there's one to the side– a blue cone to the side",
+          "open_code": "processingLocal",
+          "summary": "notes sideways blue cone in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "but in B they’re all upright anyway, so it can’t be that.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects sideways-blue rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Maybe the only similarity that I can see is that green and blue are touching in A, B and E,",
+          "open_code": "hypoGeneration",
+          "summary": "proposes green-blue touching rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "but they’re not touching...ah, no they are touching in F … no, so that’s that gone.",
+          "open_code": "decisionReject",
+          "summary": "finds counterexample, rejects rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "A, B and E, I don’t see any similarities.",
+          "open_code": "reflectUncertainty",
+          "summary": "states no observed similarities"
+        },
+        {
+          "id": 12,
+          "span": "Nothing to do with red, because red isn’t there.",
+          "open_code": "ruleExclusion",
+          "summary": "confirms red not present rule"
+        },
+        {
+          "id": 13,
+          "span": "Is it to do with how many they have?",
+          "open_code": "hypoGeneration",
+          "summary": "considers count-based rule"
+        },
+        {
+          "id": 14,
+          "span": "No, because they all have similar amount.",
+          "open_code": "decisionReject",
+          "summary": "rejects count rule"
+        },
+        {
+          "id": 15,
+          "span": "E... I don’t see anything specific.",
+          "open_code": "reflectUncertainty",
+          "summary": "still sees nothing specific",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 16,
+          "span": "I think... E has a green two blues and a green and a green.",
+          "open_code": "processingLocal",
+          "summary": "counts colours in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "So I can't see any kind of pattern in the way they are either, or whether they’re touching a red,",
+          "open_code": "reflectUncertainty",
+          "summary": "can't find positional pattern"
+        },
+        {
+          "id": 18,
+          "span": "because F has a red too.",
+          "open_code": "counterExampleSearch",
+          "summary": "cites F as counterexample",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "Whether there’s a sideways red…",
+          "open_code": "hypoGeneration",
+          "summary": "considers sideways-red rule"
+        },
+        {
+          "id": 20,
+          "span": "I actually can’t see any similarities among these three.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits impasse on rule"
+        },
+        {
+          "id": 21,
+          "span": "I'm sorry I just can't– I can't figure it out.",
+          "open_code": "reflectSelf",
+          "summary": "apologises, feels stuck"
+        },
+        {
+          "id": 22,
+          "span": "I will have another think.",
+          "open_code": "planningExplorative",
+          "summary": "intends to keep searching",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 23,
+          "span": "It's not like they all start with the same color, like a green or something like that.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects same-start color idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 24,
+          "span": "Because A and E do, but so does F.",
+          "open_code": "counterExampleSearch",
+          "summary": "finds F counterexample",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 25,
+          "span": "Um, they do all end with the green,",
+          "open_code": "hypoGeneration",
+          "summary": "considers ending-green rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 26,
+          "span": "but then so does D,",
+          "open_code": "decisionReject",
+          "summary": "D breaks ending-green rule",
+          "lenses": {
+            "processingStyle": "localScan"
+                    }
+        },
+        {
+          "id": 27,
+          "span": "and it's not like they start with green and then end with the green because B doesn't.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects start-and-end green rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 28,
+          "span": "I'm gonna have to say that because I can't see any, uh, similarity.",
+          "open_code": "ruleImpasse",
+          "summary": "concludes with impasse"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, new one. A, C and F.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "They all have red.",
+          "open_code": "processingGlobal",
+          "summary": "notes all starred contain red",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "They all have one of each color.",
+          "open_code": "processingGlobal",
+          "summary": "observes one of each colour",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 4,
+          "span": "So does all of them actually, I think.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses colour-count rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um, they have... several turned over.",
+          "open_code": "processingGlobal",
+          "summary": "notes several cones overturned",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 6,
+          "span": "C has one on top of each other, two greens on top of each other.",
+          "open_code": "processingLocal",
+          "summary": "observes stacked greens in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "But B also has one green on top.",
+          "open_code": "counterExampleSearch",
+          "summary": "finds B counterexample to stack rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "You could say...They both have blue lying down on their side.",
+          "open_code": "processingGlobal",
+          "summary": "observes sideways blue cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "That could be a rule.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes sideways-blue rule"
+        },
+        {
+          "id": 10,
+          "span": "But then so does B and E, so they both have blue lying down on their side",
+          "open_code": "decisionReject",
+          "summary": "rejects rule due to B,E match",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "and they both have... green, but not really... just the same size.",
+          "open_code": "ruleExclusion",
+          "summary": "uncertain about green size idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Um, they both have green lying on their side and they all– no, blue lying down on the side.",
+          "open_code": "hypoGeneration",
+          "summary": "self-corrects colour statement",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "And they also all finish with a green cone, but then so does– B would also fit into that",
+          "open_code": "decisionReject",
+          "summary": "rejects finish-green rule due to B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Um, I wish I could write this down because I feel like I'm gonna forget, uh, write it down as I'm thinking.",
+          "open_code": "monitorLowLevel",
+          "summary": "worries about forgetting ideas"
+        },
+        {
+          "id": 15,
+          "span": "Um, they have sort of medium red one, but then that one's two, A and F are sort of larger, so I don't think it's that, right.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses red-size rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "Let me just write down some of my guesses. not that I think any of them are a proper guess, but I'm just gonna write down some of my working out.",
+          "open_code": "monitorLowLevel",
+          "summary": "plans to jot guesses"
+        },
+        {
+          "id": 17,
+          "span": "[TYPING] They both have a blue– Blue, um, cone lying down. And they really both... all, ad they all finish with a green.",
+          "open_code": "ruleGuess",
+          "summary": "begins typing blue rule"
+        },
+        {
+          "id": 18,
+          "span": "[THINKING] I don't think that's the correct one because also B does fit that format.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects combined rule due to B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 19,
+          "span": "And it's not like they have the same amount of little ones or big ones either.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out size-count rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 20,
+          "span": "I'm going to put that as my guess.",
+          "open_code": "decisionConfirm",
+          "summary": "decides to submit guess"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "These have several read. They both have more than one read. So does D.",
+          "open_code": "processingGlobal",
+          "summary": "notes multiple red cones across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "They all have a different color on top of a different color cone.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes stacked-different-colour rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And that is something that would describe A, C and F but not B, E and D.",
+          "open_code": "counterExampleSearch",
+          "summary": "asserts rule matches starred only",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 4,
+          "span": "So, A has the green cone with the red one on top.",
+          "open_code": "processingLocal",
+          "summary": "details stack in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "C has the green one with the blue one, and F has the blue with the red.",
+          "open_code": "processingLocal",
+          "summary": "details stacks in C and F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "So that would describe it.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms suitability of rule"
+        },
+        {
+          "id": 7,
+          "span": "I'm not sure if that kind of thing is allowed as the rule, as the hidden rule, but they do both have one cone with a different color on top.",
+          "open_code": "monitorLowLevel",
+          "summary": "uncertain about rule validity",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 8,
+          "span": "I'll have a think to see if I can see any other hidden rules.",
+          "open_code": "planningExplorative",
+          "summary": "plans further search for rules",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 9,
+          "span": "It's not like they're pointing the same way.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses orientation rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 10,
+          "span": "They also, both, all have a, um, large green, one upright. But so does E... and B actually um.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects large-green-upright rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "They also have… All have a large red one. Do they all have a large? No, C doesn’t.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects large-red rule via C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "I was going to say do they all have a large one of each color.",
+          "open_code": "hypoAlternative",
+          "summary": "considers large-of-each rule"
+        },
+        {
+          "id": 13,
+          "span": "But C, I don't think... it only has green and red.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out large-of-each due to C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "I can't remember what my original rule was.",
+          "open_code": "memoryLoss",
+          "summary": "forgets initial rule"
+        },
+        {
+          "id": 15,
+          "span": "Oh, that they had a color with a different color on top.",
+          "open_code": "memoryRegain",
+          "summary": "recalls stacked-colour rule"
+        },
+        {
+          "id": 16,
+          "span": "I think if you were to describe that saying, find the ones with that color, you would find– with that rule, you would find A, C and F.",
+          "open_code": "monitorHighLevel",
+          "summary": "affirms rule selects A,C,F"
+        },
+        {
+          "id": 17,
+          "span": "So I do feel like that kind of suits the answer.",
+          "open_code": "decisionConfirm",
+          "summary": "expresses confidence in rule"
+        },
+        {
+          "id": 18,
+          "span": "[TYPING] Um, A, C and F all have a cone with a different colored cone on top.",
+          "open_code": "ruleArticulation",
+          "summary": "formally states final rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, now it is A, B and E.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Gosh, there’s a lot in each of these.",
+          "open_code": "reflectTask",
+          "summary": "remarks on puzzle complexity",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "A and E have one cone on top of another, but B does not, so it can’t be anything to do with that.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects stacked-cone rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "They all have red, green and blue, so it can’t be to do with that.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out colour-presence rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "They do all have a large red one, but so do D and F, anyway...so, it can’t be that either.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses large-red rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "They all have a blue, little blue, that's pointing to the right, but so does D.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects right-point blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "They do all have a sort-of medium red cone pointing upright––A, B and E––so you could distinguish them by that.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes medium-red upright rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "I think what I'm kind of taking is––trying to find the hidden rule––is if you gave the instruction to someone and they could find A, B and E without knowing about it as the choice, if they could find them from the kind of rule I've given, then, then that could potentially be the rule.",
+          "open_code": "monitorHighLevel",
+          "summary": "evaluates rule communicability"
+        },
+        {
+          "id": 9,
+          "span": "So I'm going to say, um, that they all have the kind of medium red cone pointing upwards.",
+          "open_code": "decisionConfirm",
+          "summary": "states medium-red upright rule"
+        },
+        {
+          "id": 10,
+          "span": "See if I can see any other options.",
+          "open_code": "planningExplorative",
+          "summary": "plans search for alternatives",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 11,
+          "span": "They also do all have one...",
+          "open_code": "hypoAlternative",
+          "summary": "starts idea then falters",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "They don't have the same number of colors of red. They're completely different.",
+          "open_code": "decisionReject",
+          "summary": "rules out red-count rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Um, all the same numbers are blue. They both also have two green. So that also could be a rule.",
+          "open_code": "hypoAlternative",
+          "summary": "considers two-green rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So that also could be a rule.",
+          "open_code": "decisionConfirm",
+          "summary": "considers two-green rule"
+        },
+        {
+          "id": 15,
+          "span": "[TYPING] All have two green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "types tentative two-green rule"
+        }
+      ]
+
+]

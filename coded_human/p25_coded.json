@@ -1,0 +1,887 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. Let's go!",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "begins task enthusiastically",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "[READS] Think aloud while you infer the hidden rule. You'll be able to write your guesses once the timer finishes.",
+          "open_code": "readingInstructions",
+          "summary": "reads think-aloud instructions",
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "[THINKS] Okay, so I see one yellow star on the top panel, a lot of upright cones, one…two red. Two red upright cones. Two yellow upright cones. Two green upright cones.",
+          "open_code": "processingLocal",
+          "summary": "lists cone colors and counts in top panel",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And, um... (2.4) What now?",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses momentary uncertainty",
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So. Two pair. Two pair. So, one odd is green, which is tilted.",
+          "open_code": "processingLocal",
+          "summary": "notes paired upright cones and one tilted green",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So...there are three star where the yellow sun is in it. So, then there is two more green...three green. And the other one is three green.",
+          "open_code": "processingGlobal",
+          "summary": "observes three starred panels each with three greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So maybe there is a pattern when there is three cones, irrespective how they are, tilted or not, then the star pops up.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: three green cones triggers star",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So that's what I take from the first pattern because they all have three cones, green ones. One, two, three...One, two, three...One, two, three. Definitely, this is the pattern for the first one.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms three-green-cones rule works",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "[READS] Remember to refer to panel by label...",
+          "open_code": "readingInstructions",
+          "summary": "reads reminder about panel labels",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "[THINKS] so, A, E, F, they all have the same pattern.",
+          "open_code": "decisionConfirm",
+          "summary": "notes A,E,F share proposed pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "What I understand, three green cones regardless how they are positioned.",
+          "open_code": "ruleArticulation",
+          "summary": "states rule: three green cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "[TYPING] Three green cones in the box. Regardless how...regardless if the cones are tilted or not.",
+          "open_code": "ruleArticulation",
+          "summary": "types final three-green-cones rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay. The next one. Think out loud. All right. [...] So let's get to the task.",
+          "open_code": "otherEmergent_taskStart",
+          "summary": "initiates new puzzle round",
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Okay, so A has a yellow star. B yellow star. [E] yellow star.",
+          "open_code": "processingGlobal",
+          "summary": "notes which panels have stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So there are three yellow star [panels].",
+          "open_code": "processingGlobal",
+          "summary": "counts three starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So two green this time, two yellow, and one red...two green, and then two upright, star, upright cone. And one blue.",
+          "open_code": "processingLocal",
+          "summary": "lists colors and upright cones in one panel",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And the third one, two...three green and two blue.",
+          "open_code": "processingLocal",
+          "summary": "describes greens and blues in another panel",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So the pattern is...two upright cones.",
+          "open_code": "hypoGeneration",
+          "summary": "hypothesises rule: two upright cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "It has two upright cones. B also has two upright cones...upright green cones.",
+          "open_code": "counterExampleSearch",
+          "summary": "checks rule against A and B evidence",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And then E as well has three upright. But one of them...",
+          "open_code": "ruleExclusion",
+          "summary": "notes E’s extra upright, doubts rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "B has only one blue cone whilst A has two and E has two tilted blue cone.",
+          "open_code": "processingGlobal",
+          "summary": "compares blue cone counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Now the pattern is, I think, the two upright green cones.",
+          "open_code": "hypoRevision",
+          "summary": "refines rule to two upright greens",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I have to reject one of the extra cone in E, so that would be the pattern 100%...upright.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms rule ignoring extra cone in E",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Yeah, there is no other pattern I can see in here.",
+          "open_code": "monitorHighLevel",
+          "summary": "states no alternative patterns found",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So, two green upright cones in A. In B, two green upright cones and E there is also two...",
+          "open_code": "processingGlobal",
+          "summary": "reiterates evidence of two upright greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So that's what I'm supposed to do?",
+          "open_code": "reflectTask",
+          "summary": "questions task expectations",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "[READS] Please refer to each panel by its label to {?}.",
+          "open_code": "readingInstructions",
+          "summary": "reads panel-label reminder",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "[THINKS] Okay, this is a difficult task. Seriously.",
+          "open_code": "reflectTask",
+          "summary": "remarks on task difficulty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "I'm sure I'm supposed to only look for the yellow star.",
+          "open_code": "misinterpretingInstructions",
+          "summary": "states possible instruction misunderstanding",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Okay. All right, so let's do it.",
+          "open_code": "adherePlan",
+          "summary": "decides to proceed with plan",
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "That's what is the pattern.",
+          "open_code": "decisionConfirm",
+          "summary": "reaffirms chosen rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "[READS] Think out loud.",
+          "open_code": "readingInstructions",
+          "summary": "reads think-aloud reminder",
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "[TYPING] A, B and E. What do you call them? Panels. Right. Panel has yellow star. Which has [...] Which has two upright green cones.",
+          "open_code": "ruleArticulation",
+          "summary": "types final rule: two upright green cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "So there are three yellow stars, and...(5.1). So there are three yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "notes three starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A has a two red, two yellow and one green.",
+          "open_code": "processingLocal",
+          "summary": "lists colors/counts in panel A",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "And then the third one, the C panel, has three green upright, two tilted blue and one tilted red...",
+          "open_code": "processingLocal",
+          "summary": "describes counts/orientation in C",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Tilted blue, tilted blue...I can see making a pattern here.",
+          "open_code": "hypoGeneration",
+          "summary": "suspects tilted blue pattern",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And the third one has tilted blue.",
+          "open_code": "processingGlobal",
+          "summary": "confirms tilted blue in third panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So again, this is making a pattern because there's only– all of them have...not have enough red cones.",
+          "open_code": "hypoRevision",
+          "summary": "shifts to possible red-cone scarcity rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "The A has two red. C has only one and the F has two.",
+          "open_code": "processingGlobal",
+          "summary": "compares red counts across A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Now blue, A has two tilted blues.",
+          "open_code": "processingLocal",
+          "summary": "notes two tilted blues in A",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So that's a pattern...sorry. Ignore that.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses potential blue pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Green. There is one upright green, then three upright greens. So, this is all making a pattern.",
+          "open_code": "hypoRevision",
+          "summary": "considers upright green counts pattern",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "And then one tilted green at the bottom [panel] F.",
+          "open_code": "processingLocal",
+          "summary": "notes tilted green in F",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So definitely this is the one.",
+          "open_code": "decisionConfirm",
+          "summary": "asserts chosen pattern is correct",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "I don't know, it looks so simple, but at the same time, it's doing something else.",
+          "open_code": "reflectUncertainty",
+          "summary": "expresses doubt about simplicity",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Alright [TYPING] All the yellows star has a pattern of tilted blue cones. or A, C and F.",
+          "open_code": "ruleArticulation",
+          "summary": "states final rule: tilted blue cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Oh, okay. So, this time again there is three yellow star [panels]: A, C and F.",
+          "open_code": "processingGlobal",
+          "summary": "notes starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So A has– wow, so many cones.",
+          "open_code": "processingLocal",
+          "summary": "observes A has many cones",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "I'll just try to get to the point.",
+          "open_code": "modifyPlan",
+          "summary": "announces focus shift",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Is there any pattern?",
+          "open_code": "reflectUncertainty",
+          "summary": "questions pattern existence",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "There's two blue, three green, and two red.",
+          "open_code": "processingLocal",
+          "summary": "lists colors/counts in A",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Then the other one has two red, three blue, two green.",
+          "open_code": "processingLocal",
+          "summary": "lists colors/counts in C",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "[coughing] So blue...So two upright greens.",
+          "open_code": "processingLocal",
+          "summary": "notes two upright greens",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Okay, what is the pattern?",
+          "open_code": "reflectUncertainty",
+          "summary": "repeats uncertainty about rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "And the last one has three red, two green, and two blue.",
+          "open_code": "processingLocal",
+          "summary": "lists colors/counts in F",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Oof.",
+          "open_code": "reflectSelf",
+          "summary": "expresses mild exasperation",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So, the first one has three green.",
+          "open_code": "processingGlobal",
+          "summary": "summarises first panel: three greens",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "The second one has three blues.",
+          "open_code": "processingGlobal",
+          "summary": "summarises second panel: three blues",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "And the third one has three reds.",
+          "open_code": "processingGlobal",
+          "summary": "summarises third panel: three reds",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Wow, that's a...Is that the pattern?",
+          "open_code": "hypoGeneration",
+          "summary": "suggests three-of-color pattern",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Three blue, three red, three green.",
+          "open_code": "hypoRevision",
+          "summary": "states candidate color triplet rule",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "And now two red. Okay. Red.",
+          "open_code": "processingLocal",
+          "summary": "notes differing red count elsewhere",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Two greens are upright. Two greens are upright.",
+          "open_code": "processingLocal",
+          "summary": "observes two upright greens",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "It has no upright green...",
+          "open_code": "processingLocal",
+          "summary": "notes absence of upright greens",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "two blues upright, it has three...it has three blues, but all of them are wonky.",
+          "open_code": "processingLocal",
+          "summary": "compares upright vs tilted blues",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "And the last one. One, two...how many are tilted here? One, two, three...three tilted. One, two...there's two that are tilted. It is one two, three tilted.",
+          "open_code": "processingLocal",
+          "summary": "counts tilted cones across panels",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "I think that's the pattern going on here.",
+          "open_code": "decisionConfirm",
+          "summary": "affirms identified pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "The first one has three green, then three blue...and what about the last one...three red.",
+          "open_code": "hypoRevision",
+          "summary": "reiterates three-of-a-color idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 23,
+          "span": "That's what makes it perfect.",
+          "open_code": "decisionConfirm",
+          "summary": "expresses confidence in rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 24,
+          "span": "[TYPING] So...the pattern is A has three greens, then C has three blues, F has three reds...[confirms] three reds. So that would be the pattern. Regardless, if they are tilted or not.",
+          "open_code": "ruleArticulation",
+          "summary": "states final rule: each panel 3 of one color",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Again. Three blues, yellow star.",
+          "open_code": "processingGlobal",
+          "summary": "notes starred panels and blues",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So there's–wow, so many–one, two, three, four.",
+          "open_code": "processingLocal",
+          "summary": "begins counting cones",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So, this time, the cones are...the cones are increasing.",
+          "open_code": "processingGlobal",
+          "summary": "observes increasing cone counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "One, two, three, four...then one, two, three...then one, two...so many– four, three, seven, nine cones in the first one and the next one...one, two, three, four, five–one, two, three, four, five, six, nine, six. And then one, two, three, four, five, six. seven, eight, nine, ten, eleven.",
+          "open_code": "processingLocal",
+          "summary": "counts cones across multiple panels",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So, what nine, six, nine, eleven, ten... that doesn't fit any pattern.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects cone-count pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So, one, two, three, four red. One, two, three red. One, two, three, four, five red.",
+          "open_code": "processingLocal",
+          "summary": "counts red cones in panels",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "What? Three, four, five...is it a pattern?",
+          "open_code": "reflectUncertainty",
+          "summary": "ponders red-count pattern",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh, what else?",
+          "open_code": "planningExplorative",
+          "summary": "decides to seek other features",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Two tilted green.",
+          "open_code": "processingLocal",
+          "summary": "notes two tilted greens",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "It is, it is...no...it is one tilted green but two tilted reds. It is two tilted red. Two tilted red.",
+          "open_code": "monitorLowLevel",
+          "summary": "self-corrects counts; affirms two tilted reds",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Good. Two tilted red. Okay, so that would be the pattern for sure. Two tilted reds in all of them.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms two-tilted-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "It has two blues. It has one blue. It has two green. They are all tilted.",
+          "open_code": "counterExampleSearch",
+          "summary": "checks other color counts for disproof",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So, two tilted red cones in all the three stars [panels], which could be a likelihood of a possible pattern. Yeah? That's good.",
+          "open_code": "ruleArticulation",
+          "summary": "states tentative rule verbally",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "[TYPING] Two tilted red cones in all three yellow panels. [...]",
+          "open_code": "ruleArticulation",
+          "summary": "types final two-tilted-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+
+]   

@@ -1,0 +1,724 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Panel A has two red triangles, three green, two blue. B has four green, one blue. Panel C has three blue, three green. Panel D has four blue, one green, no star. Panel E has three green, two blue, and one red. Panel F has three green, three blue, two red and a star.",
+          "open_code": "processingGlobal",
+          "summary": "Lists color counts for all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So panel A, panel E and panel F, they all have red.",
+          "open_code": "processingGlobal",
+          "summary": "Notes A, E, F contain red triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel B, panel C, panel D do not have red.",
+          "open_code": "processingGlobal",
+          "summary": "Notes B, C, D lack red triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Panel A has two green upright. Panel F has two green upright. Panel E has one.",
+          "open_code": "processingLocal",
+          "summary": "Counts upright green triangles per panel",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "(4.0) They all have three green, also. Each has three green triangles and a red.",
+          "open_code": "processingGlobal",
+          "summary": "Observes every starred panel has three green and red",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "That seems to be all I can muster.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty finding more features",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Uh..two red, one red, two red.",
+          "open_code": "processingLocal",
+          "summary": "Mentions counts of red triangles",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Panel A, two red, has a all three colors. Panel E has all three colors. Panel F has all three colors.",
+          "open_code": "processingGlobal",
+          "summary": "Observes these panels include all three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "They also have a green standing.",
+          "open_code": "processingLocal",
+          "summary": "Notes presence of upright green triangle",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "They also have blue on top of green, but so does panel B and panel C, so that doesn't count.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects blue-on-green feature as non-distinctive",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "(3.0) So... a green standing or three green...three green triangles and a red.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes candidate rules: green standing or 3 green+red",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I believe all three colors is the most obvious.",
+          "open_code": "hypoGeneration",
+          "summary": "Prefers rule based on having all three colors",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "I will go with three [TYPING] Three... three red triangles... Sorry...All three colors in each panel.",
+          "open_code": "ruleGuess",
+          "summary": "Commits to rule: each panel has all three colors",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um... Three green triangles per panel.",
+          "open_code": "hypoAlternative",
+          "summary": "Mentions alternate rule of three green triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "A has a star, panel A. Two blue, two green, one red. Panel B has a star, two red, two green, one blue. Panel C, one red, one blue, two green to red. Panel D two red, two green, one blue. Panel E, three green, two blue. Panel F, two blue, two red, one green.",
+          "open_code": "processingGlobal",
+          "summary": "Lists colour counts for all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So panel A and panel B, they both have two standing greens and a standing blue.",
+          "open_code": "processingGlobal",
+          "summary": "Notes A and B share upright greens and blue",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "E has three standing greens.",
+          "open_code": "processingLocal",
+          "summary": "Observes E has three upright greens",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "F has one green.",
+          "open_code": "processingLocal",
+          "summary": "Notes F contains one green triangle",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Panel, C has one green and a slanted.",
+          "open_code": "processingLocal",
+          "summary": "Observes C has one slanted green",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Panel. D has one green and a slanted.",
+          "open_code": "processingLocal",
+          "summary": "Observes D has one slanted green",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "There's three...four triangles upright in A. Four...five in B and three in E. But there's four in C and four..three in D and there's no star.",
+          "open_code": "processingGlobal",
+          "summary": "Compares counts of upright triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So I believe it is... (17.0)  I'm not sure actually. This is quite difficult.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses uncertainty and difficulty",
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "I think the fact that E has three greens, B has two greens, A has two greens...",
+          "open_code": "processingGlobal",
+          "summary": "Highlights differing green counts in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Is it to do with the blue? No, it's not to do with the blue. It's not to do with the red either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rules out blue or red involvement",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "What has it got in common. B? B has two red standing. A has one red standing. E has no red standing, so that's irrelevant.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses red-standing count as irrelevant",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "A has two green standing. B has two green standing. E has three green standing. So the amount of greens... and also D and C and F all have one green standing.",
+          "open_code": "processingGlobal",
+          "summary": "Compares standing green counts across all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "So maybe it's more than one standing.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests rule: needs >1 standing",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Let's put that. [TYPING] Must have more than one... have at least two green standing triangles.",
+          "open_code": "ruleGuess",
+          "summary": "Tentatively states rule: at least two standing greens",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Um.  (6.0) What else? ...two green.",
+          "open_code": "planningExplorative",
+          "summary": "Searches for additional distinguishing features",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "So two blue in a. Blue on its side, is not it...",
+          "open_code": "ruleExclusion",
+          "summary": "Considers then rejects blue-side feature",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "A has two blue on its side, one red – two red, one green, with a star. Panel B has blue on side, red on side, overlapping green and blue, and one green. C has a star, two greens overlapping, two blues on side. (3.5) Panel D has two greens, two blues and a red, one green on side. Panel E has one blue on side, three greens, two reds with them overlapping, green and red. Panel F has a star and it has two blues on side, one red on side, one red slanted, one green on side.",
+          "open_code": "processingGlobal",
+          "summary": "Enumerates features across all panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So... The common pattern is two blues on the side.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: two side blues",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Um, that's one guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Qualifies idea as tentative",
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "The other guess would be... (4.5) there's two reds in A. one red in C, two reds in F.",
+          "open_code": "hypoAlternative",
+          "summary": "Considers alternative based on red counts",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Five shapes in A. In C, there's six. In F, there's five. In E, six, In D, there's five. In B, there's five.",
+          "open_code": "processingGlobal",
+          "summary": "Compares total shape counts per panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So... I feel like the only one I can think of is blue...blue triangles on their sides.",
+          "open_code": "ruleGuess",
+          "summary": "Settles on side blue rule tentatively",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "...That seems to be... Two blue on their sides. A, B...yep.",
+          "open_code": "ruleArticulation",
+          "summary": "States rule: two side blues present",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "[TYPING] Two blue...two blue triangles on their sides.",
+          "open_code": "submitAnswer",
+          "summary": "Types and submits final rule answer",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+    {
+            "id": 1,
+            "span": "A has a star. It has two blue, three green, two red, red and green on top. Blue, no star.",
+            "summary": "Enumerates features and stars for all panels",
+            "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+            },
+            "check": "OK"
+    },
+    {
+            "id": 2,
+            "span": "C, star, two red, three blue, two green, overlap blue and green.",
+            "open_code": "processingLocal",
+            "summary": "Enumerates features and stars for all panels",
+            "lenses": {
+                "processingStyle": "localScan",
+                "representationGrain": "verbatim"
+            },
+            "check": "OK"
+        },
+        {
+            "id": 3,
+            "span": "D, no star, three blue, two red, two green.",
+            "open_code": "processingLocal",
+            "summary": "Enumerates features and stars for all panels",
+            "lenses": {
+                "processingStyle": "localScan",
+                "representationGrain": "verbatim"
+            },
+            "check": "OK"
+        },
+        {
+            "id": 4,
+            "span": "E, no star, three blue, one green, one red. F, star, two green, three red, two blue, and a red and blue are overlapping.",
+            "open_code": "processingGlobal",
+            "summary": "Enumerates features and stars for all panels",
+            "lenses": {
+                "processingStyle": "globalScan",
+                "representationGrain": "verbatim"
+            },
+            "check": "OK"
+        },
+        {
+            "id": 5,
+            "span": "F, star, two green, three red, two blue, and a red and blue are overlapping.",
+            "open_code": "processingGlobal",
+            "summary": "Enumerates features and stars for all panels",
+            "lenses": {
+                "processingStyle": "globalScan",
+                "representationGrain": "verbatim"
+            },
+            "check": "OK"
+            },
+        {
+          "id": 6,
+          "span": "So... the one that jumps out of me straight away is the overlapping of the triangles...",
+          "open_code": "hypoGeneration",
+          "summary": "Initial hypothesis: overlapping triangles matter",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "But B has two triangles on top, but they are kind of not overlapping, but they are also the same color.",
+          "open_code": "ruleExclusion",
+          "summary": "Notes B contradicts simple overlap rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And also... panel E has two and they are overlapping and they are the same color.",
+          "open_code": "ruleExclusion",
+          "summary": "E also undermines simple overlap idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So the most obvious...choice is that they are overlapping, they must overlap, but have differing colors.",
+          "open_code": "hypoRevision",
+          "summary": "Refines rule: overlap with different colors",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "The colors seem irrelevant when they overlap, but the important part is that they are actually a different color.",
+          "open_code": "hypoRevision",
+          "summary": "Clarifies differing-colors requirement",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um. So panel A...what else? Two shapes on their sides. There's two shapes on their sides.",
+          "open_code": "processingLocal",
+          "summary": "Observes two side-oriented shapes in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Hmm. Could also be that there's two shapes on their sides.",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests alternative rule: two side shapes",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Panel F has a triangle on its top. I don't know if that's the same. Yes.",
+          "open_code": "ruleExclusion",
+          "summary": "Questions side-shape rule using F as check",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "[TYPING] Two triangles must be on top of each other, but they must differ in color.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule: overlap of different-colored triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "A has a star, panel A. There are four reds, three blues, two greens.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Panel B has a star, three reds, two greens, one blue.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Panel C has three greens, two blues, and two reds.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "And also panel D has four greens, two reds and two blues.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And panel E has five reds, four blues, two greens, and a star.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Panel F has one, two, three, four, five greens, one, two, three, four reds, and two blues, no star.",
+          "open_code": "processingLocal",
+          "summary": "Describes counts for panel F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Panel A has a red and a blue on its side, and also a red and a blue overlapping.",
+          "open_code": "processingLocal",
+          "summary": "Notes orientation/overlap in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Panel. B has no overlap, but they have a blue and a red overlapping on its side.",
+          "open_code": "processingLocal",
+          "summary": "Describes overlap/orientation in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So does panel C...and no star.",
+          "open_code": "processingLocal",
+          "summary": "Observes C also overlaps but lacks star",
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Is it red then blue?",
+          "open_code": "hypoGeneration",
+          "summary": "Poses red-blue overlap hypothesis",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "It can't because panel B does not have a red and blue overlapping, so..",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects hypothesis via B evidence",
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "The main... –it has a green on its side but so does C.",
+          "open_code": "processingLocal",
+          "summary": "Notes green-side feature non-unique",
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "They have overlapping again. Three blues. There's one blue. Two greens. Two greens.",
+          "open_code": "processingGlobal",
+          "summary": "Mentions overlaps and various counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Okay, so...it appears that A..panel A, panel B and panel E all have two greens whereas panel C, panel D and panel F have more than two greens.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates two-greens rule idea",
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "That seems to be the obvious guess, so...",
+          "open_code": "decisionConfirm",
+          "summary": "Accepts two-greens hypothesis",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "[TYPING] The panel..must have two...exactly two green triangles.",
+          "open_code": "ruleArticulation",
+          "summary": "States final exact-two-greens rule",
+          "check": "OK"
+        }
+      ]
+
+]   

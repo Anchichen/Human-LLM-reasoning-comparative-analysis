@@ -1,0 +1,990 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. I see in Panel A there is star that is red, similar to panel E and F.",
+          "open_code": "processingGlobal",
+          "summary": "notes red star across A,E,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I will try to look for similarities between the two.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to compare starred panels",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "In both...no.. In the three panels, each have a lit star {?} with a red–no, not really...",
+          "open_code": "hypoGeneration",
+          "summary": "initial red-related rule idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "with a blue...with a blue cone over a green one which is looking upwards–not really.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes blue-over-green rule then doubts",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "I see this in the other panels like B, C and D.",
+          "open_code": "counterExampleSearch",
+          "summary": "looks at other panels for counterexamples",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Okay. There's also a tilted green cone...in panel A and E, which is not there in panel F.",
+          "open_code": "processingGlobal",
+          "summary": "observes tilted green cones pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "(7.0) Uh...Let me look.",
+          "open_code": "planningExplorative",
+          "summary": "pauses and decides to scan further",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "There's also a red cone.",
+          "open_code": "processingGlobal",
+          "summary": "notes presence of red cone",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "But I don't think tilt is an issue because in Panel A they are both looking upwards.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects tilt as relevant factor",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Uhuh, let me try another.",
+          "open_code": "planningStrategic",
+          "summary": "signals shift to new idea search",
+          "lenses": {
+            "planningLevel": "level 3"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "(5.2) I guess...I guess the tilting of the...the green cone, which is a part",
+          "open_code": "hypoAlternative",
+          "summary": "considers green cone tilt rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "–not really, there's three of them. So.",
+          "open_code": "decisionReject",
+          "summary": "dismisses green tilt idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "But I guess whenever there's uh... blue cone over green cone.{?}.",
+          "open_code": "hypoGeneration",
+          "summary": "re-raises blue over green hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "In all Panels A, E, and F–except there's B which is present with this noted cone.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes B breaks blue-green rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "But in all, whenever there's a red cone, in every panel [with a star] there's a red cone.",
+          "open_code": "decisionConfirm",
+          "summary": "affirms red cone presence as rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, I can see there is a sign panel A, B and E, so.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels A,B,E",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "In Panel A there is the red cone...",
+          "open_code": "processingLocal",
+          "summary": "notes red cone in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "presence of red cone – that doesn't work because they are also present in panels C, D and also F.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects red-cone rule by evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "There is the green cones, each with green cones looking up [in starred panels].",
+          "open_code": "hypoGeneration",
+          "summary": "posits rule: upright green cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "But they are also present in panel D and C.",
+          "open_code": "ruleExclusion",
+          "summary": "finds counterexample to green rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "So that's not the answer.",
+          "open_code": "decisionReject",
+          "summary": "concludes rule invalid",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "And let me look for what my second guess is...",
+          "open_code": "planningExplorative",
+          "summary": "plans to search new hypothesis",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "they're tilted...",
+          "open_code": "hypoAlternative",
+          "summary": "suggests tilt-based rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "not really.",
+          "open_code": "ruleExclusion",
+          "summary": "immediately dismisses tilt idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "The tilted blue cone presence in panel A and E but not panel B.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes B lacks tilted blue cone",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I can see there is – no not really – looking at the number of blue cones, there are two in panel E and panel A, but in panel B, there is one.",
+          "open_code": "processingGlobal",
+          "summary": "compares blue-cone counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "The number of green cones...",
+          "open_code": "hypoAlternative",
+          "summary": "considers green-cone count rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Still, I don't think that matters because there is three in panel E, panel B has two, and panel A has two.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses green-count idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I guess...presence of the blue cone because its presence is in all panels.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: any blue cone present",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "I think the presence of...yeah, I think this is...I guess yeah.",
+          "open_code": "decisionConfirm",
+          "summary": "expresses confidence in blue rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "The presence of the small...the small sized the blue cone, irrespective of the tilting.",
+          "open_code": "hypoRevision",
+          "summary": "refines rule to small blue cone",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "So I don't think tilting is an effect, but the presence of the small...the small in size because it is present in panel A, B and also in E [...]",
+          "open_code": "ruleExclusion",
+          "summary": "excludes tilt; keeps small-blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "So I'll go with that.",
+          "open_code": "decisionConfirm",
+          "summary": "commits to final rule choice",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay. There's a star in panel A, C and also panel F.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So, let's try to look for the similarities.",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to compare starred panels",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "In panel A, there's the red cones, the blue ones, and the green.",
+          "open_code": "processingLocal",
+          "summary": "observes color set in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "They are also present in panel C.",
+          "open_code": "processingGlobal",
+          "summary": "notes same colors present in C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "And also, panel F [...]",
+          "open_code": "processingGlobal",
+          "summary": "adds panel F to color observation",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "There's the presence of a small green cone in the three of them, but in C, I think there's two big green coins with a small one on the top of the big one, which is not present in the other [starred panels].",
+          "open_code": "processingGlobal",
+          "summary": "notes small green cones and exception in C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Another similarity you can see is that...is the tilting of the two...yeah.",
+          "open_code": "hypoGeneration",
+          "summary": "introduces tilt similarity idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "And I guess this will be my best guess because they're tilted...the presence of the tilted, uh, two....blue cones.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: two tilted blue cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Because I can see it present in panel A.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes rule holds in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "It's also present in panel C and F, whereas it's not present in B because B has two blue coins, but [only] one is tilted.",
+          "open_code": "counterExampleSearch",
+          "summary": "compares presence/absence across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "But I think that is my best guess...because I can't...okay...",
+          "open_code": "decisionConfirm",
+          "summary": "leans toward accepting tilt rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Because the only way the tilting...the tilting angle doesn't deliver here in B.",
+          "open_code": "counterExampleSearch",
+          "summary": "reiterates B as disconfirming example",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "But what I can acknowledge is if there is the presence of two tilted blue cones, there's a star.",
+          "open_code": "ruleArticulation",
+          "summary": "states rule: two tilted blue cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Because on the panel D, the one is tilted, one is looking up.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes D lacks two tilted blues",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "As for B, one is tilted, one is looking up.",
+          "open_code": "counterExampleSearch",
+          "summary": "repeats evidence from B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "The one in Panel E is tilted, so I guess that is the best answer there.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms final answer based on evidence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "So, I can see in this the star is available [present] in panel A, C, and F.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "There is a great range of colored cones{?}, which is the red one, the green and the blue one.",
+          "open_code": "processingGlobal",
+          "summary": "notes range of cone colours",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "There's so much tilted. So, you can see...", 
+          "open_code": "processingGlobal",
+          "summary": "observes many cones are tilted",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "There is the availability when there are two red cones–not really...",
+          "open_code": "hypoGeneration",
+          "summary": "suggests rule: two red cones",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "that doesn't work in panel F because panel F have two tilted [red] and the one [red] looking up.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects two-red rule via panel F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "There is the availability of three [green] cones in panel A...whereas C and F, panels C and F, have two cones.",
+          "open_code": "processingGlobal",
+          "summary": "compares green-cone counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So I can see the availability of the green looking up in panel A which is also available in panel F",
+          "open_code": "hypoGeneration",
+          "summary": "considers upright green rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "but not available in panel C, so I don't think that works there.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects upright-green rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Uh. I can see that...there's a blue cone looking up in every [starred] panel,",
+          "open_code": "hypoGeneration",
+          "summary": "proposes upright blue-cone rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "but also present in other panels like B, D, and E, which have no star. So that's not a good guess.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses upright-blue rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I can see a tilted green cone in panel A, available in panel C, but not in panel F.",
+          "open_code": "processingGlobal",
+          "summary": "notes tilted green pattern partial",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "There is the blue cone looking upward which is available in panel A, available in panel F, and also panel C (which is also on the top of the green cone). But it's also present in other panels like B and D, so still not good.",
+          "open_code": "ruleExclusion",
+          "summary": "reiterates upright-blue rule fails",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "I can also look at the…tilting of the blue cone",
+          "open_code": "hypoAlternative",
+          "summary": "considers blue-tilt rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "– or not really...there is no similarity here.",
+          "open_code": "ruleExclusion",
+          "summary": "quickly rejects blue-tilt rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "The availability of this small green cone looking upward is available in all panels.",
+          "open_code": "processingGlobal",
+          "summary": "observes small upright green everywhere",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Okay, so I think...The availability of two smaller cones, the double two smaller ones.",
+          "open_code": "hypoGeneration",
+          "summary": "hypothesises two small-cones rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Like the interchange but I don't think yeah it is available.",
+          "open_code": "ruleExclusion",
+          "summary": "doubts two-small rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "In panel A it's available in panel B which I interchange but not available in panel C which have two recalls that I don't think there is.",
+          "open_code": "counterExampleSearch",
+          "summary": "checks panels; finds inconsistency",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "Can't come to a conclusion here.",
+          "open_code": "reflectUncertainty",
+          "summary": "admits inability to decide",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "So let me look for another similarity.",
+          "open_code": "planningExplorative",
+          "summary": "plans further search",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "I see the – oh, not really – the two, the blue and green cone in panel C but not in panel F.",
+          "open_code": "hypoAlternative",
+          "summary": "aborted blue-green pair idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "I think it is the availability of the tilting in panel A for the blue and green cone.",
+          "open_code": "hypoGeneration",
+          "summary": "new hypothesis: blue+green tilt",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 23,
+          "span": "There's the tilting again in panel C with the two red cones. But it's not available in panel F.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects tilt hypothesis via F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 24,
+          "span": "Also, then the availability of the at least two green cones..",
+          "open_code": "hypoRevision",
+          "summary": "considers at-least-two greens rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 25,
+          "span": "The presence of....the presence of the two.",
+          "open_code": "hypoRevision",
+          "summary": "vague refinement of two-greens idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 26,
+          "span": "Let's say the rule is defined by....two green cones...the large cone...and the medium sized cone.",
+          "open_code": "ruleGuess",
+          "summary": "tentatively states two-green rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay. In this I can see there is a star in panel A, B, E.",
+          "open_code": "processingGlobal",
+          "summary": "identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "And also, in panel A there is the availability of the...of a number of cones with the variety of arrangements. Like in panel A, there are six. And panel E, there are seven. But in panel B, there five.",
+          "open_code": "processingGlobal",
+          "summary": "counts cones across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "In each, there is a medium sized cone which is looking upwards.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes medium-upright cone rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "It's available in all three, but it's also available on panel F.",
+          "open_code": "ruleExclusion",
+          "summary": "invalidates medium-upright rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "There is also the tilting of the red... the red cone with the blue smaller cone on top of it.",
+          "open_code": "hypoGeneration",
+          "summary": "suggests red-blue stack tilt rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "It's available in panel B, and also available in panel A. And it's also available in panel...D.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes presence in non-star D",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "In panel E it is {interchangeable?}, the smaller cone is looking upward while the blue one is upside down.",
+          "open_code": "processingLocal",
+          "summary": "details variant arrangement in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "There is the tilted green, small cone, which is available in panel A, panel B, but not present in panel E.",
+          "open_code": "processingGlobal",
+          "summary": "observes tilted small green pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "There is the tilted red cone.",
+          "open_code": "processingLocal",
+          "summary": "notes tilted red cone feature",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "There is also the similarity between panel A and panel E, there is the big blue cone, which is tilted with a smaller, blue cone on the other side of it.",
+          "open_code": "moniterHighLevel",
+          "summary": "considers big-blue tilt similarity",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "It's available in panel A and panel E, but not available in panel B.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects big-blue tilt rule via B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "(4.0) The number of green cones... There is two green cones in panel A, two green cones in panel B.",
+          "open_code": "hypoGeneration",
+          "summary": "introduces two-green rule idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "There is also two green cones irrespective of their tilt and size in panel A, whereas the number of green cones in panel C, D, and F is more than two.",
+          "open_code": "counterExampleSearch",
+          "summary": "compares green counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "So I guess that's the criteria.",
+          "open_code": "decisionConfirm",
+          "summary": "accepts two-green criterion",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So, I'd say the rule is defined by two green cones to be present for the star.",
+          "open_code": "ruleArticulation",
+          "summary": "states final rule: two greens",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

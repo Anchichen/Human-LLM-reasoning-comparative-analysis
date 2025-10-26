@@ -1,0 +1,1033 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "So, um, A, E and F all have, um, yellow stars. They, uh, all have one purple [blue] and green triangle that's upright. Um, and also they have pink [red] cones.",
+          "open_code": "processingGlobal",
+          "summary": "Notes shared features in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, the others [panels] that don't have the yellow stars, don't have pink [red] cones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes non-star panels lack red cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So it's possible that, in order for the star to be yellow, you need both purple [blue] and pink [red] triangles.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule needing blue and red triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, or maybe just pink [red] because the others seem to have purple [blue].",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests alternative rule: only red needed",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So, uh...yeah, B, C, and D don't have the pink [red] ones.",
+          "open_code": "processingGlobal",
+          "summary": "Restates evidence non-star lack red",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, let's see how many there are. One, two, three, four, five...A's got six. One, two three, four...B's got four. C's got four. One, two, three, four...D's got four. E's got one, two, three, four, five. And F has got one, two, three, four, five, six.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles in each panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So it could also be that they need to have at least five? Because A, E and F all have at least five.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes quantity rule: ≥5 triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Not sure if we're counting...um...the ones that are on top of each other as one or two.",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure about counting stacked shapes",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um. There's also some weird combination shapes going on in C.",
+          "open_code": "processingLocal",
+          "summary": "Notes unusual combined shapes in C",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "And it doesn't look like there's any of those in the ones with the yellow stars.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes absence of combos in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So yeah, I'm gonna go with my two guesses are: that it needs to have pink [red] cones and also needs to have at least five triangles.",
+          "open_code": "ruleGuess",
+          "summary": "States two tentative rules",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "One, two, three, four, five...yeah. One, two, three, four...yeah.",
+          "open_code": "processingLocal",
+          "summary": "Quick recount to confirm counts",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um. I think that's the only things that I can see that are the same in all the yellow star ones.",
+          "open_code": "monitorHighLevel",
+          "summary": "Concludes only those similarities exist",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um. [mumbling] Green, purple. So. D. Yeah. Yeah. That's the only, um, they're the only similarities.",
+          "open_code": "monitorHighLevel",
+          "summary": "Reaffirms limited shared features",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "B, C and D are only green and blue? And A, E and F are all green, pink [red] and blue.",
+          "open_code": "processingGlobal",
+          "summary": "Compares colour sets star vs non-star",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "[TYPING] So the top guess is that there needs to be red triangles. And the second guess is there needs to be at least five triangles.",
+          "open_code": "ruleArticulation",
+          "summary": "Types final ranked guesses",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so we have got...one, two, three, four, five in A. One, two three, four five in B. Three, four, five, six in C. One, two, three, four five  in D. Five, an E. One, two, three, four, five in F.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles in every panel",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "And only A, B and E are yellow.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So. What could be...the...similarities.",
+          "open_code": "planningBasicComparison",
+          "summary": "Poses goal to find star similarities",
+          "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "I'm just looking at them all as a whole, like from a distance, now to see if there's anything glaringly obvious in the ones that aren't yellow.",
+          "open_code": "planningExplorative",
+          "summary": "States plan to scan non-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um. And there isn't really–only E hasn't got a red, but that is a yellow star. So. That's a bit weird...",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses red-presence as rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "[mumbling] Blue. Blue. Purple. Purple. Big blue.",
+          "open_code": "processingLocal",
+          "summary": "Murmurs colour observations",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um...So, A has got one that's like laying at an angle, as has E, but B doesn't. The–B is all just standing upright.",
+          "open_code": "counterExampleSearch",
+          "summary": "Tests tilt feature; B contradicts",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh. Um. Two pinks [red] in B, only one in A and none in E.",
+          "open_code": "processingGlobal",
+          "summary": "Compares red counts across stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "[counting under breath] And they've all got five, but...what did I say the others were? [counting under breath] (5.6) They've all got five.",
+          "open_code": "processingGlobal",
+          "summary": "Re-verifies all panels have five",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "This one is tough.",
+          "open_code": "reflectTask",
+          "summary": "Remarks on difficulty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "I've got three blue, two blue, two blue. (4.5) Two green, two green, three green. Um. A big one, a big one, and no big one.",
+          "open_code": "processingGlobal",
+          "summary": "Lists colour and size distributions",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Let's have a look at the ones that don't follow a pattern.",
+          "open_code": "modifyPlan",
+          "summary": "Decides to inspect non-star panels",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, well, there's not much point in looking at them because they don't follow a pattern. It just needs to be the other three.",
+          "open_code": "monitorHighLevel",
+          "summary": "Abandons new plan after reflection",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "I really have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses doubt and confusion",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "They've all got five, but so do the others.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects five-count as rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Two of them have all three colors. One doesn't.",
+          "open_code": "processingGlobal",
+          "summary": "Notes inconsistent color presence",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Two of them have...tilts.",
+          "open_code": "processingGlobal",
+          "summary": "Observes tilt feature frequency",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Oh, actually, I think they've all got purple [blue] small triangles. Oh, yeah, that's probably it, okay.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: small purple triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] They must have small purple triangles.",
+          "open_code": "ruleArticulation",
+          "summary": "States final rule guess",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Um, okay, so...A, C and F are the yellow stars.",
+          "open_code": "planningBasicComparison",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel":"level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So we have for A, one, two three, four, five. C has got one, two, three, four, five and F has got one, two three, four, five.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "One of C's has got another little green triangle on top of it.",
+          "open_code": "processingLocal",
+          "summary": "Notes stacked green triangle in C",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So...they have all got all three colors.",
+          "open_code": "processingGlobal",
+          "summary": "Observes all colours present in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um... They've all got a small...triangle, on its side.",
+          "open_code": "processingGlobal",
+          "summary": "Notes each star has small tilted triangle",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But so does B and E which aren't yellow.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds non-star panels share feature",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "So, it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilted triangle hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "They've all got... One of them's got one pink [red] and the other one's got two [red]. And one of them's got three green. And the other two have got one [green].",
+          "open_code": "processingGlobal",
+          "summary": "Compares red and green counts in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "And. They've all got. [sighs] (8.6). They've all got little purple [blue] ones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes all stars have small purple triangles",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um, I can't see...any...kind of pattern.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses inability to find pattern",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "C and F look quite similar, um, but A is completely different.",
+          "open_code": "processingGlobal",
+          "summary": "Notes similarity between C and F, difference of A",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "They are all...spaced out, but so is B.",
+          "open_code": "ruleExclusion",
+          "summary": "Spacing feature ruled out by B",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um. (8.2) I don't actually know with this one.",
+          "open_code": "reflectUncertainty",
+          "summary": "Admits confusion about puzzle",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Because,  B, E and–B and E especially–are quite similar to the other ones.",
+          "open_code": "processingGlobal",
+          "summary": "Observes non-stars resemble stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "The only thing...is...no, that one's not even upright.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses uprightness as criterion",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "It has to be about the laying down.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests rule about tilted orientation",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "So that's got a big purple [blue], big purple [blue] and small purple [blue].",
+          "open_code": "processingLocal",
+          "summary": "Details purple triangle sizes/orientations",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "I have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "Restates confusion",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So I'm just going to guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to making a guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "[TYPING] That it must be...at least one purple on its side.",
+          "open_code": "ruleArticulation",
+          "summary": "Writes final rule guess",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "So here A, C and F...um.",
+          "open_code": "planningBasicComparison",
+          "summary": "Identifies starred panels A,C,F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A has got two pink [red] triangles. C has got two [red] and F has got three [red].",
+          "open_code": "processingGlobal",
+          "summary": "Compares red counts across stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "They...oh my, how many? One, two, three, four, five, six. One, two, three, four, five. One, two, three, four, five, six.",
+          "open_code": "processingGlobal",
+          "summary": "Counts total triangles in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So. [mumbling] Red. Blue. Green. Blue. Red. Green. Green. Red. Blue. Red. Green...",
+          "open_code": "processingLocal",
+          "summary": "Murmurs colour sequence observations",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Okay, so there's no similarities in the, um, color sequences.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects colour-sequence hypothesis",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "The–A has got one tilted on top of another one, looks like a \"z\". And C has got a similar one. (12)",
+          "open_code": "processingLocal",
+          "summary": "Notes tilted-stack feature in A and C",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um. I was going to say that it could be at least one has to be tilted.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule: needs a tilt",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "But then I've just looked at D and that has also got one.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds tilt also appears in D",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So I'm... uh...sure it's something to do with the tilts.",
+          "open_code": "hypoRevision",
+          "summary": "Still suspects tilt involvement",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Um. [mumbling] Purple. Blue. Green. Red. Um. Blue. Red. Green, red.",
+          "open_code": "processingLocal",
+          "summary": "Continues colour listing softly",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "[thinking] Oh, this is difficult. It's really difficult to, um, to say it out loud whilst also, um, like, savoring it in my brain, trying to absorb it like I could work a lot better if I wasn't also consciously trying to speak out loud as well.",
+          "open_code": "reflectTask",
+          "summary": "Comments on think-aloud difficulty",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "I can't see any similarities between these three [starred panels].",
+          "open_code": "reflectUncertainty",
+          "summary": "States cannot find similarities",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "And they've all got pink [red], but so do the others [non-starred panels].",
+          "open_code": "ruleExclusion",
+          "summary": "Red presence ruled out",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "They've all got purple [blue], so the others.",
+          "open_code": "ruleExclusion",
+          "summary": "Blue presence ruled out",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "They've also got green and so do the others.",
+          "open_code": "ruleExclusion",
+          "summary": "Green presence ruled out",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Um, they've got one, two, three and two.",
+          "open_code": "processingLocal",
+          "summary": "Mentions uncertain count comparison",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Ugh, I have no idea.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses cluelessness",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Do I still put in a guess?",
+          "open_code": "reflectTask",
+          "summary": "Questions need to guess",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "[TYPING] They must have all three colors",
+          "open_code": "ruleArticulation",
+          "summary": "Submits final rule: all three colours",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, so A, B, and E are all the yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A has got one, two, three, four, five, six",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in panel A",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "and oh there's two...Oh they don't, they don't all have it. Mhm.",
+          "open_code": "ruleExclusion",
+          "summary": "Realises feature isn’t universal",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "They got two kind of on their side, so like four in total that are on their side.",
+          "open_code": "processingLocal",
+          "summary": "Notes side-tilted triangles in A",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um and E has one like that.",
+          "open_code": "processingLocal",
+          "summary": "Observes similar tilt in E",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "But B – oh, B does have one.",
+          "open_code": "processingLocal",
+          "summary": "Confirms B also has tilted triangle",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Do the others? Yes.",
+          "open_code": "counterExampleSearch",
+          "summary": "Briefly checks remaining panels",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Um, they've all got all three colors.",
+          "open_code": "processingGlobal",
+          "summary": "Notes all-colour presence in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Uh, they've all got....pink [red] ones that are on their side, tilted...",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests rule: red tilted triangles",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "No, B doesn't.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilted red hypothesis",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "They've all got pink [red] ones that stand up.",
+          "open_code": "processingGlobal",
+          "summary": "Observes upright red triangles in stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Yeah, they do have that.",
+          "open_code": "monitorHighLevel",
+          "summary": "Affirms upright-red consistency",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Oh. C doesn't.",
+          "open_code": "counterExampleSearch",
+          "summary": "Finds C lacks upright red",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um. Oh but E's got...Oh, no, it [E] has got one.",
+          "open_code": "monitorLowLevel",
+          "summary": "Self-checks and corrects on E",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "Maybe that's it.",
+          "open_code": "ruleGuess",
+          "summary": "Tentatively endorses upright-red rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "They all have to have...pink [red] triangles that stand up... up straight.",
+          "open_code": "ruleArticulation",
+          "summary": "States candidate rule explicitly",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Um, C doesn't.",
+          "open_code": "counterExampleSearch",
+          "summary": "Notes C violates rule",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "F does, but it's got another one on top of it and D doesn't.",
+          "open_code": "processingGlobal",
+          "summary": "Checks F and D against rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "So that's gonna be my guess.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to chosen rule",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "[TYPING] They must all have single red triangles that stand upright.",
+          "open_code": "ruleArticulation",
+          "summary": "Final rule submission",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ]
+
+]   

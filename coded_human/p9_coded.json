@@ -1,0 +1,408 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay… um, I wonder is it when there’s a green and a blue cone standing upright, so in A, E and F the stars are lit …",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes green+blue upright rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 2,
+          "span": "No, that's not the rule actually because B, C and D are also the same.",
+          "open_code": "decisionReject",
+          "summary": "Rejects first hypothesis via counterexample",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Let me think… um… (5.0) oh gosh.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses hesitation and uncertainty"
+        },
+        {
+          "id": 4,
+          "span": "Oh, I think when there is a green cone and there’s a blue lying over that's when the star is lit up, as in Panels A, E and F. I think this is the hidden rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates new green+blue lying rule",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 5,
+          "span": "No, it’s not because B is also the same.",
+          "open_code": "decisionReject",
+          "summary": "Rejects second hypothesis with evidence",
+          "lenses": {
+            "processingStyle": "LocalScan"
+                    }
+        },
+        {
+          "id": 6,
+          "span": "When there’s a… (4.0) Oh! When there’s a red triangle, no matter which way it’s oriented. I think that’s the hidden rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Forms red triangle presence rule"
+        },
+        {
+          "id": 7,
+          "span": "In A, E and F, the stars light up, so I think that's the hidden rule.",
+          "open_code": "decisionConfirm",
+          "summary": "Confirms red triangle rule fits stars"
+        },
+        {
+          "id": 8,
+          "span": "A the star's lit up and there's red triangles and it doesn't matter which way it appears. B, C and D do not have any...do not have the stars lit and there are no red triangles in those.",
+          "open_code": "counterExampleSearch",
+          "summary": "Compares presence/absence of red triangles across panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "So, I’m fairly certain that the hidden rule in A, E, and F are that: the star lights up when there are red triangles in the box. I think this is the hidden rule.",
+          "open_code": "ruleArticulation",
+          "summary": "States confidence in red triangle rule"
+        }
+      ],
+    
+    [ {"Title":"scene2"},  
+        {
+          "id": 1,
+          "span": "Okay, um, let me think.",
+          "open_code": "orientation",
+          "summary": "Pauses to think, uncertain",
+          "lenses": {
+            "processingStyle": "Ø",
+            "perspectiveDepth": "0step",
+            "representationGrain": "Ø"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "A, B and E are all with the stars lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Let me just count: there are two green triangles in A, two green triangles in B, and three green triangles in E.",
+          "open_code": "processingGlobal",
+          "summary": "Counts green triangles across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "I’m wondering… All the other boxes also have red triangles. A has two, B has one, C has one, D has one…",
+          "open_code": "processingGlobal",
+          "summary": "Observes red triangle counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "… um… let me think. (3.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Hesitates, reflects again"
+        },
+        {
+          "id": 6,
+          "span": "Oh! I think the stars that light up, in A, B and E, all have a small green triangle and a small blue triangle.",
+          "open_code": "hypoGeneration",
+          "summary": "Generates green+blue small triangle rule"
+        },
+        {
+          "id": 7,
+          "span": "C, D and F, their stars aren't lit up, and they don’t also have a green and a small blue triangle.",
+          "open_code": "counterExampleSearch",
+          "summary": "Cites non-star panels lacking feature",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 8,
+          "span": "So I’m fairly certain that the hidden rule in A, B, and E is that they all have a small blue triangle and a small green triangle that are the same size.",
+          "open_code": "decisionConfirm",
+          "summary": "Expresses confidence in rule"
+        },
+        {
+          "id": 9,
+          "span": "Let me just think...",
+          "open_code": "processing",
+          "summary": "further pondering"
+        },
+        {
+          "id": 10,
+          "span": "Okay so, C has one small red cone, D has one small red cone, and F has one small green cone.",
+          "open_code": "processingGlobal",
+          "summary": "Lists small cones in non-star panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Okay, so I think that’s the case.",
+          "open_code": "decisionConfirm",
+          "summary": "Re-affirms rule correctness"
+        },
+        {
+          "id": 12,
+          "span": "So A is lit up and has a small green and blue triangle; B is lit up and has a small green and blue triangle; and E is lit up and has a small green and blue triangle.",
+          "open_code": "processingGlobal",
+          "summary": "Restates evidence across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "And, it doesn’t matter which way those triangles are oriented as long as they are present.",
+          "open_code": "ruleArticulation",
+          "summary": "Clarifies orientation-irrelevant rule"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, so A has star lit up; C has star lit up; F has star lit up.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 2,
+          "span": "So A has two red cones, two blue, and one green. C has only one red cone. F has two red cones. Panel B has two blue cones.",
+          "open_code": "processingGlobal",
+          "summary": "Lists cone colours/counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "I think the hidden rule might be that A, C and F both have two blue triangles that face side to side. So, instead of the triangles sitting up upright, they are pointing inwards or outwards, sort of on their side.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes two blue side-oriented rule"
+        },
+        {
+          "id": 4,
+          "span": "Because B, D and E don’t have their stars lit up, and they don’t have... two blue triangles on their sides.",
+          "open_code": "counterExampleSearch",
+          "summary": "Uses non-star panels as disconfirming check",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 5,
+          "span": "I think that’s the hidden rule.",
+          "open_code": "decisionConfirm",
+          "summary": "States confidence in rule"
+        },
+        {
+          "id": 6,
+          "span": "So as I say, A, C and F have the stars that are lit up. They have two blue triangles, each...that face in the way...they are not standing up, but they face on their sides.",
+          "open_code": "ruleArticulation",
+          "summary": "Restates rule with supporting evidence"
+        },
+        {
+          "id": 7,
+          "span": "And I think this is the hidden rule. I’m fairly certain.",
+          "open_code": "decisionConfirm",
+          "summary": "Re-affirms certainty in rule"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. A, C and F have... the light in the star.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels are starred",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Um… okay...no. C has two red cones, A has two red cones, F has three— so it can’t be that then.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects equal-red-cones idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um, C has… (6.0) Panel A… let me think, one, two, three, four, five, six, seven triangles.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in Panel A",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "C has [counting] seven cones; and F has [counting] seven cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts triangles in C and F",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "And D has [counting] has seven cones, so it can’t be that then.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects seven-triangle rule",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "A has… um… three green triangles; C has two—",
+          "open_code": "processingGlobal",
+          "summary": "Counts green triangles A vs C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+                },
+        {
+          "id": 7,
+          "span": "so can’t be that either.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects equal-green count idea"
+        },
+        {
+          "id": 8,
+          "span": "[counting] A has two red triangles, C has two red triangles, and F has two red triangles...",
+          "open_code": "processingGlobal",
+          "summary": "Observes two red triangles each",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "This is very tricky; I’m not sure what the hidden rule could be. (13.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty and doubt"
+        },
+        {
+          "id": 10,
+          "span": "Um… okay, two blue ones in each… um… (5.0)",
+          "open_code": "processingGlobal",
+          "summary": "Considers two-blue-cone rule",
+          "lenses":{
+            "processingStyle":"globalScan"
+          }
+        },
+        {
+          "id": 11,
+          "span": "A has two triangles on their sides, C has two triangles on their sides, and… okay.",
+          "open_code": "ruleGuess",
+          "summary": "Proposes side-oriented triangles rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay… Panels A, B, and E all have stars, the star lights switched on.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Panel A has two triangles on their side; B has three triangles to the side… uh, no. A has five triangles on their side.",
+          "open_code": "processingLocal",
+          "summary": "Counts side-oriented triangles across panels",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um… there’s four red triangles. B has three red triangles, and E has… um… five red triangles.",
+          "open_code": "processingLocal",
+          "summary": "Counts red triangles across panels",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Okay, this is tricky… um… um…  (4.0)",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses difficulty and doubt"
+        },
+        {
+          "id": 5,
+          "span": "A has two red triangles standing up… B has, um, one red triangle standing up. E has also one red triangle standing up.",
+          "open_code": "processingLocal",
+          "summary": "Observes standing red triangles counts",
+          "lenses": {
+            "processingStyle": "LocalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Um, okay. I think it could be that A, B, and… um, E have at least...have got one triangle standing up?",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes at-least-one upright rule"
+        },
+        {
+          "id": 7,
+          "span": "No that can’t be it.",
+          "open_code": "decisionReject",
+          "summary": "Rejects upright rule hypothesis"
+        },
+        {
+          "id": 8,
+          "span": "Um… (13.0) E has… um…",
+          "open_code": "reflectUncertainty",
+          "summary": "Hesitates, unsure again"
+        },
+        {
+          "id": 9,
+          "span": "I think that A, B, and E all have most triangles that are sitting on their side when their stars are lighting on.",
+          "open_code": "ruleGuess",
+          "summary": "Suggests majority side-oriented rule"
+        }
+      ]
+
+]

@@ -1,0 +1,884 @@
+[
+    [ {"Title":"scene1"},
+        {
+        "id": 1,
+        "span": "Okay, so, I'm looking at the figures and I am going to try and infer the hidden rule.",
+        "open_code": "planningExplorative",
+        "summary": "States goal to infer rule",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "Um I see the stars lighting up in A, E and F, all with a mix of...colors.",
+        "open_code": "processingGlobal",
+        "summary": "Notes lit panels and color mix",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "All colors are present, green, blue, red.",
+        "open_code": "processingGlobal",
+        "summary": "Lists colors present in lit panels",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "And in all, for example, the position...in A, it's up or downward facing.",
+        "open_code": "processingLocal",
+        "summary": "Describes orientations in A",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "E has all over the place including lateral.",
+        "open_code": "processingLocal",
+        "summary": "Notes varied orientations in E",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "B, C, D do not exhibit any...reds.",
+        "open_code": "processingGlobal",
+        "summary": "Observes absence of red in unlit panels",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "So, they only have greens and blues, oriented every single way.",
+        "open_code": "processingGlobal",
+        "summary": "Summarises colors and orientations in unlit panels",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "So, what I can...infer is that basically...if we see red in there, it will light up the star.",
+        "open_code": "hypoGeneration",
+        "summary": "Proposes red-presence rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "That's consistent and...reverse-checking for lack of red....means stars not lit up.",
+        "open_code": "decisionConfirm",
+        "summary": "Confirms rule via reverse check",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "So, um yeah. A, E, and F lit up. D, B, C with no reds, not lit up.",
+        "open_code": "processingGlobal",
+        "summary": "Restates supporting evidence",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "So I'm waiting for the options to write that the star lights up, uh, whenever red, uh, ...has a color in those triangle formations...is present.",
+        "open_code": "planningUnorganised",
+        "summary": "Plans to write rule later",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 0"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So, when we see red, the star shines.",
+        "open_code": "ruleArticulation",
+        "summary": "States concise red rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "[TYPING] When we see red angle formations...I'm writing the rule now...Uh, um, the star, um, lights... the stars, uh, light up... as showcased by... A, E and F and...conversely…the lack of red in B, C, and D makes, uh, the stars remain unlit.",
+        "open_code": "ruleArticulation",
+        "summary": "Writes full explanation of rule",
+        "lenses": {
+          "processingStyle": "mixed",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      }],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "So, the next one Um, this time looking at those with, uh, the lights on, A, B and E,",
+          "open_code": "planningBasicComparison",
+          "summary": "decides to inspect starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist",
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "I'm seeing a mix of colors, but, uh...basically even the absence of red has the start lighting up.",
+          "open_code": "processingGlobal",
+          "summary": "observes colors; red absence not critical",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "I'm seeing...the...basically the angles facing up...or laterally, um...and in E...and F... I'm noticing again all colors.",
+          "open_code": "processingGlobal",
+          "summary": "notes orientations and colors across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um, in F and D, I see a lateral red, but the stars are not present.",
+          "open_code": "counterExampleSearch",
+          "summary": "finds lateral red without star",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "So that is not it...",
+          "open_code": "ruleExclusion",
+          "summary": "rejects lateral red rule",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "A lateral blue in...F, so that's not what makes it so that there is light or no light, as well, when contrasted with A and E...we have a star there...",
+          "open_code": "counterExampleSearch",
+          "summary": "notes lateral blue in F lacks star",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "uh But, basically... A, B and E there's a lateral blue.",
+          "open_code": "processingGlobal",
+          "summary": "observes starred panels share lateral blue",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "Uh, the others have laterals of other colors.",
+          "open_code": "processingGlobal",
+          "summary": "non-star panels have other lateral colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Uh, so if lateral blue is accepted, then it's lights, uh, and that all.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: lateral blue triggers star",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "In the others...if there's lateral blue and something like F with red, um, basically then it stays turned off.",
+          "open_code": "hypoRevision",
+          "summary": "adds condition: no extra lateral colors",
+          "lenses": {
+            "processingStyle": "1step",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So, we are looking for any color up and at a maximum only blue, lateral.",
+          "open_code": "hypoRevision",
+          "summary": "clarifies rule: only blue laterals allowed",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "[TYPING] So, uh, any color can be upward facing. But only blue...can be…singularly not mixed with another color lateral for the tar to light up.",
+          "open_code": "ruleArticulation",
+          "summary": "formal rule statement typed",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, the rule is strengthened, uh, by...the F example, um, where even though we have a lateral blue, we also have lateral red, which keeps the star lit.",
+          "open_code": "monitorHighLevel",
+          "summary": "uses F as confirming evidence",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Okay. Proceeding to....",
+          "open_code": "reflectTask",
+          "summary": "moves on to next task",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+    {
+        "id": 1,
+        "span": "This time looking again at the A, C, and F",
+        "open_code": "planningExplorative",
+        "summary": "States panels to inspect",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "upward facing laterals only....C...then the others as well are colored, all the way lateral both right facing and left facing.",
+        "open_code": "processingGlobal",
+        "summary": "Notes orientations across sets",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "I see A having two reds, two blues.",
+        "open_code": "processingLocal",
+        "summary": "Counts reds and blues in A",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "Uh, two blues, two greens.",
+        "open_code": "processingLocal",
+        "summary": "Adds other color counts",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "Three greens, {?} in C, if we count the tip.",
+        "open_code": "processingLocal",
+        "summary": "Counts greens in C",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "And then two and two in F.",
+        "open_code": "processingLocal",
+        "summary": "Counts pairs in F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "Interesting, so, two formations of doubles.",
+        "open_code": "processingGlobal",
+        "summary": "Notes pattern of doubles",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "Whereas in D and E and B, we appear to have...two, two...",
+        "open_code": "processingGlobal",
+        "summary": "Observes similar doubles in others",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "Okay, so again there are the doubles in there.",
+        "open_code": "processingGlobal",
+        "summary": "Reaffirms doubles exist",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "Basically, that means it's not like we have two, two, and one that makes it so that things are lit.",
+        "open_code": "ruleExclusion",
+        "summary": "Rejects simple count rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "Let's see how they are formed.",
+        "open_code": "planningExplorative",
+        "summary": "Plans to inspect arrangement",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So, two are up facing in A...and two lateral facing each other, the blues' position, so, interesting, that placement.",
+        "open_code": "processingLocal",
+        "summary": "Describes positions in A",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "E has a {?} up and the blues uh lateral and F has the blues lateral.",
+        "open_code": "processingGlobal",
+        "summary": "Notes similar blue layouts in E,F",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 14,
+        "span": "Oh interesting.",
+        "open_code": "reflectSelf",
+        "summary": "Expresses intrigue",
+        "check": "OK"
+      },
+      {
+        "id": 15,
+        "span": "So, if the blues are lateral, basically in pairs, it lights up.",
+        "open_code": "hypoGeneration",
+        "summary": "Proposes lateral blue-pair rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 16,
+        "span": "So, B, E, and D do not have pairs of lateral blues.",
+        "open_code": "counterExampleSearch",
+        "summary": "Checks non-lit panels for rule",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 17,
+        "span": "Interesting to see that.",
+        "open_code": "reflectSelf",
+        "summary": "Personal reaction",
+        "check": "OK"
+      },
+      {
+        "id": 18,
+        "span": "[TYPING] So the star lights up when, uh, there is a pair of...lateral...blues present.",
+        "open_code": "ruleArticulation",
+        "summary": "States final rule clearly",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 19,
+        "span": "Um, and obviously...B, D E do not have this pair of lateral blues, so are unlit.",
+        "open_code": "decisionConfirm",
+        "summary": "Confirms rule with contrasts",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      }
+    ],
+
+    [ {"Title":"scene4"},
+        {
+        "id": 1,
+        "span": "We are looking again at the ones that are lit.",
+        "open_code": "planningExplorative",
+        "summary": "Focuses on lit panels",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "We have a multitude of figures.",
+        "open_code": "reflectTask",
+        "summary": "Notes many figures exist",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "All colors and A, C, and F pointing everywhere.",
+        "open_code": "processingGlobal",
+        "summary": "Observes colors, varied orientations",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "Uh, and the same pretty much too, for B, D, E...even though the B has a lateral red, E does not have lateral, B has a lateral.",
+        "open_code": "processingGlobal",
+        "summary": "Compares lateral red across panels",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "So, it's not that.",
+        "open_code": "ruleExclusion",
+        "summary": "Rejects lateral red rule",
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "I will be looking at the numbers of figures.",
+        "open_code": "planningStrategic",
+        "summary": "Announces plan to count",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 3"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "So, A has three greens, I'm noticing.",
+        "open_code": "processingLocal",
+        "summary": "Counts greens in A",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "C has three blues and uh F has three reds.",
+        "open_code": "processingLocal",
+        "summary": "Counts blues in C, reds in F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "B has three greens, but they are unique somehow.",
+        "open_code": "processingLocal",
+        "summary": "Notes unique greens in B",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "E has three blues, but one grouped.",
+        "open_code": "processingLocal",
+        "summary": "Observes grouping in E",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "And...basically... Uh, B has, uh, the same kind of greens in there, so... and they are again, stacked, they touch each other.",
+        "open_code": "processingLocal",
+        "summary": "Notes stacked greens in B",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So, if they overlap or touch, then basically...the figure is...showcasing this... that they touch.",
+        "open_code": "hypoGeneration",
+        "summary": "Proposes overlap/touch rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "Um, but the others, the three, do not touch.",
+        "open_code": "counterExampleSearch",
+        "summary": "Checks others for touching",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 14,
+        "span": "Okay, so time is up.",
+        "open_code": "reflectTask",
+        "summary": "Notes timer ending",
+        "check": "OK"
+      },
+      {
+        "id": 15,
+        "span": "Um, there seems to be that separation.",
+        "open_code": "processingGlobal",
+        "summary": "Mentions separation pattern",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 16,
+        "span": "So, yeah, the stacked stars are there.",
+        "open_code": "processingGlobal",
+        "summary": "Notes stacked stars present",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 17,
+        "span": "This is a tough one.",
+        "open_code": "reflectSelf",
+        "summary": "Expresses difficulty",
+        "check": "OK"
+      },
+      {
+        "id": 18,
+        "span": "Obviously, I have absolutely no idea of what to think about and don't want to ruin the experiment by taking more time.",
+        "open_code": "reflectSelf",
+        "summary": "Admits confusion and time concern",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 19,
+        "span": "[TYPING] So I'm just going to, say...noticed...the three kinds of colors... for the lights to be off, two of them either...they superposed or, um, touching, uh, like, in B but yeah, the others have, uh, overlapping, um, as well, different colors.",
+        "open_code": "ruleGuess",
+        "summary": "Writes tentative overlap rule",
+        "lenses": {
+          "processingStyle": "mixed",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 20,
+        "span": "[THINKING] But then there's... C with, uh, overlapping blue.",
+        "open_code": "counterExampleSearch",
+        "summary": "Finds exception in C",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 21,
+        "span": "[TYPING] So, really not enough time on this one and do not want to ruin the experiment procedure.",
+        "open_code": "reflectTask",
+        "summary": "Time concern, procedure respect",
+        "check": "OK"
+      },
+      {
+        "id": 22,
+        "span": "[THINKING] Uh, so, um, you have my reasoning. We'll just proceed to the next.",
+        "open_code": "reflectTask",
+        "summary": "Signals move to next task",
+        "check": "OK"
+      }
+    ],
+
+    [ {"Title":"scene5"},
+        {
+        "id": 1,
+        "span": "Okay A, B and B again looking, again, they are lit.",
+        "open_code": "processingGlobal",
+        "summary": "Identifies lit panels",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "All colors, all over the place.",
+        "open_code": "processingGlobal",
+        "summary": "Notes varied colours present",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "Um...basically seeing...starting to count them.",
+        "open_code": "planningStrategic",
+        "summary": "Announces plan to count cones",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 3"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "Let's see, there are three blues, two greens, four, uh, reds in A.",
+        "open_code": "processingLocal",
+        "summary": "Counts colours in panel A",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "Three red, two greens, and one blue in B and, um, like five red, four blues, two greens.",
+        "open_code": "processingLocal",
+        "summary": "Counts colours in other panels",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "Interesting, so, it appears like the...the number of reds is the largest in A, B and E, whereas in C the number of reds is fewer than for example, the greens.",
+        "open_code": "hypoGeneration",
+        "summary": "Infers red-majority rule",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "In F, let's check that the reds are again not the largest number.",
+        "open_code": "counterExampleSearch",
+        "summary": "Tests rule against F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "And in D, basically...again, the reds are not the largest number.",
+        "open_code": "processingLocal",
+        "summary": "Observes reds not majority in D",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "So basically, whenever the majority of triangles appear to be red ones than the light...the star lights up.",
+        "open_code": "ruleArticulation",
+        "summary": "States majority-red rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "That's pretty clear here.",
+        "open_code": "decisionConfirm",
+        "summary": "Expresses certainty rule works",
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "Whenever it's not like in C, F, D, obviously not relative to other colors...other triangle colors, then it stays off.",
+        "open_code": "decisionConfirm",
+        "summary": "Cites non-lit panels as support",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So, I'm just waiting for the... –very confident on this one.",
+        "open_code": "reflectSelf",
+        "summary": "States high confidence, waits",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "Just waiting for the time to... –now I'm just thinking with the previous example, as I was initially noticing this on this one, I would have looked at...not counting them, but here it was very obvious.",
+        "open_code": "monitorHighLevel",
+        "summary": "Reflects on strategy differences",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 14,
+        "span": "{?} Yeah, I didn't want to ruin the procedure of your experiment.",
+        "open_code": "reflectTask",
+        "summary": "Concern about experiment protocol",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 15,
+        "span": "[TYPING] So basically for...whenever the red triangles are more numerous than other colored triangles, the star, uh, lights up.",
+        "open_code": "ruleArticulation",
+        "summary": "Types final red-majority rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 16,
+        "span": "And, uh, this is reinforced by, uh, C, D, F where...the reds are not the largest component of the triangles, therefore the stars...remain, unlit.",
+        "open_code": "decisionConfirm",
+        "summary": "Uses C,D,F as negative evidence",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      }
+    ]
+
+]   

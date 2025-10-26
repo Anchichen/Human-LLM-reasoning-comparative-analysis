@@ -1,0 +1,751 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so I'm trying to infer the hidden rule.",
+          "open_code": "Orientation",
+          "summary": "Plans to compare starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Let's look at the stars here. Um, so we have A, E, and F.",
+          "open_code": "processingGlobal",
+          "summary": "Plans to compare starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "And what's interesting is there's a kind of...two...okay. I'm trying to work out what it could be",
+          "open_code": "monitorLowLevel",
+          "summary": "Expresses vague observation and effort"
+        },
+        {
+          "id": 4,
+          "span": "Maybe it's however many... tilted triangles that are.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests rule about tilted triangles count"
+        },
+        {
+          "id": 5,
+          "span": "So, this one's interesting. There's four tilted down three greens.",
+          "open_code": "processingLocal",
+          "summary": "Notes counts within a panel",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Okay. So, I think that might be something to do with it. The fact that there's three green cones maybe.",
+          "open_code": "hypoRevision",
+          "summary": "Posits rule involving three green cones"
+        },
+        {
+          "id": 7,
+          "span": "But, um, it doesn't necessarily explain everything.",
+          "open_code": "monitorLowLevel",
+          "summary": "Rejects three-greens hypothesis"
+        },
+        {
+          "id": 8,
+          "span": "So, it's a hard one.",
+          "open_code": "reflectTask",
+          "summary": "Expresses difficulty"
+        },
+        {
+          "id": 9,
+          "span": "There's one blue standing up, in each one. And it has two blues.",
+          "open_code": "processingGlobal",
+          "summary": "Observes blue cone counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So, panel A has two red standing up.",
+          "open_code": "processingLocal",
+          "summary": "Notes two upright reds in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Um, hm. That's interesting. I'm trying to work out what it could be, to be honest.",
+          "open_code": "reflectUncertainty",
+          "summary": "Still unsure of rule"
+        },
+        {
+          "id": 12,
+          "span": "So, E has three greens, A has three greens, and F has three greens.",
+          "open_code": "processingGlobal",
+          "summary": "Counts three greens in starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Um, so I think that might be something to do with it. That could be the hidden rule.",
+          "open_code": "hypoGeneration",
+          "summary": "Re-proposes three-greens rule"
+        },
+        {
+          "id": 14,
+          "span": "However, C also has three greens. So that maybe means that it's not correct to be honest.",
+          "open_code": "decisionReject",
+          "summary": "Rejects three-greens due to counterexample"
+        },
+        {
+          "id": 15,
+          "span": "But maybe the fact that they have...",
+          "open_code": "reflectUncertainty",
+          "summary": "Continues searching for rule"
+        },
+        {
+          "id": 16,
+          "span": "Ah, I’ve got it.",
+          "open_code": "ruleInsight",
+          "summary": "Claims insight reached"
+        },
+        {
+          "id": 17,
+          "span": "So, A, E, and F all have red triangles, whereas D, B, and C don't have any red triangles.",
+          "open_code": "hypoGeneration",
+          "summary": "Observes red present vs absent pattern",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 18,
+          "span": "So, I think that's what... That's what the hidden rule is.",
+          "open_code": "decisionConfirm",
+          "summary": "States rule: presence of red triangles"
+        },
+        {
+          "id": 19,
+          "span": "I think so, yeah. That's my main thing.",
+          "open_code": "ruleArticulation",
+          "summary": "Affirms chosen rule"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so now I'm onto the next one. We have panel A, panel B, and panel E.",
+          "open_code": "Orientation",
+          "summary": "Identifies starred panels to compare"
+        },
+        {
+          "id": 2,
+          "span": "Okay, so now I'm onto the next one. We have panel A, panel B, and panel E.",
+          "open_code": "processingGlobal",
+          "summary": "Identifies starred panels to compare",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "So, I'm trying to work out what could be the rule here.",
+          "open_code": "planningExplorative",
+          "summary": "States intention to search rule",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel A has two green cones standing up.",
+          "open_code": "processingLocal",
+          "summary": "Notes two upright greens in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel B has two, but panel E has three",
+          "open_code": "processingGlobal",
+          "summary": "Observes two greens in B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "So that means that can't be the hidden rule.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects two-greens hypothesis"
+        },
+        {
+          "id": 7,
+          "span": "So, next we look at... maybe it's something to do with the number of triangles,",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes rule about triangle count"
+        },
+        {
+          "id": 8,
+          "span": "but actually it can't be that because every single one has five triangles, so that kind of inference isn't necessarily correct.",
+          "open_code": "decisionReject",
+          "summary": "Rules out triangle-count idea",
+          "lenses": {
+            "processingStyle":"globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Um, now let's look maybe it's something to do with the larger green triangle.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests large green triangle rule"
+        },
+        {
+          "id": 10,
+          "span": "But again, no, it doesn't look correct.",
+          "open_code": "decisionReject",
+          "summary": "Dismisses large-triangle idea"
+        },
+        {
+          "id": 11,
+          "span": "So, I'm struggling with this one.",
+          "open_code": "reflectSelf",
+          "summary": "Admits difficulty"
+        },
+        {
+          "id": 12,
+          "span": "Maybe it's something to do with stacking.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits stacking rule"
+        },
+        {
+          "id": 13,
+          "span": "But, again, it's not since panel B doesn't have any stacking whatsoever.",
+          "open_code": "decisionConfirm",
+          "summary": "Rejects stacking hypothesis",
+          "lenses": {
+            "processingStyle":"localScan"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So, this is a really confusing one. And It's testing my brain.",
+          "open_code": "reflectSelf",
+          "summary": "Comments on difficulty"
+        },
+        {
+          "id": 15,
+          "span": "So, we have an A, we have a red– one red, two green, two blue.",
+          "open_code": "processingLocal",
+          "summary": "Counts colors in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "But then in E, we have no red.",
+          "open_code": "processingLocal",
+          "summary": "Notes absence of red in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "Um, I'm finding this one very tough. I can't work out a hidden rule.",
+          "open_code": "reflectUncertainty",
+          "summary": "States inability to find rule"
+        },
+        {
+          "id": 18,
+          "span": "Um, so I might have to look at it again.",
+          "open_code": "modifyPlan",
+          "summary": "Plans to re-examine puzzle",
+          "lenses": {
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 19,
+          "span": "Okay. So, it could be to do with... with the fact that they're more weighted to one side.",
+          "open_code": "hypoGeneration",
+          "summary": "Hypothesises left-side weight rule"
+        },
+        {
+          "id": 20,
+          "span": "So, they have more on the lefthand side than the right-hand side, whereas the D, F, and C aren't in that particular order.",
+          "open_code": "processingGlobal",
+          "summary": "Compares side weighting across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "I think that might be it.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts weighting rule"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, we have another hidden rule to work out.",
+          "open_code": "Orientation",
+          "summary": "Acknowledges new hidden rule task"
+        },
+        {
+          "id": 2,
+          "span": "A has two...two blue triangles turned onto their side.",
+          "open_code": "processingLocal",
+          "summary": "Notes two sideways blues in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel C has two blue triangles turned on their side, and panel F has two triangles turned on their side.",
+          "open_code": "processingGlobal",
+          "summary": "Observes same sideways blues in C and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "This is unlike panel B, D, and E, since they only have– B only has one blue triangle on its side, E only has one triangle on its side, and D doesn't have any.",
+          "open_code": "counterExampleSearch",
+          "summary": "Contrasts non-starred panels lacking two blues",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "So that's what I'm leaning towards at the moment.",
+          "open_code": "decisionConfirm",
+          "summary": "Tentatively accepts two-blue rule"
+        },
+        {
+          "id": 6,
+          "span": "Um, now let's have a look at the colors.",
+          "open_code": "planningExplorative",
+          "summary": "Shifts focus to color counts",
+          "lenses": {
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Maybe, this has something to do with it as well.",
+          "open_code": "hypoAlternative",
+          "summary": "Suggests color-based rule idea"
+        },
+        {
+          "id": 8,
+          "span": "So, A two red. C one red.",
+          "open_code": "processingLocal",
+          "summary": "Counts reds in A and C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Nope. Okay, so it's not that then.",
+          "open_code": "decisionReject",
+          "summary": "Rejects red-count hypothesis"
+        },
+        {
+          "id": 10,
+          "span": "Um, but I'm quite confident in that respect since, you know, there's that idea.",
+          "open_code": "reflectCertainty",
+          "summary": "Expresses confidence in earlier rule"
+        },
+        {
+          "id": 11,
+          "span": "And then another thing that I think could have to do with it is...",
+          "open_code": "monitorLowLevel",
+          "summary": "Hints at exploring another rule"
+        },
+        {
+          "id": 12,
+          "span": "I mean, to be honest, actually, that's the only thing that I can think of, the fact there's the two blue triangles in A, C and F.",
+          "open_code": "decisionConfirm",
+          "summary": "Reaffirms two-blue hypothesis"
+        },
+        {
+          "id": 13,
+          "span": "So, I'm trying to look for any other things that could possibly be...",
+          "open_code": "planningExplorative",
+          "summary": "Still searches for alternatives",
+          "lenses":{
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So, C has kind of like a large triangle with one leaning on top of it,",
+          "open_code": "processingLocal",
+          "summary": "Notes stacked triangles in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "but that doesn't seem to be correct since none of the others do.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses stacked-triangle idea"
+        },
+        {
+          "id": 16,
+          "span": "So um, I think I will stick with my original one, since I'm quite confident about it, actually.",
+          "open_code": "decisionConfirm",
+          "summary": "Commits to two-blue rule"
+        },
+        {
+          "id": 17,
+          "span": "I'm definitely going to go with that one.",
+          "open_code": "ruleArticulation",
+          "summary": "Finalises two-blue rule choice"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Okay. So now we're looking at another rule.",
+          "open_code": "Orientation",
+          "summary": "Begins exploring new hidden rule"
+        },
+        {
+          "id": 2,
+          "span": "So we're looking at panel A, firsthand.",
+          "open_code": "processingLocal",
+          "summary": "Focuses attention on panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Um now let's compare it with panel C.",
+          "open_code": "planningBasicComparison",
+          "summary": "Plans to compare A with C",
+          "lenses": {
+            "planningLevel": "level 2"
+          }
+        },
+        {
+          "id": 4,
+          "span": "So, is it something to do with colors maybe?",
+          "open_code": "hypoGeneration",
+          "summary": "Posits color-based rule"
+        },
+        {
+          "id": 5,
+          "span": "Okay, no, we can clearly see that it's not because there's three red triangles in F. So, that means they don't match up.",
+          "open_code": "decisionReject",
+          "summary": "Rejects color hypothesis using F evidence",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Um is it maybe a numbers thing.",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests number-of-triangles rule"
+        },
+        {
+          "id": 7,
+          "span": "So, A has 3, 4, 5, 6, 7. C has 2, 3, 4, 5, 6, 7. F has 1, 2, 3, 4, 5, 6, 7.",
+          "open_code": "processingGlobal",
+          "summary": "Counts triangles across starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Okay. Now let me look at the other ones [counting under breath].",
+          "open_code": "counterExampleSearch",
+          "summary": "Plans to count other panels",
+          "lenses": {
+            "planningLevel" :"level 2",
+            "processingStyle":"globalScan"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Mm okay, I thought that might be correct, but panel D was at seven. So that means that isn't the hidden rule.",
+          "open_code": "decisionReject",
+          "summary": "Dismisses number hypothesis after D check",
+          "lenses": {
+            "processingStyle":"localScan"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So, we look to something else.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts approach after rejection",
+          "lenses": {
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Could it be having, um, triangles stacked on each other.",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes stacked-triangle rule"
+        },
+        {
+          "id": 12,
+          "span": "In A there's a different colored triangle on top of one triangle.",
+          "open_code": "processingLocal",
+          "summary": "Notes mixed-color stack in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "In C, we have a green and a blue triangle on top of each other.",
+          "open_code": "processingLocal",
+          "summary": "Observes mixed-color stack in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "In F, we have a blue and a red triangle on top of each other.",
+          "open_code": "processingLocal",
+          "summary": "Observes mixed-color stack in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "And now if you look in B, E, and D, they have... in B in particular, they have two triangles but they're both green.",
+          "open_code": "counterExampleSearch",
+          "summary": "Checks non-starred same-color stack in B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "In E, they have two triangles but they're both blue.",
+          "open_code": "processingLocal",
+          "summary": "Notes same-color stack in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "So, I think that could be the hidden rule that triangles on top of each other of different colors.",
+          "open_code": "decisionConfirm",
+          "summary": "States mixed-color stack rule"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "Okay, so now we go on to the next one.",
+          "open_code": "Orientation",
+          "summary": "Begins next puzzle"
+        },
+        {
+          "id": 2,
+          "span": "We're on... panel A so I'm looking trying to count the numbers, originally.",
+          "open_code": "planningStrategic",
+          "summary": "Plans to count items",
+          "lenses": {
+            "processingStyle": "localScan",
+            "planningLevel":"level 3"
+          }
+        },
+        {
+          "id": 3,
+          "span": "We have... [counting under breath].",
+          "open_code": "processingLocal",
+          "summary": "Counts items in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Okay, so, immediately it's not a numbers thing.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects number hypothesis"
+        },
+        {
+          "id": 5,
+          "span": "Could it be the amount of reds on their side?",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes tilted reds rule"
+        },
+        {
+          "id": 6,
+          "span": "Well, it turns out is not that because F and C... and D, also, have reds tilted to the side?",
+          "open_code": "decisionReject",
+          "summary": "Dismisses tilted reds idea",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Could it be the fact that there's one green?",
+          "open_code": "hypoGeneration",
+          "summary": "Suggests single green rule"
+        },
+        {
+          "id": 8,
+          "span": "No.",
+          "open_code": "decisionReject",
+          "summary": "Rejects single green idea"
+        },
+        {
+          "id": 9,
+          "span": "Now let's count how many of the triangles are tilted to the side in each one.",
+          "open_code": "planningStrategic",
+          "summary": "Plan to count tilted triangles",
+          "lenses": {
+            "planningLevel":"level 3"
+          }
+        },
+        {
+          "id": 10,
+          "span": "So, in panel A they have 1, 2, 3, 4, 5. Panel B...1, 2, 3, 4.",
+          "open_code": "processingLocal",
+          "summary": "Counts tilted triangles in A",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "Okay, nope. So that's not correct.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilted count rule"
+        },
+        {
+          "id": 12,
+          "span": "Now we move on to the next thing.",
+          "open_code": "modifyPlan",
+          "summary": "Shifts to new approach",
+          "lenses": {
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Um. This is an interesting one. I'm really trying to get to the bottom of it, but I'm finding it quite difficult.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses struggle with rule"
+        },
+        {
+          "id": 14,
+          "span": "Um, now let's look at the non-hidden rule options to kind of get an idea of what it could be essentially.",
+          "open_code": "planningBasicComparison",
+          "summary": "Plans to examine non-starred panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "planningLevel":"level 1"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Is it they have one big green one?",
+          "open_code": "hypoGeneration",
+          "summary": "Proposes big green triangle rule"
+        },
+        {
+          "id": 16,
+          "span": "No, because E doesn't have a big green triangle.",
+          "open_code": "ruleExclusion",
+          "summary": "Eliminates big green idea",
+          "lenses": {
+            "processingStyle":"localScan",
+            "representationGrain":"verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "Um. This rule I really am struggling with.",
+          "open_code": "reflectUncertainty",
+          "summary": "Reiterates difficulty"
+        },
+        {
+          "id": 18,
+          "span": "So, I'll look at B...B has this kind of like the way the triangles are in an intersection.",
+          "open_code": "processingLocal",
+          "summary": "Observes intersection layout in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "You have the two reds tilted, but I don't think that's the hidden rule, unfortunately.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tilted reds intersection idea"
+        },
+        {
+          "id": 20,
+          "span": "So, who knows.",
+          "open_code": "ruleImpasse",
+          "summary": "Concludes with uncertainty"
+        }
+      ]
+
+]   

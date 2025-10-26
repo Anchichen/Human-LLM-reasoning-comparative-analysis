@@ -1,0 +1,1055 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay, so....the blue cone has the stars that are not lit up A through C, um, A has red cones with a lit star. E has a red cone with the lit star. F has a red cone with the lift star.",
+          "open_code": "processingGlobal",
+          "summary": "Lists star status vs cone colors across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "Um, so I definitely think that it is...split stars with some red cones.",
+          "open_code": "hypoGeneration",
+          "summary": "Posits rule about split stars and red cones",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Um, so F, E, A has red cones and a lit star. So D, B, and C do not.",
+          "open_code": "processingGlobal",
+          "summary": "Enumerates panels fitting or not fitting rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "So let me think.",
+          "open_code": "reflectSelf",
+          "summary": "Pauses to reflect on progress",
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "I don't also...there are big cones...No.",
+          "open_code": "ruleExclusion",
+          "summary": "Considers then rejects big-cone idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um, I see...so like green cones....No.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects green-cone possibility",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Three small green cones...No.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses small green cone count idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "There's big and small green cones there.",
+          "open_code": "processingGlobal",
+          "summary": "Notes presence of varied green cone sizes",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "So...it's like yellow star, three and then two yellow stars.",
+          "open_code": "processingGlobal",
+          "summary": "Observes differing yellow star counts",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "So I'm not really sure about that.",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses doubt about observation",
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "Um...tiny red cones? Nope.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects tiny red cone idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "The...A has big red cones.",
+          "open_code": "processingLocal",
+          "summary": "Notes big red cones in panel A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um. E and F have...one tiny red cones...F has one big red cone.",
+          "open_code": "processingGlobal",
+          "summary": "Observes red cone counts in E and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um, so, yes, I think it's just red cones have lit stars. Blue and green cones have non-lit stars.",
+          "open_code": "hypoRevision",
+          "summary": "Revises rule to color-based star lighting",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So that's what I see logically right now.",
+          "open_code": "monitorHighLevel",
+          "summary": "Summarises current reasoning stance",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "Um...yes. Blue, two large cones.",
+          "open_code": "processingLocal",
+          "summary": "Notes two large blue cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "Um. C...two large cones, small cone.",
+          "open_code": "processingLocal",
+          "summary": "Describes cone sizes in panel C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "B...No. Two...no.",
+          "open_code": "processingLocal",
+          "summary": "Aborts description of panel B cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay, so...hidden rule.... let me check something.",
+          "open_code": "planningExplorative",
+          "summary": "Signals intent to inspect panels",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "So let's see. Large star...D has a large star. I'm trying to think.",
+          "open_code": "processingLocal",
+          "summary": "Notes large star in panel D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "So, okay, lit stars...no... there's a red cone in the lit stars...nope. Okay, so that's not relevant.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects red-cone lit-star idea",
+          "lenses": {
+            "processingStyle": "mixed",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "Um. Let's see. Red cones in D.",
+          "open_code": "processingLocal",
+          "summary": "Observes red cones in D",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Um, Two...okay...one tiny red cone in A. B has two.",
+          "open_code": "processingGlobal",
+          "summary": "Counts red cones in A and B",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Um. So, A...oh, no, that's not true.",
+          "open_code": "monitorLowLevel",
+          "summary": "Recognises previous counting mistake",
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Um, C has...let's see...all three color cones. B has all three color cones. A has all three color cones. D has all three color cones.",
+          "open_code": "processingGlobal",
+          "summary": "Lists panels with all three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So, um, everyone has all three color cones except for E.",
+          "open_code": "processingGlobal",
+          "summary": "Summarises color-cone observation",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Huh? Let me try to think of something.",
+          "open_code": "planningExplorative",
+          "summary": "Pauses to reconsider approach",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "One, two, three, four, five. One, two, three, four, five, six. One, two, three, four, five. One, two, three, four, five. Three, four, five. One, two, three, four, five. One, two, three, four, five. [counting under breath].",
+          "open_code": "processingGlobal",
+          "summary": "Counts cones in multiple panels aloud",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So let me see. [continues counting under breath].",
+          "open_code": "planningExplorative",
+          "summary": "Signals continued counting exploration",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "So all of them have five cones...three, four, five.",
+          "open_code": "processingGlobal",
+          "summary": "Infers all panels have five cones",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "Um, all of them have five cones, A through F, I don't know. A through F has five cones.",
+          "open_code": "monitorLowLevel",
+          "summary": "Reasserts but doubts five-cone finding",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "E is the only one that does not have all three colored cones.",
+          "open_code": "processingGlobal",
+          "summary": "Highlights E lacking three colors",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "So, I think that that's...those are two random...well...",
+          "open_code": "reflectUncertainty",
+          "summary": "Unsure about relevance of findings",
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "A, B and E have a lit... um. So, A, B, and E have lit stars.",
+          "open_code": "processingGlobal",
+          "summary": "Notes which panels have lit stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "So..A, B...hold on...A, B, C, D, and F have...",
+          "open_code": "ruleImpasse",
+          "summary": "Stops mid-statement noticing inconsistency",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay, um, let's see here.",
+          "open_code": "planningExplorative",
+          "summary": "Initiates puzzle inspection",
+          "lenses": {
+            "planningLevel": "level 1"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 2,
+          "span": "We have two...okay...three stars.",
+          "open_code": "processingGlobal",
+          "summary": "Counts total stars seen",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 3,
+          "span": "Big cones...no.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses big-cone idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 4,
+          "span": "One, two, three colors.",
+          "open_code": "processingLocal",
+          "summary": "Notes three colors present",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 5,
+          "span": "Okay. Hold on.",
+          "open_code": "monitorLowLevel",
+          "summary": "Brief pause to regroup",
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "One, two, three colors. One, two, three colors. Um, One, two, three colors. One, two, three.",
+          "open_code": "processingGlobal",
+          "summary": "Repeatedly tallies color count",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 7,
+          "span": "Okay. So actually, um, green, blue, red. Green, blue, red. Green, blue, red. Green, blue, red. Oh, okay. Yeah. Green, blue, red. Green...",
+          "open_code": "processingGlobal",
+          "summary": "Identifies consistent green-blue-red set",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 8,
+          "span": "So A, B, C, D, E, F all have, um, the same color cones.",
+          "open_code": "processingGlobal",
+          "summary": "Summarises uniform color sets",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 9,
+          "span": "Um, A, C, and F...why do they have little stars?",
+          "open_code": "processingGlobal",
+          "summary": "Notes subset with little stars",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 10,
+          "span": "Little cone. big cone, little cone, little cone...",
+          "open_code": "processingLocal",
+          "summary": "Describes cone size pattern",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 11,
+          "span": "So one, two, three...Three little cones, one medium cone, one large cone.",
+          "open_code": "processingLocal",
+          "summary": "Counts size distribution",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 12,
+          "span": "Three little cones, one medium cone, one– oh, wait...no, that one has three. No, three little cones, one big medium cone.",
+          "open_code": "monitorLowLevel",
+          "summary": "Corrects previous count error",
+          "lenses": {
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 13,
+          "span": "One large cone...no, that doesn't apply.",
+          "open_code": "ruleExclusion",
+          "summary": "Rejects single-large-cone idea",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 14,
+          "span": "Um. One, two, three baby cones. Two big cones. Two big cones. Two medium cones. One baby cone.",
+          "open_code": "processingGlobal",
+          "summary": "Lists cone counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 15,
+          "span": "No. That one doesn't apply.",
+          "open_code": "ruleExclusion",
+          "summary": "Dismisses current size idea",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 16,
+          "span": "One, two...B, E, D.... {?}.",
+          "open_code": "planningBasicCompasiron",
+          "summary": "Shows confusion listing panels",
+          "lenses": {
+            "planningLevel": "level 2"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 17,
+          "span": "A, F, C...one, two baby cones.",
+          "open_code": "processingLocal",
+          "summary": "Counts baby cones in A,F,C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "So right now, all I can see is...let's see...stars.",
+          "open_code": "monitorHighLevel",
+          "summary": "Summarises focus on stars",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 19,
+          "span": "Um. I'm curious why the lit stars?",
+          "open_code": "reflectUncertainty",
+          "summary": "Expresses curiosity about lit stars",
+          "check": "OK"
+        },
+        {
+          "id": 20,
+          "span": "Let's see. One big cone. One on...Nope.",
+          "open_code": "ruleExclusion",
+          "summary": "Tests then rejects big-cone relation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 21,
+          "span": "One big cone. One medium cone.",
+          "open_code": "processingLocal",
+          "summary": "Notes big and medium cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 22,
+          "span": "Um. Two big green cones. One little green cone.",
+          "open_code": "processingLocal",
+          "summary": "Observes green cone quantities",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 23,
+          "span": "I'm trying to think why..what is the relevance for that?",
+          "open_code": "reflectSelf",
+          "summary": "Questions relevance of observation",
+          "check": "OK"
+        },
+        {
+          "id": 24,
+          "span": "Two medium cones.",
+          "open_code": "processingLocal",
+          "summary": "States two medium cones",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 25,
+          "span": "Um, one medium cone. One medium cone.",
+          "open_code": "processingLocal",
+          "summary": "Repeats single medium cone observation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 26,
+          "span": "So that's not relevant.",
+          "open_code": "ruleExclusion",
+          "summary": "Declares observation irrelevant",
+          "lenses": {
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 27,
+          "span": "That's interesting.",
+          "open_code": "reflectTask",
+          "summary": "Remarks task interesting",
+          "check": "OK"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+        "id": 1,
+        "span": "Okay. So I'm trying to figure out– okay, so wait,",
+        "open_code": "planningExplorative",
+        "summary": "Begins exploring puzzle",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "two red cones, three green cones, two blue cones, two red cones, three blue cones, two green cones, two– three red cones, two blue cones.",
+        "open_code": "processingLocal",
+        "summary": "Verbally tallies cone colours",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "Hold on. One, two, three, four, five, six, seven. One, two, three, four, five, six, seven. One, two, three, four, five, six, seven,",
+        "open_code": "processingLocal",
+        "summary": "Counts seven cones repeatedly",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "Okay, so the lit stars all have seven cones, so that's really cool.",
+        "open_code": "hypoGeneration",
+        "summary": "Hypothesises lit panels have seven cones",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "I can see that",
+        "open_code": "decisionConfirm",
+        "summary": "Expresses rule confirmation",
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "[continues counting]. So hold on...okay...three, three, six. Um okay.",
+        "open_code": "processingLocal",
+        "summary": "Additional counting verification",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "So the lit ones have seven cones. [counts seven again for confirmation]",
+        "open_code": "decisionConfirm",
+        "summary": "Reconfirms seven-cone rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "Okay. So the three...okay A, C and F have the seven cones.",
+        "open_code": "processingGlobal",
+        "summary": "Identifies panels meeting rule",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "Okay. I'm trying to figure something out.",
+        "open_code": "reflectSelf",
+        "summary": "Indicates ongoing thinking",
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "E has one, two, three, four, five. E has like the least cones.",
+        "open_code": "processingLocal",
+        "summary": "Counts cones in panel E",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "One, two, three, four, five, six. So, six. Um. Seven. Five.",
+        "open_code": "processingLocal",
+        "summary": "Counts cones in other panels",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So E has the least cones.",
+        "open_code": "processingGlobal",
+        "summary": "Summarises cone count finding",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "One baby cone for E. Two baby cones for D. One baby cone for B.",
+        "open_code": "processingLocal",
+        "summary": "Counts baby cones per panel",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 14,
+        "span": "Um, trying to think.",
+        "open_code": "reflectSelf",
+        "summary": "Pauses to think",
+        "check": "OK"
+      },
+      {
+        "id": 15,
+        "span": "Well, at least there's one logical...one logical rule.",
+        "open_code": "reflectSelf",
+        "summary": "Acknowledges discovered rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 16,
+        "span": "Um, wait. One big green...No, the others don't have big green. Well, one big green. One big green. No. One blue. Two. One blue. One red. One blue. Nope. One blue. Nope. One blue. One green. Nope.",
+        "open_code": "processingGlobal",
+        "summary": "Scans for single large colour cones",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 17,
+        "span": "Um okay. So that's not relevant.",
+        "open_code": "ruleExclusion",
+        "summary": "Rejects large-cone idea",
+        "check": "OK"
+      },
+      {
+        "id": 18,
+        "span": "[TYPING] A, C...so, A, C, and F...okay.",
+        "open_code": "ruleImpasse",
+        "summary": "Types panels satisfying rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      }
+    ],
+
+    [ {"Title":"scene5"},
+       {
+        "id": 1,
+        "span": "Okay. What do we have here? Wow. This one has a lot of cones.",
+        "open_code": "planningExplorative",
+        "summary": "Begins exploring scene",
+        "lenses": {
+            "representationGrain": "gist",
+            "planningLevel": "level 1"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 2,
+        "span": "So, um. One, two, three, four.. So there's only six there.",
+        "open_code": "processingLocal",
+        "summary": "Counts six cones in panel",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 3,
+        "span": "So that's not a relevant rule to why the stars are lit up.",
+        "open_code": "ruleExclusion",
+        "summary": "Rejects six-cone rule idea",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 4,
+        "span": "Um. Wow. One, two, three, four, five, six, seven, eight cones. Okay. One, two, three, four, five, six, seven, eight cones. Um. Eight cones. Okay.",
+        "open_code": "processingLocal",
+        "summary": "Counts eight cones in two panels",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 5,
+        "span": "Um, D, let's check for D...One, two, three, four, five, six, seven cones.",
+        "open_code": "processingLocal",
+        "summary": "Counts seven cones in D",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 6,
+        "span": "For C, one, two, three, four, five, six, seven, eight, nine, ten, eleven.",
+        "open_code": "processingLocal",
+        "summary": "Counts eleven cones in C",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 7,
+        "span": "Ah, dang eleven cones for F. Eleven cones for F. That's a huge situation.",
+        "open_code": "processingLocal",
+        "summary": "Observes 11 cones in F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 8,
+        "span": "One, two, three, four...D has four green.",
+        "open_code": "processingLocal",
+        "summary": "Counts four green in D",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 9,
+        "span": "Um, so that's one, two, three green for C.",
+        "open_code": "processingLocal",
+        "summary": "Counts three green in C",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 10,
+        "span": "One, two, three, four... Oh you know what... one, two, three, four green for F.",
+        "open_code": "processingLocal",
+        "summary": "Counts four green in F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 11,
+        "span": "So non-lit... non-lit stars have a pattern of [counting]. So three, four, five.",
+        "open_code": "hypoGeneration",
+        "summary": "Notices green-count pattern",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 12,
+        "span": "So non-lit stars have a pattern of three, four, and five. So it would be um C, D, and F. That is so interesting.",
+        "open_code": "ruleGuess",
+        "summary": "Proposes rule on green counts",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 13,
+        "span": "One, two, three, four, five.",
+        "open_code": "processingLocal",
+        "summary": "Further counting verification",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 14,
+        "span": "Wow. Okay. That's interesting.",
+        "open_code": "reflectSelf",
+        "summary": "Expresses intrigue",
+        "check": "OK"
+      },
+      {
+        "id": 15,
+        "span": "So C, D, and F three, four, and five green cones. So that's interesting.",
+        "open_code": "decisionConfirm",
+        "summary": "Reaffirms green-count observation",
+        "lenses": {
+          "processingStyle": "globalScan",
+          "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 16,
+        "span": "And actually I just realized something. C has two blue cones, two red cones okay.",
+        "open_code": "processingLocal",
+        "summary": "Counts blue/red in C",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 17,
+        "span": "D has two blue cones, two red cones okay.",
+        "open_code": "processingLocal",
+        "summary": "Counts blue/red in D",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 18,
+        "span": "F has two blue...Okay...so F has two blue cones, four red cones.",
+        "open_code": "processingLocal",
+        "summary": "Counts blue/red in F",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 19,
+        "span": "So that's not relevant.",
+        "open_code": "ruleExclusion",
+        "summary": "Dismisses blue/red pattern",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 20,
+        "span": "Okay. So I'm trying to figure something out here.",
+        "open_code": "reflectSelf",
+        "summary": "States ongoing search",
+        "check": "OK"
+      },
+      {
+        "id": 21,
+        "span": "Three red cones in B. One, two, three...five red cones in E. Four red cones in A. Four red cones in A. Four...five red cones in E. Two red cones in D, so.",
+        "open_code": "processingLocal",
+        "summary": "Tallies red cones per panel",
+        "lenses": {
+          "processingStyle": "localScan",
+          "representationGrain": "verbatim"
+        },
+        "check": "OK"
+      },
+      {
+        "id": 22,
+        "span": "The only logical thing is the C, D, and F.",
+        "open_code": "decisionConfirm",
+        "summary": "Concludes focus on C,D,F rule",
+        "lenses": {
+            "representationGrain": "gist"
+        },
+        "check": "OK"
+      }
+    ]
+
+]   

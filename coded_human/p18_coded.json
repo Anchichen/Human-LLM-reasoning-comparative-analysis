@@ -1,0 +1,981 @@
+[
+    [ {"Title":"scene1"},
+        {
+          "id": 1,
+          "span": "Okay. [READING] Think aloud as you try to infer the hidden rule. You'll be able to write your guess once the timer finishes. Remember to refer to each panel by its label A to F as you reason.",
+          "open_code": "Orientation",
+          "summary": "reads task instructions aloud"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has a blue, red, and green triangles and a star.",
+          "open_code": "processingLocal",
+          "summary": "notes colors and star in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel B has a green and blue, both standing, no red, no star.",
+          "open_code": "processingLocal",
+          "summary": "describes B missing red and star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "C has blue and green, but no red and no star.",
+          "open_code": "processingLocal",
+          "summary": "observes C lacks red and star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "D has blue and green, no red.",
+          "open_code": "processingLocal",
+          "summary": "notes D blue & green only",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Okay, so E has all the three colors and the star.",
+          "open_code": "processingLocal",
+          "summary": "observes E has all colors & star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 7,
+          "span": "F has all three colors and the star.",
+          "open_code": "processingLocal",
+          "summary": "notes F all colors & star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 8,
+          "span": "So, the clear answer is all the there must be green, blue and red colors– triangles in the panels for the star to to light up.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: needs all three colors",
+          "lenses": {
+            "processingStyle": "globalScan"
+                    }
+        },
+        {
+          "id": 9,
+          "span": "Um, just to make sure.",
+          "open_code": "re-confirmObservations",
+          "summary": "indicates intent to verify rule"
+        },
+        {
+          "id": 10,
+          "span": "Yeah, because... okay, A also has them standing, all three colors standing.",
+          "open_code": "processingLocal",
+          "summary": "observes orientation of colors in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 11,
+          "span": "F doesn't have them standing. Panel F does not have them standing.",
+          "open_code": "processingLocal",
+          "summary": "notes colors not all standing in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Panel E does not have them all standing.",
+          "open_code": "processingLocal",
+          "summary": "observes colors not all standing in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 13,
+          "span": "So, the conclusion has to be that it has to have all three colors for them to shine.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms three-color rule works"
+                },
+        {
+          "id": 14,
+          "span": "Um, panel B yeah, just a blue and green.",
+          "open_code": "counterExampleSearch",
+          "summary": "reiterates B lacks red",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Could it be the quantity as well?",
+          "open_code": "hypoAlternative",
+          "summary": "considers number-based rule"
+        },
+        {
+          "id": 16,
+          "span": "Panel E has 1, 2, 3, 4, 5, 6.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "Panel F has 1, 2, 3, 4, 5, 6, 7, 8.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in F",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 18,
+          "span": "Panel A has 1, 2, 3, 4, 5, 6, 7, 8.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "Panel B has 1, 2, 3, 4, 5.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 20,
+          "span": "Panel C has 1, 2, 3, 4, 5, 6.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in C",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "Okay, so it's not odd or even numbers.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out odd/even count rule"
+        },
+        {
+          "id": 22,
+          "span": "[READING] Type your rule guess or guesses here.",
+          "open_code": "Orientation",
+          "summary": "reads prompt to enter guess"
+        },
+        {
+          "id": 23,
+          "span": "[TYPING] must have all three color triangles in the same panel.",
+          "open_code": "ruleArticulation",
+          "summary": "writes final three-color rule"
+        }
+      ],
+
+    [ {"Title":"scene2"},
+        {
+          "id": 1,
+          "span": "Okay.",
+          "open_code": "Orientation",
+          "summary": "preparing for task"
+        },
+        {
+          "id": 2,
+          "span": "Panel A has a star. It has a green, blue, and red, all standing.",
+          "open_code": "processingLocal",
+          "summary": "describes colors and star in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel B has two reds, two greens and a blue, all standing.",
+          "open_code": "processingLocal",
+          "summary": "notes counts & standing in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel C has a red, a blue, and a green, all standing, but no star.",
+          "open_code": "processingLocal",
+          "summary": "observes C colors, star absence",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Panel D has a blue, a red, a green, all standing but no star.",
+          "open_code": "processingLocal",
+          "summary": "notes D colors, no star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 6,
+          "span": "Panel E has a star, but there's only three green standing, no reds.",
+          "open_code": "processingLocal",
+          "summary": "observes E star & only greens",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "Panel F has no star.",
+          "open_code": "processingLocal",
+          "summary": "notes F star absence",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 8,
+          "span": "Okay, so it's not two green.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out 'two green' idea"
+        },
+        {
+          "id": 9,
+          "span": "Panel A has two greens, two blues and a red.",
+          "open_code": "processingLocal",
+          "summary": "recounts A counts per color",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "Panel B has two reds, two greens and a blue.",
+          "open_code": "processingLocal",
+          "summary": "states B color counts",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "No... panel C has two reds, two greens and a blue.",
+          "open_code": "processingLocal",
+          "summary": "observes C color counts",
+          "lenses": {
+            "processingStyle": "localDetail",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Panel D has...",
+          "open_code": "processingLocal",
+          "summary": "trails off noticing gap",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Panel E has three greens.",
+          "open_code": "processingLocal",
+          "summary": "notes E has three greens",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "So, it's got to do with the greens?",
+          "open_code": "hypoGeneration",
+          "summary": "suggests rule involves greens"
+        },
+        {
+          "id": 15,
+          "span": "It looks like it has to have at least two greens standing.",
+          "open_code": "hypoRevision",
+          "summary": "specifies rule: two greens standing",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "Yeah, two greens standing.",
+          "open_code": "decisionConfirm",
+          "summary": "confirms two-green rule"
+        },
+        {
+          "id": 17,
+          "span": "What else could it be?",
+          "open_code": "planningExplorative",
+          "summary": "seeks alternative ideas",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 18,
+          "span": "Panel F is just all over the place.",
+          "open_code": "processingLocal",
+          "summary": "remarks F looks messy",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 19,
+          "span": "The only thing I can think of is the two green standing, because there are other panels like D and C with two greens, but one of the triangles is slightly slanted.",
+          "open_code": "monitorHighLevel",
+          "summary": "notes slanted greens counterexample",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 20,
+          "span": "Um, is it to do with the shape?",
+          "open_code": "hypoAlternative",
+          "summary": "considers shape-based rule"
+        },
+        {
+          "id": 21,
+          "span": "One small... panel A has one small, one large.",
+          "open_code": "processingLocal",
+          "summary": "observes size variety in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 22,
+          "span": "Panel B has one small, one large.",
+          "open_code": "processingLocal",
+          "summary": "notes sizes in B",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 23,
+          "span": "Panel E has one small, one medium one large.",
+          "open_code": "processingLocal",
+          "summary": "lists sizes in E",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 24,
+          "span": "So, it has to be...",
+          "open_code": "reflectCertainty",
+          "summary": "trails deciding on rule"
+        },
+        {
+          "id": 25,
+          "span": "[TYPING] have two green triangles standing upright.",
+          "open_code": "ruleArticulation",
+          "summary": "writes final two-green rule"
+        }
+      ],
+
+    [ {"Title":"scene3"},
+        {
+          "id": 1,
+          "span": "Okay.",
+          "open_code": "Orientation",
+          "summary": "utterance filler"
+        },
+        {
+          "id": 2,
+          "span": "I think, um, panel A has a star has two blues slanted, two red standing and a green standing.",
+          "open_code": "processingLocal",
+          "summary": "describes A colors and orientation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel B has two blues, two greens and a red.",
+          "open_code": "processingLocal",
+          "summary": "states B color counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel C has three greens, but only two standing, two blues on its side and a red on its side.",
+          "open_code": "processingLocal",
+          "summary": "notes C colors and positions",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Okay, panel D has– I can...yeah.",
+          "open_code": "monitorLowLevel",
+          "summary": "incomplete D observation to swith into lookingat starred panels first"
+        },
+        {
+          "id": 6,
+          "span": "So, F has two blues.",
+          "open_code": "processingLocal",
+          "summary": "observes F two blues",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So, it has to... for the star to be shining it needs two blues on its side.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes rule: two blues sideways"
+        },
+        {
+          "id": 8,
+          "span": "What else could it be?",
+          "open_code": "planningExplorative",
+          "summary": "seeks alternative explanations",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Two blues.",
+          "open_code": "decisionConfirm",
+          "summary": "reaffirms two-blue idea"
+        },
+        {
+          "id": 10,
+          "span": "So, 1, 2, 3, 4, 5 in panel A.",
+          "open_code": "processingLocal",
+          "summary": "counts triangles in A",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 11,
+          "span": "1, 2, 3, 4...there's six in panel C and in panel F there is five.",
+          "open_code": "processingGlobal",
+          "summary": "counts triangles in C and F",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Um, panel B there is five, panel E there is six, and panel D there is five,",
+          "open_code": "processingGlobal",
+          "summary": "counts triangles in B, E, D",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "so it's nothing to do with the numbers.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out number-based rule"
+        },
+        {
+          "id": 14,
+          "span": "It has to be the blue on its side. That's the only common...",
+          "open_code": "reflectCertainty",
+          "summary": "confirms blue-side rule"
+        },
+        {
+          "id": 15,
+          "span": "Because in panel D, there's none standing, so that's nothing to do with it.",
+          "open_code": "ruleExclusion",
+          "summary": "excludes standing orientation",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "Panel C there is two standing and panel A, there's three standing.",
+          "open_code": "processingLocal",
+          "summary": "counts standing triangles",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 17,
+          "span": "So the standing part is irrelevant.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects standing as rule"
+        },
+        {
+          "id": 18,
+          "span": "The color part... two of each, one of the other, two of the each, three of each… no.",
+          "open_code": "ruleExclusion",
+          "summary": "dismisses color-count patterns",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 19,
+          "span": "It has to be, that’s the only thing I could think of, two blue triangles on their sides.",
+          "open_code": "ruleArticulation",
+          "summary": "states final side-blue rule"
+        }
+      ],
+
+    [ {"Title":"scene4"},
+        {
+          "id": 1,
+          "span": "Panel A has a star, and it has two blues, three greens and two reds.",
+          "open_code": "processingLocal",
+          "summary": "observes A star and color counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Panel B doesn't have a star.",
+          "open_code": "processingLocal",
+          "summary": "notes B lacks star",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Panel C has a star, and it has two reds, three blues, two greens.",
+          "open_code": "processingLocal",
+          "summary": "describes C star and colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 4,
+          "span": "Panel F has a star, and it has two greens, two blues and three reds.",
+          "open_code": "processingLocal",
+          "summary": "details F star and colors",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "Um, three blues...two...no.",
+          "open_code": "monitorLowLevel",
+          "summary": "self-correcting count confusion"
+        },
+        {
+          "id": 6,
+          "span": "So, panel D has three blues, two reds and two greens.",
+          "open_code": "processingLocal",
+          "summary": "states D color counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So, it's not the color distribution.",
+          "open_code": "ruleExclusion",
+          "summary": "rules out color count pattern"
+        },
+        {
+          "id": 8,
+          "span": "It's not to do with the triangles stacking on top of each other, because panel C has a triangle on top of one another and it's not lit up.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects simple stacking rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "Could it be that the colors have to be different from each other when stacking?",
+          "open_code": "hypoGeneration",
+          "summary": "proposes mixed-color stacking rule"
+        },
+        {
+          "id": 10,
+          "span": "That could be it.",
+          "open_code": "decisionConfirm",
+          "summary": "tentatively accepts new rule"
+        },
+        {
+          "id": 11,
+          "span": "Because C has it with the blue and green.",
+          "open_code": "supportEvidence",
+          "summary": "cites C as supporting case",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "Panel F has it with the red and blue.",
+          "open_code": "supportEvidence",
+          "summary": "notes F supports rule",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 13,
+          "span": "Panel A has it with the red and green.",
+          "open_code": "otherEmergent_supportEvidence",
+          "summary": "adds A as supporting example",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 14,
+          "span": "Panel B has it, but with the green.",
+          "open_code": "counterExampleSearch",
+          "summary": "mentions B partial stacking case",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "Panel E has it, but with the blue.",
+          "open_code": "counterExampleSearch",
+          "summary": "mentions E partial stacking case",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 16,
+          "span": "Panel D does not have it at all.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes D lacks stacking",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 17,
+          "span": "So, my guess, my only guess, is that the colors have to– the triangles that stack upon each other have to be of a different color.",
+          "open_code": "decisionConfirm",
+          "summary": "states mixed-color stacking rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "perspectiveDepth": "0step",
+            "representationGrain": "gist"
+          },
+          "check": "OK"
+        },
+        {
+          "id": 18,
+          "span": "Um, what else do we have?",
+          "open_code": "planningExplorative",
+          "summary": "searches for further patterns",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 19,
+          "span": "How many big triangles are there?",
+          "open_code": "hypoAlternative",
+          "summary": "considers big-triangle count rule"
+        },
+        {
+          "id": 20,
+          "span": "There's one, two, three, four...four in panel F, only two in panel C,",
+          "open_code": "processingLocal",
+          "summary": "counts big triangles in F and C",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "so that's not either.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects big-triangle rule"
+        },
+        {
+          "id": 22,
+          "span": "Um, there's three in panel A, as well.",
+          "open_code": "processingLocal",
+          "summary": "adds A big-triangle count",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 23,
+          "span": "Uh, stacked triangles, but they have to differ in color.",
+          "open_code": "ruleArticulation",
+          "summary": "re-confirms mixed-color stacking"
+        }
+      ],
+
+    [ {"Title":"scene5"},
+        {
+          "id": 1,
+          "span": "A has a star, panel A. It's got one, two, three...four reds, three blues and two greens.",
+          "open_code": "processingLocal",
+          "summary": "observes A star and color counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 2,
+          "span": "Panel B has a star, three reds, two greens, one blue.",
+          "open_code": "processingLocal",
+          "summary": "notes B star and color counts",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 3,
+          "span": "Okay, so what do they have in common?",
+          "open_code": "planningBasicComparison",
+          "summary": "plans to compare starred panels",
+          "lenses": {
+            "planningLevel": "level 1"
+          }
+        },
+        {
+          "id": 4,
+          "span": "They have a red triangle on its left side.",
+          "open_code": "hypoGeneration",
+          "summary": "proposes left-red rule",
+          "lenses":{
+            "processingStyle":"globalScan",
+            "representationGrain":"verbatim"
+          }
+        },
+        {
+          "id": 5,
+          "span": "They also have a green triangle on its right side.",
+          "open_code": "hypoRevision",
+          "summary": "adds right-green detail",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 6,
+          "span": "Panel C has a red triangle on its left side and a green triangle on its right side.",
+          "open_code": "counterExampleSearch",
+          "summary": "notes C fits pattern but unstarred",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 7,
+          "span": "So, it's not that.",
+          "open_code": "decisionReject",
+          "summary": "rejects left-red/right-green rule"
+        },
+        {
+          "id": 8,
+          "span": "Panel D doesn't have one and it has left on the red, right on the green.",
+          "open_code": "counterExampleSearch",
+          "summary": "uses D to further disconfirm",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 9,
+          "span": "E has one and it doesn't have that.",
+          "open_code": "counterExampleSearch",
+          "summary": "E star lacks pattern",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 10,
+          "span": "What's the common...",
+          "open_code": "reflectUncertainty",
+          "summary": "unsure of common pattern"
+        },
+        {
+          "id": 11,
+          "span": "There's the stacked triangles on column A and E but not B",
+          "open_code": "ruleExclusion",
+          "summary": "considers stacked-triangles rule",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 12,
+          "span": "A blue and red... It's red and blue in it on that one...Red and blue.",
+          "open_code": "processingGlobal",
+          "summary": "self-corrects color order confusion",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 13,
+          "span": "We don't have red and blue on there.",
+          "open_code": "processingLocal",
+          "summary": "notes absence of red-blue pair",
+          "lenses": {
+            "processingStyle": "localScan"
+          }
+        },
+        {
+          "id": 14,
+          "span": "And there's blue and red on C as well.",
+          "open_code": "processingLocal",
+          "summary": "C shows blue-red pair too",
+          "lenses": {
+            "processingStyle": "localScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 15,
+          "span": "So it can't be that.",
+          "open_code": "ruleExclusion",
+          "summary": "rejects red-blue idea"
+        },
+        {
+          "id": 16,
+          "span": "This is difficult.",
+          "open_code": "reflectTask",
+          "summary": "comments on difficulty"
+        },
+        {
+          "id": 17,
+          "span": "Um. Two greens. There is two greens.",
+          "open_code": "processingGlobal",
+          "summary": "introduces two-greens idea",
+          "lenses": {
+            "processingStyle": "globalScan"
+          }
+        },
+        {
+          "id": 18,
+          "span": "Okay, Two green colors.",
+          "open_code": "hypoGeneration",
+          "summary": "affirms two-green rule"
+        },
+        {
+          "id": 19,
+          "span": "Yeah, only two green triangles in each one.",
+          "open_code": "decisionConfirm",
+          "summary": "summarises rule matches",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "gist"
+          }
+        },
+        {
+          "id": 20,
+          "span": "A has two, column B has two, column E has two, column F has five, column C has three, column D has four.",
+          "open_code": "supportEvidence",
+          "summary": "lists green counts across panels",
+          "lenses": {
+            "processingStyle": "globalScan",
+            "representationGrain": "verbatim"
+          }
+        },
+        {
+          "id": 21,
+          "span": "[TYPING] Two green triangles per panel.",
+          "open_code": "ruleArticulation",
+          "summary": "writes final two-green rule"
+        }
+      ]
+
+]   
