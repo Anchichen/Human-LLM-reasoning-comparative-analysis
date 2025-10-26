@@ -1,0 +1,66 @@
+------
+Role Task: 
+
+You are reasoning through a Zendo task where each panel either follows or violates a rule.
+Your goal is to think step-by-step to find out the rule. 
+In the task, there are six panels (Panel A to F). Each panel contains a specific arrangement of cones with different features of:
+
+- Color: red, green, blue
+- Size: small, medium, large
+- Orientation (upright, tilted right/left, lying right/left, upside down)
+- Cone relation (e.g. stacked pair - Cone 1 stacks on Cone 2; Cone 2 supports Cone 1)
+
+------
+Rule Information: 
+
+Some panels have yellow stars, which indicates that the panel follows the rule. Panels without a star must violate the rule.
+For example: Panels A, C, F follow the rule, while Panel B, D, E do not. If the hidden rule is "There should be at least one green cone." In this case, Panels A, C, F should each have one or more green cone, and Panel B, D, E should not have any green cone.
+
+The rule can involve the **COLOR**, **SIZE**, **RELATION**, **count**, or **orientation** of cones. It can also involve the **COMBINATIONS** of these features.
+Figure out the hidden rule by comparing the star and non-star panels, and tell the final rule guesses at the end. 
+Make sure that the rule is only supported by star panels, and should not applied in non-star panels.
+
+Example of rules: 
+- There is a stacked pair in the same color. 
+- There are more blue cones than green cones.
+- There are three lying red small cones. 
+ 
+------
+Instructions: 
+
+- Think aloud to find the rule, including comparing panels, finding common patterns across panels, forming hypotheses, and more.
+- Carefully observe specific cone features in the six panels to uncover pattern.
+- Always validate your thoughts with accurate details from the panels (e.g., “Panel A has a red cone and no star…”).
+- Check if the hypothesis is contradicted by evidences and revise your ideas. 
+- Keep exploring alternative possibilities and more precise explanations. Do not stop at your first guess. 
+- At the end, claim the most likely final rules.
+
+------
+Important: 
+
+- Think about: What is the common pattern shared by all the star panels, but does not appear in non-star panels?
+- Systematically test to make sure every star panels satisfies your rule, and that every non-star panels does not meet the rule. 
+- DO NOT merely describe panels. Think aloud like a scientist forming and testing ideas.
+- Only describe the scene insofar as it tests your current hypothesis.
+- Avoid repeating or paraphrasing earlier observations. Always add something new.
+
+------
+Format:
+
+Label each reasoning step as [T01], [T02], etc. Each step is one thought and should be 1-2 concise sentences.
+
+Example: 
+[T01] All of the cones in Panel A are upright, and there is no star.
+[T02] Panel B has a green tilted cone and has a star.
+[T03] Panel E also has tilted cones and has a star. 
+[T04] Maybe the rule is related to tilted cones...
+[T05] But Panel C has two tilted cones and no star. So that contradicts the idea.
+
+(Continue until you have refined at least one or two solid and specific hypotheses.)
+
+------
+Here are the panel descriptions:
+{{SCENE_DESCRIPTION}}
+
+------
+Now begin to reason step by step and find the rule:

@@ -1,0 +1,35 @@
+Task 1:
+There is at least one red cone.
+There is an upside-down cone.
+There are cones in all colours (red, blue, and green).
+Have three green cones and a red cone.
+
+Task 2:
+There is a small blue cone.
+At least two little cones.
+At least one small blue cone and one small green cone.
+One small green cone and one medium green cone.
+Two or more upright green cones.
+
+Task 3:
+There are two blue cones, and they are both lying.
+Two blue cones are on their side.
+Have cones in same colour lying flat.
+Cones in the order of blue-red-blue.
+
+Task 4:
+There is a cone of one color stacked on a cone of a different color.
+Two different colour cones stacked on each other.
+Two stacked cones in the same size.
+Only one lying cone.
+At least one overlapping or stacked pair that involves a red cone.
+At least one overlapping pair that is not entirely blue.
+Have two small cones.
+
+Task 5:
+There are more red cones than cones in any other color.
+Have exactly and no more than two green cones.
+At least one medium red cone upright.
+At least one upright red cone that has nothing stacked on it.
+Furthest left cone standing up is red.
+At least one resting-on-lying pair that involves a red cone.

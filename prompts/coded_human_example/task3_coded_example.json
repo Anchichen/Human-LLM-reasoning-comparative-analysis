@@ -1,0 +1,668 @@
+[
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Alright. Uh so, option A has the sun [yellow star lit up], and the two blue triangles are slanted on their side, it has a couple red ones.",
+      "open_code": "processingLocal",
+      "summary": "Describes features of panel A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option B has some slanted ones and some upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes mixed orientations in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option C, that also has two blue ones and a red slanted one.",
+      "open_code": "processingLocal",
+      "summary": "Observes blue and red in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option D has no sun [no star lit up] and seems to be very random compared to the others.",
+      "open_code": "processingLocal",
+      "summary": "Reports star absence and randomness in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option E is very different as well.",
+      "open_code": "processingGlobal",
+      "summary": "Notes E differs from others",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "And Option F also has two slanted blue ones.",
+      "open_code": "processingLocal",
+      "summary": "Observes two slanted blues in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 7,
+      "span": "So, I think that's a possible correlation already.",
+      "open_code": "Inference",
+      "summary": "Remarks on emerging correlation"
+    },
+    {
+      "id": 8,
+      "span": "Options A, option C, and option F all have blue triangles that are slanted on their sides, so I think that's a difference between them.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes blue-slanted similarity rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 9,
+      "span": "Um… they do all feature green ones, but the shapes are different.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses green-shape similarity",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "And they do all feature red ones, but the positioning is different.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses red-position similarity",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "perspectiveDepth": "0step",
+        "representationGrain": "gist"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 11,
+      "span": "So, I think the only similarity would be that they all have blue triangles that are slanted on the side.",
+      "open_code": "decisionConfirm",
+      "summary": "Commits to blue-slanted rule"
+    },
+    {
+      "id": 12,
+      "span": "And I think that's pretty much the only thing that really jumps out to me.",
+      "open_code": "reflectSelf",
+      "summary": "Reflects limited findings"
+    },
+    {
+      "id": 13,
+      "span": "There's no similarity in the red, there's no similarity in the green.",
+      "open_code": "ruleExclusion",
+      "summary": "Reiterates lack of red/green rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 14,
+      "span": "It just has to be the blue color and how it's slanted on the side, so that would be my guess, I think. I would say the blue color [triangles] are um slanted on their side in A, C, and F",
+      "open_code": "ruleArticulation",
+      "summary": "States final blue-slanted rule"
+    }
+  ],
+
+
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Alright, let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins open exploration"
+    },
+    {
+      "id": 2,
+      "span": "Panels A, C, and F are lit up.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "They have cones that are knocked over.",
+      "open_code": "processingGlobal",
+      "summary": "Proposes slanted-cone similarity",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Actually, every panel has a cone that’s knocked over, so that’s not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects slanted-cone rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 5,
+      "span": "Every panel has a multitude of colors, that’s not the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects multi-color rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "The panels that are lit up all have a cone that’s stacked...",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests stacked-cone rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 7,
+      "span": "wait, no — they don’t even all have cones that are standing.",
+      "open_code": "decisionReject",
+      "summary": "Rejects stacked/standing idea"
+    },
+    {
+      "id": 8,
+      "span": "What is the rule?",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses confusion"
+    },
+    {
+      "id": 9,
+      "span": "Color, maybe? [SIGHS]",
+      "open_code": "hypoGeneration",
+      "summary": "Considers color-based rule"
+    },
+    {
+      "id": 10,
+      "span": "RGB? Two-one-two, one-two-two... wait, no, one-three-two actually... Two-two-one…",
+      "open_code": "processing",
+      "summary": "Enumerates color ratios",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 11,
+      "span": "okay, no — that’s not the rule.",
+      "open_code": "decisionReject",
+      "summary": "Rejects color-ratio rule"
+    },
+    {
+      "id": 12,
+      "span": "Is it red? No — they all have red. They all have green. They all have blue.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects single-color presence rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 13,
+      "span": "Is it that there is a cone in the center that’s red? No.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects center-red hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "Cone… cone that, no, it’s not the cone at the edge that’s green either.",
+      "open_code": "ruleExclusion"
+    },
+    {
+      "id": 15,
+      "span": "Cone at the edge that’s blue. No.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects edge-blue idea"
+    },
+    {
+      "id": 16,
+      "span": "Three-two-one… it’s not that green is the most, that does not work for this rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects green-majority rule"
+    },
+    {
+      "id": 17,
+      "span": "Green is the least? Also doesn’t work.",
+      "open_code": "ruleExclusion"
+    },
+    {
+      "id": 18,
+      "span": "Has at least two blue? No, that’s not the rule. Panels B and D invalidate that.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects ≥2 blue rule using counterexamples"
+    },
+    {
+      "id": 19,
+      "span": "Is it perhaps... no, not one of each color.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects one-each-color rule"
+    },
+    {
+      "id": 20,
+      "span": "Is there something...? It’s not that one of the cones is holding a hat… [SIGHS].",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects hat-holding cone idea"
+    },
+    {
+      "id": 21,
+      "span": "Two large, two large, two large…? [SIGHS]",
+      "open_code": "processingGlobal",
+      "summary": "Considers cone size counts",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 22,
+      "span": "(5.0) I cannot [TYPING] I cannot figure out the hidden rule for this set of panels.",
+      "open_code": "ruleImpasse",
+      "summary": "Admits being unable to solve"
+    }
+  ],
+
+
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Let’s see.",
+      "open_code": "planningExplorative",
+      "summary": "Initiates examination",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panels A, C, and F follow the rule; B, D, and E do not.",
+      "open_code": "processingGlobal",
+      "summary": "Sets star versus non-star groups",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 3,
+      "span": "A, C, and F have red triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Notes shared red triangles",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Okay... (10.0)",
+      "open_code": "reflectUncertainty",
+      "summary": "Pauses, uncertain"
+    },
+    {
+      "id": 5,
+      "span": "There are... two purple [blue] triangles on their sides in all the boxes… where the rule is applied...",
+      "open_code": "hypoGeneration",
+      "summary": "Hypothesises two sideways purple rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Yeah, all the purple [blue] triangles are on their sides when the rule is applied…",
+      "open_code": "decisionConfirm",
+      "summary": "Momentarily endorses purple-side rule"
+    },
+    {
+      "id": 7,
+      "span": "well, no, E has that too.",
+      "open_code": "decisionReject",
+      "summary": "Finds counterexample in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Two purple [blue] triangles on their side when the rule was applied.",
+      "open_code": "hypoRevision",
+      "summary": "Restates sideways-purple rule"
+    },
+    {
+      "id": 9,
+      "span": "Two purple [blue] triangles and one green triangle?",
+      "open_code": "hypoRevision",
+      "summary": "Tests combo purple-green rule"
+    },
+    {
+      "id": 10,
+      "span": "No… yeah…",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses doubt again"
+    },
+    {
+      "id": 11,
+      "span": "and two purple triangles on their side.",
+      "open_code": "ruleArticulation",
+      "summary": "Reiterates sideways purple idea"
+    }
+  ],
+
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Okay, so A, C, and F follow the rule.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Panel A has two blue triangles, two red triangles, and one green triangle.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel C has three green triangles, two blue triangles, and one red triangle, so– in fact, three green triangles in panel C.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "So that's not a match.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects color-count rule"
+    },
+    {
+      "id": 5,
+      "span": "Panel F has two red, two blue, and one green.",
+      "open_code": "processingLocal",
+      "summary": "Lists color counts in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "Panel F does match panel A in terms of color breakdown, but panel C doesn’t match. It has to be… Yeah panel C doesn’t match.",
+      "open_code": "ruleExclusion",
+      "summary": "Concludes color breakdown not rule",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "(3.0) If we look at height, panel A has one triangle that’s obviously taller than others.",
+      "open_code": "processingLocal",
+      "summary": "Notes tallest triangle in A",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So that doesn’t work.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses height idea"
+    },
+    {
+      "id": 9,
+      "span": "Well panel A has one obviously taller than the other. Panel C has two which are obviously taller than others.",
+      "open_code": "processing",
+      "summary": "Compares tall triangles across A and C",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 10,
+      "span": "Panel F has… not that I suppose, um maybe one that’s taller than others.",
+      "open_code": "processingLocal",
+      "summary": "Observes possible tall in F",
+      "lenses": {
+        "processingStyle": "LocalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "How many cones are touching the ground? That’s something I can check.",
+      "open_code": "hypoGeneration",
+      "summary": "Shifts to ground-touch check"
+    },
+    {
+      "id": 12,
+      "span": "Panel A has… If I let it be sides that can be touching the ground, that would really clean up.",
+      "open_code": "hypoRevision",
+      "summary": "Clarifies counting criterion for A"
+    },
+    {
+      "id": 13,
+      "span": "Panel A has one, two, three, four, five sides touching the ground.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Panel C has one, two, three, four sides touching the ground, so it’s not a match.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel F has one, two, three, four sides touching the ground.",
+      "open_code": "processingLocal",
+      "summary": "Counts ground-touching in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 16,
+      "span": "What about the number of triangle corners touching the ground?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers corner-touching rule"
+    },
+    {
+      "id": 17,
+      "span": "Panel A has one, two, three, four, five, six, seven, eight, nine, ten.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel C has nine.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "That’s not a match.",
+      "open_code": "decisionReject",
+      "summary": "Rejects corner-count rule"
+    },
+    {
+      "id": 20,
+      "span": "Panel F [counting] also has nine.",
+      "open_code": "processingLocal",
+      "summary": "Counts corners in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 21,
+      "span": "Maybe just check panel A again. Panel A has [counting] ten.",
+      "open_code": "Cross-Check",
+      "summary": "Recounts corners in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 22,
+      "span": "Still don’t match either.",
+      "open_code": "ruleExclusion",
+      "summary": "Confirms mismatch remains"
+    },
+    {
+      "id": 23,
+      "span": "I don’t think I’m good at this game.",
+      "open_code": "reflectSelf",
+      "summary": "Negative self-assessment"
+    },
+    {
+      "id": 24,
+      "span": "Um so far, I’ve checked colors, I’ve checked sizes, I’ve checked corners.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reviews completed checks"
+    },
+    {
+      "id": 25,
+      "span": "Um one thing I haven’t really checked is orientation, so that might be something I’m missing.",
+      "open_code": "hypoGeneration",
+      "summary": "Identifies new feature to analyze"
+    },
+    {
+      "id": 26,
+      "span": "So that’s say [TYPING] the orientation of triangles.",
+      "open_code": "ruleGuess",
+      "summary": "Types note about orientation"
+    },
+    {
+      "id": 27,
+      "span": "For example, the number of triangles pointing… left, that’s may be one factor.",
+      "open_code": "hypoGeneration",
+      "summary": "Suggests left-pointing count rule"
+    },
+    {
+      "id": 28,
+      "span": "And perhaps I made an error counting the number of sides touching the ground.",
+      "open_code": "monitorLowLevel",
+      "summary": "Questions own counting accuracy"
+    },
+    {
+      "id": 29,
+      "span": "Something like that. (4.0) Yeah… difficult.",
+      "open_code": "ruleGuess",
+      "summary": "Remarks difficulty of task"
+    }
+  ],
+
+
+  [ {"Title":"scene3"},
+    {
+      "id": 1,
+      "span": "Okay, we have Panel A, C, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "It's nothing to do with a small green cone or a large green cone.",
+      "open_code": "ruleExclusion",
+      "summary": "Dismisses green-cone hypotheses"
+    },
+    {
+      "id": 3,
+      "span": "They all have two blue cones on their side, but Panel B, E, and D do not.",
+      "open_code": "hypoGeneration",
+      "summary": "Proposes two-blue-side rule",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Yeah, that is the rule. You need two blue cones on their side.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms hypothesis works"
+    },
+    {
+      "id": 5,
+      "span": "Because E has one blue cone on its side and so does B, but it needs two of them, just like A, C, and F.",
+      "open_code": "ruleJustification",
+      "summary": "Cites evidence supporting rule",
+      "lenses": {
+        "processingStyle": "mixed"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That is my answer. And I’m locking it in.",
+      "open_code": "decisionConfirm",
+      "summary": "Reasserts chosen answer"
+    },
+    {
+      "id": 7,
+      "span": "[TYPING] You need two blue cones on their side.",
+      "open_code": "ruleArticulation",
+      "summary": "Types final rule statement"
+    }
+  ]
+]

@@ -1,0 +1,670 @@
+[
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Alight, so option A, the sun is up [the star is lit up], and has some upright triangles, and then the blue and green ones are slanted.",
+      "open_code": "processingLocal",
+      "summary": "Describes star and orientations in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Option B has a slanted triangle and everything else is upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes mixed orientation in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Option C has slanted red triangles and a slanted green triangle, and the others are upright.",
+      "open_code": "processingLocal",
+      "summary": "Observes slanted red and green in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Option D has a bunch of triangles that are slanted and some that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Reports mixed orientations in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Option E has an upside-down one and then three triangles that are upright.",
+      "open_code": "processingLocal",
+      "summary": "Notes upside-down plus upright in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "And then option F has a lot of different types of triangles in different positions.",
+      "open_code": "processingLocal",
+      "summary": "Describes varied orientations in F",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 7,
+      "span": "The colors are pretty different, seems like… um… (3.0).",
+      "open_code": "processingGlobal",
+      "summary": "Remarks on color differences overall",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "So I guess… (4.0) yeah, I don’t really see any clear similarities at first glance.",
+      "open_code": "reflectUncertainty",
+      "summary": "Expresses no clear pattern yet"
+    },
+    {
+      "id": 9,
+      "span": "I was looking at the red triangles and how they were slanted — like in C and F — but in A they’re upright.",
+      "open_code": "counterExampleSearch",
+      "summary": "Finds red-slant idea contradicted by A",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 10,
+      "span": "In option F the triangle is upright, and in option A as well, but in option C it’s slanted.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects red-orientation rule using evidence",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Option F has an upside-down one, but the other ones don’t.",
+      "open_code": "processingGlobal",
+      "summary": "Notes unique upside-down triangle in F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "And then Option A, option C, and option F have triangles that are stacked on each other, but they’re different colors.",
+      "open_code": "processingGlobal",
+      "summary": "Observes stacking across A, C, F",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 13,
+      "span": "So I guess that could potentially be the hidden rule — is that there have to be triangles that stacked on top of each other in all of them because nothing else really sticks out too much besides that.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-triangle rule hypothesis"
+    },
+    {
+      "id": 14,
+      "span": "So that would be my guess: that options A, option C, and option F have triangles that are stacked on each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-triangle rule verbally"
+    },
+    {
+      "id": 15,
+      "span": "Yeah, I don’t see any other similarities besides that.",
+      "open_code": "decisionConfirm",
+      "summary": "Affirms no other viable rule"
+    }
+  ],
+
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Alright, let’s see.",
+      "open_code": "Orientation",
+      "summary": "Begins exploring puzzle"
+    },
+    {
+      "id": 2,
+      "span": "Panels A and C... uh, let’s look at each one.",
+      "open_code": "planningBasicComparison",
+      "summary": "Sets intent to inspect panels",
+      "lenses": {
+        "planningLevel": "level 1"
+      }
+    },
+    {
+      "id": 3,
+      "span": "What do they have in similarity?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Every panel here has all the colors.",
+      "open_code": "processingGlobal",
+      "summary": "Observes all panels contain all colors",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "They’re not all standing upright, so standing upright has nothing to do with it.",
+      "open_code": "ruleExclusion",
+      "summary": "Eliminates all-upright hypothesis",
+      "lenses": {
+        "processingStyle": "globalScan"
+            }
+    },
+    {
+      "id": 6,
+      "span": "Is it the ratio of colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers color-ratio rule"
+    },
+    {
+      "id": 7,
+      "span": "Three-two-two..., two-three-two..., two-three-two, two-three-one... three-one-one?",
+      "open_code": "processing",
+      "summary": "Enumerates color ratios",
+      "lenses": {
+        "processingStyle": "mixed",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Might be the, having a three-to-one pattern. Uh… quite possibly that.",
+      "open_code": "hypoRevision",
+      "summary": "Tentatively proposes 3-to-1 pattern rule"
+    },
+    {
+      "id": 9,
+      "span": "Let’s see... do the others? No, B invalidates that theory.",
+      "open_code": "decisionReject",
+      "summary": "Rejects 3-to-1 rule using panel B"
+    },
+    {
+      "id": 10,
+      "span": "Is it that they have hats?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers hat-presence rule"
+    },
+    {
+      "id": 11,
+      "span": "No, that gets invalidated as well.",
+      "open_code": "decisionReject",
+      "summary": "Rejects hat rule"
+    },
+    {
+      "id": 12,
+      "span": "Then, is each color... red is not touching?",
+      "open_code": "hypoGeneration",
+      "summary": "Tests red-not-touching hypothesis"
+    },
+    {
+      "id": 13,
+      "span": "No, red is touching something else. Blue is touching something else. Green is touching something else. Those rules are invalidated.",
+      "open_code": "decisionReject",
+      "summary": "Dismisses non-touching color rules"
+    },
+    {
+      "id": 14,
+      "span": "Is it the rule that most of them are standing upright?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers majority-upright rule"
+    },
+    {
+      "id": 15,
+      "span": "No, that’s invalidated too.",
+      "open_code": "decisionReject",
+      "summary": "Rejects majority-upright rule"
+    },
+    {
+      "id": 16,
+      "span": "Invalidated and invalidated. [SIGHS] What is the pattern here I’m looking for?",
+      "open_code": "reflectUncertainty",
+      "summary": "Frustration over repeated rejections"
+    },
+    {
+      "id": 17,
+      "span": "Red is the one that has a hat...?",
+      "open_code": "hypoGeneration",
+      "summary": "Tests red-with-hat idea"
+    },
+    {
+      "id": 18,
+      "span": "No.",
+      "open_code": "decisionReject",
+      "summary": "Rejects red-hat rule"
+    },
+    {
+      "id": 19,
+      "span": "Wearing, alternating hat colors?",
+      "open_code": "hypoGeneration",
+      "summary": "Considers alternating-hat-color rule"
+    },
+    {
+      "id": 20,
+      "span": "Possibly...yeah, that would check out.",
+      "open_code": "decisionConfirm",
+      "summary": "Tentatively endorses hat-color idea"
+    },
+    {
+      "id": 21,
+      "span": "There’s at least one cone wearing a different color cone.",
+      "open_code": "ruleArticulation",
+      "summary": "States different-color-hat rule"
+    },
+    {
+      "id": 22,
+      "span": "That’s the only thing I’m finding unique so far among the triggered and non-triggered ones.",
+      "open_code": "monitorHighLevel",
+      "summary": "Evaluates uniqueness of rule"
+    },
+    {
+      "id": 23,
+      "span": "[SIGHS] I can’t think of any other rule. Dang it, is there something else I’m missing here?",
+      "open_code": "reflectUncertainty",
+      "summary": "Admits ongoing doubt"
+    }
+  ],
+
+
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Panels A, C, and F have rules. B, D, and E do not have rules.",
+      "open_code": "processingGlobal",
+      "summary": "Groups panels by star status",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 2,
+      "span": "Let’s see… there are one, two, one, two, three, one, two purple triangles.",
+      "open_code": "processingGlobal",
+      "summary": "Counts purple triangles across panels",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 3,
+      "span": "There is one triangle of equal size… on top of another triangle of equal size when the rule is applied.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates equal-size stacking hypothesis"
+    },
+    {
+      "id": 4,
+      "span": "Yeah.",
+      "open_code": "decisionConfirm",
+      "summary": "Brief confirms idea"
+    },
+    {
+      "id": 5,
+      "span": "They all have seven triangles in them when the rule is applied.",
+      "open_code": "hypoAlternative",
+      "summary": "Considers seven-triangle count rule"
+    },
+    {
+      "id": 6,
+      "span": "But… there is one triangle of equal size on top of another — that seems to be the pattern when the rule is applied.",
+      "open_code": "ruleArticulation",
+      "summary": "States equal-size stacking rule"
+    },
+    {
+      "id": 7,
+      "span": "That’s all I can think of.",
+      "open_code": "reflectSelf",
+      "summary": "No further ideas available"
+    }
+  ],
+
+  
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, let’s try a different approach this time because what I’ve been doing hasn’t served me well in the last one.",
+      "open_code": "modifyPlan",
+      "summary": "Announces change of strategy"
+    },
+    {
+      "id": 2,
+      "span": "So let’s look at the ones that aren’t matches, B, D, and F.",
+      "open_code": "planningBasicComparison",
+      "summary": "Plans to inspect non-starred panels",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Panel B predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Describes features of panel B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 4,
+      "span": "Panel D predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Notes upright mix in D",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 5,
+      "span": "Panel E...predominantly upright triangles, red, blue, and green.",
+      "open_code": "processingLocal",
+      "summary": "Observes upright mix in E",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 6,
+      "span": "That hasn’t helped. That hasn’t helped.",
+      "open_code": "monitorLowLevel",
+      "summary": "Notes current tactic unhelpful"
+    },
+    {
+      "id": 7,
+      "span": "So, within panel A, there is one triangle that has red on top of a green.",
+      "open_code": "processingLocal",
+      "summary": "Spots red-over-green stack in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "gist"
+      }
+    },
+    {
+      "id": 8,
+      "span": "That’s something new. I don’t think I’ve seen that before.",
+      "open_code": "monitorHighLevel",
+      "summary": "Flags novelty of observation"
+    },
+    {
+      "id": 9,
+      "span": "Panel , we have a blue on top of green and Panel F we have a red on top of a blue.",
+      "open_code": "processingGlobal",
+      "summary": "Notes other stacked color pairs",
+      "lenses": {
+        "processingStyle": "globalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 10,
+      "span": "So, there’s some sort of mixing happening there, so that’s a potential...of commonalities they have, different colors stacked let’s say.",
+      "open_code": "hypoGeneration",
+      "summary": "Generates stacked-colors hypothesis"
+    },
+    {
+      "id": 11,
+      "span": "So that’s one option.",
+      "open_code": "decisionConfirm",
+      "summary": "Marks hypothesis as candidate"
+    },
+    {
+      "id": 12,
+      "span": "Let’s do our usual check for number of triangles.",
+      "open_code": "modifyPlan",
+      "summary": "Switches to counting strategy",
+      "lenses": {
+        "planningLevel": "level 1"
+            }
+    },
+    {
+      "id": 13,
+      "span": "Panel A has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in A",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 14,
+      "span": "Panel C has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in C",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 15,
+      "span": "Panel F has [counting] seven triangles.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in F",
+      "lenses": {
+        "processingStyle": "localDetail",
+        "perspectiveDepth": "0step",
+        "representationGrain": "verbatim"
+      },
+      "check": "OK"
+    },
+    {
+      "id": 16,
+      "span": "So they do all match.",
+      "open_code": "Inference",
+      "summary": "Summarises equal counts in A,C,F"
+    },
+    {
+      "id": 17,
+      "span": "Panel B has [counting] six.",
+      "open_code": "processingLocal",
+      "summary": "Counts triangles in B",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 18,
+      "span": "Panel D has [counting] seven, so that disrupts the rule.",
+      "open_code": "ruleExclusion",
+      "summary": "Rejects number-seven rule",
+      "lenses": {
+        "processingStyle": "LocalScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 19,
+      "span": "So, we’ve ruled out colors, we’ve ruled out the number.",
+      "open_code": "monitorHighLevel",
+      "summary": "Reviews eliminated hypotheses"
+    },
+    {
+      "id": 20,
+      "span": "Orientation is difficult to kind of um, to do in this amount of time I have, but I could look at the clockwise versus anti-clockwise. I’ll put that on my list.",
+      "open_code": "planningStrategic",
+      "summary": "Plans future orientation check",
+      "lenses": {
+        "planningLevel": "level 3"
+            }
+    },
+    {
+      "id": 21,
+      "span": "I’m thinking the most likely rule is: different colored triangles stacked on top of each other. So the most confident one would be [TYPING] different colored triangles stacked on top of each other.",
+      "open_code": "ruleArticulation",
+      "summary": "States stacked-color rule verbally"
+    },
+    {
+      "id": 22,
+      "span": "And then number two might be, again be related to orientation of triangles, for example, the number of clockwise vs. anti-clockwise triangles.",
+      "open_code": "hypoAlternative",
+      "summary": "Mentions secondary orientation hypothesis"
+    }
+  ],
+
+  
+  [ {"Title":"scene4"},
+    {
+      "id": 1,
+      "span": "Okay, so panel A, C, and F.",
+      "open_code": "processingGlobal",
+      "summary": "Identifies starred panels A,C,F",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 2,
+      "span": "What do they have in common?",
+      "open_code": "planningBasicComparison",
+      "summary": "Poses similarity question",
+      "lenses": {
+        "planningLevel": "level 2"
+      }
+    },
+    {
+      "id": 3,
+      "span": "Um, A has two red cones.",
+      "open_code": "processingLocal",
+      "summary": "Notes two red cones in A",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 4,
+      "span": "C has two red cones.",
+      "open_code": "processingLocal",
+      "summary": "Observes two red cones in C",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 5,
+      "span": "F has three red cones.",
+      "open_code": "processingLocal",
+      "summary": "Counts three red cones in F",
+      "lenses": {
+        "processingStyle": "localScan",
+        "representationGrain": "verbatim"
+      }
+    },
+    {
+      "id": 6,
+      "span": "They all have one medium-sized red cone...",
+      "open_code": "processingGlobal",
+      "summary": "Finds common medium red cone",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 7,
+      "span": "and it's stacked on top of another.",
+      "open_code": "processingGlobal",
+      "summary": "Notes stacking of medium red cones",
+      "lenses": {
+        "processingStyle": "globalScan"
+      }
+    },
+    {
+      "id": 8,
+      "span": "Oh, but A has a… okay, yeah.",
+      "open_code": "reflectUncertainty",
+      "summary": "Signals emerging doubt"
+    },
+    {
+      "id": 9,
+      "span": "This time the rule is: you need a same-size cone stacked on top of each other.",
+      "open_code": "hypoGeneration",
+      "summary": "States same-size stacking rule"
+    },
+    {
+      "id": 10,
+      "span": "Because even though B has a green on green that's stacked on top of each other, they're not the same size — clearly the one on top is larger.",
+      "open_code": "ruleJustification",
+      "summary": "Explains why B fails rule",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 11,
+      "span": "Same with E.",
+      "open_code": "processingLocal",
+      "summary": "Adds E as confirming example",
+      "lenses": {
+        "processingStyle": "localScan"
+      }
+    },
+    {
+      "id": 12,
+      "span": "You have two cones stacked on top of each other— oh wait, oh no, that's wrong, because surely B would be flashing as well.",
+      "open_code": "reflectUncertainty",
+      "summary": "Reconsiders, notes counter-example"
+    },
+    {
+      "id": 13,
+      "span": "I can't tell if it's the same— no, it's not the same size.",
+      "open_code": "monitorLowLevel",
+      "summary": "Admits size ambiguity then rejects"
+    },
+    {
+      "id": 14,
+      "span": "Yeah, it's definitely not the same size, because if it was the same size, the bottom of both cones would not be touching the ground.",
+      "open_code": "monitorHighLevel",
+      "summary": "Justifies size difference observation"
+    },
+    {
+      "id": 15,
+      "span": "The rule is: you need two cones of the same size, of equal size, to be on top of each other for the light to go on.",
+      "open_code": "ruleArticulation",
+      "summary": "Restates refined same-size rule"
+    },
+    {
+      "id": 16,
+      "span": "Because even though B and E have cones stacked on top of each other, they are not the same size.",
+      "open_code": "ruleJustification",
+      "summary": "Provides supporting counterexamples"
+    },
+    {
+      "id": 17,
+      "span": "I thought panel B had the same size, the two green ones, but it's not.",
+      "open_code": "monitorHighLevel",
+      "summary": "Self-corrects earlier assumption"
+    }
+  ]
+]

@@ -1,0 +1,356 @@
+{
+  "_schema": {
+    "cone_format": ["index","size","colour","orientation","contacts","position"]
+    },
+  "scene": "Scene 4",
+  "panels": {
+    "A": {
+      "number_of_cones": 7,
+      "yellow_star": true,
+      "cones": [
+        [
+          1,
+          "Large",
+          "Blue",
+          "Tilted right (30°)",
+          "right side fully rests on right side of Cone 2; right angle on floor; forms overlapping resting-on-lying (Cones 1 and 2)",
+          "medium gap from left border; partly overlaps over Cone 2"
+        ],
+        [
+          2,
+          "Medium",
+          "Green",
+          "Lying left 90°",
+          "left side flat on floor; right side supports right side of Cone 1; forms overlapping resting-on-lying pair (Cones 1 and 2)",
+          "directly under Cone 1"
+        ],
+        [
+          3,
+          "Medium",
+          "Blue",
+          "Upright 0°",
+          "base on floor; left angle touches left angle of Cone 2",
+          "directly adjacent right of Cone 2; left of panel centre"
+        ],
+        [
+          4,
+          "Small",
+          "Green",
+          "Upright 0°",
+          "supports Cone 5; base on floor",
+          "medium gap right of Cone 3; right of panel centre"
+        ],
+        [
+          5,
+          "Small",
+          "Red",
+          "Upright 0°",
+          "stacks on Cone 4; no floor contact",
+          "on top of Cone 4"
+        ],
+        [
+          6,
+          "Large",
+          "Red",
+          "Upright 0°",
+          "base on floor; right angle touches left angle of Cone 7",
+          "small gap right of Cones 4-and-5 stacked pair"
+        ],
+        [
+          7,
+          "Large",
+          "Green",
+          "Upright 0°",
+          "base on floor; left angle touches right angle of Cone 6",
+          "directly adjacent right of Cone 6; small gap from right panel border"
+        ]
+      ]
+    },
+    "B": {
+      "number_of_cones": 6,
+      "yellow_star": false,
+      "cones": [
+        [
+          1,
+          "Medium",
+          "Red",
+          "Tilted right (20°)",
+          "leans diagonally on Cone 3; right angle on floor",
+          "medium gap from left border; first cone of left cluster; leans toward the nested green pair (Cones 2 and 3)"
+        ],
+        [
+          2,
+          "Medium",
+          "Green",
+          "Upright 0°",
+          "fully encloses Cone 3; left side supports Cone 1; base on floor",
+          "directly adjacent right of Cone 1; on top of Cone 3"
+        ],
+        [
+          3,
+          "small",
+          "Green",
+          "Upright 0°",
+          "fully nested inside Cone 2; base on floor",
+          "immediately right of Cone 1; nested within Cone 2"
+        ],
+        [
+          4,
+          "Medium",
+          "Blue",
+          "Upright 0°",
+          "base on floor",
+          "large gap right of Cone 3; at right-of-centre; isolated"
+        ],
+        [
+          5,
+          "Large",
+          "Blue",
+          "Upright 0°",
+          "base on floor",
+          "small gap right of Cone 4; isolated"
+        ],
+        [
+          6,
+          "Large",
+          "Green",
+          "Upright 0°",
+          "base on floor",
+          "small gap right of Cone 5; small gap from right panel border; isolated"
+        ]
+      ]
+    },
+    "C": {
+      "number_of_cones": 7,
+      "yellow_star": true,
+      "cones": [
+        [
+          1,
+          "Large",
+          "Red",
+          "Lying right 90°",
+          "right side flat on floor; left side supports left side of Cone 2; forms overlapping leaning-on-lying pair (Cones 1 and 2)",
+          "medium gap from left border; partly under Cone 2"
+        ],
+        [
+          2,
+          "Medium",
+          "Red",
+          "Tilted left (40°)",
+          "leans diagonally on left side of Cone 1; left angle on floor; forms overlapping leaning-on-lying pair (Cones 1 and 2)",
+          "overlaps partly over Cone 1"
+        ],
+        [
+          3,
+          "Small",
+          "Blue",
+          "Upright 0°",
+          "supports Cone 4; base on floor",
+          "medium gap right of Cone 2; stands at panel centre"
+        ],
+        [
+          4,
+          "Small",
+          "Blue",
+          "Upright 0°",
+          "stacks on Cone 3; no floor contact",
+          "on top of Cone 3"
+        ],
+        [
+          5,
+          "Medium",
+          "Green",
+          "Upright 0°",
+          "supports Cone 6; base on floor",
+          "medium gap right of the blue pair (Cones 3 and 4); right of panel centre"
+        ],
+        [
+          6,
+          "Medium",
+          "Blue",
+          "Upright 0°",
+          "stacks on Cone 5; no floor contact",
+          "on top of Cone 5"
+        ],
+        [
+          7,
+          "Large",
+          "Green",
+          "Tilted right (30°)",
+          "right angle on floor; apex touches right panel border",
+          "medium gap right of Cone 5-6 stacked pair; braces against right panel border"
+        ]
+      ]
+    },
+    "D": {
+      "number_of_cones": 7,
+      "yellow_star": false,
+      "cones": [
+        [
+          1,
+          "Large",
+          "Blue",
+          "Upright 0°",
+          "base on floor",
+          "very little gap from left border; first of left upright trio"
+        ],
+        [
+          2,
+          "Large",
+          "Red",
+          "Upright 0°",
+          "base on floor; right angle touches left angle of Cone 3",
+          "very little gap right of Cone 1"
+        ],
+        [
+          3,
+          "Medium",
+          "Red",
+          "Upright 0°",
+          "base on floor",
+          "directly adjacent right of Cone 2; finishes upright trio"
+        ],
+        [
+          4,
+          "Medium",
+          "Blue",
+          "Lying right 90°",
+          "right side flat on floor; left side supports Cone 5; forms overlapping leaning-on-lying blue pair (Cones 4 and 5)",
+          "directly adjacent right of Cone 3; partly under Cone 5; at panel centre"
+        ],
+        [
+          5,
+          "Small",
+          "Blue",
+          "Tilted left (40°)",
+          "leans diagonally on left side of Cone 4; left angle on floor",
+          "partly overlaps over Cone 4; adjacent right of Cone 4"
+        ],
+        [
+          6,
+          "Small",
+          "Green",
+          "Lying right 90°",
+          "right side flat on floor",
+          "very little gap right of Cone 5"
+        ],
+        [
+          7,
+          "Medium",
+          "Green",
+          "Upright 0°",
+          "base on floor",
+          "medium gap right of Cone 6; small gap from right panel border; isolated"
+        ]
+      ]
+    },
+    "E": {
+      "number_of_cones": 5,
+      "yellow_star": false,
+      "cones": [
+        [
+          1,
+          "Medium",
+          "Blue",
+          "Upside-down; tilted right (15°)",
+          "leans on left side of Cone 2; apex on floor",
+          "left-of-centre"
+        ],
+        [
+          2,
+          "Large",
+          "Green",
+          "Upright 0°",
+          "base on floor; left side touches left angle of Cone 1",
+          "immediately right of Cone 1; at panel centre"
+        ],
+        [
+          3,
+          "Large",
+          "Blue",
+          "Upright 0°",
+          "supports Cone 4; base on floor",
+          "small gap right of Cone 2; mid-right"
+        ],
+        [
+          4,
+          "Small",
+          "Blue",
+          "Upright 0°",
+          "stacks on Cone 3; no floor contact",
+          "on top of Cone 3"
+        ],
+        [
+          5,
+          "Medium",
+          "Red",
+          "Upright 0°",
+          "base on floor",
+          "very little gap right of Cone 3; medium gap from right border"
+        ]
+      ]
+    },
+    "F": {
+      "number_of_cones": 7,
+      "yellow_star": true,
+      "cones": [
+        [
+          1,
+          "Large",
+          "Green",
+          "Upright 0°",
+          "base on floor",
+          "large gap from left border; at mid-left of panel"
+        ],
+        [
+          2,
+          "Small",
+          "Red",
+          "Lying right 90°",
+          "right side flat on floor; supports Cone 3; forms overlapping tilted pair (Cones 2 and 3)",
+          "small gap right of Cone 1; partly under Cone 3; at left of centre"
+        ],
+        [
+          3,
+          "Small",
+          "Red",
+          "Upside-down; tilted left (30°)",
+          "fully rests on Cone 2; apex on floor",
+          "partly overlaps over Cone 2"
+        ],
+        [
+          4,
+          "Medium",
+          "Blue",
+          "Upside-down; tilted right (20°)",
+          "leans on left side of Cone 6; apex on floor",
+          "medium gap right of Cone 3; leans toward the upright stacked pair (Cones 5 and 6)"
+        ],
+        [
+          5,
+          "Large",
+          "Blue",
+          "Upright 0°",
+          "supports Cone 6; base on floor",
+          "immediately right of Cone 4; mid-right"
+        ],
+        [
+          6,
+          "Large",
+          "Red",
+          "Upright 0°",
+          "stacks on Cone 5; left side touches left angle of Cone 4; no floor contact",
+          "on top of Cone 5"
+        ],
+        [
+          7,
+          "Medium",
+          "G",
+          "Upright 0°",
+          "base on floor",
+          "very small gap right of Cone 5; small gap from right panel border; isolated"
+        ]
+      ]
+    }
+  }
+}
